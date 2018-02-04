@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Start : my Digital Sketchbook"
-date:   2017-03-01 18:40:05 -0800
+date:   2017-09-01 18:40:05 -0800
 categories: art programming
 ---
 
@@ -17,7 +17,7 @@ Ok, but why am I lee making a wiki? I think I tooo am trying to use this a sort 
 
 I checked out Gollum, TiddlyWiki, and a million more. Then I though about good old HTML, and markdown, and could it live in a git repo? Maybe! I'm going to try it.
 
-This isn't a wiki for anyone else. It's for me. I may share it with people I care about. It will live online so it can be referenced anywhere. It will adapt and change.
+This isn't a wiki for anyone else. It's for me. I may share it with people I care about. It will live online so it can be referenced anywhere. It will adapt and change. It will have typos and ~~mistakes~~!
 
-Other names: Wiki Wild Wild, Hyperfoot, Hyperduck, Casual.wiki
-Shout out to [Aureia](http://auriea.org/), [Doug](https://twitter.com/dsubnet0) and xin.
+Other names: ~~Wiki Wild Wild, Hyperfoot, Hyperduck, Casual.wiki~~
+Shout out to [Aureia](http://auriea.org/), [Doug](https://twitter.com/dsubnet0) and [Xin](http://xin-xin.info).

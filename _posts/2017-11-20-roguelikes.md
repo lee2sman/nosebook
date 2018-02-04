@@ -20,6 +20,8 @@ categories: games roguelikes
 * Cataclysm: Dark Days Ahead
 * Dwarf Fortress 2
 
+![](http://www.cavesofqud.com/img/barathrums-study.png)
+
 # Michael Brough-likes
 
 * 868-Hack

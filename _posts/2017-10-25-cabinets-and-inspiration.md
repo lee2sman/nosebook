@@ -7,6 +7,8 @@ categories: programming hardwarehacking
 
 # Cabinets
 
+![](/images/babycastles.jpg)
+
 I'm thinking more and more about arcades as alternative forms of exhibition. I'm not new to this; I've curated exhibitions and festivals of game art, such as Vector Festival, the UCLA Game Art Festival, and smaller exhibitions at Little Berlin artspace and exhibitions at Babycastles in New York. Babycastles exemplifies the kind of ultimate space open to exhibiting contemporary art, performance and also simultaneously having modular, DIY arcade cabinets easily able to be adapted to show art or to serve as hosts for various games. The form of arcade cabinet sets up a paradigm of interactivity rather than the traditional white-wall cube form that places art on a (sometimes literal) pedestal and at a remove from the audience.
 
 Cabinet and arcade-style exhibition brings the audience and work together. This could be maligned as turning audience into *user* or thought of more favorably in imagining the audience as collaborator. This language is often used in describing interactive artwork. As artist and professor Eddo Stern has pointed out, games are an ideal way to present interactive artworks. There is a clear form, an interested community, and a history one could draw on or reject.
