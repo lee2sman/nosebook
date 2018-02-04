@@ -16,7 +16,7 @@ categories: games
 * Tales of a spaceport janitor
 * recent act of kentucky route zero
 
-# Rogues to play. See [roguelikes](2017-11-20-roguelikes.md)
+# Rogues to play. See [roguelikes]({% post_url 2017-11-20-roguelikes %})
 * IVAN with Dosbox (after an update?)
 * Dungeon Crawl (tiles or ascii)
 
