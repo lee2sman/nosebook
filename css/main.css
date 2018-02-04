@@ -51,6 +51,13 @@ p {
     color: #0000ff;
 }
 
+code {
+    color: #ccffcc;
+    padding: 5px 5px 5px 0px;
+    background-color: blue;
+    line-height: 1.5em;
+}
+
 footer {
     border-top: 7px dashed #ff1aff;
     font-size: 1em;
