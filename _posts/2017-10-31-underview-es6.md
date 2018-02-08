@@ -5,11 +5,11 @@ date:   2017-11-21 18:40:05 -0800
 categories: programming
 ---
 
-# ES6 - more of an underview than an overview
-
-## let VS var
+## ES6 - an underview
 
 * ES6 came out in 2015 - stands for ECMAScript 2015
+
+### let VS var
 
 * [let vs var](https://www.youtube.com/watch?v=q8SHaDQdul0) tutorial on Coding Train
 * OLD: ```var x = 100;```
@@ -21,14 +21,16 @@ categories: programming
 * let uses *block* scope
 * prevents problems related to hoisting variables (where they are actually silently declared at beginning of function blocks)
 
-# Const
+## Const
+
 * [const](https://www.youtube.com/watch?v=2iLVFyYwyRA) tutorial video on Coding Train
-* use to manage memory efficiently.
+* use to manage memory efficiently or set values permanently.
 * can only be used for variables whose value will *never* change
 * also is block-scope
 
-# Anonymous Functions with Arrow syntax
+## Anonymous Functions with Arrow syntax
 
+```
 button.mousePressed(changeBackground);
 
 function changeBackground() {
