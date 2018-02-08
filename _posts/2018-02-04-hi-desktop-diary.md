@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hi Desktop Diary"
-date:   2018-02-02 18:30:05 -0800
+date:   2018-02-04 18:30:05 -0800
 categories: org
 ---
 Hi, here's my new jekyll site.
@@ -36,4 +36,4 @@ I should ```rm``` the ```TODO-make-jekyll-blog```. **DONE**.
 
 Here is the Screenshot 6.
 
-![](/images/screenshot6.png)
+![]({{site.url}}/images/screenshot6.png)
