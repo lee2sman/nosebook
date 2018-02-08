@@ -11,6 +11,26 @@ categories: programming
 
 * These are all Jekyll snippets
 
+# Site preview with Jekyll serve if you have a custom URL
+
+Next section is a tip on maintaining proper permalinks and paths when using a custom domain and subdomain, especially with GitHub pages.
+
+Here I'll explain the proper jekyll serve command if you have that set up. (I do). If you are not using baseurl then you don't need to do this. This is just so the local  serve will render your site properly in the browser so you can check it out before deploying.
+
+```jekyll serve --baseurl ''```
+
+# Set it and forget it: url structure
+
+* I use a custom domain on my github username page: i.e. *github.lee2sman.io* re-routes to [leetusman.com](http://leetusman.com)
+* This messes up URL and paths for pages, relative links and CSS path on my repo for this jekyll site
+
+## To fix: 
+
+1. Open ```_config.yml``` and set ```baseurl``` to ```/project-name``` which here is ```nosebook```
+2.  When referencing CSS files in your _layouts directory , use ```{{ site.baseurl}}path/to/css``` which for me looks like ```<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/main.css">```
+3.  For links from pages, use this same form. Example, for my link to home ```<li><a href="{{ site.baseurl }}/">Home</a></li>```
+4. For internal links or permalinks, format is exactly this: ```{{ site.baseurl }}{{ post.url }}
+
 # Front Matter
 
 ## My basic frontmatter
