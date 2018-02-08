@@ -7,7 +7,7 @@ categories: programming
 
 # Prof. Dr. Style
 
-I just ready OLia Lialina's [Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/), a long and great article subtitled **Top 10 Web Design Styles of 1993 (Vernacular Web 3)**. It focuses on the websites of those professors (the vast majority white men in computer science departments) who can be found in a search for *Prof. Dr.* in a Google web search. This type of individual are generally of a very particular design aesthetic. Says Lialina:
+I recently read Olia Lialina's [Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/), a long and great article subtitled **Top 10 Web Design Styles of 1993 (Vernacular Web 3)**. It focuses on the websites of those professors (the vast majority white men in computer science departments) who can be found in a search for *Prof. Dr.* in a Google web search. This type of individual are generally of a very particular design aesthetic. Says Lialina:
 
 > Prof. Dr. pages tell the story of the web.
 
@@ -15,7 +15,7 @@ I just ready OLia Lialina's [Prof. Dr. Style](http://contemporary-home-computing
 
 Nonetheless, these sites are of a type, and Lialina links to dozens of examples of these pages with their *web primitive* aesthetic and apparent sameness, built without frameworks, corporate identities or design tools, and made with the simple tools of HTML tags. Lialina says these pages are among the last pages generated completely by humans, not content management systems or services.
 
-I was active on the web from its earliest days in the browser, and even through Bulletin Board Systems. I was quite young and visited my local library, checking out a book on how to use Netscape Navigator/Mozilla. I remember reading about the Home, Back, Forward and Reload Buttons for the very first time. I spent most of my time reading books, and despite spending lots of time browsing the early web, I never would have imagined how significantly it would take over.
+I was active on the web from its earliest days in the browser, and even prior to that, on Bulletin Board Systems (hello Mofo Ex Machina!). I was quite young and visited my local library, checking out a book on how to use Netscape Navigator/Mozilla. I remember reading about the Home, Back, Forward and Reload Buttons for the very first time. I spent most of my time reading books, and despite spending lots of time browsing the early web, I never would have imagined how significantly it would take over.
 
 The early web was exemplified as a space for a new type of digital amateurism. We may think of the early web as a space for experts, but potentially we may consider it a space for those interested in utopian ideals that they believed could be brought about by the web, especially its democratic principles and architecture.
 
@@ -25,6 +25,7 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
 
 <p>The last places to experience real online hypertext, hand made links,
         that look and behave like links, are the pages of the early web adopters
+
        <code>
         <form action="http://www.google.com/search" method="get">
             <input type="text" name="q" value="&quot;Prof. Dr.&quot;" />
@@ -32,7 +33,8 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
         </form>
 	</code>
 
-### My favorite Prof. Dr. sites listed
+## My favorite Prof. Dr. sites listed
+
 * [Dr. Prof. Winfried Kerkhoff](http://www.kerkhoff-w.de/) eye-opening website
 * [Ismail Hakki Aydin's Home Page](http://www.angelfire.com/ia/ismailhakkiaydin/) and a link to [his personal webpage](http://members.tripod.com/~Ismail_Hakki_AYDIN/) last updated in 1998 hosted on Tripod
 * The beautiful minimalist *always under construction* of UPenn [Dr. Prof. Alan MacDiarmid](http://www.sas.upenn.edu/~macdiarm/)
