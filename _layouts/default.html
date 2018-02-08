@@ -3,18 +3,18 @@
 	<head>
 		<title>👃📓 {{ page.title }}</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/main.css">
 	</head>
 	<body>
 		<nav>
     		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/categories">Categories</a></li>
+			<li><a href="{{ site.baseurl }}/">Home</a></li>
+	        	<li><a href="{{ site.baseurl }}/about">About</a></li>
+        		<li><a href="{{ site.baseurl }}/categories">Categories</a></li>
     		</ul>
 		</nav>
 
-		<h1><a href="/" style="background-color: transparent; text-decoration: none;">👃📓</a></h1>
+		<h1><a href="{{ site.baseurl }}/" style="background-color: transparent; text-decoration: none;">👃📓</a></h1>
 
 		<div class="container">
 
