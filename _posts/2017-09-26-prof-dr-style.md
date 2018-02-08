@@ -9,6 +9,8 @@ categories: programming
 
 I recently read Olia Lialina's [Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/), a long and great article subtitled **Top 10 Web Design Styles of 1993 (Vernacular Web 3)**. It focuses on the websites of those professors (the vast majority white men in computer science departments) who can be found in a search for *Prof. Dr.* in a Google web search. This type of individual are generally of a very particular design aesthetic. Says Lialina:
 
+![](http://contemporary-home-computing.org/prof-dr-style/sg/browser-editor.png)
+
 > Prof. Dr. pages tell the story of the web.
 
 > Not because they are retro. It is important to mention, that retro is the wrong term and notion in this case. Prof. Dr. doesn't mean at all that the site was made in 1993 and last time updated in 1995. The opposite. They are usually updated with a list of courses for the current semester or contain links to contemporary services like Google Calendar, twitter or embed Google Maps.
@@ -26,13 +28,6 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
 <p>The last places to experience real online hypertext, hand made links,
         that look and behave like links, are the pages of the early web adopters
 
-       <code>
-        <form action="http://www.google.com/search" method="get">
-            <input type="text" name="q" value="&quot;Prof. Dr.&quot;" />
-            <button type="submit">Google Search</button>
-        </form>
-	</code>
-
 ## My favorite Prof. Dr. sites listed
 
 * [Dr. Prof. Winfried Kerkhoff](http://www.kerkhoff-w.de/) eye-opening website
@@ -40,3 +35,11 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
 * The beautiful minimalist *always under construction* of UPenn [Dr. Prof. Alan MacDiarmid](http://www.sas.upenn.edu/~macdiarm/)
 * [Nguyen Ngoc BINH, Phd.](http://www.jaist.ac.jp/~binh/)
 * [Dr. Prof. Joseph Kallrath's](http://www.astro.ufl.edu/~kallrath/) extremely bland site
+
+       <code>
+        <form action="http://www.google.com/search" method="get">
+            <input type="text" name="q" value="&quot;Prof. Dr.&quot;" />
+            <button type="submit">Google Search</button>
+        </form>
+	</code>
+
