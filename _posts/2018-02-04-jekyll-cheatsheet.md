@@ -11,13 +11,11 @@ categories: programming
 
 * These are all Jekyll snippets
 
-# Path to images in Markdown when using a custom domain for your username repo and you have a separae project repo with Jekyll on GitHub pages
+# Path to images in Markdown when using a custom domain for your username repo and you have a separate project repo with Jekyll on GitHub pages
 
-* Note: this information is correct as of Jekyll 3.3 - If you try to google an answer to this you get a bunch of not-useful information. Here's how you do it.
+Note: this information is correct as of Jekyll 3.3 - If you try to google an answer to this you get a bunch of not-useful information. Here's how you do it.
 
-```
-![alt text]]({{"/path/to/image.jpg" | absolute_url}})
-```
+### ![alt text]]({\{"/path/to/image.jpg" | absolute_url}})
 
 # Site preview with Jekyll serve if you have a custom URL
 
@@ -37,7 +35,7 @@ Here I'll explain the proper jekyll serve command if you have that set up. (I do
 1. Open ```_config.yml``` and set ```baseurl``` to ```/project-name``` which here is ```nosebook```
 2.  When referencing CSS files in your _layouts directory , use ```{{ site.baseurl}}path/to/css``` which for me looks like ```<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/main.css">```
 3.  For links from pages, use this same form. Example, for my link to home ```<li><a href="{{ site.baseurl }}/">Home</a></li>```
-4. For internal links or permalinks, format is exactly this: ```{{ site.baseurl }}{{ post.url }}
+4. For internal links or permalinks, format is exactly this: **{\{ site.baseurl }}{\{ post.url }}**
 
 # Front Matter
 
