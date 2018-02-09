@@ -7,7 +7,7 @@ categories: programming hardwarehacking
 
 # Cabinets
 
-![](/images/babycastles.jpg)
+![babycastles image]({{"/images/babycastles.jpg" | absolute_url}})
 
 I'm thinking more and more about arcades as alternative forms of exhibition. I've curated games and game arts at museums as well as galleries and DIY spaces. Babycastles exemplifies the kind of ultimate space open to exhibiting contemporary art, performance and also simultaneously having modular, DIY arcade cabinets easily able to be adapted to show art or to serve as hosts for various games. The form of arcade cabinet sets up a paradigm of interactivity rather than the traditional white-wall cube form that places art on a (sometimes literal) pedestal and at a remove from the audience.
 

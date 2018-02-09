@@ -9,7 +9,7 @@ categories: programming jas
 
 *UPDATE: 2018-02-04 I made a Paint-Em-Up 2player digital painting software/game thing, and presented it at Coaxial Arts. A [demo](http://lee2sman.github.io/paint-em-up) is up. Arrow keys and WASD are controls.*
 
-![](/images/painting-shot.png)
+![painting screenshot]]({{"/images/painting-shot.jpg" | absolute_url}})
 
 # Painting Programs && code
 

@@ -42,4 +42,3 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
             <button type="submit">Google Search</button>
         </form>
 	</code>
-

@@ -15,7 +15,7 @@ categories: jas programming
 * lasercut arcade cabinet
 * laser-cut? case for minimal computer - outputs to hand screen or plug in hdmi
 
-![](/images/doom.jpg)
+![Doom]({{"/images/doom.jpg" | absolute_url}})
 
 * Raspberry Pi hardware with screen, plug to projector or monitor
 * Inspiration - [Atari!](https://www.nytimes.com/2017/11/24/business/atari-flashback-video-games.html) retro consoles

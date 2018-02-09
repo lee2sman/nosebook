@@ -11,6 +11,14 @@ categories: programming
 
 * These are all Jekyll snippets
 
+# Path to images in Markdown when using a custom domain for your username repo and you have a separae project repo with Jekyll on GitHub pages
+
+* Note: this information is correct as of Jekyll 3.3 - If you try to google an answer to this you get a bunch of not-useful information. Here's how you do it.
+
+```
+![alt text]]({{"/path/to/image.jpg" | absolute_url}})
+```
+
 # Site preview with Jekyll serve if you have a custom URL
 
 Next section is a tip on maintaining proper permalinks and paths when using a custom domain and subdomain, especially with GitHub pages.
@@ -24,7 +32,7 @@ Here I'll explain the proper jekyll serve command if you have that set up. (I do
 * I use a custom domain on my github username page: i.e. *github.lee2sman.io* re-routes to [leetusman.com](http://leetusman.com)
 * This messes up URL and paths for pages, relative links and CSS path on my repo for this jekyll site
 
-## To fix: 
+## To fix:
 
 1. Open ```_config.yml``` and set ```baseurl``` to ```/project-name``` which here is ```nosebook```
 2.  When referencing CSS files in your _layouts directory , use ```{{ site.baseurl}}path/to/css``` which for me looks like ```<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/main.css">```
