@@ -34,7 +34,7 @@ Here I'll explain the proper jekyll serve command if you have that set up. (I do
 
 1. Open ```_config.yml``` and set ```baseurl``` to ```/project-name``` which here is ```nosebook```
 2.  When referencing CSS files in your _layouts directory , use ```{{ site.baseurl}}path/to/css``` which for me looks like ```<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/main.css">```
-3.  For links from pages, use this same form. Example, for my link to home ```<li><a href="{{ site.baseurl }}/">Home</a></li>```
+3.  For links from pages, use this same form. Example, for my link to home \<a href="{\{ site.baseurl }}/">Home</a>
 4. For internal links or permalinks, format is exactly this: **{\{ site.baseurl }}{\{ post.url }}**
 
 # Front Matter
