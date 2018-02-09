@@ -36,4 +36,4 @@ I should ```rm``` the ```TODO-make-jekyll-blog```. **DONE**.
 
 Here is the Screenshot 6.
 
-<img markdown="1" src="{{site.url}}/images/screenshot6.png">
+![desktop screenshot]({{site.url}}{{site.baseurl}}/images/screenshot6.png)
