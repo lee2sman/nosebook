@@ -36,4 +36,4 @@ I should ```rm``` the ```TODO-make-jekyll-blog```. **DONE**.
 
 Here is the Screenshot 6.
 
-![desktop screenshot]({{site.url}}{{site.baseurl}}/images/screenshot6.png)
+![desktop screenshot]({{"/images/screenshot6.png" | absolute_url}})
