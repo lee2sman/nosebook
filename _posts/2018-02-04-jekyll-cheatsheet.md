@@ -19,6 +19,8 @@ Note: this information is correct as of Jekyll 3.3 - If you try to google an ans
 
 # Site preview with Jekyll serve if you have a custom URL
 
+Always do your build in the root folder. Running ```jekyll serve``` throws strange building errors if you run it in the _posts folder for example.
+
 Next section is a tip on maintaining proper permalinks and paths when using a custom domain and subdomain, especially with GitHub pages.
 
 Here I'll explain the proper jekyll serve command if you have that set up. (I do). If you are not using baseurl then you don't need to do this. This is just so the local  serve will render your site properly in the browser so you can check it out before deploying.
@@ -77,10 +79,9 @@ When Jekyll runs it will place the page in the root of the _site folder or in a 
 
 ## Internal links to other posts
 
-[Simple!](https://stackoverflow.com/questions/4629675/jekyll-markdown-internal-links#9195560)
+[Info here](https://jekyllrb.com/docs/templates/#linking-to-posts)
 
 * useful in case I change my domain/permalinks
-
 
 ## More documentation of Categories
 

@@ -16,9 +16,10 @@ categories: games
 * Tales of a spaceport janitor
 * recent act of kentucky route zero
 
-# Rogues to play. See [roguelikes]({% post_url 2017-11-20-roguelikes %})
+# Rogues to play. 
+* see [Roguelikes]({{ site.baseurl }}{% post_url 2017-11-20-roguelikes %})
 * IVAN with Dosbox (after an update?)
-* Dungeon Crawl (tiles or ascii)
+* Caves of Qud
 
 * [Caves of Solaris](https://ianmaclarty.itch.io/catacombs-of-solaris) - I've played this. It's a graphics card labyrinth toy.
 
