@@ -22,6 +22,7 @@ This is a non-comprehensive reading list I originally put together for students 
 * [From Russia, with Love](http://drrobertepstein.com/downloads/FROM_RUSSIA_WITH_LOVE-Epstein-Sci_Am_Mind-Oct-Nov2007.pdf?lbisphpreq=1), links to PDF
 * [Video](https://www.youtube.com/watch?v=KYshJRYCArE) of BINA48 and [info](https://www.lifenaut.com/bina48/)
 * [Speak Memory](https://www.theverge.com/a/luka-artificial-intelligence-memorial-roman-mazurenko-bot) - a chatbot with the dead
+* [How Russian Bots Invade Our Elections](https://www.nytimes.com/video/us/politics/100000005414346/how-russian-bots-and-trolls-invade-our-lives-and-elections.html) video
 
 # Bot Ethics
 * [Hard Questions About Bot Ethics](https://techcrunch.com/2016/09/16/hard-questions-about-bot-ethics/)
