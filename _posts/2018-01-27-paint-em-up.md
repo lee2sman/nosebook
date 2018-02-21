@@ -9,7 +9,7 @@ categories: programming jas
 
 *UPDATE: 2018-02-04 I made a Paint-Em-Up 2player digital painting software/game thing, and presented it at Coaxial Arts. A [demo](http://lee2sman.github.io/paint-em-up) is up. Arrow keys and WASD are controls.*
 
-![painting screenshot]]({{"/images/painting-shot.jpg" | absolute_url}})
+![painting screenshot]({{"/images/painting-shot.jpg" | absolute_url}})
 
 # Painting Programs && code
 
@@ -21,7 +21,7 @@ I'm working with [J.A.S.](http://jas.life) to make (build?) some new painting pe
 
 Just stumbled across the old [Action Painting](https://ianmaclarty.itch.io/action-painting) game and [Action Painting Pro](http://ianmaclarty.com/action-painting-pro/). The v1 is better.
 
-I made a painting interactive software thing, even less game-like though maybe. Demo is [here](http://alpha.editor.p5js.org/full/HyQfnq_s-) and the code [here](http://alpha.editor.p5js.org/2sman/sketches/HyQfnq_s-). I'm gonna work and use it as a starter code to make more stuff.
+I made a painting interactive software thing, even less game-like. Rough demo is [here](http://alpha.editor.p5js.org/full/HyQfnq_s-) and the code [here](http://alpha.editor.p5js.org/2sman/sketches/HyQfnq_s-). I'm going to use it as a starter code to make more stuff.
 
 # Variations
 
