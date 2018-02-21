@@ -18,6 +18,7 @@ This is a non-comprehensive reading list I originally put together for students 
 * [What Chatbots Reveal About Our Own Shortcomings](https://www.nytimes.com/2016/04/24/magazine/what-chatbots-reveal-about-our-own-shortcomings.html)
 
 # Utopia/Dystopia
+* [Move Over Chatbots, Here Come The Artbots](https://www.theguardian.com/technology/2016/apr/15/move-over-chatbots-meet-the-artbots)
 * [Microsoft deletes 'teen girl' AI after it became a Hitler-loving sex robot within 24 hours](http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/)
 * [From Russia, with Love](http://drrobertepstein.com/downloads/FROM_RUSSIA_WITH_LOVE-Epstein-Sci_Am_Mind-Oct-Nov2007.pdf?lbisphpreq=1), links to PDF
 * [Video](https://www.youtube.com/watch?v=KYshJRYCArE) of BINA48 and [info](https://www.lifenaut.com/bina48/)
