@@ -106,3 +106,17 @@ P5Play is a Javascript library to be used in conjunction with P5JS, the Javascri
 
 * official [website](http://p5play.molleindustria.org) with reference and examples
 * [tutorials](http://p5play.molleindustria.org/examples/index.html) 
+
+# Other game lists and resources
+
+This is certainly not the only place to find out about accessible game-making tools on the web. Other select resources are below.
+
+* Rylie James Thomas' excellent [Wiki](https://www.gamemaking.tools/wiki/index.php/Main_Page) on Game Making Tools is extensive and has informed this whole post
+* Zoe Quinn's [Sorting Hat](http://www.sortingh.at/) is a quiz that helps you decide what tool to learn and use based on the kind of game you want to make
+* [Online](http://onlinegamedev.tumblr.com/) game-making assets and tools Tumblr 
+* Kool Tools game [list](http://kool.tools/)
+* Ambrosine's [List](http://ambrosine.com/resource.php) of game-making resources
+* Disability and Gaming [Resource List](http://web.archive.org/web/20160222232431/http://antagonizethehorn.com:80/2015/01/28/disability-and-gaming-resource-list/) archive
+* [Warp Door](https://warpdoor.com/), a website and [Twitter](https://twitter.com/warpdoor) account that lists strange games and computer art, presented by Christ Priestman (former of KillScreen Daily) and Tim W.
+* Weird Fucking Games [twitter](https://twitter.com/wf__games) describes itself well
+* Different Games is an inclusive [conference](http://www.differentgames.org/) for game-makers creating DIY and independent games 
