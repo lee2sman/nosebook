@@ -35,6 +35,7 @@ It's easy to get started because it has simple constraints: limited color palett
 * a curated [selection](https://itch.io/c/201121/bitsy-faves) of Bitsy games
 * a collection of re-usable [scripts](https://seleb.github.io/bitsy-hacks/) to extend Bitsy games
 * even [more](https://itch.io/c/90743/bitsy-games) Bitsy games
+* excellent [article](https://www.rockpapershotgun.com/2018/02/23/how-small-game-makers-found-their-community-with-bitsy/) on Rock Paper Shotgun about the Bitsy game-making community
 
 # Twine
 
