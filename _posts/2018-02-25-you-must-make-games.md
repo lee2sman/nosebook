@@ -62,7 +62,7 @@ Tinychoice is another tool for making text adventure games. It's even simpler! Y
 
 ![Vertex Meadow screenshot]({{"/images/game-tools/vertex_meadow.png" | absolute_url}})
 
-Vertex Meadow, also by Ian MacLarty, is a tool that takes 2d images and translates them into 3d terrain that you can walk through. It runs in a browser and is nice and glitchy.
+Vertex Meadow, by Ian MacLarty, is a tool that takes 2d images and translates them into 3d terrain that you can walk through. It runs in a browser and is nice and glitchy.
 
 * official [website](http://www.vertexmeadow.xyz/) and gallery page
 
