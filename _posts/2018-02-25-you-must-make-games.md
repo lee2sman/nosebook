@@ -15,12 +15,16 @@ The following tools are listed in order of complexity.
 
 # Kooltool
 
+![Kooltool screenshot]({{"/images/game-tools/kooltool.png" | absolute_url}})
+
 Kooltool is a super fun 2D online drawing tool for making adventure-style games by Mark Wonnacott. Simply draw some tiles and add some characters and text and click to publish to the web. Very simple concept and MSPaint aesthetics.
 
 * official [site](https://candle.itch.io/kooltool) for web based editor or downloadable applications
 * github hosted [version](https://ragzouken.github.io/?id=ae3ccb498eb23a4fe99d4844c222d41f)
 
 # Bitsy
+
+![Bitsy screenshot]({{"/images/game-tools/bitsy.png" | absolute_url}})
 
 Bitsy, by Adam LeDoux, is similar to Kooltool with a bit more features for making a 2D browser-based game. Its goal is to be "easy to make games where you can walk around and talk to people and be somewhere." 
 
@@ -34,6 +38,8 @@ It's easy to get started because it has simple constraints: limited color palett
 
 # Twine
 
+![Twine screenshot]({{"/images/game-tools/twine.png" | absolute_url}})
+
 Twine is a great starting point if you've never made a game before. It has a  huge community of players/game-makers and has good documentation and a large number of tutorials. Twine was created by Chris Klimas and there are downloadable and web-based versions you can use. Twine is primarily used to create experimental choose-your-own-adventure style games. Porpentine Charity Heartscape's *With Those We Love Alive* was included in the 2016 [Whitney Biennial](http://whitney.org/WatchAndListen/1450).
 
 * official [website](http://twinery.org)
@@ -44,6 +50,8 @@ Twine is a great starting point if you've never made a game before. It has a  hu
 
 # Tinychoice
 
+![Tinychoice screenshot]({{"/images/game-tools/tinychoice.png" | absolute_url}})
+
 Tinychoice is another tool for making text adventure games. It's even simpler! You write everything in an ultra simple markup language, then render it into a HTML page. It's by Stephen Increpare Lavelle.
 
 * official [website](http://tinychoice.net)
@@ -52,18 +60,24 @@ Tinychoice is another tool for making text adventure games. It's even simpler! Y
 
 # Vertex Meadow
 
+![Vertex Meadow screenshot]({{"/images/game-tools/vertex_meadow.png" | absolute_url}})
+
 Vertex Meadow, also by Ian MacLarty, is a tool that takes 2d images and translates them into 3d terrain that you can walk through. It runs in a browser and is nice and glitchy.
 
 * official [website](http://www.vertexmeadow.xyz/) and gallery page
 
 # Scratch / Stencyl
 
+![Scratch screenshot]({{"/images/game-tools/scratch.png" | absolute_url}})
+
 These are drag-and-drop code blocks tools. Scratch, by MIT Media Lab is a general purpose language for kids to learn coding. You can make lots of things, including games. Stencyl is based on Scratch but has enough features to make fairly complex 2D videogames and publish them as apps or websites. Stencyl is often used to make platformer (Mario-style) games. It is free to use commercial software; you must pay for a license if you want to distribute your game as an app. It's free to publish to the web however.
 
 * Scratch's official [website](http://scratch.mit.edu)
 * Stencyl's [website](http://stencyl.com)
 
-# Puzzlescript
+# Puzzlescript and Dungeonscript
+
+![Dungeonscript screenshot]({{"/images/game-tools/dungeonscript.png" | absolute_url}})
 
 This is a web-based *puzzle* adventure game engine for making top-down 2d pixel-style games, like in a simplified Legend of Zelda style though of course not limited to that.  Puzzlescript is by Stephen *Increpare* Lavelle and features a web-based editor that uses ASCII text to define the world, rules for characters and player movement, colors, sound, and an easy way to host the games and remix them online.
 
@@ -74,6 +88,8 @@ This is a web-based *puzzle* adventure game engine for making top-down 2d pixel-
 
 # Pico8
 
+![Pico8 screenshot]({{"/images/game-tools/pico8.png" | absolute_url}})
+
 Pico8 is a *fantasy console* that runs in the browser and as desktop apps or on Raspberry Pi and similar Linux single board computers. It is purposely built with constraints and uses a simplified version of the Lua language. Pico8 includes a simplified Terminal, level editor, sprite creator, sound and soundtrack maker. Games (called Carts) are free to play online, but Pico8's downloadable application (which allows you to make games) costs $15 or less when on sale.
 
 * Pico8 [website](https://www.lexaloffle.com/pico-8.php)
@@ -83,6 +99,8 @@ Pico8 is a *fantasy console* that runs in the browser and as desktop apps or on 
 * PocketCHIP [Play Pico8](https://docs.getchip.com/pocketchip.html#play-pico-8)
 
 # P5Play
+
+![P5Play screenshot]({{"/images/game-tools/p5play.png" | absolute_url}})
 
 P5Play is a Javascript library to be used in conjunction with P5JS, the Javascript library for creative coding, especially aimed at beginners, artists and educators, based on the original ideas of [Processing](http://processing.org) but brought to the web. P5JS is great for drawing to a canvas in a web browser with code, and P5Play extends this by providing support for animations, sprites, collision detection, key detection and other useful features you'd likely want for making a game. You will definitely want a bit of Javascript experience to be able to use this.
 
