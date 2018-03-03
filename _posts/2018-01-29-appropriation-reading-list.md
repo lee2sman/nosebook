@@ -28,6 +28,7 @@ A critique by artist Mark Vallen](http://www.art-for-a-change.com/Obey/index.htm
 ### Cultural Appropriation
 * [Cultural Appropriation: Roundtable - Artform](https://www.scribd.com/document/354525016/Cultural-Appropriation-Roundtable-Artforum-Summer-2017)
 * [The Poet Who Went Too Far](https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson)
+* [Don't Cash Crop on my Cornrows](https://www.youtube.com/watch?v=O1KJRRSB_XA) video by Amandla Stenberg  
 
 
 ## BOOK EXHIBIT
