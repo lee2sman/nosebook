@@ -9,6 +9,7 @@ The 👃📓 site is a personal wiki for online research, tutorials, notes and i
 
 ###### [more](http://leetusman.com/nosebook/art/programming/2017/09/01/start-digital-sketchbook.html)
 
-It is built in Jekyll on GitHub by [Lee Tusman](http://leetusman.com)
+Built in Jekyll on GitHub by [Lee Tusman](http://leetusman.com)  
+<a href="https://creativecommons.org/licenses/by/4.0/">cc 4.0</a>
 
 ![](/images/construction.gif)
