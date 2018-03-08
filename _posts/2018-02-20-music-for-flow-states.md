@@ -49,7 +49,7 @@ continuous
 [Aphex Twin - Selected Ambient Works Volume 2 - album](https://www.youtube.com/watch?v=wXd0QcTR5_M)  
 2hr46m
 
-[Miles Davis - In A Silent Way](https://www.youtube.com/watch?v=lQKt7DTKyJU)  
+[Miles Davis - In A Silent Way - album](https://www.youtube.com/watch?v=lQKt7DTKyJU)  
 38m  
 
 [Coil - Time Machines - album](https://open.spotify.com/embed/album/5pWk2zkLimYnAAbEcISkxU)  
