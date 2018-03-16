@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Browser Extensions, Personal Viruses and Digital Cut-Ups"
-date:   2018-03-16 16:45:05 -0800
+date:   2018-03-16 15:45:05 -0800
 categories: art programming
 ---
-
-# Browser Extensions, Personal Viruses, and Digital Cut-Ups
 
 Today's New York Times features the [article](https://www.nytimes.com/2018/03/15/smarter-living/browser-extensions-text-swapping.html) *The Simple, Serendipitous Joy of Browser Extensions* on the author's mistake printed in the New York Times in an earlier article.
 
@@ -34,7 +32,7 @@ In 2001 the artist duo Eva and Franco Mattes, also known as 0100101110101101, cr
 
 # Personal Viruses
 
-Language and Technology artist Todd Anderson creates scripts that take keyboard presses to trigger live sounds and text in performance. Though this work differs from the traditional replication action of a virus, he is interested in how accidentally triggering scripts produces unexpected results, which he thinks of as a type of personal computer virus. He talks about having *"really powerful and serendipitous virus moments of being locked out of my computer or having every key on the keyboard only type the text of T.S. Eliot's the wasteland. I think a really key component of virus art is having a preexisting relationship with the infected machine. You need to know how things usually work and have that little bit of fear that somehow you''ll never be able to access your files again."*
+Language and Technology artist [Todd Anderson](http://toddwords.com) creates scripts that take keyboard presses to trigger live sounds and text in performance. Though this work differs from the traditional replication action of a virus, he is interested in how accidentally triggering scripts produces unexpected results, which he thinks of as a type of personal computer virus. He talks about having *"really powerful and serendipitous virus moments of being locked out of my computer or having every key on the keyboard only type the text of T.S. Eliot's the wasteland. I think a really key component of virus art is having a preexisting relationship with the infected machine. You need to know how things usually work and have that little bit of fear that somehow you''ll never be able to access your files again."*
 
 One time in conversation with Anderson at [Babycastles](http://babycastles.com) art space I asked him for an example of a personal virus. He showed me something that had cropped up that afternoon. He had temporarily scripted an obnoxious airhorn sound to trigger when he hit the L key on his keyboard, just for fun. He then went to meet with somebody and came back to his computer again, forgetting that he had re-mapped his L. He started to type an email but couldn't use the L key as it kept bleeping out horn sounds instead.
 
