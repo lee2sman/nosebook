@@ -42,6 +42,8 @@ Mozart's instructions
 * Terry Riley's [In C](https://en.wikipedia.org/wiki/In_C)
 
 # Generative Software
+* [Electroplankton](https://en.wikipedia.org/wiki/Electroplankton) on Nintendo DS, by Toshio Iwai
+* [Sound Machine](http://www.siliconera.com/2015/04/10/vaporware-snes-music-creation-tool-sound-fantasy-released-publicly/), unreleased, for Super Nintendo, by Toshio Iwai
 * [Trope](http://www.generativemusic.com/trope.html) by Brian Eno and Peter Chilvers
 * [Music For Airports](https://en.wikipedia.org/wiki/Ambient_1:_Music_for_Airports)
 * Laurie Spiegel's [Music Mouse](https://teropa.info/musicmouse)  
