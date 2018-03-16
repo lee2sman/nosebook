@@ -7,14 +7,6 @@ categories: programming art
 
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Coming+Soon" rel="stylesheet">
 
-<style>
-body { font-family: 'Coming Soon',cursive; font-size: 1.5em;}
-h1 {font-family: 'Cabin Sketch', cursive;}
-p { color: purple;}
-li {color: purple;}
-img {display: block; width: 50%;}
-
-</style>
 *updated 2018-03-16*
 
 I love reading manifestos. One of my favorite books is [Manifestos For The Internet Age](greyscalepress.com/2015/books/manifestos-for-the-internet-age/) by a multitude of authors, compiled and published by Greyscale Press. It starts with an excerpt of Ted Nelson's [Computer Lib](https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines), the [Hacker Manifesto](http://www.mithral.com/~beberg/manifesto.html), [the Critical Engineering Manifesto](https://criticalengineering.org/), the [3D Additivist Manifesto](http://additivism.org/manifesto), [Xenofeminist Manifesto](https://anarchotranshuman.files.wordpress.com/2015/06/xeno.pdf) and many others.
@@ -53,6 +45,15 @@ This alone is a powerful manifesto!
 With all of these manifestos in mind, it's time for me to get some thoughts down. This is definitely not a definitive manifesto. I expect it to change. This is my internet2018 manifesto 0.3!
 
 ![web-programmer]({{"/images/web-programmer.jpg" | absolute_url}})
+
+<style>
+body { font-family: 'Coming Soon',cursive; font-size: 1.5em;}
+h1 {font-family: 'Cabin Sketch', cursive;}
+p { color: purple;}
+li {color: purple;}
+img {display: block; width: 50%;}
+
+</style>
 
 1. Imagine no one is going to look at your website or care about your work. This is freeing. So code it for you and don't worry about what you think others want.
 2. Motion and change are good.
