@@ -47,22 +47,31 @@ With all of these manifestos in mind, it's time for me to get some thoughts down
 ![web-programmer]({{"/images/web-programmer.jpg" | absolute_url}})
 
 <style>
-body { font-family: 'Coming Soon',cursive; font-size: 1.5em;}
+.manifesto { font-family: 'Coming Soon',cursive; font-size: 1.5em;}
 h1 {font-family: 'Cabin Sketch', cursive;}
-p { color: purple;}
-li {color: purple;}
+p { color: #4109A8;}
+li {color: #4109A8;}
 img {display: block; width: 50%;}
 
 </style>
 
-1. Imagine no one is going to look at your website or care about your work. This is freeing. So code it for you and don't worry about what you think others want.
-2. Motion and change are good.
-3. Cut. Paste. Collage.
-4. ~~Comic Sans~~ is fine. I like Aqua blue, pink and black color palette. Pick fonts and colors you like. [Bootstrap](http://getbootstrap.com) is for startups.
+# Manifesto
+
+![photocopy machine](https://i2.wp.com/www.pupuren.com/weblog/imgs/2017/01/20170115_150305.gif)
+
+<div class="manifesto">
+<ol>
+<li>Imagine no one is going to look at your website or care about your work. This is freeing. So code it for you and don't worry about what you think others want.  </li>
+<li>Motion and change are good.  </li>
+<li>Cut. Paste. Collage.  </li>
+<li>~~Comic Sans~~ is fine. I like <span style="color: aqua; border: dotted;">Aqua blue</span>, <span style="color: pink;background: black;">pink</span> and <span style="color: black; background: pink">black</span> color palette. Pick fonts and colors you like. <a href="http://getbootstrap.com">Bootstrap</a> is for startups.</li>
+<li>Ugly is beautiful.  </li>
+<li>Easy to navigate is uneccessary. We are not selling anything. A website should unfold like a chess game, cluttered attic or squat.  </li>
+<li>Consider coding the essence of your site in 4 hours or less. 2 hours is even better. After midnight is preferred. They are not coded "with love" - They are coded with carpal tunnel syndrome and coffee.  </li>
+<li>Unneccessary music, fonts, web banners, ads and anything else are encouraged.   </li>
+<li>DIY! What's your <a href="http://viralart.vandalog.com/read/chapter/zines-and-magazines/">zine</a>, mixtape or demo tape?  </li>
+<li>Share. Be generous. Teach. Collaborate.  </li>
+</ol>
+</div>
+
 ![glarfield]({{"/images/glarfield.jpg" | absolute_url}})
-5. Ugly is beautiful.
-6. Easy to navigate is uneccessary. We are not selling anything. A website should unfold like a chess game, cluttered attic or squat.
-7. Consider coding the essence of your site in 4 hours or less. 2 hours is even better. After midnight is preferred. They are not coded "with love" - They are coded with carpal tunnel syndrome and coffee.
-8. Unneccessary music, fonts, web banners, ads and anything else are encouraged. 
-9. DIY! What's your mixtape or demo tape?
-10. Share. Be generous. Teach. Collaborate.
