@@ -21,7 +21,7 @@ Aram writes
 
 ![Michael Manning Apple Casual](http://speedshow.net/wp-content/uploads/2016/02/speed-show-la-manifesto_24576789953_o-640x426.jpg)
 
-It's 2018 and I am taking stock of my own artwork, sketches and prototypes, both web-based and otherwise. I am increasingly presenting works online or as interactive forms made in a web browser and presented live. For example, I recently performed [Livecoding A Storm](http://acehotel.com/calendar/newyork/helen-tusman-and-watson-trio) with Campbell Watson, and some of the work I created was performed via a web browser, presented fullscreen and projected in fornt of an audience. But I am also thinking about the private parts of the web. I don't mean the dark web but instead using the platform of a web browser as a digital notebook and sketchbook.
+It's 2018 and I am taking stock of my own artwork, sketches and prototypes, both web-based and otherwise. I am increasingly presenting works online or as interactive forms made in a web browser and presented live. For example, I recently performed [Livecoding A Storm](http://acehotel.com/calendar/newyork/helen-tusman-and-watson-trio) with Campbell Watson, and some of the work I created was performed via a web browser, presented fullscreen and projected in front of an audience. But I am also thinking about the private parts of the web. I don't mean the dark web but instead using the platform of a web browser as a digital notebook and sketchbook.
 
 # Some Manifestos
 
