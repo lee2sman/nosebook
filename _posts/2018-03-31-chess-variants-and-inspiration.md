@@ -5,15 +5,14 @@ date: 2018-03-31 17:33:35 -0800
 categories: games
 ---
 
-The month of April is [Chess Jam](https://itch.io/jam/chess-jam), an indie game jam organized by game maker [Sophie Houlden](https://sophieh.itch.io/). The rules for the jam are simple, to make a game or work inspired by the game of Chess. Chess is believed to have been invented in the 6th century in India and spread worldwide over several centuries. The present standard chess piece configuration and rules for moving are believed to have been developed in 15th century Spain, standardizied in the 1800s.
+The month of April is [Chess Jam](https://itch.io/jam/chess-jam), an indie game jam organized by game maker [Sophie Houlden](https://sophieh.itch.io/). The rules for the jam are simple, to make a game or work inspired by the game of Chess. Chess is believed to have been invented in the 6th century in India and spread worldwide over several centuries. The present standard chess piece configuration and rules for moving are believed to have been developed in 15th century Spain, standardized in the 1800s.
 
-I am a huge fan of chess and have read a number of strategy books but I realized I didn't want to dedicate so much time to perfecting my game. My joy lay in the beauty of the gameplay. I took a step back and started getting more absorbed by chess variants and games inspired by chess. This coincided with a course at UCLA on board game design. I built a chess variant called Chezz++, influenced by the game [Bosworth](https://www.funagain.com/control/product/~product_id=011765/~affil=EYEG) a 4-player chess variant by Funagain games, as well as [Knightmare Chess](http://www.sjgames.com/knightmare/), a deckbuilding game that uses a pack of cards to alter pieces or the rules of a game almost like a combination of Chess and Magic The Gathering. 
+I am a huge fan of chess and have read a number of strategy books but I realized I didn't want to dedicate so much time to perfecting my game. My joy lay in the beauty of the gameplay. I took a step back and started getting more absorbed by chess variants and games inspired by chess. While a MFA candidate at UCLA, I took a class in game design and built a chess variant called Chezz++, influenced by the game [Bosworth](https://www.funagain.com/control/product/~product_id=011765/~affil=EYEG) a 4-player chess variant by Funagain games, as well as [Knightmare Chess](http://www.sjgames.com/knightmare/), a deckbuilding game that uses a pack of cards to alter pieces or the rules of a game almost like a combination of Chess and Magic The Gathering. 
 
 ![Chezz++]({{'/images/chessy/chezz.jpg' | absolute_url}})
 
-In this time I researched chess variants old and new. Also at UCLA I co-curated the Game Arts Festival at The Hammer Museum in 2015, a festival that included performances, board games, videogames and machinema. One of the projects we featured was Nova Jiang's [Orthogonal Diagonal](http://www.novajiang.com/projects/orthogonaldiagonal/), which presents 8 different chess variants from around the world with special 3d printed pieces and lasercut boards that indicate how to use the pieces through their design. 
-
-In addition to the long history of Chess as an analog board game there is an exciting history of computer chess. The initial idea of a chess-playing automaton can be traced to the 1770s with the Mechanical Turk, a hoax that actually concealed a tiny chess grandmaster inside its cabinet. In my 2016 work [Literal Mechanical Turk](http://leetusman.com/projects/literal_mechanical_turk.html) I created a modern version of the hoax. I posted tasks to Amazon's [Mechanical Turk](https://www.mturk.com/), submitting chess moves in Algebraic Notation, as if I was testing a computer chess program, though I asked Turkers to film themselves making response moves (note: I paid significantly higher than most tasks posted to Mechanical Turk). Together, we played a complete game of chess, with my own role as player concealed. I won the game.
+At UCLA I also co-curated the Game Arts Festival at The Hammer Museum in 2015, a festival that included performances, board games, videogames and machinema. One of the projects we featured was Nova Jiang's [Orthogonal Diagonal](http://www.novajiang.com/projects/orthogonaldiagonal/), which presents 8 different chess variants from around the world with special 3d printed pieces and lasercut boards that indicate how to use the pieces through their design. 
+In addition to the long history of Chess as an analog board game there is an exciting history of computer chess. The initial idea of a chess-playing automaton can be traced to the 1770s with the Mechanical Turk, a hoax that actually concealed a tiny chess grandmaster inside its cabinet secretly moving the pieces with levers. In my 2016 work [Literal Mechanical Turk](http://leetusman.com/projects/literal_mechanical_turk.html) I created a contemporary version of the hoax. I posted tasks to Amazon's [Mechanical Turk](https://www.mturk.com/), submitting chess moves in Algebraic Notation as if I was testing a computer chess program, though I asked Turkers to film themselves making response moves (note: I paid significantly higher than most tasks posted to Mechanical Turk). Together, we played a complete game of chess, with my own role as player concealed. I won the game.
 
 ![Mechanical Turk]({{'/images/chessy/turk.jpg' | absolute_url}})
 
@@ -23,15 +22,17 @@ In the first half of the 20th century a number of ideas for chess-playing algori
 
 So many people find inspiration in Chess, which I think comes down to the beauty, simplicity and idiosyncracies of the game. You can start quite small, learning the rules, but there is always more to perfect. The term *chess variant* was defined by David Pritchard in his book [The Encyclopedia of Chess Variants](http://www.chessvariants.com/books.dir/ecv.html) simply as "related to, derived from, or inspired by chess." The book was published in 1994 and contains 1400 variations on the traditional chess game. Chess variants tend to expand on the rules primarily through creating new chess pieces, known as [Fairy pieces](https://en.wikipedia.org/wiki/Fairy_chess_piece), expanding the number of players, changing something about the board, or changing the *win* objective from Checkmating the opponent's king to another win-state.
 
-With so many variants it can be hard to know which direction to turn to find a game that excites you, or in the case of the chess jam, to know which direction one should explore when creating their own chess-inspired game. Below I have compiled a number of interesting chess variants or games inspired by chess including board and video games. Rather than an attempt at breadth, this is a more selective list of games that I think are particularly unique or exciting. In general, areas relating to storytelling or newt conceptual approaches, perhaps married to creating new pieces feel underexplored in the world of chess variants and chess-inspired games. I haven't been able to find it, but I had an Usborne chess book as a child that included a playable story of an adventurer that squares off with a number of enemies and chess challenges, an approach that I think could be rather exciting. 
+With so many variants it can be hard to know which direction to turn to find a game that excites you, or in the case of the chess jam, to know which direction one should explore when creating their own chess-inspired game. Below I have compiled a number of interesting chess variants or games inspired by chess including board and video games. Rather than an attempt at breadth, this is an extremely selective list of games that I think are particularly unique or exciting. In general, areas relating to storytelling or new conceptual approaches, perhaps married to creating new pieces appears underexplored in the world of chess variants and chess-inspired games. As a child I that included a playable story of an adventurer that squares off with a number of enemies and chess challenges, a quest-based approach to chess that I think could be rather exciting. 
 
 Below, I list some of my favorite chess variants and inspirations. In addition I highly recommend reading the [List Of Chess Variants](https://en.wikipedia.org/wiki/List_of_chess_variants) Wikipedia page, which lists an incredible number of variants broken down into various categories. In fact, I was surprised to find that there are [1-dimensional](http://www.chessvariants.com/shape.dir/onedim.html) chess variants, an area that seems worth exploring further (I am also thinking about the 1-dimensional roguelike/dungeon-crawler games [Line Wobbler](https://www.eurogamer.net/articles/2015-03-10-introducing-line-wobbler-a-one-dimensional-dungeon-crawler) and [Cosmic Crown](https://itunes.apple.com/us/app/cosmic-crown/id927062815?mt=8&ign-mpt=uo%3D4), 2 games that are simple but compelling.
 
-And without further ado, the games...
+If you are interested in creating your own variant, you may also want to read [Chess Variants Are Easy](http://www.mindsports.nl/index.php/how-i-invented-games-and-why-not/chess-variants-are-easy) which lays out various concepts for the creation of different chess variants by the author.
+
+And without further ado, here is a list of inspiring, exciting or confounding new chess variants and inspirations...
 
 # Play It By Trust
 
-[Play It By Trust](https://www.flickr.com/photos/yokoonoofficial/2892798380/) aka White Chess Set (1966) by Yoko Ono  
+[Play It By Trust](https://www.flickr.com/photos/yokoonoofficial/2892798380/) aka White Chess Set (1966) is by Yoko Ono. In the game, both sides play with white chess pieces, continuing the game until the players have lost track of who owns which pieces. The game has been positioned as a peaceful game, as opposed to the metaphor of war suggested by traditional chess rules.
 
 > "Many artists have worked with chess, but they usually worked with the decorative aspect of the chess pieces. I wanted to create a new chess game, making a fundamental rather than decorative change. The white chess set is a sort of life situation. Life is not all black and white, you don't know what is yours and what is theirs. You have to convince people what is yours. In the chess situation it is simple if you are black then black is yours. But this is like a life situation, where you have to play it by convincing each other."
 
@@ -45,7 +46,7 @@ Interestingly, Ono also created the iOS chess game [Yoko Chess](https://mashable
 
 [Orthogonal Diagonal](http://www.novajiang.com/projects/orthogonaldiagonal/) by Nova Jiang.
 
-8 international versions of Chess, with pieces and board designed to make gameplay easy to learn. This isn't a variation or variant of chess so much as a meta presentation and design to present variants.
+8 international versions of Chess, with pieces and board designed to make gameplay easy to learn. This isn't a variation or variant of chess so much as a meta presentation and design to present variants. Through standardizing the presentation of the boards Jiang presents these chess variations as *unique iterations of the same ancient system*. The chess variations presented areThai, Mongolian, Burmese, Japanese, Korean, Chinese, western Chess and ancient Persian.
 
 ![orthogonal diagonal]({{'/images/chessy/orthogonal.jpg' | absolute_url}})
 
@@ -67,3 +68,14 @@ Interestingly, Ono also created the iOS chess game [Yoko Chess](https://mashable
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cPWEbQINz4s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+# Proteus
+
+[Proteus](http://www.sjgames.com/proteus/) is created by Steve Jackson Games, who produce Knightmare Chess. Proteus is a dice-game with chess-like pieces. The game is out of print but a printable chessboard and ruleset is available online.
+
+![Proteus]({{'/images/chessy/proteus.jpg' | absolute_url}})
+
+# Hive
+
+[Hive](http://www.gen42.com/hive) by Gen42 games has been described as *the next chess* by [The Wall Street Journal](https://www.wsj.com/articles/is-the-game-hive-the-next-chess-1431102799). In this tile-based chess-inspired game, pieces are added to the playing area as you go, which also creates the board. Hive is a good example of a game inspired by Chess but with different pieces, board and gameplay.
+
+![Hive]({{'/images/chessy/hive.jpg' | absolute_url}})
