@@ -67,8 +67,10 @@ img {display: block; width: 50%;}
 <li>~~Comic Sans~~ is fine. I like <span style="color: aqua; border: dotted;">Aqua blue</span>, <span style="color: pink;background: black;">pink</span> and <span style="color: black; background: pink">black</span> color palette. Pick fonts and colors you like. <a href="http://getbootstrap.com">Bootstrap</a> is for startups.</li>
 <li>Ugly is beautiful.  </li>
 <li>Easy to navigate is uneccessary. We are not selling anything. A website should unfold like a chess game, cluttered attic or squat.  </li>
-<li>Consider coding the essence of your site in 4 hours or less. 2 hours is even better. After midnight is preferred. They are not coded "with love" - They are coded with carpal tunnel syndrome and coffee.  </li>
-<li>Unneccessary music, fonts, web banners, ads and anything else are encouraged.   </li>
+<li>Consider coding the essence of your concept on the site in 4 hours or less. 2 hours is even better. "First mind, best mind." You can spend as much time as you want shaping and sculpting the details, but try not to get too bogged down in the weeds or you might lose track or give up. You are experimenting and can make dramatic gestures at this point.</li>
+<li>Consider what your own *starter kit* could be. Can you build your own starter collection that becomes a toolkit, almost like an instrument you can learn and improve upon?</li>
+<li>Take inspiration from the dada-ists and practices of decollage. Or consider what your own version of sketching or <a href="https://www.gamasutra.com/blogs/HuguesBarlet/20140907/225061/Block_design_in_level_design.php">whiteboxing</a> can be.</li>
+<li>Unneccessary music, fonts, and anything else that makes your site feel right are encouraged.</li>
 <li>DIY! What's your <a href="http://viralart.vandalog.com/read/chapter/zines-and-magazines/">zine</a>, mixtape or demo tape?  </li>
 <li>Share. Be generous. Teach. Collaborate.  </li>
 </ol>
