@@ -7,7 +7,9 @@ categories: art programming
 
 # Start
 
-**UPDATE FEB 2018** - *I've failed to follow-through on the Wiki idea, I think because I've been worried about *the public* more than about serving my own notebook needs! What started as collections of links and code and ideas has morphed more into mini-articles! This is different than my original goals detailed below, so we'll see if I change course again!* 
+*UPDATE FEB 2018*  
+
+*I've failed to follow-through on the Wiki idea, I think because I've been worried about the public more than about serving my own notebook needs! What started as collections of links and code and ideas has morphed more into mini-articles! This is different than my original goals detailed below, so we'll see if I change course again!*
 
 ---
 
