@@ -14,12 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 👃🏿📓
-email: L@universalresearch.group
+email: leetusman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The 👃🏿📓 (NoseBook) site is a personal wiki for online research, tutorials, notes and ideas.
+  The 👃🏿📓 (NoseBook) site is a personal weblog for online research, articles, tutorials, notes and ideas.
   It a digital notebook of collected and constructed resources, code snippets,
-  a personal collection of writing and links not formatted for presentation but instead
-  intended as an "always under construction" knowledge base.
+  a personal collection of writing and links intended as an "always under construction" knowledge base.
 baseurl: "/nosebook" # the subpath of your site, e.g. /blog
 url: "http://leetusman.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 2sman2sman
