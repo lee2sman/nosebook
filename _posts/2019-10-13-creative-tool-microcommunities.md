@@ -124,3 +124,32 @@ I'm engaged in longer term research and work on the topic of artist-designed too
 
 I also want to add that if you're interested in art and technology and want to attend a conference, meetup or other gathering - look to the Processing Community, among other options. For example, in New York City I am one of the organizers of the [Processing Community Day NYC](http://processing.nyc) event, which was free for attendees last year. Processing Community Day is a worldwide event, so I'd recommend you [check out](http://day.processing.org) if one is happening in your own community, and consider volunteering to organize one.
 
+## A Glossary of Terms
+
+Tool
+- A software technology to extend or assist in human creation. A software tool may be a code editor, music editing suite, video renderer or any other software packages that aids in creation of a shareable digital multimedia asset such as music, videos, code, games.
+
+Microtool
+- A software tool where limited constraints allow for specific creation within narrow design patterns.
+
+Editor
+- The editor is a development environment for creating or editing software or artware. A code editor features a place to write or edit code along with editing features. A visual editor features a digital canvas and editing tools such as for drawing, sprite creation, defining rules, adding sound and graphic assets.
+
+Casual Creator
+- Game designer and researcher Kate Compton [defines the term](www.casualcreator.com/blog/) casual creator as *an authored system or software that privileges enjoyment of the creative process above productivity, encourages and supports a state of creative flow, results in the user’s feeling of pride and ownership toward the produced artifact, and sense of pride in their own creativity.*
+
+Sprites
+- an individual unique design element on a page encapsulating a single character, player or other visual element. A sprite contains attributes such as a location, visual icons or animations, and often states (hovering, walking, asleep).
+
+Little Language
+- As proposed by Jon Bentley in Communications of the ACM, 1986, a Little Language is a small expressive domain-specific language constructed for a limited set of tasks. Examples include Tracery, Choicescript, Inform 7, and Twine. The *Little* refers to the scope of the language and places these languages in contrast to General Purpose programming Languages like Javascript, Python or C.
+
+Rules
+- In the context of game or artware creation, rules are the defined patterns of allowed actions within the context of a specific game or other piece of software. These can be defined with code or visually depending on the software's editing system.
+
+MS Paint
+- an important reference for Casual Creation, Microsoft Paint (affectionaly just referred to as MS Paint) was an informal instantly-understood casual digital painting tool with color palettes, large blocky tool selector, and extremely limited and productive constraints placed on creating digital drawings.
+
+Kid Pix
+- Less well-known than MS Paint, Kid Pix by Craig Hickman is the name for a family of kid-friendly drawing and painting tools designed for playful and improvisational use. With discoverability in mind Kid Pix idioms include wacky digital brush experiments that diverged from MS Paint's metaphor of a traditional painting toolbox to instead feature glitches, silly sound effects and a multitude of new digital art-making tools.
+
