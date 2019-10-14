@@ -71,3 +71,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img, iframe {
+  width: 68vw;
+  text-align: center;
+}
