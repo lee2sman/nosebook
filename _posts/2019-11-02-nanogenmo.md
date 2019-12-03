@@ -15,8 +15,6 @@ Since that initial dashed-off idea an annual tradition has sprouted up and a com
 
 The first year 2013 had dozens of participants. But it wasn't until 2016 that I began to participate.
 
-Originally I had the [idea](https://github.com/NaNoGenMo/2016/issues/22) to generate a version of Yoko Ono's book Grapefruit, a book of instruction pieces originally published in 1966. The book had been republished mutiple times, and a later book Acorn, another book of instructional poems was published in 2013. 
-
 My 2016 generated novel *'Pon The Road* was intended as a new version of Jack Kerouac's On The Road. I fed in the full text of the original scroll text and used a Markov chain text generating scheme implemented through the Python Markovify library. A Markov chain is a fairly simple method for generating data. The algorithm doesn't look at text over time but essentially uses a specified location's word (or words), finding and matching together text from anywhere in the source text that best matches to complete a phrase. In contrast to machine learning, this is a quite shallow generative process, and so text output can have a scattershot feel. While this poorly suits many projects, it can work for tweets for example and I felt it simulated the tone I was attempting to replicate: a new stream-of-consciousness novel using the previous Kerouac novel as source data.
 
 ![Pon The Road]({{"/images/PonTheRoad-cover.png" | absolute_url}})
@@ -30,14 +28,16 @@ You going with me. He fished out some long canvas bags from the floor on cushion
 
 I took off from participating in NaNoGenMo for a few years but I've continued to make generative art and computational text projects. I teach Yoko Ono's Grapefruit and instruction pieces as a type of Fluxus [event score](https://en.wikipedia.org/wiki/Fluxus#Event_score), connecting it in a lineage leading to algorithmic and computational art. 
 
-This year I dediced to return to the idea and to write a generator to create my own Yoko Ono-inspired instruction pieces, a project idea I dubbed *Pomelo*. 
+Originally I had the [idea](https://github.com/NaNoGenMo/2016/issues/22) to generate a version of Yoko Ono's book Grapefruit, a book of instruction pieces originally published in 1966. The book had been republished mutiple times, and a later book Acorn, another book of instructional poems was published in 2013. 
+
+This year I decided to return to my older idea and to write a generator to finally create my own Yoko Ono-inspired instruction pieces, a project idea I dubbed *Pomelo*. 
 
 ![Yoko Ono's Grapefruit]({{"/images/grapefruit.jpg" | absolute_url}})
 
 The main tool I chose was Kate Compton's [Tracery](http://tracery.io), a tool and *Little Language* to create story-grammars. A grammar is a *dictionary* (in the programmer's sense of that word) of key-value pairs. For example, you may have the key *Job* and the value paired with it could be an array with *librarian, baker, banker, teacher, race car driver, plumber, astronaut, programmer*. Incidentally, this sounds like it comes from a list of job titles from a [Richard Scarry book](https://everythingbusytown.fandom.com/wiki/List_of_Busytown_characters). 
 Other tools I used include the [p5.js](https://p5js.org/) Javascript library, which while not essential I now consider a basic simple starter for many of my web projects. I also used a corpus of text, including copied out text fragments inspired from Grapefruit, and many words gathered from Darius Kazemi's [Corpora](https://github.com/dariusk/corpora) collection. 
 
-At first I had some difficulty figuring out Tracery's save feature, which allows essentially a variable name chosen earlier in a story to be re-used later in a story. Because I used the p5.js library's function calls to create separate html tags to generate titles as headers and body text and endings as paragraphs I was creating separate calls to Tracery to flattan story-grammars. Essentially I was generating text phrases multiple times and based on my structure this prevented me from having variables from Tracery carry on to later parts of a generated instruction piece.
+At first I had some difficulty figuring out Tracery's save feature, which allows essentially a variable name chosen earlier in a story to be re-used later in a story. Because I used the p5.js library's function calls to create separate html tags to generate titles as headers and body text and endings as paragraphs I was creating separate calls to Tracery to flatten story-grammars. Essentially I was generating text phrases multiple times and based on my structure this prevented me from having variables from Tracery carry on to later parts of a generated instruction piece.
 
 While I could continue to work on my Pomelo generator there is a hard deadline to finish by the end of November, so I'm considering my work to be at a presentable stage.
 
