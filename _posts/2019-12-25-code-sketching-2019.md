@@ -186,7 +186,8 @@ I started building out other tools and using my in-progress framework that I cal
 
 I also built simple art-builders. For example, I think [24](http://leetusman.com/everyday/24/) were scans of doodles on a pad, that turned into a weird mini art-stamper picture maker. I used this to build the art for a flatgame, [26](http://leetusman.com/everyday/26/), a few days later, which also features my voice and a self-portrait as the walking character. 
 
-<iframe src="http://leetusman.com/everyday/27"></iframe>  
+
+![p5.flatgame-maker prototype 1]({{"/images/code-sketching/flatgame-test.jpg" | absolute_url}})  
 *This is a very sketchy prototype of an in-progress javascript-based flatgame-maker*  
 
 After that I worked on iterative prototypes of a [flatgame-maker](http://leetusman.com/everyday/27/) that I created during my artist-in-residency at [Signal Culture](https://signalculture.org/), and presented in a workshop during the [Processing Community Day LA 2019](https://day.processing.org/pcd-la-tracks.html) and turned into a collaborative [workshop code sketch](https://pcd-world.glitch.me/) in my workshop *Games For All! - Flatgames with p5.play*.
