@@ -101,9 +101,10 @@ At first I did very simple code sketches, with not many lines of code. My earlie
 
 So for my first few projects I made use of ``` 'transform': 'rotate('+rot+'deg)' ``` to rotate things and ```keyframes``` to move things around over time. These were the tools in my toolbelt.
 
-<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/5"></iframe>
+<video src="{{'/videos/5.mov' | absolute_url}}" type="video/mov" loop controls></video>
+*I had to embed this as it attempts to break the webpage size on mobile.*
 
-[Project 5](http://leetusman.com/everyday/5) 
+View the full [Project 5](http://leetusman.com/everyday/5) page.
 
 Most of the code comes down to this:
 
@@ -148,12 +149,13 @@ setInterval(function(){
 
 This is not particularly difficult or brilliant breathtaking code but it produces a simple beautiful result. Mini code sketches like this are what started me on my path.
 
+<video src="{{'/videos/6.mov' | absolute_url}}" type="video/mov" loop controls></video>
 
-<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/6"></iframe>
+<br>
 
-<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/7"></iframe>
+<video src="{{'/videos/7.mov' | absolute_url}}" type="video/mov" loop controls></video>  
+*I had to embed these as they attempt to break the webpage size on mobile.*
 
-<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/8"></iframe>
 
 ### Code sketching with p5.js
 
