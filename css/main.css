@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 68%;
     background: #4b8ae8;
   background: -moz-linear-gradient(left, #4b8ae8 0%, #cef5da 23%, #cef5da 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, #4b8ae8), color-stop(23%, #cef5da), color-stop(100%, #cef5da));
@@ -13,7 +13,9 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  width: 80%;
+  line-height: 1.7em;
+  list-style-type: disc;
 }
 
 nav ul, footer ul {
@@ -72,10 +74,22 @@ ul.posts li {
     list-style: none;
 }
 
-img, iframe {
+img, iframe, video {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 68vw;
+  max-width: 66vw;
   text-align: center;
+}
+
+video {
+  width: 50%;
+  height: auto;
+}
+
+iframe {
+  width: 60vw;
+  height: 40vw;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
