@@ -100,7 +100,9 @@ iframe {
     width: 90%;
   }
 
-  iframe {
+  .media-container {
+    position: relative;
+    overflow: hidden;
     width: 600px; 
     height: 400px;
   }
