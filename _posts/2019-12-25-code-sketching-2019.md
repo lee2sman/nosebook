@@ -101,7 +101,7 @@ At first I did very simple code sketches, with not many lines of code. My earlie
 
 So for my first few projects I made use of ``` 'transform': 'rotate('+rot+'deg)' ``` to rotate things and ```keyframes``` to move things around over time. These were the tools in my toolbelt.
 
-<iframe src="http://leetusman.com/everyday/5"></iframe>
+<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/5"></iframe>
 
 [Project 5](http://leetusman.com/everyday/5) 
 
@@ -149,11 +149,11 @@ setInterval(function(){
 This is not particularly difficult or brilliant breathtaking code but it produces a simple beautiful result. Mini code sketches like this are what started me on my path.
 
 
-<iframe src="http://leetusman.com/everyday/6"></iframe>
+<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/6"></iframe>
 
-<iframe src="http://leetusman.com/everyday/7"></iframe>
+<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/7"></iframe>
 
-<iframe src="http://leetusman.com/everyday/8"></iframe>
+<iframe style="width:600px;height:400px;" src="http://leetusman.com/everyday/8"></iframe>
 
 ### Code sketching with p5.js
 
