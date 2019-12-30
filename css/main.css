@@ -93,3 +93,15 @@ iframe {
   margin-bottom: 2em;
   margin-top: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  iframe {
+    width: 600px; 
+    height: 400px;
+  }
+}
