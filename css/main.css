@@ -98,10 +98,12 @@ iframe {
   body {
     margin: 30px auto;
     width: 90%;
+    overflow: hidden;
   }
 
  iframe {
     width: 400px !important;
     height: 300px !important;
+    overflow:hidden;
  }
 }
