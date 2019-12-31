@@ -5,7 +5,7 @@ date: 2019-12-26 14:51:30 -0800
 categories: programming art
 ---
 
-**WARNING: this article features dozens of embedded mini websites, some that are interactive, with WEBGL and LOUD AUDIO that activates when you click. It could take some time to load on a slow connection, may not render well on mobile, and YOU MAY WANT TO MUTE! (click on the tab in most browsers to mute, or turn your volume down)**
+**WARNING: this article is heavy on media with a dozen embedded sites that may not render well on mobile. Additionally, you may want to mute your audio.**
 
 A little over a year ago I began a regular code sketching practice. **Code sketching** is the process of working in code to make visual or multimedia artworks with an emphasis on rapid prototyping *(Note: this is my own informal definition)*. Code sketching is the computational equivalent to analog sketching with pen on the notebook page. The [Processing](http://processing.org) development environment even calls itself a *flexible software sketchbook* and it uses the term *sketches* to indicate a Processing project. The directory holding all of these sketches is called the *sketchbook*.
 
@@ -26,11 +26,7 @@ Two of his goals stick out to me:
 - Keep sketches really simple
 - Prioritize iteration over novelty — how can I push an old sketch to be new?
 
-Zach does a great job of showing his work and describing his practice in this 2017 talk he gave for the AIGA.
-
-<iframe width="600" height="415" src="https://www.youtube-nocookie.com/embed/bmztlO9_Wvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-What I like about his process is the emphasis on iteration, using yesterday's code sketch potentially as the basis for today's. What code can be copied, then modified to move forward into new and surprising territory? Part of the goal of his code sketching is to engage with an audience. He makes daily posts of his work as video on Instagram. A significant number of Zach's code sketches find their way into commercial projects.
+Zach does a great job of showing his work and describing his practice in this [2017 talk](https://www.youtube.com/watch?v=bmztlO9_Wvo) he gave for the American Institute for Graphic Arts. What I like about his process is the emphasis on iteration, using yesterday's code sketch potentially as the basis for today's. What code can be copied, then modified to move forward into new and surprising territory? Part of the goal of his code sketching is to engage with an audience. He makes daily posts of his work as video on Instagram. A significant number of Zach's code sketches find their way into commercial projects.
 
 ### My goals
 
