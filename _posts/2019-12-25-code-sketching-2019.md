@@ -5,7 +5,7 @@ date: 2019-12-26 14:51:30 -0800
 categories: programming art
 ---
 
-**WARNING: this article is heavy on media with a dozen embedded sites that may not render well on mobile. Additionally, you may want to mute your audio.**
+**Warning: This is the media-heavy version of the article with embedded iframes, video files, and sound ON. Please check out the [Medium.com version](https://medium.com/@leeto/my-year-of-code-sketching-with-css-webgl-and-p5-js-4c255611782b?source=friends_link&sk=687de79cd802b4344f74d030e5d2bbb5) for a more mobile-responsive, easy-to-read version.**
 
 A little over a year ago I began a regular code sketching practice. **Code sketching** is the process of working in code to make visual or multimedia artworks with an emphasis on rapid prototyping *(Note: this is my own informal definition)*. Code sketching is the computational equivalent to analog sketching with pen on the notebook page. The [Processing](http://processing.org) development environment even calls itself a *flexible software sketchbook* and it uses the term *sketches* to indicate a Processing project. The directory holding all of these sketches is called the *sketchbook*.
 
