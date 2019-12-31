@@ -3,7 +3,6 @@ layout: default
 title: Posts
 ---
 
-
   {% for post in site.posts %}
   
     <article role="article">

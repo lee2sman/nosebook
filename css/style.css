@@ -1,0 +1,77 @@
+body {
+  max-width: 680px;
+   background-color: #DDEADD; 
+   background: linear-gradient(to top left, #4b8ae8 0%, #cef5da 8%, #cef5da 14%, white 40%, white 100%) no-repeat; 
+
+}
+
+h1, h4, h5, h6, a, p, ul, ol, li {
+   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+h2, h3 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==),auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+  border-left: 3px solid black;
+  font-style: normal;
+  padding-left; 50px;
+}
+
+blockquote {
+  border-left: 4px solid #black;
+  margin: 1.5em 3px;
+  padding: 0.5em 10px;
+  font-style: normal;
+}
+blockquote:before {
+  color: black;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+video {
+  max-width: 85vw;
+  width: 85%;
+  margin: 0 auto;
+}
+
+code {
+  word-wrap: break-word;
+  overflow: hidden;
+  padding: 15px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.05);
+}
