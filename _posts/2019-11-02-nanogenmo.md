@@ -78,7 +78,9 @@ I used [cowsay](https://en.wikipedia.org/wiki/Cowsay) the hacker joke ascii prog
 ##### The short code in Javascript/node:
 
 ```
-node -e 'let d=\'son\';for(let i=0;i<333;i++){let m="Don\'t talk to me or my "+d+" ever again.";console.log(m);d="son\'s "+d}' | cowsay -f cat
+node -e 'let d=\'son\';for(let i=0;i<333;i++){
+let m="Don\'t talk to me or my "+d+" ever again.";
+console.log(m);d="son\'s "+d}' | cowsay -f cat
 ```
 
 #### Preview from the top:
