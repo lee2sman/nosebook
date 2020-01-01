@@ -1,17 +1,15 @@
 ---
 layout: post
 title: My year of code sketching with CSS, WEBGL and p5.js
-date: 2019-12-26 14:51:30 -0800
+date: 2019-12-30 14:51:30 -0800
 categories: programming art
 ---
-
-**Warning: This is the media-heavy version of the article with embedded iframes, video files, and sound ON. Please check out the [Medium.com version](https://medium.com/@leeto/my-year-of-code-sketching-with-css-webgl-and-p5-js-4c255611782b?source=friends_link&sk=687de79cd802b4344f74d030e5d2bbb5) for a more mobile-responsive, easy-to-read version.**
 
 A little over a year ago I began a regular code sketching practice. **Code sketching** is the process of working in code to make visual or multimedia artworks with an emphasis on rapid prototyping *(Note: this is my own informal definition)*. Code sketching is the computational equivalent to analog sketching with pen on the notebook page. The [Processing](http://processing.org) development environment even calls itself a *flexible software sketchbook* and it uses the term *sketches* to indicate a Processing project. The directory holding all of these sketches is called the *sketchbook*.
 
 When I began code sketching I was inspired by other artists working in code who create daily code sketches, most prominently [Zach Lieberman](https://www.instagram.com/zach.lieberman/). In addition to Zach I've since also learned about the work of [Beeple](https://www.beeple-crap.com/everydays), [Saskia Freeke](http://sasj.nl/daily/), [Reza Ali](https://www.instagram.com/syedrezaali/) and [Simon Alexander-Adams](https://www.simonaa.media/tutorials/daily-practice), among many others.  
 
-<iframe src="http://leetusman.com/everyday"></iframe>  
+![my code sketching landing page]({{"/images/code-sketching/Screen Shot 1.png" | absolute_url}})  
 
 *[Everyday code sketches site](http://leetusman.com) in 2019, with questionable design choices*  
 
@@ -27,6 +25,9 @@ Two of his goals stick out to me:
 - Prioritize iteration over novelty — how can I push an old sketch to be new?
 
 Zach does a great job of showing his work and describing his practice in this [2017 talk](https://www.youtube.com/watch?v=bmztlO9_Wvo) he gave for the American Institute for Graphic Arts. What I like about his process is the emphasis on iteration, using yesterday's code sketch potentially as the basis for today's. What code can be copied, then modified to move forward into new and surprising territory? Part of the goal of his code sketching is to engage with an audience. He makes daily posts of his work as video on Instagram. A significant number of Zach's code sketches find their way into commercial projects.
+
+
+![jazzpunk generated image code sketch 62]({{"/images/code-sketching/Screen Shot 54.png" | absolute_url}})  
 
 ### My goals
 
@@ -46,6 +47,8 @@ I'm an artist and educator teaching programming in the arts, new media and math/
 
 Working with the browser brings its own rewards and challenges, which I'll detail below, including the challenge of working with sound. 
 
+![code sketch with glitch pots]({{"/images/code-sketching/Screen Shot 70.png" | absolute_url}})  
+
 ### Tools I used
 
 On my code sketching [page](http://leetusman.com/everyday) I wrote:
@@ -53,6 +56,10 @@ On my code sketching [page](http://leetusman.com/everyday) I wrote:
 > These are meant to be sketching with code. I'm using html, css, js and the p5js and jQuery libraries.
 
 For the most part, I kept to only these tools, not just because I was already working in them and felt comfortable, but because there was a lot I could do with these and much more to learn and I enjoyed working with the web browser as my canvas.
+
+![css flag code sketch]({{"/images/code-sketching/Screen Shot 66.png" | absolute_url}})  
+
+![css black flag code sketch]({{"/images/code-sketching/Screen Shot 73.png" | absolute_url}})  
 
 ### HTML and CSS as code sketching tools
 
@@ -71,6 +78,9 @@ Advantages of working with CSS to do *creative coding*:
 - It works with Javascript, which means that you can make your CSS interactive with the addition of JS code.
 - Nothing proprietary here. This is as open source and free as you can get.
 
+
+![headz code sketch]({{"/images/code-sketching/Screen Shot 63.png" | absolute_url}})  
+
 ### Complaints about the web as a platform
 
 Now that I've said what I like, allow me to complain a bit. There are a few serious disadvantages to using the web as a platform or space for presenting artwork and/or code sketching. 
@@ -87,6 +97,8 @@ Additionally, I said before that almost everything has a browser, including our 
 
 I think this is why Zach says that his process is to code, then do screen capture and post to Instagram. And I noticed other code sketchers with the same process. It's true it's a good location to get eyes and *engage* with other folks. But secondarily, they don't have to worry about code working across computers, or to have to respond to changing languages and implementations. The work is viewable as video on a proprietary, ubiquitous website/app, Instagram, as long as that platform is maintained and there's an audience.
 
+![construction witch house generator]({{"/images/code-sketching/Screen Shot 28.png" | absolute_url}})  
+
 ### Generative CSS works with jQuery and plain Javascript as creative coding tools
 
 Pretty quickly I started working with Javascript to modify the CSS. I did this because of Javascript's use as a tool to modify HTML or CSS based on specific events, or to be able to use random number generators. This let me build more complex behaviors of things that changed over time on my webpage such as changing colors, sizes, locations.
@@ -97,8 +109,9 @@ At first I did very simple code sketches, with not many lines of code. My earlie
 
 So for my first few projects I made use of ``` 'transform': 'rotate('+rot+'deg)' ``` to rotate things and ```keyframes``` to move things around over time. These were the tools in my toolbelt.
 
-<video src="{{'/videos/5.mov' | absolute_url}}" type="video/mov" loop controls></video>
-*I had to embed this as it attempts to break the webpage size on mobile.*
+![code sketch 3]({{"/images/code-sketching/Screen Shot 3.png" | absolute_url}})  
+![code sketch 4]({{"/images/code-sketching/Screen Shot 4.png" | absolute_url}})  
+![code sketch 5]({{"/images/code-sketching/Screen Shot 5.png" | absolute_url}})  
 
 View the full [Project 5](http://leetusman.com/everyday/5) page.
 
@@ -145,13 +158,19 @@ setInterval(function(){
 
 This is not particularly difficult or brilliant breathtaking code but it produces a simple beautiful result. Mini code sketches like this are what started me on my path.
 
-<video src="{{'/videos/6.mov' | absolute_url}}" type="video/mov" loop controls></video>
+![code sketch 6]({{"/images/code-sketching/Screen Shot 30.png" | absolute_url}})  
 
 <br>
 
-<video src="{{'/videos/7.mov' | absolute_url}}" type="video/mov" loop controls></video>  
-*I had to embed these as they attempt to break the webpage size on mobile.*
+![code sketch 7]({{"/images/code-sketching/Screen Shot 7.png" | absolute_url}})  
 
+<br>
+
+![code sketch 11]({{"/images/code-sketching/Screen Shot 19.png" | absolute_url}})  
+
+<br>
+
+![code sketch 13]({{"/images/code-sketching/Screen Shot 20.png" | absolute_url}})  
 
 ### Code sketching with p5.js
 
@@ -159,26 +178,14 @@ Later I switched to spending more time with p5.js (abbreviated p5) instead of jQ
 
 Some of the first sketches I made with p5 diverged a lot from the earlier CSS experiments. My sketches 16 and 17 are dice-rolling apps. Around that time I was developing lesson plans and wanted to show *randomness*. There isn't an ability to get random numbers in CSS alone without Javascript or CSS pre-processers. From my dice roller sketches I took my random number selection and quickly iterated on it, having the page play a video file of a mouth and select a random sound (my voice) to play to accompany it, for example.
 
-<iframe src="http://leetusman.com/everyday/11"></iframe>
-
-<iframe src="http://leetusman.com/everyday/17"></iframe>
-
-<iframe src="http://leetusman.com/everyday/18"></iframe>
-
-<iframe src="http://leetusman.com/everyday/19"></iframe>
+![code sketch 16]({{"/images/code-sketching/Screen Shot 21.png" | absolute_url}})  
 
 ### Building Microtools
 
 I started building out other tools and using my in-progress framework that I call p5.flatgame, a tool to build flatgames using the p5 library. A [flatgame](https://flatgame.itch.io/) is a 2d game world where a single character walks around and explores the world. There is no interaction, score, death, or even levels. Creating a flatgame is an experiment in miniature scene-building. The emphasis is on exploration and sometimes telling a narrative story. I'll write more on flatgames in a future post.
 
-<iframe src="http://leetusman.com/everyday/23"></iframe>  
-*Self-portrait of the artist sewn as a young man. This embedded code sketch is interactive. Click in the window and use arrow keys.*
-
-<iframe src="http://leetusman.com/everyday/26"></iframe>  
-*Dream flatgame. This embedded code sketch is interactive. Click in the window and use arrow keys.*
-
-<iframe src="http://leetusman.com/everyday/29"></iframe>  
-*Generated construction mash. This embedded code sketch is interactive, re-generated on mouse movement.*
+![code sketch 21]({{"/images/code-sketching/Screen Shot 25.png" | absolute_url}})  
+*a flatgame made using a photo of an embroidery*  
 
 I also built simple art-builders. For example, I think [24](http://leetusman.com/everyday/24/) were scans of doodles on a pad, that turned into a weird mini art-stamper picture maker. I used this to build the art for a flatgame, [26](http://leetusman.com/everyday/26/), a few days later, which also features my voice and a self-portrait as the walking character. 
 
@@ -189,117 +196,85 @@ I also built simple art-builders. For example, I think [24](http://leetusman.com
 After that I worked on iterative prototypes of a [flatgame-maker](http://leetusman.com/everyday/27/) that I created during my artist-in-residency at [Signal Culture](https://signalculture.org/), and presented in a workshop during the [Processing Community Day LA 2019](https://day.processing.org/pcd-la-tracks.html) and turned into a collaborative [workshop code sketch](https://pcd-world.glitch.me/) in my workshop *Games For All! - Flatgames with p5.play*.
 
 
-<iframe src="https://pcd-world.glitch.me"></iframe>
-*The layout is generated differently every time this page is loaded. Click in this iframe and use arrow keys to walk around the generated mini world*
+![a flatgame made collaborative at pcd la]({{"/images/code-sketching/Screen Shot 29.png" | absolute_url}})  
+*a generated collaboratively-built flatgame*  
 
 This sketch above was created by a collaborative group of 30+ individuals made up of adults and kids at Processing Community Day Los Angeles in my workshop.
-
 
 ### Generative 3d art with WEBGL in p5.js
 
 I took a break from toolbuilding for a while and turned to what I'll call bread-and-better code sketching, i.e. generative visuals.
 
-<iframe src="http://leetusman.com/everyday/31"></iframe>
-<iframe src="http://leetusman.com/everyday/32"></iframe>
-<iframe src="http://leetusman.com/everyday/33"></iframe>
+![a glitched out code sketch responding to audio]({{"/images/code-sketching/Screen Shot 55.png" | absolute_url}})  
+*this glitching-out code sketch responds to an audio track, pulsating dramatically based on volume*  
 
 Very quickly I turned to working in 3d using WEBGL with p5.js. Working this way there's quite a bit less built-in functionality than using the Unity3D game engine for example. You build up from simple geometric shapes, or import 3d objects, or turn 2d primitives into 3d shapes. 
-
-<iframe src="http://leetusman.com/everyday/37"></iframe>  
-*This sketch is minimally interactive with the mouse*  
-
-<iframe src="http://leetusman.com/everyday/38"></iframe>
-
-<iframe src="http://leetusman.com/everyday/39"></iframe>
-
-<iframe src="http://leetusman.com/everyday/40"></iframe>  
-*This sketch features audio production by Twenty-XX*  
-
-<iframe src="http://leetusman.com/everyday/44"></iframe>
-
 Some of my tricks I used: map position to volume of audio, so that the audio drives the motion and scale. Use ```map``` in p5.js so that as I move across the page I am rotating objects. 
-
-<iframe src="http://leetusman.com/everyday/45"></iframe>
 
 It's easy to work with some simple glitching aesthetics in WEBGL with p5.js. Essentially, just don't redraw the background, and then every frame builds on top of the previous one in 3d space.
 
-<iframe src="http://leetusman.com/everyday/47"></iframe>
+![rotating mac code sketch]({{"/images/code-sketching/Screen Shot 64.png" | absolute_url}})  
+
+![rotating 3d webgl text code sketch]({{"/images/code-sketching/Screen Shot 71.png" | absolute_url}})  
+
+![moving 3d text in webgl code sketch]({{"/images/code-sketching/Screen Shot 72.png" | absolute_url}})  
 
 I used text in 3d as well, and dropped in google fonts.
 
 A lot of these works involved audio, my own or others. They almost became background concert visuals. 
 
-Revisiting an idea I had in Unity a year or two earlier to build a generative floor from sampled images.
+![first webgl 3d code sketch]({{"/images/code-sketching/Screen Shot 49.png" | absolute_url}})  
 
-My moving Mondrians...
+![3d mondrian code sketch]({{"/images/code-sketching/Screen Shot 45.png" | absolute_url}})  
 
-In the summer I traveled to a few countries.
+![3d generative changing floor code sketch]({{"/images/code-sketching/Screen Shot 46.png" | absolute_url}})  
+*Revisiting an idea I had in Unity a year or two earlier to build a generative floor from sampled images.*  
 
-<iframe src="http://leetusman.com/everyday/57"></iframe>  
-*This sketch is interactive. Click in the window to start and move the mouse*  
+In the summer I traveled to a few countries. I visited Taiwan and built some flatgame-style works, some that can be played with the mouse.
 
-I visited Taiwan and built some flatgame-style works, some that can be played with the mouse.
-
-<iframe src="http://leetusman.com/everyday/58"></iframe>  
-*This sketch is not interactive but must be clicked to begin. This piece is generated anew every run*
+![code sketch using sampled images from Yu Peng's mountains]({{"/images/code-sketching/Screen Shot 49.png" | absolute_url}})  
 
 I iterated at first by changing just the assets, and created a generative 2d self-playing cyberpunk-ish glitch story that started to become its own piece. I got excited about this way of working, creating zero-player pieces.
 
-
-<iframe src="http://leetusman.com/everyday/59"></iframe>  
-*This work uses the mic to drive animation of the mouth and may not work embedded anymore.*  
+![self-playing game code sketch]({{"/images/code-sketching/Screen Shot 50.png" | absolute_url}})  
 
 I also worked on creating interactive works, building out a head using primitive 3d shapes and mapping and texture-wrapping (which doesn't work well yet in p5). 
 
-<iframe src="http://leetusman.com/everyday/62"></iframe>  
-*Click in the window to generate some jazzfunk painting*
+![talking avatar built of primitive 3d shapes]({{"/images/code-sketching/Screen Shot 51.png" | absolute_url}})  
+*this is a talking avatar, that moves its lips based on microphone input*
 
-#### PaintMaster 5054 jazzfunk examples
+![jazzfunk generated image from PaintMaster2600 sketch]({{"/images/code-sketching/jazzfunk1.jpg" | absolute_url}})  
 
-![Jazzfunk painting 1]({{"/images/code-sketching/jazzfunk1.jpg" | absolute_url}})  
+![jazzfunk generated image from PaintMaster2600 sketch]({{"/images/code-sketching/jazzfunk2.jpg" | absolute_url}})  
 
-![Jazzfunk painting 1]({{"/images/code-sketching/jazzfunk2.jpg" | absolute_url}})  
-
-![Jazzfunk painting 1]({{"/images/code-sketching/jazzfunk3.jpg" | absolute_url}})  
+![jazzfunk generated image from PaintMaster2600 sketch]({{"/images/code-sketching/jazzfunk3.jpg" | absolute_url}})  
 
 I made a generative art-making tool called *PaintMaster 5054*. I ended up using this tool a ton to make background graphics or skins for lots of other works, and even submitted some of the generated pieces to exhibit calls. This used a combination of predrawn sketches from me (created in drawing software on my ipad), and re-fed and manipulated with filters and rotation in my program. This process of using a combination of my own hand drawn digital sketches mixed with some filtering or other generative techniques produces results that I really like and feel more natural to me than working completely with digital sources and primitive shapes. It retains some of the zinester quality that's a big part of my own background interests and DIY art community. It's also what makes my works feel more like *me* and contains my own signature hand in them. I'll do more of this.
 
-<iframe src="http://leetusman.com/everyday/67"></iframe>
-
 For example my Speculative Baldness Simulator used assets taken from PaintMaster.
+
+![speculative baldness simulator code sketch]({{"/images/code-sketching/Screen Shot 56.png" | absolute_url}})  
 
 ### Sound
 
-<iframe src="http://leetusman.com/everyday/72"></iframe>  
-*This work requires a click to begin and creates ambient occasional audio, inspired by Brian Eno's Music For Airports*  
+![speculative baldness simulator code sketch]({{"/images/code-sketching/Screen Shot 57.png" | absolute_url}})  
+*This used images from the PaintMaster code sketch to accompany generative audio*
 
 Around this time I started getting back into the [Disquiet Junto](https://disquiet.com/2012/01/27/the-disquiet-junto/) community, a weekly web-based sound art and music making community of practice, that lives in several online fora and via the weekly emails of musician/writer Marc Weidenbaum. Every Thursday Marc sends out an email containing instructions or constraints to make a sound work under a particular weekly theme. He asks for results to be recorded and put online by the following Monday evening. After reading about Brian Eno's process for creating Music For Airports, I created a few extremely minimal sample-playing sites, almost ambient playing [FM3 Buddha Machines](https://en.wikipedia.org/wiki/FM3).
 
-<iframe src="http://leetusman.com/everyday/75"></iframe>
-
 I play a genre of oldskool games called [Roguelikes](http://www.roguebasin.com/index.php), a category of games that feature top-down generated worlds (different every time). They feature turn-by-turn play instead of rapid realtime arcade action, along with gridded worlds, and lots of puzzle solving. Roguelikes as a genre are so old that many were originally created in ASCII text. The genre is notorious for being hard to play and hard to create games within, and that most people that play them also try to build them. One of the advantages of making a roguelike is that you will make a game that surprises you. They're just chock full of randomization to generate enemies, maps, puzzles, levels, etc. The disadvantage is that just to get a working mini game takes tons of code. I'll probably write another post somewhere else about coding roguelikes with no libraries on the web, but suffice it to say, just to get started, I made a goal of getting a simple grid world up on the screen and the ability to move around it.
 
-<!-- Copy and Paste Me -->
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/hellth-player?path=README.md&previewSize=100"
-    title="hellth-player on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+![self-playing roguelike code sketch]({{"/images/code-sketching/Screen Shot 58.png" | absolute_url}})  
 
 I did a few roguelike experiments, making glitchy little things, around the time I visited the [Roguelike Celebration](https://roguelike.club/) conference. Later I added in the ability to attack enemies. I also played around with graphics. I tried to make new aesthetic choices based on the oldskool aesthetics of many roguelikes.
-
-<iframe src="http://leetusman.com/everyday/76"></iframe>
 
 I did some mini GUI-toolbuilding experiments, creating a minimal way to build buttons in the browser and to add actions to them. 
 
 I spent November doing a few things for National Novel Generating Month, which I wrote about [previously](http://leetusman.com/nosebook/programming/art/tools/2019/12/02/nanogenmo.html), but again I consider them to also be sketching with code.
 
-I also built a scanner-camera. Unfortunately, it doesn't work on my personal website right now because you can't access the camera without https security, but I've put a [version hosted on glitch.com](https://scan-cam.glitch.me/) that you can use in the browser.
+![scanner-camera code sketch]({{"/images/code-sketching/Screen Shot 60.png" | absolute_url}})  
 
-<iframe src="http://leetusman.com/everyday/85"></iframe>
+I also built a scanner-camera. Unfortunately, it doesn't work on my personal website right now because you can't access the camera without https security, but I've put a [version hosted on glitch.com](https://scan-cam.glitch.me/) that you can use in the browser.
 
 I also spent time goal-setting near the end of the year, and would you be surprised, I built a [goal-sheet-maker](http://leetusman.com/everyday/85) tool, inspired by artist [Daniel Canogar](http://danielcanogar.com/) goal organization lists.
 
@@ -310,6 +285,8 @@ I also spent time goal-setting near the end of the year, and would you be surpri
 ![Printster7200 post 1]({{"/images/code-sketching/poster5.jpg" | absolute_url}})  
 
 ![Printster7200 post 1]({{"/images/code-sketching/poster6.jpg" | absolute_url}})  
+
+![Printster7200 tests]({{"/images/code-sketching/printster-tests.jpg" | absolute_url}})  
 
 In the last week I've been put a dozen hours into working on an interactive generative [Zine-making software](http://leetusman.com/everyday/86/), and an inter-related generative [poster/flyer designer](http://leetusman.com/everyday/88/) that I think I will build into more substantial projects.
 
