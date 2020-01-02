@@ -7,7 +7,7 @@ categories: programming art
 
 A little over a year ago I began a regular code sketching practice. **Code sketching** is the process of working in code to make visual or multimedia artworks with an emphasis on rapid prototyping *(Note: this is my own informal definition)*. Code sketching is the computational equivalent to analog sketching with pen on the notebook page. The [Processing](http://processing.org) development environment even calls itself a *flexible software sketchbook* and it uses the term *sketches* to indicate a Processing project. The directory holding all of these sketches is called the *sketchbook*.
 
-When I began code sketching I was inspired by other artists working in code who create daily code sketches, most prominently [Zach Lieberman](https://www.instagram.com/zach.lieberman/). In addition to Zach I've since also learned about the work of [Beeple](https://www.beeple-crap.com/everydays), [Saskia Freeze](http://sasj.nl/daily/), [Reza Ali](https://www.instagram.com/syedrezaali/) and [Simon Alexander-Adams](https://www.simonaa.media/tutorials/daily-practice), among many others.  
+When I began code sketching I was inspired by other artists working in code who create daily code sketches, most prominently [Zach Lieberman](https://www.instagram.com/zach.lieberman/). In addition to Zach I've since also learned about the work of [Beeple](https://www.beeple-crap.com/everydays), [Saskia Freeke](http://sasj.nl/daily/), [Reza Ali](https://www.instagram.com/syedrezaali/) and [Simon Alexander-Adams](https://www.simonaa.media/tutorials/daily-practice), among many others.  
 
 ![my code sketching landing page]({{"/images/code-sketching/Screen Shot 1.png" | absolute_url}})  
 
