@@ -5,6 +5,8 @@ date:   2018-02-20 16:39:05 -0800
 categories: art
 ---
 
+*update: 4-8-2020 - I've continued to update and add to this list for the past two years so far, so the list below is still good but out-of-date. My up-to-date list is stored in a github [gist](https://gist.github.com/lee2sman/a807d6b0325b084081b901f6129831dd) and lives online on my website [here](http://leetusman.com/flow/). Incidentally, I also have a short [post](http://leetusman.com/nosebook/programming/art/tools/2019/12/03/pyradio.html) where I link to my article on setting up PyRadio to stream internet radio, and link to my online radio streaming stations.*
+
 This is a personal collection of links to online albums, playlists, mixes, loops and generative applications of ambient, drone, [hauntology](https://en.wikipedia.org/wiki/Hauntology) and [hypnagogia](https://www.spin.com/2012/05/last-step-going-sleep-make-music-sleep/). 
 
 This is useful as background sound, music for working, writing, editing, concentration and flow states.
