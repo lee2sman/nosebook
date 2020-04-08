@@ -184,7 +184,7 @@ git push
 
 When you push, the git commandline will prompt you for your name and password on GitHub. 
 
-If you mess up as you're typing something just press Control and C to exit out and start the line again. A common error is to not put the proper syntax for your commit line with its ```-c``` and quotes. Sometimes it might even throw you into Vim, which is my favorite text editor but maybe not yours. If this happens press Escape and then type ```:q!``` and then hit enter.
+If you mess up as you're typing something just press Control and C to exit out and start the line again. A common error is to not put the proper syntax for your commit line with its ```-m``` and quotes. Sometimes it might even throw you into Vim, which is my favorite text editor but maybe not yours. If this happens press Escape and then type ```:q!``` and then hit enter.
 
 #### Misfits Trick
 
