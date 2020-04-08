@@ -1,8 +1,5 @@
-body {
+ body {
   max-width: 680px;
-   background-color: #DDEADD; 
-   background: linear-gradient(to top left, #4b8ae8 0%, #cef5da 8%, #cef5da 14%, white 40%, white 100%) no-repeat; 
-
 }
 
 h1, h4, h5, h6, a, p, ul, ol, li {
@@ -75,3 +72,130 @@ code {
   display: block;
   background-color: rgba(0, 0, 0, 0.05);
 }
+
+
+html {
+
+background: #43C6AC;  
+background: linear-gradient(to top right, pink, #F8FFAE, #43C6AC); 
+}
+
+
+
+h1 {
+    color: black;
+    background: white  ;
+    text-shadow: 2px 2px 1px black;
+}
+
+u {
+        font-size: 155%;
+        color: white !important;
+        background: #333;
+        color: black !important;
+        background: white;
+}
+
+
+strong {
+        background: white;
+        color: black !important;
+        background: #333;
+        color: white !important;
+        color: black !important;
+        background: #EEE;
+        opacity: 0.8;
+        margin: 2px;
+        padding: 1px;
+        margin: 2px;
+        padding: 1px;
+}
+
+em {
+        color: black !important;
+        display: inline;
+        font-style: normal;
+        font-style: italic;
+}
+
+a:link {
+    color: #333;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 white;
+    font-weight: bold;
+}
+
+a:visited {
+    font-weight: bold;
+    color: #777;
+    border-bottom-color: black !important;
+    border-bottom: 0px solid white !important;
+    box-shadow: 0 0px 0 white !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration-style: dashed;
+    border-bottom-color: black !important;
+}
+
+strong em u {
+    background: #333 !important;
+    color: white !important;
+
+    background: white !important;
+    color: black !important;
+
+    letter-spacing: 6px;
+    font-size: 180%;
+    opacity: 0.7;
+    padding: 4px;
+}
+
+em u {
+    line-height: 130%;
+    background: none !important;
+    font-style: none !important;
+    text-decoration: none !important;
+    font-size: 140%;
+}
+
+
+/* Lee's Mods */
+
+a:before {
+    content: "🔗";
+    margin-right: 6px;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+h2, h3 {
+    display: inline-block;
+    background-color: white;
+    border-bottom: 2px solid;
+}
+
+body {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 2%;
+    max-width: 70% !important;
+    background: linear-gradient(to right, white, #ccffee);
+       background-color: #ccffee; 
+}
+
+code {
+    background-color: lightgrey;
+}
+
+img {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
