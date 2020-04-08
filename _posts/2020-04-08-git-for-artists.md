@@ -56,9 +56,13 @@ Researchers have used the data to produce [data visualizations](http://research.
 
 Artist, professor and programmer [Jeffrey Thompson](http://www.jeffreythompson.org/) has created a GitHub project called [Repo-As-Artwork](https://github.com/jeffThompson/Repo-As-Artwork). All projects in Git (and GitHub) are called Repositories or Repos for short. Thompson's project is a simple list file that links to other art projects stored in GitHub repos. These include:
 
+
 Mimi Onouha's [On Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets) 
 
 > My term for the blank spots that exist in spaces that are otherwise data-saturated. My interest in them stems from the observation that within many spaces where large amounts of data are collected, there are often empty spaces where no data live. Unsurprisingly, this lack of data typically correlates with issues affecting those who are most vulnerable in that context. *--[On Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets).
+
+![Mimi Onouha - On Missing Data Sets]({{"/images/git/missing-datasets.png" | absolute_url}})  
+*Mimi Onouha - On Missing Data Sets*  
 
 Owen Mundy's [After Douglas Davis](https://github.com/omundy/AfterDouglasDavis) is: 
 
@@ -66,9 +70,15 @@ Owen Mundy's [After Douglas Davis](https://github.com/omundy/AfterDouglasDavis) 
 
 Mundy describes how the Whitney's [curators](https://whitney.org/artport/douglas-davis) had "placed small sections of garbled ASCII text from [a] project on Github with the hope that others would "fork" the data and repair the original [project]."
 
+![Owen Mundy - After Douglas Davis]({{"/images/git/mundy.png" | absolute_url}})  
+*Owen Mundy - After Douglas Davis*  
+
 Jeff Thompson's own project [Pebble Dataset](https://github.com/jeffThompson/Pebble-Dataset) is:
 
 > ...a machine learning dataset consisting of 5000 images of pebbles gathered in Cambridge, England in the fall of 2018. Pebbles are literally cast-offs from something else, not the stone of buildings or triumphal sculptures but the thing left behind in the mud by scraping glaciers and on the beach by rolling waves and collecting along roadside ditches. A dataset of pebbles is a poetic addition to the overwhelmingly ultilitarian datasets that already exist.
+
+![Jeffrey Thompson - Pebble Dataset]({{"/images/git/pebble.png" | absolute_url}})  
+*Jeffrey Thompson - Pebble Dataset*  
 
 
 Still many media artists and educators use GitHub as a place to park and share syllabi, writing and notes. Taeyoon Choi from the School For Poetic Computation taught a course called the [Artist's Toolkit](https://github.com/tchoi8/ArtistsToolkit) in the Spring of 2018, placing his syllabi and some [notes](https://github.com/tchoi8/ArtistsToolkit/blob/master/residency.md) online. I created a repository for my [Special Projects in Tiny Computing](http://github.com/lee2sman/tiny_computing) class and then used GitHub to publish it as a [webpage](http://leetusman.com/tiny_computing/) complete with syllabi and weekly class notes.
