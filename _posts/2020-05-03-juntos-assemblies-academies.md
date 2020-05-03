@@ -7,7 +7,7 @@ categories: alt-ed teaching organizing
 
 Recently as around the world we've turned to online community as our primary form of sharing space and connection I've been thinking about the various forms of the online communities I've been part of. Partly I've been doing this to keep track of the online events and hangouts I want to engage in to feel connected to people. But I'm also thinking through which ones are the most meaningful to me, and implications for how I want to spend time with others online.
 
-I'm an educator so it may seem a tautology to save I love learning communities. I'm not talking about MOOCs, online distance learning, webinars and the like. I'm reflecting on non-traditional learning communities, and specifically those outside of the university setting as well. Some of these communities are very loose. Some are tight-knit. I'm an artist and programmer and educator, so the communities I'm part of mostly reflect this. I'll describe several of the different online alternative learning communities I've participated in recently, how they function, and how it feels to particpate.
+I'm an educator so it may seem a tautology to say I love learning communities. I'm not talking about MOOCs, online distance learning, webinars and the like. I'm reflecting on non-traditional learning communities, and specifically those outside of the university setting as well. Some of these communities are very loose. Some are tight-knit. I'm an artist and programmer and educator, so the communities I'm part of mostly reflect this. I'll describe several of the different online alternative learning communities I've participated in recently, how they function, and how it feels to particpate.
 
 ### The Disquiet Junto Community of Practice
 
@@ -59,9 +59,9 @@ Navel's current [Field Guide to Assemblies](https://docs.google.com/document/d/1
 
 I'm excited about this model for other alternative education learning communities built around spaces. I participated as a guest speaker in the Digital Matterealities assembly to speak about my project [Messlife](http://mess.life) and other examples of web-based creative communities as extensions or new forms of physical artist-organized spaces. The assemblies meet weekly online via zoom at this time and also use a slack group. And I think this learning community model can work well now online under Covid-19.
 
-One question I have for this model is if it can become even more non-hierarchical? Rather than a single facilitator, can a group come together and divide up responsibilities so that they can all share in the production of the learning community equally? This would excite me and be the ideal form of learning community I'd love to be part of.
+Overall, the Assemblies model at NAVEL is young and I'll be looking forward to seeing how it grows.
 
-The Assemblies model at NAVEL is young and I'll be looking forward to seeing how it grows.
+One question I have for this model is if it can become even more non-hierarchical? Rather than a single facilitator, can a group come together and divide up responsibilities so that they can all share in the production of the learning community equally? This would excite me and be the ideal form of learning community I'd love to be part of. One way this could work is with rotating leadership, where each week a different member or small group facilitates. This is the method of convening of some programs at the artist-run space Flux Factory for example. If this method was selected it is important to state this up front and get buy-in as the group is meeting each other and forming so that all would be on the same page with the community structure and not fall into the [tyranny of structurelessness](https://en.wikipedia.org/wiki/The_Tyranny_of_Structurelessness). Come to think of it, I'm thinking this would make a good future post to write about exapmples of non-hierarchically-organized egalitarian creative art organizations.
 
 ### Babycastles Academy
 
