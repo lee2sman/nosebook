@@ -5,7 +5,6 @@ date:   2020-05-02 01:30:05 -0800
 categories: alt-ed teaching organizing 
 ---
 
-
 Recently as around the world we've turned to online community as our primary form of sharing space and connection I've been thinking about the various forms of the online communities I've been part of. Partly I've been doing this to keep track of the online events and hangouts I want to engage in to feel connected to people. But I'm also thinking through which ones are the most meaningful to me, and implications for how I want to spend time with others online.
 
 I'm an educator so it may seem a tautology to save I love learning communities. I'm not talking about MOOCs, online distance learning, webinars and the like. I'm reflecting on non-traditional learning communities, and specifically those outside of the university setting as well. Some of these communities are very loose. Some are tight-knit. I'm an artist and programmer and educator, so the communities I'm part of mostly reflect this. I'll describe several of the different online alternative learning communities I've participated in recently, how they function, and how it feels to particpate.
@@ -18,11 +17,11 @@ Marc cites Ben Franklin (!) as being part of the inspiration for the group. Fran
 
 The junto (from the spanish word junta, *assembly*) was intended as a group formed around intellectual inquiry, curiousity, and mutual improvement, of themselves and their community. Members came from various backgrounds, organizing around these shared principles. 
 
-![Disquiet Junto Woodshed project]({{"/images/disquiet.jpg" | absolute url}})
+![Disquiet Junto Woodshed project]({{"/images/disquiet.jpg" | absolute_url}})
 
 About a year ago Marc gave a [talk](https://www.youtube.com/watch?v=GzHrOpBwhMU) (*Note: Marc speaks so quickly that it's the first time I changed the playback speed and listened at 3/4 speed!*) at the inaugural [Algorithmic Art Assembly](https://aaassembly.org/) conference. Marc describes the Disquiet Junto as a community based around mutual improvement, communal rules and creation (here specifically music). In the talk Marc speaks about the musician's [woodshed](https://en.wikipedia.org/wiki/Woodshedding), a metaphorical term to describe the process of practicing your music, refining your own personal improvisational techniques or specific piece of music. This rehearsal place is actually or metaphorically away from the public.
 
-It's a supportive community that provides creative prompts and structure. Musician and educator Ethan Hein describes the junto as an online *community of practice* in a forthcoming chapter in the [Oxford Handbook of Social Media and Music Learning](https://global.oup.com/academic/product/the-oxford-handbook-of-social-media-and-music-learning-9780190660772?cc=us&lang=en&)) (2020). In Marc's talk he speaks about the Disquiet Junto supporting a community of networked woodsheds, and the structures that support its participants. 
+It's a supportive community that provides creative prompts and structure. Musician and educator Ethan Hein describes the junto as an online *community of practice* in a forthcoming chapter in the [Oxford Handbook of Social Media and Music Learning](https://global.oup.com/academic/product/the-oxford-handbook-of-social-media-and-music-learning-9780190660772?cc=us&lang=en&)) (2020). In Marc's talk he speaks about the Disquiet Junto supporting a community of networked woodsheds, and the structures that support its participants. A major goal was the ability for folks to work alone, at their own time, offline, and then to post their work at the end.
 
 I enjoy this creative making and learning community. It's something that I enjoy being able to dive into or walk away from depending on how busy my life is. I like that when I want to engage, I can jump into the group and participate in a small way by making a short music track or listening to music or commenting on others' work. When I want to be highly engaged because I have more time or a creative making prompt is really exciting to me I can jump in much more and participate in the online forums in discussion. It's a creative group model that should be more widely imitated by creative practitioners.
 
@@ -40,7 +39,7 @@ Today I attended the online [Common Field](https://www.commonfield.org/) Conveni
 
 Amanda Vincelli and Michael Holt of Los Angeles' [NAVEL](https://navel.la/) led a session on *Assemblies: A Model For Collaborative Learning* based on their experience organizing around a model of convening Assemblies.
 
-![NAVEL Assemblies]({{"/images/assemblies.jpg" | absolute url}})
+![NAVEL Assemblies]({{"/images/assemblies.jpg" | absolute_url}})
 
 The model of hosting Assemblies at Navel has only been in practice for a year, so this is a nascent practice there, and yet the model is based on many previous alternative nontraditional schools. I like their framing of Assemblies as learning communities. Assemblies are groups of people that come together around a topic. They meet generally weekly and have a single facilitator, who also receives a small stipend for their work as organizer. Participants pay a small sliding scale fee amount, and this fund is collectively administered by the the members of an assembly, who decide how to spend it (on field trips, to pay guest speakers, etc). 
 
@@ -66,7 +65,7 @@ The Assemblies model at NAVEL is young and I'll be looking forward to seeing how
 
 ### Babycastles Academy
 
-![Babycastles Academy]({{"/images/academy.png" | absolute url}})
+![Babycastles Academy]({{"/images/academy.png" | absolute_url}})
 
 I'm an organizer at experimental videogame artspace [Babycastles](http://babycastles.com) in Manhattan. Due to COVID-19 we (just as many other orgs) have moved to online. In this process, we created a Twitch stream and now convene many of our public programs there, including our monthly Wordhack event. In the process of streaming we've essentially turned into a distributed broadcast studio. Any given day or night might have a few streams at different times, from streaming games, to screening Iranian feminist films, to hosting performances, reading plays, or leading discussions.
 
