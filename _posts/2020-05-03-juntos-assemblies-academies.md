@@ -5,7 +5,7 @@ date:   2020-05-02 01:30:05 -0800
 categories: alt-ed teaching organizing 
 ---
 
-*Update 5/4/20: NAVEL got in touch to clarify some info on how ASSEMBLIES are organized and facilitated. The section on NAVEL's ASSEMBLIES has been updated to reflect this.*
+*Update 5/4/20: NAVEL got in touch to clarify some info on how their ASSEMBLIES are organized and facilitated. The section on NAVEL's ASSEMBLIES has been updated to reflect this.*
 
 Recently as around the world we've turned to online community as our primary form of sharing space and connection I've been thinking about the various forms of the online communities I've been part of. Partly I've been doing this to keep track of the online events and hangouts I want to engage in to feel connected to people. But I'm also thinking through which ones are the most meaningful to me, and implications for how I want to spend time with others online.
 
