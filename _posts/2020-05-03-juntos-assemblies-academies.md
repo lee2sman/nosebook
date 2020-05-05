@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Learning Communities: Juntos, Woodsheds, Trainwrecks, Assemblies, Academies" 
+title:  "Learning Communities: Juntos, Woodsheds, Trainwrecks, assemblies, Academies" 
 date:   2020-05-02 01:30:05 -0800
 categories: alt-ed teaching organizing 
 ---
 
-*Update 5/4/20: Amanda Vincelli from NAVEL got in touch to clarify some info on how assemblies are organized and facilitated. The section on NAVEL's Assemblies has been updated to reflect this.*
+*Update 5/4/20: NAVEL got in touch to clarify some info on how ASSEMBLIES are organized and facilitated. The section on NAVEL's ASSEMBLIES has been updated to reflect this.*
 
 Recently as around the world we've turned to online community as our primary form of sharing space and connection I've been thinking about the various forms of the online communities I've been part of. Partly I've been doing this to keep track of the online events and hangouts I want to engage in to feel connected to people. But I'm also thinking through which ones are the most meaningful to me, and implications for how I want to spend time with others online.
 
@@ -35,35 +35,35 @@ Glorious Trainwrecks is organized around online *events* which are essentially t
 
 This community exists on a forum on the Glorious Trainwrecks website. Specifically, people post comments on individual games and respond to each other. In the past year approximately they've also created a Discord channel *altgamez* where they discuss these works. It's a really supportive community, but I haven't been involved in it as the conversation moves too fast for me. I don't want to have it open all the time, and when I check in I've missed dozens or hundreds of posts by folks, so I've felt discouraged from participating further in this, even though I've really enjoyed being part of the community previously. I've decided I'll try to continue to participate by creating and posting games in event prompts, and comment on games, but I don't think I can consistently participate in discord channel. It's not the right medium for me to feel part of the community since it's too hectic for me.
 
-### Navel's Assemblies
+### NAVEL's ASSEMBLIES
 
 Today I attended the online [Common Field](https://www.commonfield.org/) Convening, a meeting of *cultural organizers from across the US to share resources, ideas and methods for artist-centered spaces, projects and practices.* 
 
-Amanda Vincelli and Michael Holt of Los Angeles' [NAVEL](https://navel.la/) led a session on *Assemblies: A Model For Collaborative Learning* based on their experience organizing around a model of convening Assemblies.
+Amanda Vincelli, Michael Holt and Jennifer Moon of Los Angeles' [NAVEL](https://navel.la/) led a session on *ASSEMBLIES: A Model For Collaborative Learning* based on their experience organizing around a model of convening assemblies (which they call ASSEMBLIES).
 
-![NAVEL Assemblies]({{"/images/assemblies.jpg" | absolute_url}})
+![NAVEL ASSEMBLIES]({{"/images/assemblies.jpg" | absolute_url}})
 
-The model of hosting Assemblies at Navel has only been in practice for a year, so this is a nascent practice there, and yet the model is based on many previous alternative nontraditional schools. I like their framing of Assemblies as learning communities. Assemblies are groups of people that come together around a topic. They generally meet bi-weekly and have a facilitator or small group of organizers or small group of organizers. Participants pay a small sliding scale fee amount. 90% of participants' contributions are divided equally amongst the groups and re-distributed as a micro-grant, which they collectively decide how to spend (on field trips, to pay guest speakers, and/or to provide a small stipend for their facilitator(s), etc). 
+The model of hosting ASSEMBLIES at NAVEL has only been in practice for a year, so this is a nascent practice there, and yet the model is based on many previous alternative nontraditional schools. I like their framing of these as learning communities. ASSEMBLIES are groups of people that come together around a topic. They generally meet bi-weekly and have a facilitator or small group of organizers or small group of organizers. Participants pay a small sliding scale fee amount. 90% of participants' contributions are divided equally amongst the groups and re-distributed as a micro-grant, which they collectively decide how to spend (on field trips, to pay guest speakers, and/or to provide a small stipend for their facilitator(s), etc). 
 
-At this point Navel has held three sessions of assemblies, which meet once a week for 3 months. 
+At this point NAVEL has held three sessions of ASSEMBLIES, which meet bi-weekly for 3 months. 
 
-Based on their presentation, I'd summarize their process of Assemblies lke this:
+Based on their presentation, I'd summarize their process of ASSEMBLIES like this:
 
 1. Each quarter, individuals/groups propose a topic of interest. Recent topics: Queering Death, Building A Radicalized Deaddrop Network, Workshopping Work Beyond Capitalism, Exploring Sleep and Dreams as Collective Resource. 
-2. Those making proposed topics give a short public presentation at a public meeting that all may attend. Then folks select the group they may want to join.
-3. From this, a smaller subset of proposed topics is accepted and folks have a signup period and can then join those particular accepted assemblies.
+2. Those making proposed topics give a short public presentation at a public meeting that all may attend.
+3. From this, a smaller subset of proposed topics is accepted based on votes and folks have a signup period and can then join those particular accepted ASSEMBLIES.
 4. NAVEL hosts facilitators training.
-5. Groups meet weekly for 3 months, either at the space of NAVEL itself or offsite for field trips. Facilitators check-in with NAVEL organizers and get ongoing support. There is a shared calendar for the space and access to resources (camera, kitchen onsite, support group on slack, a training on diversity, equity and inclusion).
+5. Groups meet bi-weekly for 3 months, either at the space of NAVEL itself or offsite for field trips. Facilitators check-in with NAVEL organizers and get ongoing support. There is a shared calendar for the space and access to resources (camera, kitchen onsite, support group on slack, a training on diversity, equity and inclusion).
 6. At the end of three months each assembly gives a short public presentation on their research and findings. Some groups end, while a small subset may apply to continue their work one more session or morph into some other form that grows out of NAVEL into a new form.
-7. Knowledge is *archived* on Are.na. Some groups make zines. All presentations at the public event at the end go online on vimeo, linked from the Navel site. These were described as quite informal videos. Research/reading lists go online.
+7. Knowledge is *archived* on Are.na. Some groups make zines. All presentations at the public event at the end go online on vimeo, linked from the NAVEL site. These were described as quite informal videos. Research/reading lists go online.
 
-Navel's current [Field Guide to Assemblies](https://docs.google.com/document/d/12zjWDW2uRZPNGaK5CQFlwcdoqH_oLv7P7_9v8QXktHA/edit) is their official online guide to this in a lot more detail. It also includes vision and values, program structure, guide and considerations to facilitating a group, and more. They've also created an Are.na [channel](https://www.are.na/navel/collaborative-learning-models-alternative-schools) with other example models of alternative schools and collaborative learning models. 
+NAVEL's current [Practical Guide to ASSEMBLIES](https://navel.la/assemblies/practical-guide/) is their official online guide to this in a lot more detail. It also includes vision and values, program structure, guide and considerations to facilitating a group, and more. They've also created an Are.na [channel](https://www.are.na/navel/collaborative-learning-models-alternative-schools) with other example models of alternative schools and collaborative learning models. 
 
-I'm excited about this model for other alternative education learning communities built around spaces. I participated as a guest speaker in the Digital Matterealities assembly to speak about my project [Messlife](http://mess.life) and other examples of web-based creative communities as extensions or new forms of physical artist-organized spaces. The assemblies meet online via zoom at this time and also use a slack group. And I think this learning community model can work well now online under Covid-19.
+I'm excited about this model for other alternative education learning communities built around spaces. I participated as a guest speaker in the Digital Matterealities assembly to speak about my project [Messlife](http://mess.life) and other examples of web-based creative communities as extensions or new forms of physical artist-organized spaces. The ASSEMBLIES meet online via zoom at this time and also use a slack group. And I think this learning community model can work well now online under Covid-19.
 
-Overall, the Assemblies model at NAVEL is young and I'll be looking forward to seeing how it grows.
+Overall, the ASSEMLIES model at NAVEL is young and I'll be looking forward to seeing how it grows.
 
-*After publishing this post, Amanda Vincelli from NAVEL got in touch to explain more about the facilitator(s)'s role. She explained that the workload is divided in most of the groups and many of the groups rotate who takes care of the next session. The lead facilitator is ultimately responsible to make sure the admin work is done, that the groups keep going (that emails are sent, work is documented, and is the main point of contact with NAVEL). And one of the goals of organizers receiving facilitation training is so they empower others to take the lead throughout.*
+*After publishing this post, NAVEL got in touch to explain more about the facilitator(s)'s role: The workload is divided in most of the groups and many of the groups rotate who takes care of the next session. The lead facilitator is ultimately responsible to make sure the admin work is done, that the groups keep going (that emails are sent, work is documented, and is the main point of contact with NAVEL). And one of the goals of organizers receiving facilitation training is so they empower others to take the lead throughout.*
 
 ### Babycastles Academy
 
