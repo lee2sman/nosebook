@@ -15,6 +15,8 @@ Cabinet and arcade-style exhibition brings the audience and work together. Altho
 
 I've acquired a bunch of low-cost, free, dumpstered, Craigslist'ed, cast-off laptops, old and recent Raspberry Pi computers and clones. I have an idea of building ready-to-go exhibits as arcades of recent work.
 
+*Update: I did exactly this at several open studios at [Universal Research Group](http://universalresearch.group) and teach these concepts in my course [Special Projects in Tiny Computing](http://leetusman.com/tiny_computing/).*
+
 # Some inspiration
 
 * Joon Be's [Luggotron](http://joon.be/portfolio/luggatron/) a sort of arcade cabinet built out of luggage (so that it could be compactly brought on a flight - wouldn't security have stopped this?)
