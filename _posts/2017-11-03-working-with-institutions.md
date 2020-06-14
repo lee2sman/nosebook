@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Little orgs working with institutions"
-date:   2017-11-03 18:40:05 -0800
+title:  "How small organizations and artists can work with big institutions"
 categories: org
 ---
 
-# Artists/arts orgs - How to Work with Institutions
+![Machine Project Field guide]({{"/images/machineproject.jpg" | absolute_url}})
+
+These are my notes from a lecture by Mark Allen, former founder and director of Machine Project space in Los Angeles (RIP). I took these notes down in longhand in my notebook during the [Common Field](https://www.commonfield.org/) Convening in Los Angeles, 2017, and have condensed and transcribed them here.
 
 # Take your own Documentation!
 
