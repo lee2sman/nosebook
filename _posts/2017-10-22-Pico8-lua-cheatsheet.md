@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Pico8 Lua cheatsheet"
-date:   2017-10-22 12:40:05 -0800
 categories: programming
 ---
 
-# Pico8 Lua Cheetsheet
 * Simplified, adapted from Pico8 about txt file
+
+![Pico8 Editor]({{"/images/microtools/pico8-editor.png" | absolute_url}})
 
 # Comments
 
