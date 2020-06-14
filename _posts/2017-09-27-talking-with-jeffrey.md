@@ -5,19 +5,16 @@ date:   2017-09-27 18:40:05 -0800
 categories: jas programming
 ---
 
-# Talking Collaborative Digital Painting With Jeffrey
-* Sep 26, 2016
+A running stream of links and ideas from a conversation in September 2016 that started at the offices of [Universal Research Group](http://www.universalresearch.group/) in Chinatown and continued at Chin's Push (RIP) in Highland Park, Los Angeles.
 
-![](http://www.essexflowers.us/Images/scudder/2.jpg)
-
-* [Little Man Computer]https://en.m.wikipedia.org/wiki/Little_man_computer)
+* [Little Man Computer](https://en.m.wikipedia.org/wiki/Little_man_computer)
 * [Xanadu](http://xanadu.net/) homepage
-** [Prof. Dr. pages](http://contemporary-home-computing.org/prof-dr-style/)
+* [Prof. Dr. pages](http://contemporary-home-computing.org/prof-dr-style/)
 * [Casey Reas](http://caesuras.net/) prof-dr-style/dirtstyle page tracking all his work
 * Yes, this is a good method! :)
 * [Jeffrey's Page](http://jas.life)
 * [Lee's current page](http://leetusman.com)
-* [Strapdown](http://strapdownjs.com/)
+* [Strapdown](http://strapdownjs.com/) - grabs markdown text page and turns it into a website
 * [Glitch.com](http://glitch.com) - what happens when they attempt to monetize it?
 * We made [this](https://peridot-restaurant.glitch.me/) in about 10 seconds
 * The [alpha editor](http://alpha.editor.p5js.org) for p5js
