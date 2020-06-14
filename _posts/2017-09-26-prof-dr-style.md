@@ -5,8 +5,6 @@ date:   2017-09-26 12:40:05 -0800
 categories: programming
 ---
 
-# Prof. Dr. Style
-
 I recently read Olia Lialina's [Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/), a long and great article subtitled **Top 10 Web Design Styles of 1993 (Vernacular Web 3)**. It focuses on the websites of those professors (the vast majority white men in computer science departments) who can be found in a search for *Prof. Dr.* in a Google web search. This type of individual are generally of a very particular design aesthetic. Says Lialina:
 
 ![](http://contemporary-home-computing.org/prof-dr-style/sg/browser-editor.png)
@@ -25,20 +23,17 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
 
 > The last places to experience real online hypertext, hand made links, that look and behave like links, are the pages of the early web adopters and those who still follows their spirit. Visit them with your kids:
 
-<p>The last places to experience real online hypertext, hand made links,
-        that look and behave like links, are the pages of the early web adopters
-
 ## My favorite Prof. Dr. sites listed
 
-* [Dr. Prof. Winfried Kerkhoff](http://www.kerkhoff-w.de/) eye-opening website
-* [Ismail Hakki Aydin's Home Page](http://www.angelfire.com/ia/ismailhakkiaydin/) and a link to [his personal webpage](http://members.tripod.com/~Ismail_Hakki_AYDIN/) last updated in 1998 hosted on Tripod
-* The beautiful minimalist *always under construction* of UPenn [Dr. Prof. Alan MacDiarmid](http://www.sas.upenn.edu/~macdiarm/)
-* [Nguyen Ngoc BINH, Phd.](http://www.jaist.ac.jp/~binh/)
-* [Dr. Prof. Joseph Kallrath's](http://www.astro.ufl.edu/~kallrath/) extremely bland site
+- [Dr. Prof. Winfried Kerkhoff](http://www.kerkhoff-w.de/) eye-opening website
+- [Ismail Hakki Aydin's Home Page](http://www.angelfire.com/ia/ismailhakkiaydin/) and a link to [his personal webpage](http://members.tripod.com/~Ismail_Hakki_AYDIN/) last updated in 1998 hosted on Tripod
+- The beautiful minimalist *always under construction* of UPenn [Dr. Prof. Alan MacDiarmid](http://www.sas.upenn.edu/~macdiarm/)
+- [Nguyen Ngoc BINH, Phd.](http://www.jaist.ac.jp/~binh/)
+- [Dr. Prof. Joseph Kallrath's](http://www.astro.ufl.edu/~kallrath/) extremely plain site
 
-       <code>
-        <form action="http://www.google.com/search" method="get">
-            <input type="text" name="q" value="&quot;Prof. Dr.&quot;" />
-            <button type="submit">Google Search</button>
-        </form>
-	</code>
+<code>
+<form action="http://www.google.com/search" method="get">
+    <input type="text" name="q" value="&quot;Prof. Dr.&quot;" />
+    <button type="submit">Google Search</button>
+</form>
+</code>
