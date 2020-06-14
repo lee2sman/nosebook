@@ -33,7 +33,7 @@ a {
 }
 
 a {
-    text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 blockquote {
@@ -85,7 +85,7 @@ background: linear-gradient(to top right, pink, #F8FFAE, #43C6AC);
 h1 {
     color: black;
     background: white  ;
-    text-shadow: 2px 2px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
 }
 
 u {
