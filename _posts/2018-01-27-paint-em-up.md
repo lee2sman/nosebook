@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Paint-Em-Up digital drawing software"
-date:   2017-11-21 18:40:05 -0800
 categories: programming jas
 ---
 
-# Paint-Em-Up
+![Paint-Em-Up]({{"/images/paintemup.jpg" | absolute_url}})
 
 *UPDATE: 2018-02-04 I made a Paint-Em-Up 2player digital painting software/game thing, and presented it at Coaxial Arts. A [demo](http://lee2sman.github.io/paint-em-up) is up. Arrow keys and WASD are controls.*
 
