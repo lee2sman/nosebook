@@ -175,7 +175,7 @@ a:hover {
 }
 
 h2, h3 {
-    display: inline-block;
+    display: inline;
     background-color: white;
     border-bottom: 2px solid;
 }
@@ -185,8 +185,7 @@ body {
     margin-bottom: 7%;
     padding: 2%;
     max-width: 70% !important;
-    background: linear-gradient(to right, white, #ccffee);
-       background-color: #ccffee; 
+    background-color: #ebfafa;
 }
 
 code {
@@ -197,5 +196,27 @@ img {
     margin-bottom: 15px;
     margin-bottom: 15px;
     display: block;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media only screen and (max-width: 1007px) {
+  body {
+      margin-top: 3vmin;
+      margin-bottom: 3vmin;
+      padding: 3vmin;
+      max-width: 85% !important;
+  }
+}
+
+/* PHONE */
+@media only screen and (max-width: 640px) {
+  body {
+      margin-top: 2vmin;
+      margin-bottom: 2vmin;
+      padding: 2vmin;
+      max-width: 90% !important;
+  }
 }
 
