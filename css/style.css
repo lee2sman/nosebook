@@ -177,7 +177,6 @@ a:hover {
 h2, h3 {
     display: inline;
     background-color: white;
-    border-bottom: 2px solid;
 }
 
 body {
@@ -196,6 +195,11 @@ img {
     margin-bottom: 15px;
     margin-bottom: 15px;
     display: block;
+}
+
+.date {
+  font-size: smaller;
+  margin-left: 2rem;
 }
 
 /* MEDIA QUERIES */
