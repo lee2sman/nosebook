@@ -31,7 +31,7 @@ The deck is considered as an oracle. When you reach a creative impasse, you are 
 
 ![Hypercard deck of Oblique Strategies]({{"/images/oblique/oblique-hypercard.png" | absolute_url}})
 
-There are many websites and apps to recreate the experience, mostly with terrible [1998-era dirtstyle websites]({% post_url 2017-09-26-prof-dr-style %}). And several websites list all of the printed cards, including the variations among the five printed editions. Over the years there were also digital editions, like a Hypercard stack version.
+There are many websites and apps to recreate the experience, mostly with terrible [1998-era dirtstyle websites](http://leetusman.com/nosebook/prof-dr-style). And several websites list all of the printed cards, including the variations among the five printed editions. Over the years there were also digital editions, like a Hypercard stack version. Incidentally, there is a [playable version](https://archive.org/details/hypercard_obliquestrategies) (from May 1992) that works in a Mac emulator in the browser, courtesy of Internet Archive.
 
 Many artists, musicians, poets and others, and I count myself now included, list Oblique Strategies as inspirational. What is it that attracts us? 
 
