@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "You Must Make and Play Games"
-date:   2018-02-25 02:01:15 -0800
 categories: programming art 
 ---
+
+*Update 2020-06-18: I now have a dedicated [Weird Game-making Tools](http://weird-game-tools.glitch.me/) list and linkpage*  
 
 I am outing myself as a [videogame zineseter](https://www.sevenstories.com/books/3459-rise-of-the-videogame-zinesters), a term coined by [Anna Anthropy](https://w.itch.io/) in her inspiring 2012 book Rise of the Videogame Zinesters. The book is equal parts manifesto and practical getting-started handbook. Around the time it came out I was playing lots of very strange and experimental DIY games, blogging about them, and curating exhibits (and leading workshops) dedicated to these games in a format that I co-curated with my friend Sarah Brin. We called this [Punk Arcade](http://punkarcade.tumblr.com) (*note: this links to our old Tumblr page*), and delving deep into these games brought me to places much different than I had experienced in other areas of the arts, particularly in museums and galleries. I identified with Anna's premise, that games are a form of accessible self-expression and that like early DIY punk bands and copy-and-paste zines, a new crop of accessible tools made game-making a potentially more diverse medium.
 
