@@ -6,16 +6,16 @@ categories: programming
 
 ![One Dim Dungeon]({{'/images/roguelike/1dimdungeon.jpg' | absolute_url }})  
 
-Over the past few days I built my first working roguelike game.
+Over the past few days I built my first working oldschool ASCII roguelike game.
 
-A [roguelike](https://en.wikipedia.org/wiki/Roguelike) is a specific genre of oldschool game. Going on about 40 years as a genre, they are distinguished by turn-based gameplay instead of continuous action; simple tile graphics or often ASCII text as stand-in for features; algorithmically-generated increasingly-difficult levels, enemies, objects and other gameplay elements; no ability to save your status, which is known as permadeath. There are some other associated themes and gameplay mechanics as well, the essentialness of which is often hotly (and perhaps unneccesarily) debated by fans.
+A [roguelike](https://en.wikipedia.org/wiki/Roguelike) is a specific genre of game. Going on about 40 years as a genre, they are distinguished by turn-based gameplay instead of continuous action; simple tile graphics or often ASCII text as stand-in for features; algorithmically-generated increasingly-difficult levels, enemies, objects and other gameplay elements; no ability to save your status, which is known as permadeath. There are some other associated themes and gameplay mechanics as well, the essentialness of which is often hotly (and perhaps unneccesarily) debated by fans.
 
-I think at this point I've tried to make a roguelike game at least 5 or 6 times. Each time I've tended to start from scratch and try to implement each feature of this genre by hand. My [past](http://leetusman.com/everyday/81/) [attempts](http://leetusman.com/everyday/21/) [have](http://leetusman.com/everyday/19/) been very simple, and not quite compelling gameplay.
+I think at this point I've tried to make a roguelike game in this style at least 5 or 6 times. Other than the time I worked through the libtcod python [tutorial](http://www.roguebasin.com/index.php?title=Complete_Roguelike_Tutorial,_using_python%2Blibtcod) each time I've tended to start from scratch and try to implement each feature of this genre by hand. Several of my [past](http://leetusman.com/everyday/81/) [attempts](http://leetusman.com/everyday/21/) [have](http://leetusman.com/everyday/19/) been very simple, and not quite compelling gameplay.
 
 ![hellth]({{'/images/roguelike/hellth.gif' | absolute_url }})  
 *hellth, a mini roguelike I made in p5.js*  
 
-To be honest, my current game One Dim Dungeon is not the most compelling game. It certainly wouldn't be as well-loved by someone other than me. But there's some surprise and delight on my end, and a sense of triumph of creating my first working roguelike prototype, and doing it on my own from scratch, in Javascript.
+To be honest, my current game One Dim Dungeon is not the most obviously compelling game. It certainly wouldn't be as well-loved by someone other than me. But there's some surprise and delight on my end, and a sense of triumph of creating my first working roguelike prototype, and doing it on my own from scratch, in Javascript.
 
 Creating a complete roguelike without a pre-made library or game engine is a layer of difficulty not recommended! I've attended [Roguelike Celebration](https://roguelike.club/), and I'm aware that [Entity Component Systems](http://www.roguebasin.com/index.php?title=Entity_Component_System) are *de riguer*, and I'd love to have made that, but instead I built improvisationally, without a complete understanding of all of the systems and mechanics, which produced significant *anti-patterns*. This means I have an anti-robust system and all of the bugs and spaghetti code that entails. Now that I have a baseline I'm looking forward to adapting this start and turning it into such a system eventually. Or perhaps I'll start again some point in the future!
 
