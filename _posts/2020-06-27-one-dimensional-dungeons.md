@@ -4,9 +4,11 @@ title:  "One-Dimensional Dungeons"
 categories: programming
 ---
 
-![One Dim Dungeon]({{'/images/roguelike/1dimdungeon.jpg' | absolute_url }})  
+![One Dim Dungeon]({{'/images/roguelike/1dimdungeon.gif' | absolute_url }})  
 
-Over the past few days I built my first working oldschool ASCII roguelike game.
+Over the past few days I built my first working oldschool ASCII roguelike game, which I call One Dim Dungeon (aka One Dimensional Dungeon).
+
+You can download it from GitHub [here](https://github.com/lee2sman/1dimensiondungeon).
 
 A [roguelike](https://en.wikipedia.org/wiki/Roguelike) is a specific genre of game. Going on about 40 years as a genre, they are distinguished by turn-based gameplay instead of continuous action; simple tile graphics or often ASCII text as stand-in for features; algorithmically-generated increasingly-difficult levels, enemies, objects and other gameplay elements; no ability to save your status, which is known as permadeath. There are some other associated themes and gameplay mechanics as well, the essentialness of which is often hotly (and perhaps unneccesarily) debated by fans.
 
