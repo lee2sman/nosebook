@@ -4,6 +4,8 @@ title:  "One-Dimensional Dungeons"
 categories: programming
 ---
 
+*Update 2020-6-30: I've added a [link](https://github.com/lee2sman/1dimensiondungeon) to the game on Github.*
+
 ![One Dim Dungeon]({{'/images/roguelike/1dimdungeon.gif' | absolute_url }})  
 
 Over the past few days I built my first working oldschool ASCII roguelike game, which I call One Dim Dungeon (aka One Dimensional Dungeon).
