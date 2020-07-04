@@ -6,7 +6,9 @@ categories: programming
 
 *Update 2020-6-30: I've added a [link](https://github.com/lee2sman/1dimensiondungeon) to the game on Github.*
 
-![One Dim Dungeon]({{'/images/roguelike/1dimdungeon.gif' | absolute_url }})  
+*Update 2020-7-04: In my own 1dimensional dungeon I've refactored the code, added specific montser behaviors and colors, added more potions and updated the gif preview of gameplay below. The gameplay is much more advanced than what I originally described below.*  
+
+![One Dim Dungeon]({{'/images/roguelike/gameplay.gif' | absolute_url }})  
 
 Over the past few days I built my first working oldschool ASCII roguelike game, which I call One Dim Dungeon (aka One Dimensional Dungeon).
 
@@ -48,6 +50,8 @@ I don't have much experience with Curses, the standard text-mode interface libra
 ### Gameplay
 
 Each time the player descends a floor there is a chance that gold can be present (*) on the level and there will almost definitely be monsters (k, b, m, T, etc..) present. While the player moves around there is a chance each turn that additional monsters can be spawned and appear by walking from the edge of the dungeon. Monsters have various levels of aggression, which determines if they approach or attack the player. To attack a monster, a player simply walks into a monster. When a monster dies it is removed. Text descriptions of events and game stats are printed above the game area. No two games are exactly the same as each level will be a different length, have different monsters, items, and values. The game ends when the player is killed (usually) or if the player makes it down to the 16th level and grabs the amulet of Yendor. By the way, this quest goal is a standard mechanic in classic roguelikes, and I thought I'd keep it in for this game.
+
+*(update 7-4-2020: I added a ton of potions, monster-specific attacks, colors, hallucination, vertical and horizontal and flip-flop orientation mode, debugging options and more)*
 
 I have future plans of a one-dimensional roguelike that plays more like a walking sim or flatgame where instead of monsters and attacks you meet poets and or partake in conversations. Well, I stuck to the stereotypes of the genre for this one.
 
