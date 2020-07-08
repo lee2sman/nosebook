@@ -8,7 +8,7 @@ categories: programming
 
 *Update 2020-7-04: In my own 1dimensional dungeon I've refactored the code, added specific montser behaviors and colors, added more potions and updated the gif preview of gameplay below. The gameplay is much more advanced than what I originally described below.*  
 
-*Update 2020-7-07: Created a short and minimal one-dimensional hardware version of Hunt The Wumpus. My version Hunt the **Wimpus** has a writeup [here](http://leetusman.com/hunt-the-wimpus/) and emulator [here](http://leetusman.com/everyday/125/) (read the instructions first).*
+*Update 2020-7-07: Created a short and minimal one-dimensional hardware version of another game, Hunt The Wumpus. My version Hunt the **Wimpus** has a writeup [here](http://leetusman.com/hunt-the-wimpus/) and emulator [here](http://leetusman.com/everyday/125/) (read the instructions first).*
 
 ![One Dim Dungeon]({{'/images/roguelike/gameplay.gif' | absolute_url }})  
 
