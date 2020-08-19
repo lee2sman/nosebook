@@ -25,23 +25,23 @@ Which brings me to Jitsi and Zoom, the platforms for live simultaneous video cha
 
 ### Spreadsheet Parties (and Etherpad)
 
-In May Mary Foulston hosted a party in google docs and [posted](https://onezero.medium.com/party-in-a-shared-google-doc-d576c565706e) an article about the experience.
+In May Marie Foulston hosted a party in google docs and [posted](https://onezero.medium.com/party-in-a-shared-google-doc-d576c565706e) an article about the experience.
 
 > Social video calls exhaust me. Face to face, voice to voice, with nothing in between. Communication so literally and abstractly boiled down to staring at and talking at each other’s faces. The only other times I think I interact with people this way in “the real world” are in job interviews or meetings.
 
-> Where is the space for the mundane, the idle, and the liminal… those subtle and nuanced moments that also come with being together? *--Mary Foulston*
+> Where is the space for the mundane, the idle, and the liminal… those subtle and nuanced moments that also come with being together? *--Marie Foulston*
 
-Mary sent out invites and started to do a little building. When the party started she created a door in the spreadsheet, changed it, started conversations in a quasi-chat space, clicked to other tabs, then clicked back and found people had built a hallway and a kitchen. The scene reminds me of [MUSHes](
+Marie sent out invites and started to do a little building. When the party started she created a door in the spreadsheet, changed it, started conversations in a quasi-chat space, clicked to other tabs, then clicked back and found people had built a hallway and a kitchen. The scene reminds me of [MUSHes](
 ) and [MOOs](https://en.wikipedia.org/wiki/MOO), text-based online social spaces that thrived in the early and mid-90s, where participants chatted but also built rooms/spaces and objects in those spaces you could interact with. These have often been listed as predecessors of MMORPGs like World of Warcraft but I think it's more accurate to say they were predecessors for Minecraft or Second Life, places that felt like open sandboxes to explore and meet other people and creatures in corners of cyberspace. 
 
 ![Party in a spreadsheet]({{"images/chatrooms/spreadsheet.png" | absolute_url}})  
-*Party in a spreadsheet, image by [Mary Foulston](https://onezero.medium.com/party-in-a-shared-google-doc-d576c565706e)*
+*Party in a spreadsheet, image by [Marie Foulston](https://onezero.medium.com/party-in-a-shared-google-doc-d576c565706e)*
 
 Back to the google doc in a spreadsheet: Like these early MUDs/MUSHes/MOOs I've mentioned, the action happens by way of text mostly, by people describing what they're doing or seeing or engaging in conversation. There is also a type of collaborative art-making that is essentially creating pixel art by filling spreadsheet cells with color.
 
-I think this feels exciting because it's using corporatized software in a way that feels new and experimental and low-stakes. It's mostly anonymous, though of course the participants were friends, or friends-of-friends of Mary.
+I think this feels exciting because it's using corporatized software in a way that feels new and experimental and low-stakes. It's mostly anonymous, though of course the participants were friends, or friends-of-friends of Marie.
 
-> In the absence of the cultural spaces my work usually occupies, I’ve found myself chasing the social rituals they evoke and the reverence they embody through abstract digital recreations and pastiche. In these spaces, familiar feelings and experiences reverberate and mix with new ones. *--Mary Foulston*
+> In the absence of the cultural spaces my work usually occupies, I’ve found myself chasing the social rituals they evoke and the reverence they embody through abstract digital recreations and pastiche. In these spaces, familiar feelings and experiences reverberate and mix with new ones. *--Marie Foulston*
 
 This spirit of old and new, and using technology to support conversation and experimental building of space or art or ideas - that for me feels potentially exciting and points to avenues worth further exploration.
 
