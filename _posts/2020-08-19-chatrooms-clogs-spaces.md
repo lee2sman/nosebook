@@ -99,13 +99,13 @@ Ok, this is the newest *technology* or tool on this list, an idea less than a we
 To access mine:
 
 ```
-curl -s leetusman.com/clog/index
+curl -s https://leetusman.com/clog/index
 ```
 
 This will serve a short index page and let you know what clog posts you can access. For example, my first post can be accessed via:
 
 ```
-curl -s leetusman.com/clog/4
+curl -s https://leetusman.com/clog/1
 ```
 
 You are right now reading my Nosebook blog via the web in a browser most likely, or perhaps with ```w3m``` or links/lynx, but I'm publishing different material there. You might wonder, what's the point? James cites several reasons as a r'aison d'etre. He [talks about](https://twitter.com/james_chip_rpg/status/1295996945216012289) the web being bloated, the idea that individual webpages are 10s of megabytes to load what's essentially just text, and along with scripts, not to mention ads or other cruft that slow down a page. He cites this as an issue of accessibility, and a waste of resources. Secondly, and more of interest to me, he talks about the clog as a simple self-owned technology outside of the corporate platforms. He also describes how simple the technology is. 
