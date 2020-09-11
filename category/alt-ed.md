@@ -1,5 +1,5 @@
 ---
 layout: category
-title: alt-ed
+title: Alternative Education
 category: alt-ed
 ---

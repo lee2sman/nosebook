@@ -1,5 +1,5 @@
 ---
 layout: category
 title: Organizations
-category: org_and_biz
+category: org
 ---

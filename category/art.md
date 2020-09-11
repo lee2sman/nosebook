@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Web
-category: web
+title: Art
+category: art
 ---
