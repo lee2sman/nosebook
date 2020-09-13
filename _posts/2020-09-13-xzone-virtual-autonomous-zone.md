@@ -12,7 +12,7 @@ Xzone is a prototype of an online DIY space. Visually, the aesthetics are simple
 
 ![Xzone prototype]({{"images/xzone/xzone.png" | absolute_url}})  
 
-In its default state, Xzone is intended as a starte DIY virtual autonomous space. This is admittedly a metaphor, as I do not believe in a single true 1-to-1 translation from DIY spaces to online space.
+In its default state, Xzone is intended as a starter DIY virtual autonomous space. This is admittedly a metaphor, as I do not believe in a single true 1-to-1 translation from DIY spaces to online space.
 
 For the past 15 years I've been involved in a number of Do It Yourself spaces, even while working "professionally" at more traditional art institutions such as museums. I've worked with low-power radio stations, artist-organized *alternative spaces*, collectives, DIY galleries, and other groups of similar bearing and ethos. Most recently I've been involved with organizing at Babycastles. I was also an organizer/curator at Little Berlin, KCHUNG Radio, a resident artist and organizer at Flux Factory, and co-organizer/co-founder of Processing Community Day NYC. Each of these organizations have their own systems in place, but they are aligned in that the organizers attempt to work from positions of anti-hierarchy. We have collective group organizing systems, like weekly meetings, procedures for decision-making, shared values, and a goal of providing space and community for an identified larger public. With the exception of Flux, these orgs are volunteer-led, meaning we are coming together to work collaboratively and there are no fulltime paid staff members.
 
