@@ -8,7 +8,7 @@ Today I co-presented Xzone, a project and presentation I organized with [Daniel 
 
 ### D.I.Y. and Do-It-Together Spaces
 
-Xzone is a prototype of an online DIY space. Visually, the aesthetics are simple. When you visit the website, a prompt asks you for a nickname, to choose an avatar, and then you pop into a 2d room. You can see other people in the space. You can walk around. And you can talk. When you chat, everyone hears a chat sound, and sees the text appear on the screen in a bubble above the character that speaks. As you continue to chat, your text bubbles up above you, similar to how we are using to text *scrolling up*, and then fades away after a number of seconds. You can also walk over to other rooms as there are doorways/portals to other rooms.
+Xzone is a prototype of an online DIY space. Visually, the aesthetics are simple. When you visit the website, a prompt asks you for a nickname, to choose an avatar, and then you pop into a 2d room. You can see other people in the space. You can walk around. And you can talk. When you chat, everyone hears a chat sound, and sees the text appear on the screen in a bubble above the character that speaks. As you continue to chat, your text bubbles up above you, similar to how we are used to texting with past messages appearing and *scrolling up and away*, and here fading away after a number of seconds. You can also walk over to other rooms as there are doorways/portals to other rooms. Some of these characteristics of the virtual space are constraints of the code, a (permitted! encouraged!) derivative of Likelike, which I'll detail further.
 
 ![Xzone prototype]({{"images/xzone/xzone.png" | absolute_url}})  
 
