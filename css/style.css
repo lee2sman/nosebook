@@ -1,5 +1,7 @@
  body {
   max-width: 680px;
+  border: dotted;
+  border-radius: 10px;
 }
 
 h1, h4, h5, h6, a, p, ul, ol, li {
@@ -76,8 +78,8 @@ code {
 
 html {
 
-background: #43C6AC;  
-background: linear-gradient(to top right, pink, #F8FFAE, #43C6AC); 
+ background: #43C6AC;   
+/* background: linear-gradient(to top right, pink, #F8FFAE, #43C6AC);  */
 }
 
 
