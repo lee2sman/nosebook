@@ -1,30 +1,22 @@
 ---
 layout: post
-title: Throwing Linux on low power laptops 💻
+title: Linux on low power laptops 💻
 date: 2022-11-08
 categories: [reuse, consumption, organizing]
 ---
 
-*tl;dr: This post contains some code, instructions and remarks for setting up Linux on a low power laptop*.
-
 ![Chromebook booted into GalliumOS]({{"/images/chromebook.gif" | absolute_url}})  
-Chromebook booted into GalliumOS, dithered low bandwidth and retro style image
+*Chromebook booted into GalliumOS, dithered low bandwidth and retro style image*
 
-Recently at the request of a student I helped secure her a laptop that she could use in my intro computer science class but that wouldn't cost her any money. My school does laptop loans, but we decided to build up a Linux machine she could use as well. Since I use Linux myself, I thought I'd write a little about it.
+Recently at the request of a student I helped secure her a laptop that she could use in my intro computer science class as she was looking to get into the major and didn't have a functional computer at home, just a phone. My school does laptop loans, locked-down Macs, but we decided to build up a Linux machine she could use as well, and that would let her explore the operating system and write her own software, which is much easier on Linux. Since I use Linux myself, I thought I'd write a little about it.
 
 I asked friends for suggestions of where to get a near-free functional computer, and I received a suggestion to look in local thrift stores for old Chromebooks. Unfortunately, that's not really a viable option in NYC. There are few thrift stores around, and those that do generally do not sell electronics, much less old Chromebooks. 
 
-But Craigslist is thriving here, and I saw a variety of cheap Chromebooks for sale. Would they be powerful enough to run Processing? I looked online. It looked like it was very possible if I could boot into a Debian-based distro, but it was not definitive. There were some listed options for using a chroot to run Ubuntu, but it appeared slow and everything was years old. I wasn't sure the current state. I also saw a variety of difficult options for installing Ubuntu (or another *buntu on top of ChromeOS). 
-
-How hard could it be? I was particularly interested in showing my student how easy it is to install Linux and how easy it is to use. Ideally it should only take 20 minutes to make a USB drive iso and then boot from that drive and install a light Ubuntu variant, right? 
+But Craigslist is thriving here, and I saw a variety of cheap Chromebooks for sale. Would they be powerful enough to run Processing? By default the ChromeOS is not really able to run programs to write your own software. It's just a minimal cloud-based computer attached to Google services. I looked online. It looked like it was very possible to boot up an alternative Linux OS, particularly a Debian-based distro, but it was not definitive (*For the nerds: technically ChromeOS is a stripped down Linux system*). There were some listed options for using a chroot to run Ubuntu, but it appeared slow and everything was years old. I wasn't sure the current state. I also saw a variety of difficult options for installing Ubuntu (or another *buntu on top of ChromeOS). 
 
 With a little searching I wasn't filled with confidence as it was immediately clear you can't just flash an ISO to a USB, launch an installer and call it a day. No. For this reason, I decided to install it myself in case I got stuck for hours or days in the process.
 
-Here's my convoluted process.
-
-1. Acquire laptop
-
-I found someone on Craigslist selling a near-new Chromebook for $50. I met up with them at Grand Central, and ended up trading $40 for the laptop. They seemed glad to part with it.
+I found someone on Craigslist looking to part with a near-new Chromebook. I met up with them at Grand Central, and ended up trading $40 for the laptop. That's a bargain!
 
 I read a dozen websites and fora trying to come up with a plan. It looks like years ago it was pretty easy to flash Ubuntu and there were many options. Now Google has really locked down the computer. The main approach is to:
 
@@ -125,9 +117,9 @@ Since the laptop I found is 13 years old, I needed a lightweight distro. I wante
 
 I downloaded the iso, wrote it to usb with dd, plugged it into the laptop and restarted. In a minute it was up and running. I double clicked the installer and about 10 minutes later I was up and running. I had never used Lubuntu before, which comes with Openbox as its window manager, which I don't think I've used before. But it was obvious what to do: Open the menu in the bottom left. I found the menu categories and built-in basic apps pretty usable. I found the qt-terminal, sudo apt updated and sudo apt upgraded, quickly downloaded some basic programs (neovim, curl, w3m, tldr, kate, kitty, amfora, can't remember what else) and some basic art/music programs (krita, audacity, puredata, rhythmbox, love2d).
 
-For a 13 year old laptop, the thing is fast. Installing with aptitude is almost as quick as my much more modern laptop. This old clunky computer practically flies. Because I've used Ubuntu so long I didn't feel like I needed to learn anything. I have two complaints so far that I haven't solved: it's not obvious to me how to pin programs to the built-in taskbar. And I Can't seem to get the keyboard keys for special characters to match up with the character printed on the key. My guess is because I use english and this is a european keyboard, but when I tried to switch to danish I still had an issue. It's not an issue for me (i write in Dvorak anyway), but I can tell it's confusing to the other artists here that I am showing Linux too. One person used it in a web workshop I taught and was a little confused looking for forward slash, brackets and the like. But those are the only issues I've had so far. Sound works great. The audio interface I plugged in seemed to work fine. And everything looks pretty nice.
+For a 13 year old laptop, the thing is fast. Installing with aptitude is almost as quick as my much more modern laptop. This old clunky computer practically flies. Because I've used Ubuntu so long I didn't feel like I needed to learn anything. I have two complaints so far that I haven't solved: it's not obvious to me how to pin programs to the built-in taskbar. And I can't seem to get the keyboard keys for special characters on the Danish keyboard to perfectly match the US keyboard set, but it's close enough. But those are the only issues I've had so far. Sound works great. The audio interface I plugged in seemed to work fine. I recorded an [album of field recordings](https://leetusman.com/everyday/250/) using a handheld memo voice recorder, then mixed on the computer. And everything looks pretty nice. I'd recommend a similar setup in a heartbeat!
 
-Would recommend!
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1325760724&color=%23343c44&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/various-bots" title="various bots" target="_blank" style="color: #cccccc; text-decoration: none;">various bots</a> · <a href="https://soundcloud.com/various-bots/radio-free-aarhus" title="Radio - Free - Aarhus" target="_blank" style="color: #cccccc; text-decoration: none;">Radio - Free - Aarhus</a></div>
 
 [Lubuntu official site](https://lubuntu.me/)  
 [Lubuntu on Wikipedia](https://en.wikipedia.org/wiki/Lubuntu)
