@@ -10,7 +10,9 @@ This is my informal web-based notebook with writing, links, tutorials, ideas, an
   {% for post in site.posts %}
   <li>
     <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{post.url | absolute_url }}">
+     {{ post.title }}
+     </a>
     </p>
       <em>
 	{{ post.date | date: "%Y %b %d" }}
