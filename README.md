@@ -1,15 +1,12 @@
-# Nosebook
+Nosebook
+========
 
-### Hello there, you've reached the 👃📓 (NoseBook).
+This is the repo for my nosebook.
 
-[LINK TO ARTICLES](http://lee2sman.github.io/nosebook)
+The 👃📓 site was originally intended as a personal wiki for online research, tutorials, notes and ideas. And now it's transformed into a space for me to share my writing and tutorials in a digital notebook – a personal collection of writing by [Lee Tusman](http://leetusman.com), an artist, curator, programmer, organizer working on artwork, websites-as-works, games, experimental and speculative software and artware, bots, radio and more. My interests include DIY creative community and how it lives online; tools for experimental digital artmaking; generative art; socially-engaged software; artist-run spaces; new forms of performance, collage; and sharing knowledge in a community. Send me your blogs/wikis as well!
 
-The 👃📓 site is a ~~personal wiki for online research, tutorials, notes and ideas~~  was originally designed as a digital notebook of collected and constructed resources, code snippets, doodles – a personal collection of writing and links not formatted for finished presentation but instead intended as an <a href="http://www.textfiles.com/underconstruction/">always under construction</a> knowledge base. BUT I chickened out and over time decided to write more of a blog instead.
- 
-I ended up making a wiki as well, but I keep it private on my own machine. It's my own personal digital notebook. THIS right here is for sharing posts.
+This site is built in Jekyll on GitHub by [Lee Tusman](http://leetusman.com).  
+All content is [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-###### [more](http://leetusman.com/nosebook/start-digital-sketchbook) 
-
-It is built in Jekyll on GitHub by [Lee Tusman](http://leetusman.com)
-
-Content is Creative Commons 4.0 Attribution Share-Alike.
+Allways under construction.  
+![under construction gif](/images/construction.gif)

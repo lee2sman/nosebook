@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "We Strive to build an art practice that..."
+title:  "We Strive to build an art practice that... 📝🎨"
 categories: art, making, social practice, collaboration
 ---
 

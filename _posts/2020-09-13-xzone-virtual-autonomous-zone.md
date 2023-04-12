@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Xzone and D.I.T. Virtual Autonomous Zones"
+title: "Xzone and D.I.T. Virtual Autonomous Zones 🏚️🌌"
 categories: programming org alt-ed art teaching organizing tools
 ---
 

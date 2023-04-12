@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Technology Simply Explained"
+title:  "Technology Simply Explained (generative NaNoGenMo project) 🗣️🔧"
 categories: programming
 ---
 

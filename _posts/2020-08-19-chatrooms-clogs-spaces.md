@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Some experiments in chatrooms, spreadsheet parties and multi-user internet spaces"
+title:  "Some experiments in chatrooms, spreadsheet parties and multi-user internet spaces 💬📊"
 categories: programming org alt-ed art teaching organizing tools
 ---
 

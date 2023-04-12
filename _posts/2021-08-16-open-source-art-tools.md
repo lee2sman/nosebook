@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Source Art Tools"
+title:  "Open Source Art Tools 🧰✂️"
 categories: art, making, toolbuilding, programming
 ---
 

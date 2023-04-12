@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Some brainstorming about Fantasy Consoles"
+title:  "Some brainstorming about Fantasy Consoles 🎮🕹️"
 categories: programming art games tools
 ---
 

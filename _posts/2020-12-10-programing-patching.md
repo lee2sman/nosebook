@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beginner's mind: Programming and Patching and Synthesizing"
+title: "Beginner's mind: Programming and Patching and Synthesizing 🎛️🎚️"
 categories: programming art teaching tools
 ---
 
