@@ -30,7 +30,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: black;
-    background-color: white;
+    /* background-color: white; */
     cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==),auto;
 }
 
@@ -86,24 +86,20 @@ html {
 
 h1 {
     color: black;
-    background: white  ;
+    /* background: white  ; */
     /* text-shadow: 1px 1px 1px black; */
 }
 
 u {
         font-size: 155%;
-        color: white !important;
+        /* color: white !important; */
         background: #333;
         color: black !important;
-        background: white;
+        /* background: white; */
 }
 
 
 strong {
-        background: white;
-        color: black !important;
-        background: #333;
-        color: white !important;
         color: black !important;
         background: #EEE;
         opacity: 0.8;
@@ -166,11 +162,12 @@ em u {
 
 /* Lee's Mods */
 
+/*
 a:before {
     content: "🔗";
     margin-right: 6px;
 }
-
+*/
 a:hover {
     text-decoration: none;
     border-bottom: 1px dashed;
@@ -178,7 +175,7 @@ a:hover {
 
 h2, h3 {
     display: inline;
-    background-color: white;
+    /* background-color: white; */
 }
 
 body {
