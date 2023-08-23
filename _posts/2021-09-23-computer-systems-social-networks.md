@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Computer Systems as Social Networks 🖥️
+title: Computer Systems as Social Networks 🖥️🖧
 date: 2021-02-12
 categories: programming
 ---
