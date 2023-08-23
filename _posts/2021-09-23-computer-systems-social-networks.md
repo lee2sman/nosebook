@@ -5,6 +5,10 @@ date: 2021-02-12
 categories: programming
 ---
 
+*updated with additional links and notes about tildes: 2023-08-23*
+
+*Note: This is a technical and jargon-heavy post about setting up a tilde server, a remote shared single computer that a community of people can log into via the terminal and use together in many ways, reminiscent of an oldschool bulletin board system.*
+
 ## Setting up a tilde server for a small group of Linux beginners 
 
 This semester I'm teaching a computer science class called "Social Software." Some of the topics we are studying include open source software, version control, collaboration project teamwork, working with servers, a history of social software, early networking, Linux, and experimental and esoteric social media.
@@ -13,13 +17,23 @@ The first few weeks we looked at predecessors to social media and social softwar
 
 We also talked about the finger protocol and I demonstrated ssh, finger, and moving around and working with a Linux system. Then I introduced the idea of a tilde server and we talked about what that is.
 
-With that, I let students request a login username, then gave them a complex password, and showed them how to login via ssh on the classroom computers (Macs) or via Git-Bash on Windows.
+=> [James Tomasino's video introduction What Is the Tildeverse](https://archive.org/details/what-is-the-tildeverse).
+
+=> [Tildeverse association of like-minded tilde communities](https://tildeverse.org/)
+
+Another big inspiration was Max Fowler's [OasisVR project](http://oasisvr.commoninternet.net/), "a virtual reality community inside a raspberry pi hanging off a pipe in Brooklyn" that works very similar to a tilde community, with an emphasis on text-based interactive art projects in the shared server.
+
+
+![OasisVR landing page]({{"/images/oasis.jpg" | absolute_url}})  
+*screenshot of the info page for Max Fowler's OasisVR*
+
+After an intro to tilde communities, I demonstrate our class tilde server by logging in, and I let students request a login username, then give them a complex password, and show them how to login via ssh on the classroom computers (Macs) or via Git-Bash on Windows.
 
 ### Creating the server
 
 I looked for a free server such as the Google Cloud Compute, but I couldn't find a free tier price that allowed 20 users (unless I'm mistaken). Alternatively, I could and probably should have set up a server on a Pi or other old computer. Instead, I signed up to create the cheapest instance I could find, which looked to be $2.50 monthly on vultr.com, cheaper than Digital Ocean for example. They have you add money to your account, which I believe was $10 minimum, so I added this amount, selected their cheapest plan, and created a "cloud compute" instance. I want to point out that with the estimated usage amount I have, my plan will actually work out to about $6 a month. I don't know why it's higher but caveat emptor. I've filed a ticket to request an explanation and will update this once I get a useful response.
 
-(update 2021-09-27: Vultr responded that only their Atlanta data center allows for $2.50 monthly service, and that often it is 'sold out.' This information is not stated on the signup page, nor even on any FAQ page. The customer service response was fairly rude (my email wasn't), and I will probably not use Vultr again).
+(update 2021-09-27: Vultr responded that only their Atlanta data center allows for $2.50 monthly service, and that often it is 'sold out.' I will likely try another service next time or self-hosted on a Raspberry Pi.) 
 
 When you create the server there are lots of OS choices, including Arch, Debian, Ubuntu, and many other choices. You can also choose the server location. I chose Ubuntu 20.04 since I have a lot of experience with that and wanted things to work quickly and be able to debug myself without having to do much searching when setting up for my class. I selected a New Jersey data center, the closest to my own school's location.
 
@@ -36,7 +50,7 @@ sudo apt upgrade
 
 I like to edit text files with Neovim, so I installed it with sudo apt install nvim. For my students they should definitely learn nano instead, so I installed sudo apt install nano.
 
-Some people think you should learn to drive manual before driving automatic. Some think you should learn music theory before doing improv. Some think you should learn Bash before trying a shell with completion like Fish. I certainly do not think that. In fact, I think fish shell is a great way to quickly pull in Linux newbies who could get stymied by a shell. 
+Some people think you should learn to drive manual before driving automatic. Some think you should learn music theory before doing improv. Some think you should learn Bash before trying a shell with completion like Fish. I don't share that view, and I thought the fish shell would be a great, and dare I say fun way to quickly pull in those new to Linux who could get stymied by a shell prompt. 
 
 ```
 sudo apt install fish
@@ -68,7 +82,7 @@ wget https://tilde.pt/~rlafuente/files/jail.local
 sudo mv jail.local /etc/fail2ban
 ```
 
-I cd'ed to the fail2ban folder and edited the jail.local file. I commented out the apache stuff since I'm not running an apache/web-server.
+I cd'ed to the fail2ban folder and edited the jail.local file. I commented out the apache stuff since I'm not running an apache/web-server since the school already provides that service for my students.
 
 To test:
 
@@ -115,11 +129,15 @@ To log out of anti-soft, type exit at the prompt.
 Run "getting-started" for a list of software and commands to try.
 ```
 
+In retrospect, I should have added some nice ascii art or figlet text.
+
 ### Adding custom starter functions for all
 
 I added two custom functions for all users on the system. Fish functions (the equivalent of Bash aliases) need to be installed inside /etc/fish/functions for all users to be able to access them by default.
 
 getting-started is a cheatsheet of beginner linux commands and specially installed software on the server.
+
+One only needs to type ```getting-started``` on the command line to have it run and print out these helpful suggestions.
 
 getting-started.fish
 
@@ -163,6 +181,8 @@ function weather
 end
 ```
 
+If I was smart, I'd have a weather report added to the top of the message of the day as well, along with some ascii art of clouds.
+
 ### Turn on ssh
 
 ```
@@ -188,7 +208,7 @@ Programs to try out:
 cowsay
 figlet
 and many more. 
-Message your admin ~lettuce with requests for other software.
+Message your admin ~lee with requests for other software.
 ```
 
 All of my students were asked for their preferred username. 
@@ -265,15 +285,17 @@ I encouraged my students to test out all of the bsdgames, create and edit files,
 
 Note that I did not add apache because I did not run a web server (students already have free webspace on campus).
 
+In addition to the tilde server, students kept blogs and a webring, learned how to use git and collaborative version control systems, and contributed to an open source project of their choice.
+
 Good luck. Have fun.
 
 # Sources and Links
 
 Some information drawn from:
 
-[The Origin of the Finger Command](https://groups.google.com/g/alt.folklore.computers/c/IdFAN6HPw3k/m/Ci5BfN8i26AJ?pli=1 )  
-[HOWTO setup a Tilde server on a Raspberry Pi](https://tilde.pt/~rlafuente/docs/howto-tilde-rpi/)  
-[Setting Up Your Own Tilde Club](https://www.edwinwenink.xyz/posts/47-tilde_server/)  
-[What Are Tildes and How You Can Use Tilde Computing](https://journal.tildeverse.org/entries/what-are-tildes-and-how-you-can-use-tilde-computing)  
-[Tildeverse Zine Issue 1](https://zine.tildeverse.org/issue-1.html)  
-[Community Memory](https://en.wikipedia.org/wiki/Community_Memory)  
+=> [The Origin of the Finger Command](https://groups.google.com/g/alt.folklore.computers/c/IdFAN6HPw3k/m/Ci5BfN8i26AJ?pli=1 )  
+=> [HOWTO setup a Tilde server on a Raspberry Pi](https://tilde.pt/~rlafuente/docs/howto-tilde-rpi/)  
+=> [Setting Up Your Own Tilde Club](https://www.edwinwenink.xyz/posts/47-tilde_server/)  
+=> [What Are Tildes and How You Can Use Tilde Computing](https://journal.tildeverse.org/entries/what-are-tildes-and-how-you-can-use-tilde-computing)  
+=> [Tildeverse Zine Issue 1](https://zine.tildeverse.org/issue-1.html)  
+=> [Community Memory](https://en.wikipedia.org/wiki/Community_Memory)  
