@@ -4,8 +4,7 @@ title: Explorations in Tiny BASIC
 categories: programming retrocomputing
 ---
 
-![Tiny BASIC in Cool Retro Term]({{"/images/lemonade.jpg" | absolute_url}})  
-*lemonade.bas running on Tiny BASIC in CoolRetroTerm*  
+![MS BASIC]({{"/images/basic-drawing.jpg" | absolute_url}})  
 
 *2022-04-01 update: I've added a link to my full code for a player + computer opponent version of the PIG dice game to the end.*
 
@@ -15,11 +14,16 @@ Lately I've been getting into BASIC. I was a kid in the 80s and 90s and I rememb
 
 > Tiny BASIC is a family of dialects of the BASIC programming language that can fit into 4 or fewer KBs of memory. Tiny BASIC was designed in response to the open letter published by Bill Gates complaining about users pirating Altair BASIC, which sold for $150. Tiny BASIC was intended to be a completely free version of BASIC that would run on the same early microcomputers. --Wikipedia [1]
 
+![BASIC on vinyl]({{"/images/basic-vinyl.jpg" | absolute_url}})  
+
 So originally, Tiny BASIC was a specification, not an implementation. The People's Computer Company published a newsletter, almost like a photocopied zine to my eyes, with articles, tutorials, comix, all aimed at the nascent hobbyist computer community. They invited Dennis Allison from Stanford University's Computer Science faculty to write the spec.
 
 > The magic of a good language is the ease with which a particular idea may be expressed. The assembly language of most microcomputers is very complex, very powerful, and very hard to learn. The Tiny BASIC project at PCC represents our attempt to give the hobbyist a more human-oriented language or notation with which to encode his programs. [2]
 
 The newsletter goes on to describe the motivation for the project, a free implementation of the BASIC language, and the community working on it currently. It specifies what the language could entail, how to solve various problems, a discussion on creating a compiler versus an interpreter, what it will take to build one's own Tiny BASIC, and a request for feedback and ideas. It also contained some simple BASIC games.
+
+
+![Copyleft All Rights Wronged]({{"/images/basic-wrongs.jpg" | absolute_url}})  
 
 ### All Rights Wronged
 
@@ -55,6 +59,9 @@ It packages a man page and some example games (Hunt the Wumpus, Tic Tac Toe, and
 Without a built-in random number generator, how was I going to create a random die roll? 
 
 Luckily, Gareth published some instructions to construct a minimal not-very-sophisticated random number generator. [4] We don't have the privilege of referencing the clock of the computer for example, so we follow early BASIC tradition and ask the user for a seed number, then perform a simple calculation. Some other implementations of Tiny BASIC came with a random number generator. Gareth's doesn't by default but does add in the ability to use REM (remark) for commenting. 
+
+![Tiny BASIC in Cool Retro Term]({{"/images/lemonade.jpg" | absolute_url}})  
+*lemonade.bas running on Tiny BASIC in CoolRetroTerm*  
 
 ### PIG 
 
