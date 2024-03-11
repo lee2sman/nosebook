@@ -45,7 +45,7 @@ What would a virtual autonomous space look like? How can it serve non-hierarchic
 
 During the workshop we presented Xzone in a minimal starter state. We had 10 participants, a perfect amount for a small intentional community, and we spoke about our previous experiences in [autonomous spaces](https://leetusman.tumblr.com/post/5443687305/kaszinocollective) both IRL and virtually. 
 
-I shared experiences from Occupy, [The People's Library](https://en.wikipedia.org/wiki/The_People%27s_Library), various squats, communes, and temporary autonomous zones. We mentioned the [Capitol Hill Autonomous Zone or Capital Hill Organized Protest](https://en.wikipedia.org/wiki/Capitol_Hill_Autonomous_Zone), [free universities] (https://en.wikipedia.org/wiki/Copenhagen_Free_University), and other non-traditional and [experimental zones](https://institutforx.dk/) as possible references.
+I shared experiences from Occupy, [The People's Library](https://en.wikipedia.org/wiki/The_People%27s_Library), various squats, communes, and temporary autonomous zones. We mentioned the [Capitol Hill Autonomous Zone or Capital Hill Organized Protest](https://en.wikipedia.org/wiki/Capitol_Hill_Autonomous_Zone), [free universities](https://en.wikipedia.org/wiki/Copenhagen_Free_University), and other non-traditional and [experimental zones](https://institutforx.dk/) as possible references.
 
 Some reference slide images are in a [PDF](https://raw.githubusercontent.com/lee2sman/lee2sman.github.io/master/projects/xzone/xzone-slides.pdf).
 
