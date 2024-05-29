@@ -1,0 +1,109 @@
+body {
+    margin: 60px auto;
+    width: 68%;
+    background: #4b8ae8;
+  background: -moz-linear-gradient(left, #4b8ae8 0%, #cef5da 23%, #cef5da 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #4b8ae8), color-stop(23%, #cef5da), color-stop(100%, #cef5da));
+  background: -webkit-linear-gradient(left, #4b8ae8 0%, #cef5da 23%, #cef5da 100%);
+  background: -o-linear-gradient(left, #4b8ae8 0%, #cef5da 23%, #cef5da 100%);
+  background: -ms-linear-gradient(left, #4b8ae8 0%, #cef5da 23%, #cef5da 100%);
+  background: linear-gradient(to right, #4b8ae8 0%, #cef5da 23%, #cef5da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b8ae8', endColorstr='#cef5da', GradientType=1 );
+  cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAATCAMAAAB4HKeYAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAADRJREFUeAFjwAsYsfMYQYgRLsLICKWhskxMTDAmCEMAwhQmEEDho8szUiqPaR+xfIR7sQMAR6QAjICqvMYAAAAASUVORK5CYII=),auto;
+}
+
+ul {
+  width: 80%;
+  line-height: 1.7em;
+  list-style-type: disc;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #2702f9;
+    background-color: white;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==),auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.3em;
+    color: #0000ff;
+}
+
+code {
+    color: #ccffcc;
+    padding: 5px 5px 5px 0px;
+    background-color: blue;
+    line-height: 1.25em;
+}
+
+footer {
+    border-top: 7px dashed #ff1aff;
+    font-size: 1em;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.25em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+img, iframe, video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 66vw;
+  text-align: center;
+}
+
+video {
+  width: 50%;
+  height: auto;
+}
+
+iframe {
+  width: 60vw;
+  height: 40vw;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 30px auto;
+    width: 90%;
+    overflow: hidden;
+  }
+
+ iframe {
+    width: 400px !important;
+    height: 300px !important;
+    overflow:hidden;
+ }
+}
