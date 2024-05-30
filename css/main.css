@@ -7,6 +7,8 @@
 html {
 	box-sizing: border-box;
 	font-size: 16px;
+ background-size: 100% 100%; background-position: 0px 0px,0px 0px,0px 0px,0px 0px; background-image: radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%), radial-gradient(42% 53% at 15% 94%, #073AFF00 5%, #FFFFFFFF 7%), radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%), linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+ background-size: cover;
 }
 
 *,
@@ -58,7 +60,7 @@ body {
 }
 
 main {
-	margin-top: 6em;
+	margin-top: 1em;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -127,14 +129,14 @@ article > figure > figcaption {
 /* ---------- HEADER ---------- */
 header {
 	/* margin-top: 1em; */
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+  padding: 1rem;
 	background-color: white;
 
 	overflow: hidden;
-	position: fixed;
-	width: 95%;
+	/* position: fixed; */
+	width: 100%;
 	top: 0;
+	left: 0;
 }
 
 header > span {
