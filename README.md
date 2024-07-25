@@ -10,3 +10,13 @@ All content is [Creative Commons CC BY 4.0](https://creativecommons.org/licenses
 
 Allways under construction.  
 ![under construction gif](/images/construction.gif)
+
+## Reinstalling ruby/gems/bundler when this thing breaks every 6 months
+
+this worked as of july 2024
+
+1. Move Gemfile and Gemfile.lock to old.Gemfile and old.Gemfile.lock
+2. ```sudo gem install bundler jekyll minima``` (i had to run this a few times. it failed once or twice. argh)
+3. ```bundle install```
+
+Then it worked to do: ```bundle exec jekyll serve --baseurl '' ``` (what a pain. switch to eleventy?)
