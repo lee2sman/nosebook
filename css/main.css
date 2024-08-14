@@ -4,7 +4,7 @@
 	src: url(./MimoidVF.woff2);
 }
 @font-face {
-        font-family: Roboto;
+	font-family: Roboto;
 	src: url(./Roboto-Regular.woff2);
 }
 /* ---- MINIMAL CSS RESET ----- */
@@ -13,14 +13,6 @@ html {
 	font-size: 16px;
 	background-size: 100% 100%;
 	background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-	background-image: radial-gradient(
-			70% 53% at 36% 76%,
-			#73f2ffff 0%,
-			#073aff00 100%
-		),
-		radial-gradient(42% 53% at 15% 94%, #073aff00 5%, #ffffffff 7%),
-		radial-gradient(31% 43% at 7% 98%, #ffffffff 24%, #073aff00 100%),
-		linear-gradient(125deg, #4eb5ffff 1%, #4c00fcff 100%);
 }
 *,
 *:before,
@@ -57,6 +49,19 @@ img {
 /* ------ END CSS RESET ------- */
 
 /* ------ MAIN / GALLERY ------ */
+html {
+	background-image: radial-gradient(
+			70% 53% at 36% 76%,
+			#73f2ffff 0%,
+			#073aff00 100%
+		),
+		radial-gradient(42% 53% at 15% 94%, #073aff00 5%, #ffffffff 7%),
+		radial-gradient(31% 43% at 7% 98%, #ffffffff 24%, #073aff00 100%),
+		linear-gradient(125deg, #4eb5ffff 1%, #4c00fcff 100%); 
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 100%;
+}
 p,
 figcaption {
 	font-family: "Roboto", sans-serif;
@@ -146,19 +151,19 @@ article > figure > figcaption {
 	text-align: left;
 }
 code {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    border-left: 3px solid #fd92f3;
-    color: #592d86; /* slightly darker than rebeccapurple */
-    white-space: pre;
-    width: 100%;
-    overflow-x: scroll;
-    font-family: Courier, monospace;
-    font-size: 15px;
-    line-height: 1.6;
-    display: inline-block;
-    margin-bottom: 1.6em;
-    padding: 1em 1.5em;
+	background: #f4f4f4;
+	border: 1px solid #ddd;
+	border-left: 3px solid #fd92f3;
+	color: #592d86; /* slightly darker than rebeccapurple */
+	white-space: pre;
+	width: 100%;
+	overflow-x: scroll;
+	font-family: Courier, monospace;
+	font-size: 15px;
+	line-height: 1.6;
+	display: inline-block;
+	margin-bottom: 1.6em;
+	padding: 1em 1.5em;
 }
 /* ---------- HEADER ---------- */
 header {
