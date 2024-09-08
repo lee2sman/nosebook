@@ -1,11 +1,11 @@
 /* --------- FONTS ------------ */
 @font-face {
 	font-family: mimoid;
-	src: url(./MimoidVF.woff2);
+	src: url(/assets/font/MimoidVF.woff2);
 }
 @font-face {
 	font-family: Roboto;
-	src: url(./Roboto-Regular.woff2);
+	src: url(/assets/font/Roboto-Regular.woff2);
 }
 /* ---- MINIMAL CSS RESET ----- */
 html {
@@ -57,10 +57,10 @@ html {
 		),
 		radial-gradient(42% 53% at 15% 94%, #073aff00 5%, #ffffffff 7%),
 		radial-gradient(31% 43% at 7% 98%, #ffffffff 24%, #073aff00 100%),
-		linear-gradient(125deg, #4eb5ffff 1%, #4c00fcff 100%); 
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 100%;
+		linear-gradient(125deg, #4eb5ffff 1%, #4c00fcff 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
 }
 p,
 figcaption {
@@ -85,6 +85,9 @@ main > div {
 	margin: 1em 2em 1em 2em;
 	max-width: 880px;
 }
+main > div > a {
+  text-decoration: none;
+}
 figure {
 	display: table;
 }
@@ -100,11 +103,12 @@ figcaption {
 }
 
 a {
-	text-decoration: none;
+        text-decoration: underline #000 dashed;
 	color: black;
 }
-a:hover {
+a:hover,a:focus {
 	color: seagreen;
+	background-color: #f7c6fc;
 }
 p {
 	font-size: 24px;
@@ -185,6 +189,10 @@ header > span {
 	font-size: 36px;
 	font-family: mimoid;
 }
+header > span > a {
+	text-decoration: none;
+	background-color: white !important;
+}
 nav {
 	font-family: "Roboto", sans-serif;
 	font-size: 24px;
@@ -195,7 +203,8 @@ nav {
 nav > a {
 	margin: 0.5em;
 	color: black;
-	text-decoration: none;
+	text-decoration: none !important;
+	background-color: white !important;
 }
 
 /* -------- FOOTER --------- */
@@ -233,6 +242,9 @@ footer ul li img {
 
 /* ----- MEDIA QUERIES ----- */
 @media only screen and (max-width: 800px) {
+	nav {
+		font-size: 22px;
+	}
 	main {
 		flex-direction: column;
 	}
