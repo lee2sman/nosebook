@@ -4,7 +4,7 @@ layout: default
 
 # Nosebook
 
-This is my informal web-based notebook with writing, links, tutorials, ideas, and lists. These are not meant to be formal articles or academic writing but instead a blog-like place to share ideas, collect thoughts and to cast speculative ideas. There is also a [wiki]({% link wiki/index.md %}).
+This is my informal web-based notebook with writing, links, tutorials, ideas, and lists. These are not meant to be formal articles or academic writing but instead a blog-like place to share ideas, collect thoughts and to cast speculative ideas.
 
 <ul>
   {% for post in site.posts %}
