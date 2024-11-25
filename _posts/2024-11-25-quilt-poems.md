@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Quilt Poems: A new generative text project"
+title:  "Quilt Poems: A new generative text project 🪡🟨"
 categories: programming
 ---
 
-Every year for the past decade November has meant NaNoGenMo for computational artists and poets. [NaNoGenMo](https://nanogenmo.github.io/), or National Novel Generating Month, is a month where folks dedicate time to writing software that generates a "novel." Originally the event was started as a joke, when ringleader, programmer, artist Darius Kazemi noticed that NaNoWriMo, the much more well-known National Novel Writing Month, specified the definition of a novel minimally as consisting of at least 50,000 words. And with a tweet, dozens of computational artists tried their hand at writing code to generate a novel or at least 50,000 words of text.
+Every year for the past decade November has meant the month of NaNoGenMo for computational artists and poets. [NaNoGenMo](https://nanogenmo.github.io/), or National Novel Generating Month, is a month where folks dedicate time to writing software that generates a "novel." Originally the event was started as a joke, when ringleader, programmer, artist Darius Kazemi noticed that NaNoWriMo, the much more well-known National Novel Writing Month, specified the definition of a novel minimally as consisting of at least 50,000 words. And with a rallying tweet, dozens of computational artists tried their hand at writing code to generate a novel or at least 50,000 words of text.
 
 Over the years I've participated at least 5 times. It's a good excuse to to come up with a short-term project idea and see it through to completion, including 'publishing' it online. Some of my previous NaNoGenMo projects have taken off and been exhibited, including my 2018 project Pomelo, consisting of generative Yoko Ono-like "instruction pieces" in the style of her book Grapefruit.
 
-Leading up to NaNoGenMo this year I hadn't had much of an idea of what I wanted to do. The way you participate is to announce your intention through an "issue" on the [NaNoGenMo 2024 github issue page](https://github.com/NaNoGenMo/2024/issues). This is akin to filing a bug report in open source software but instead announcing your ideas of what you'll work on. I perused my previous year reports in case that would help generate new ideas for "novels" to generate but none came for a few weeks and I place it on the back burner.
+Leading up to NaNoGenMo this year I hadn't had much of an idea of what I wanted to do. The way you participate is to announce your intention through an "issue" on the [NaNoGenMo 2024 github issue page](https://github.com/NaNoGenMo/2024/issues). This is akin to filing a bug report in open source software but instead announcing your ideas of what you'll work on. I perused my previous year reports in case that would help generate new ideas for "novels" to generate but none came for a few weeks and I placed it on the back burner.
 
-As I said, I hadn't felt particularly moved to participate this year. But something changed. Last Thursday evening I attended the monthly decade-long [WordHack](https://toddwords.com/wordhack/) event, where there was a release party for the new MIT Press book OUTPUT: an anthology of computer-generated text, 1953 - 2023, edited by Lillian-Yvonne Bertram and Nick Montfort. Several of those presented in the book read their work at the WordHack event, and Nick published a small pamphlet of new works in conjunction with the release of OUTPUT, that I read on the trainride home. That cozy ride home on the train, where I read the software as well as the output gave me the kick to begin planning my own generative poetry. And the next day I quickly got the idea to produce "quilt poems."
+Last Thursday evening I attended the monthly decade-long [WordHack](https://toddwords.com/wordhack/) event, where there was a release party for the new MIT Press book OUTPUT: an anthology of computer-generated text, 1953 - 2023, edited by Lillian-Yvonne Bertram and Nick Montfort. Several of those presented in the book read their work at the WordHack event, and Nick published a small pamphlet of new works in conjunction with the release of OUTPUT, that I read on the trainride home. That cozy ride home on the train, where I read the software as well as the output gave me the kick to begin planning my own generative poetry. And the next day I quickly got the idea to produce "quilt poems."
 
 Quilt poems were not actually a thing prevously, I don't think. Or if they were, I re-invented them. My idea was that I'd map out the patterns of various formal and informal quilt styles, like Log Cabin, Amish bars quilts, and the like. Then I'd generate visual poems that would place words in the same pattern of a particular quilt style.
 
-Here's an example of a "housetop" pattern for example. The numbers are a recipe that correspond to parts of different strips or blocks in a quilt. The `language` is lua (thus the double comma comment line).
+Here's an example of a "housetop" pattern for example. The numbers are a recipe that correspond to parts of different strips or blocks in a quilt. The *language* is Lua (thus the double comma comment line).
 
 ```lua
 { --housetop
@@ -46,11 +46,11 @@ I did however try out a few approaches to printing text over color blocks.
 ![Secret Door quilt]({{"/images/secret-door-quilt.jpg" | absolute_url}})  
 *Secret Door Quilt uses an Amish bars pattern*
 
-This is a screenshot of my terminal. I coded the software in Lua, my favorite language, generally. And the output was rendered to the terminal. I knew you could change text and background colors through terminal commands, and found an ultra minimal single-file library to allow me to do that simply with easy commands. 
+This is a screenshot from my terminal. I knew you could change text and background colors through ANSI terminal commands, and found an ultra minimal single-file library to allow me to do that simply with easy commands. 
 
 But after some tests, although this was kind of fun, I decided to let the poems speak for themselves in just text without color. This might also print more conveniently in black and white when I get to that stage.
 
-I found text libraries of words as usual from Darius Kazemi's [Corpora](https://github.com/dariusk/corpora) github repo, which has great lists of words. I also found a few Wikipedia articles with lists of words that work well together. I tested these many times to see if they generated interesting quilt poems. 
+I found text libraries of words from Darius Kazemi's [Corpora](https://github.com/dariusk/corpora) github repo, which has great lists of words. I also found a few Wikipedia articles with lists of words that work well together. I tested these many times to see if they generated interesting quilt poems. 
 
 The bodies of text I ended up using were:
 
@@ -78,9 +78,10 @@ The basic algorithm I wrote to define each quilt works like this:
 4. Run from top left to bottom right, reading in the number of that place on the quilt pattern and subbing in the word assigned to that number
 5. When placing a word, keep track of what the longest word is in that quilt, and if the current word is shorter, try placing spaces on either side so words in columns get centered. If the spacing is odd, place an extra space on the left.
 
-### Examples
 
-Example output from the quilt poem software:
+### Example output
+
+Try reading these out loud.
 
 ```text
 Badly Questionably crazy variation quilt
@@ -139,6 +140,8 @@ patiently    correct    patiently      hint     patiently    correct    patientl
 patiently   patiently   patiently   patiently   patiently   patiently   patiently   patiently  
  ```
  
+I love the musical staccato rhythm when I say these poems aloud. 
+ 
 In keeping with the annual *holiday* I made sure my software spits out enough quilt poems to get me to 50,000+ words. I have it render to a text file, and made a few runs, checking out the generated poems. I picked one of the outputs and opened it in LibreOffice. I created a cover and info pages as well as added my source code and then the poem output.
 
 I'm pretty happy with the rendered "book" and enjoyed reading it. I haven't read all of them, but I think it could make for a fine selection at a future poetry reading and/or WordHack event.
@@ -149,7 +152,7 @@ I'm pretty happy with the rendered "book" and enjoyed reading it. I haven't read
 
 [Example book output as text on GitHub](https://github.com/lee2sman/generative-quilt-poems/blob/main/dev/bw-quilts-output-test3.txt)
 
-### And mini afterword on AI
+### Mini afterword on AI
 
-I thought about some ideas that might use ChatGPT and I'm not completely against the idea but I'm not particularly a personal fan of LLM-generated texts. I don't find much inspiration in it. And I think more importantly, I don't think it's "fun" to work that way using a text prompt to create my creative work. The process of writing code, testing, shaping what's created, refining, and problem-solving until I get to a satisfying finished creative work, artwork, experimental computational poetry, and otherwise, feels more compelling when I'm steering the ship more concretely myself. And it feels more like my own work that I can recognize as well.
+I thought about some ideas that might use ChatGPT and I'm not completely against the idea but I'm not particularly a personal fan of LLM-generated texts and images. I don't find much inspiration in it. And I think more importantly, I don't think it's "fun" to work that way using a text prompt to create my creative work. The process of writing code, testing, shaping what's created, refining, and problem-solving until I get to a satisfying finished creative work, artwork, experimental computational poetry, and otherwise, feels more compelling when I'm steering the ship more concretely myself. And it feels more like my own work that I can recognize as well.
 
