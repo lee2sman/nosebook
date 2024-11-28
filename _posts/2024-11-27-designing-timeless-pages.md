@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Designing Timeless Webpages For Writing or Portfolio 🌐🕰️
+title: Designing for Reading on the Web 🌐🕰️
 categories: [programming, art]
 ---
 
