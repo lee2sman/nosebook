@@ -12,7 +12,7 @@ The web in 2024 kind of sucks because it's full of junk: sidebars, ads, click to
 
 A bunch of us have tried to sequester ourselves away, jump ship much of the time from the horridness of what the web's become. Here's an example of what I mean:
 
-### How I do "text-first" browsing
+## How I do "text-first" browsing
 
 * I use [Ublock Origin](https://ublockorigin.com/), the only free and open source ad blocker I know of that actually blocks all ads including YouTube, Google, and even "good ads" from a certain competing AdBlock company.
 * I spend time making and reading gemlogs and browsing [Gemini](https://geminiprotocol.net/), the alternative protocol that's a step more complex than pre-www Gopher and a step less complex than the web. There are curently no ads, minimal media, no companies really involved. So it means most sites on Gemini are blogs and articles by a number of people, maybe numbering in the mid thousands. There are a number of great browsers (clients) for this, including the venerable [Lagrange](https://gmi.skyjake.fi/lagrange/) client. Most of the people posting on Gemini are open source-oriented software folks, so that does limit the kind of people and writing you find there.
@@ -25,7 +25,7 @@ What's the point of all this? Trying to make reading on the web a *first class e
 
 It also means a speedier web, where you're not waiting for trackers, scripts and media to load, so these sites serve fast and furious even on old, ancient computers and devices, not requiring the fastest CPU or latest hardware in order to serve basic information.
 
-### Making a reading-oriented site
+## Making a reading-oriented site
 
 Okay, so how do we design around readers without having just straight HTML? And how do we do this so our writing reads well across a range of sizes and screens?
 
