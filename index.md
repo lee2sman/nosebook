@@ -8,15 +8,16 @@ This is my informal web-based notebook with writing, links, tutorials, ideas, an
 
 <ul>
   {% for post in site.posts %}
-  <li>
+  <li style="list-style:none;">
     <p>
       <a href="{{ site.baseurl }}{{ post.url }}">
      {{ post.title }}
      </a>
-    </p>
-      <em>
+     <br>
+    <em style="font-size:small;">
 	{{ post.date | date: "%Y %b %d" }}
       </em>
+      </p>
       </li>
   {% endfor %}
 </ul>
