@@ -39,7 +39,13 @@ figcaption {
 
 ol,
 ul {
-	list-style: none;
+	list-style: square;
+	list-style-position: inside;
+	margin: 1rem 0;
+}
+li {
+	font-size: 1.4rem;
+	margin: 0.5em 0;
 }
 
 img {
@@ -86,7 +92,7 @@ main > div {
 	max-width: 880px;
 }
 main > div > a {
-  text-decoration: none;
+	text-decoration: none;
 }
 figure {
 	display: table;
@@ -103,10 +109,11 @@ figcaption {
 }
 
 a {
-        text-decoration: underline #000 dashed;
+	text-decoration: underline #000 dashed;
 	color: black;
 }
-a:hover,a:focus {
+a:hover,
+a:focus {
 	color: seagreen;
 	background-color: #f7c6fc;
 }
@@ -122,6 +129,7 @@ h1,
 h2,
 h3 {
 	font-family: mimoid, "Roboto", sans-serif;
+	font-weight: 600;
 }
 h1 {
 	font-size: 48px;
