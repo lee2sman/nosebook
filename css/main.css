@@ -249,7 +249,10 @@ footer ul li img {
 }
 
 /* ----- MEDIA QUERIES ----- */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
+h1,h2,h3,p,ul,ol,pre,iframe {
+  max-width: 90vw;
+}
 	nav {
 		font-size: 22px;
 	}
@@ -261,6 +264,8 @@ footer ul li img {
 	}
 }
 @media only screen and (min-width: 800px) {
+  
+
 	article {
 		width: 90%;
 		margin: 1em;
