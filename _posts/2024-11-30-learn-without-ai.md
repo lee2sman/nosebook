@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I want to tell my students about AI
-categories: [ programming, art, AI]
+categories: [programming, art, AI]
 ---
 
 Not long ago, in an online listserve I'm part of, a digital artist announced they were working on a retro video game, programmed in an emulator, creating a game in that system's original language and operating system, a 40-year old game console, the Sega Genesis. "I'm not much of a musician," they said. "How is.." and then rattled off some machine learning models to find out whether folks recomended any particular ones for generating game soundtracks.
