@@ -4,6 +4,8 @@ title: What I want to tell my students about AI
 categories: [programming, art, AI]
 ---
 
+*update: added some further thoughts at the end*
+
 Not long ago, in an online listserve I'm part of, a digital artist announced they were working on a retro video game, programmed in an emulator, creating a game in that system's original language and operating system, a 40-year old game console, the Sega Genesis. "I'm not much of a musician," they said. "How is.." and then rattled off some machine learning models to find out whether folks recomended any particular ones for generating game soundtracks.
 
 Art is about making interesting choices. If you're trying out writing a game for an ancient platform, in an old language with particular constraints, that's a choice the artist made to try out something, outside their normal environment, to see what else is out there in the world, and to challenge oneself. It's also a part of learning a tradition and seeing what working in an older pattern or technique still has to teach us in the contemporary moment.
@@ -32,3 +34,6 @@ I responded to the game designer who emailed the listserve about suggested they 
 
 I truly don't know if they followed that advice. But I hope they found their joy in the practice, and that they'll make work they're proud of.
 
+---
+
+Update: I wanted to add another thought as well: I don't think all AI is the same, or that it can't be part of a creative practice. Aside from environmental concerns of burning fuel to power GPUs, my argument above is aimed at a response to relying on generative Large Language Models to write wholecloth, generate new artwork, or write code, as just a few examples, particularly at the point when one is trying to learn or cultivate one's own body of creative work.
