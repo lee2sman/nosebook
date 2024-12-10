@@ -12,7 +12,7 @@ About a decade ago so-called "static site generators" started to become popular.
 
 I created panblog because I was frustrated with my regular jekyll static site generator, which ironically is used to generate the blog you are likely reading from right now if you are reading my nosebook blog. The reason for my frustration is that these static site generators usually involve installing and maintaining a chain of dependent software files. Web development is a fast-growing ecosystem, and web developers constantly update themes, build systems, dependency-management, etc. That's fine, but it's not pleasant if you have to constantly re-install and debug your website-building system every couple months, and that's what started happening for me, and for many of my art-coder friends that complain about this online on social media.
 
-For many of the sites I create I had increasingly turned to pandoc over the years to convert markdown to html. Pandoc is a commandline software swiss army toolkit, capable of converting between dozens of text formats. A typical use is to convert a text file to a docx file, or a markdown file to a html website, or a html file to a pdf, etc. It can do all of this and more, and be automated. I'm using it often to convert simple text files, blog posts and the like into a website that can be hosted online, with "theme" files that require little to no configuration.
+For many of the sites I create, particularly for class websites, I had increasingly turned to pandoc over the years to convert markdown to html. Pandoc is a commandline software swiss army toolkit, capable of converting between dozens of text formats. A typical use is to convert a text file to a docx file, or a markdown file to a html website, or a html file to a pdf, etc. It can do all of this and more, and be automated. I'm using it often to convert simple text files, blog posts and the like into a website that can be hosted online, with "theme" files that require little to no configuration.
 
 Pandoc was created by [John MacFarlane](https://philosophy.berkeley.edu/people/detail/1), Professor of Philosophy at Berkeley.
 
@@ -24,7 +24,7 @@ That's a fun quote and a nice way to test out blockquotes in my css theme, but n
 
 panblog is currently hosted on a [Tildegit repo](https://tildegit.org/exquisitecorp/panblog).
 
-There is a [demo site](https://exquisitecorp.tildepages.org/panblog-demo/) built with panblog.
+There is a [demo site](https://exquisitecorp.tildepages.org/panblog-demo/) built with panblog, that is a minimalist-style web blog.
 
 
 ### How panblog works
