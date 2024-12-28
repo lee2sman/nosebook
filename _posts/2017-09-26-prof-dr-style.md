@@ -5,9 +5,13 @@ date:   2017-09-26 12:40:05 -0800
 categories: programming
 ---
 
-I recently read Olia Lialina's [Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/), a long and great article subtitled **Top 10 Web Design Styles of 1993 (Vernacular Web 3)**. It focuses on the websites of those professors (the vast majority white men in computer science departments) who can be found in a search for *Prof. Dr.* in a Google web search. This type of individual are generally of a very particular design aesthetic. Says Lialina:
+*Update 2024: I've added this example of a Prof-Dr site I came across in December 2024. It's the [website for Senior Lecturer with Security of Employment Emeritus (a very Prof-Dr style title) Brian Harvey](https://people.eecs.berkeley.edu/~bh/), who wrote the UCBLogo interpreter for the LOGO language with his students at Berkeley. The site includes his bio, images, links to downloadable copies of his textbooks, photos of his children, links to pages on Marxism and a recipe for stuffing that was in the Times.*
 
-![](http://contemporary-home-computing.org/prof-dr-style/sg/browser-editor.png)
+![A Prof Dr site in 2024]({{"/images/prof-dr.jpg" | absolute_url}})
+
+---
+
+I recently read Olia Lialina's [Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/), a long and great article subtitled **Top 10 Web Design Styles of 1993 (Vernacular Web 3)**. It focuses on the websites of those professors (the vast majority white men in computer science departments) who can be found in a search for *Prof. Dr.* in a Google web search. This type of individual are generally of a very particular design aesthetic. Says Lialina:
 
 > Prof. Dr. pages tell the story of the web.
 
@@ -31,9 +35,7 @@ In 2017 it feels far from this era. Making my own *Dr. Professor* page will perh
 - [Nguyen Ngoc BINH, Phd.](http://www.jaist.ac.jp/~binh/)
 - [Dr. Prof. Joseph Kallrath's](http://www.astro.ufl.edu/~kallrath/) extremely plain site
 
-<code>
 <form action="http://www.google.com/search" method="get">
     <input type="text" name="q" value="&quot;Prof. Dr.&quot;" />
     <button type="submit">Google Search</button>
 </form>
-</code>
