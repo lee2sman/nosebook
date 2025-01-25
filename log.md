@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
+## 2024-01-24
+
+Updated documentation for [panblog](https://tildegit.org/exquisitecorp/panblog).
+
+[Bookmobile](https://tildegit.org/exquisitecorp/bookmobile) is a command line program for saving articles from the internet, that I originally wrote four years ago, as an alternative to Pocket or Wallabag or *Save as...*. Bookmobile downloads articles, scrape off the ads, sidebars, navigation bars, and any other extraneous junk. Then it saves the article as an epub for ebook readers, or as plain cleaned up html, or a new html file with a CSS theme, or just as plain markdown text. Tonight I worked on the backend of the program, removing the npm/node.js dependency and replacing it with rdrview. While many folks do use node.js/npm, I certainly don't want to require it, and rdrview is a C program with equivalent functionality. I also cleaned up some of the bookmobile code with proper pandoc titling, the filenaming system, and updated the README documentation. 
+
 ## 2024-01-21
 
 Procrastinated on some school prep by creating my own [Lorem Ipsum](https://leetusman.com/lorem/) "shareware description" generator. Then procrastinated even further by writing out a [Website Tracery tutorial](https://leetusman.com/nosebook/tracery) since I couldn't find any basic tutorials  on how to integrate Tracery into a website and got stymied until I figured out it required jquery as a dependency! Now I've come full circle, and the tutorial will be useful in my classes! :)
