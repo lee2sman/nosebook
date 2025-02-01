@@ -8,6 +8,29 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
+## 2024-01-31
+
+Updated the quiltpoems algorithm to make better visual output. The previous algorithm I wrote scans through every *possible* word "patch" selected for a quilt and finds the maximum word length. Now, I've changed it to only scan through the *actual* used words in each quilt. This theoretically means a performance drop (e.g. "more expensive") since I'm checking 64 times for each quilt instead of the previous 8 times (so 8 times slower) but in practical purposes the total rendering out of 700 visual quilt poems was still less than a second, and that's more than fine. The point of this change was so the columns of a quilt would get smaller, particularly for Amish bars-style quilts. I thought about whether I wanted to change column size for any column with only shorter words in it (such as happens in a Cross Bars quilt) but decided to keep columns consistent for now. The change I've made improves the visual quality on screen and should also make it easier to include more quilts at larger text size in a half-fold printed chapbook/zine, which is one of the things I'd like to do next with this project.
+
+Two examples from today:
+
+```
+Mess Juice Big Quarters Quilt 
+
+ mess  mess juice juice  mess  mess juice juice 
+ mess  mess juice juice  mess  mess juice juice 
+juice juice  mess  mess juice juice  mess  mess 
+juice juice  mess  mess juice juice  mess  mess 
+ mess  mess juice juice  mess  mess juice juice 
+ mess  mess juice juice  mess  mess juice juice 
+juice juice  mess  mess juice juice  mess  mess 
+juice juice  mess  mess juice juice  mess  mess 
+```
+
+And another, as a pic:
+
+![Lobby Leery Drunkard's Path Quilt]({{"/images/log/lobby-leery.png" | absolute_url}})  
+
 ## 2024-01-24
 
 Updated documentation for [panblog](https://tildegit.org/exquisitecorp/panblog).
