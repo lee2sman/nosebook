@@ -8,6 +8,18 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
+## 2024-02-01
+
+Had an idea to make the quilt poems even smaller. I thought it would be complicated but the implementation was trivial. Rather than a single variable to hold the max width of words in a quilt I have a table (array) of 8 values: one for each column. The previous time I cycled through each individual word checking for its width, so now I compare each word's width to the current max width for its column and simply replace it if it's longer. These 8 max column width values are then used to pad out with blank space when writing a quilt poem as output. So this means that each column could be a different width rather than all standardized. Visually, I think it looks better, and it will better fit when I try to do printing for a chapbook.
+
+So next I worked on mocking up a chapbook. I asked for some suggestions on fedi and did some searching of my own. I ended up generating a lot of quilt poems, then selecting favorites and adding them to a document in LibreOffice. I copied my previous NaNoGenMo layout and added in a colophon page, the code and quilt library before the selected poems. I found [Zine Arranger](https://nashhigh.itch.io/zinearranger), a really wonderful web-based layout tool that resizes a source PDF to new dimensions, and used it to create a half fold zine. I also selected a public domain image of an old quilt from the 1800s to be the cover image. I printed off a sample at home and it looks good. Next time will be to print an edition, bind them (I have my long-arm zine stapler), and then distribute. Will try to do it as a riso zine.
+
+Found this online [riso print simulator with ink shift](https://risottostudio.com/pages/print-simulator-ink-shift) tool (reminds me of the [Experimental Archive Space](https://www.experimentalarchive.space/) zine maker that Caleb and I designed - maybe same or similar library under the hood?). Mocked up cover and a sheet.
+
+![Mockup of a riso-printed cover]({{"/images/log/riso-cover-mock.png" | absolute_url}})  
+
+![Mockup of a riso-printed sheet page]({{"/images/log/quiltpoems-riso-mock.png" | absolute_url}})  
+
 ## 2024-01-31
 
 Updated the quiltpoems algorithm to make better visual output. The previous algorithm I wrote scans through every *possible* word "patch" selected for a quilt and finds the maximum word length. Now, I've changed it to only scan through the *actual* used words in each quilt. This theoretically means a performance drop (e.g. "more expensive") since I'm checking 64 times for each quilt instead of the previous 8 times (so 8 times slower) but in practical purposes the total rendering out of 700 visual quilt poems was still less than a second, and that's more than fine. The point of this change was so the columns of a quilt would get smaller, particularly for Amish bars-style quilts. I thought about whether I wanted to change column size for any column with only shorter words in it (such as happens in a Cross Bars quilt) but decided to keep columns consistent for now. The change I've made improves the visual quality on screen and should also make it easier to include more quilts at larger text size in a half-fold printed chapbook/zine, which is one of the things I'd like to do next with this project.
