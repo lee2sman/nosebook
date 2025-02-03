@@ -8,6 +8,35 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
+## 2024-02-02
+
+I cleaned up organization and published some of the demo projects to my [everyday](https://leetusman.com/everyday) mini-site, which is really a back-of-house place for me to do experiments, daily coding sketches and the like. I added some projects testing an experimental [pseudo-radio player](https://leetusman.com/everyday/291/) for a residency this summer, a tribute to the earliest incarnation's of Harold Cohen's self-drawing AARON program that I viewed at the exhibit at the Whitney last year, the [LoremSoft](https://leetusman.com/everyday/294/) generative lorem ipsum shareware page. 
+
+I found the remnants of an earlier test I had tried in using [Fengari library](https://github.com/fengari-lua/fengari-web) to run Lua code in a website's frontend code (implemented in Javascript). I was on an Amtrak train back to NYC and started by writing a minimal demo example to interact with the DOM.
+
+```
+<!-- minimal example using Lua to control the DOM -->
+<body>
+<div id="demo">
+  Starting text
+</div>
+<script src="fengari-web.js" type="text/javascript" async></script>
+<script type="application/lua" async>
+
+	local js = require "js"
+	local window = js.global
+	local document = window.document
+	demo=document:getElementById("demo")
+	demo.innerText="I've changed it!"
+</script>
+</body>
+```
+
+Next step: I wanted to build a quilt-poem-a-day generator as a prototype. I've not exhausted my ideas on the quilt-poems yet evidently! I adapted my code from my previous Lua-based quilt poems generator, and SUCCESS, it worked! I really enjoyed using Lua in the browser. Next steps were to add some minimal CSS, import a wordlist, change to monospace font, keep spaces because javascript will try to strip them out, implement daily seeding. All that I accomplished with another hour of work, so this was a pretty rapid project. I added in a single list of minimal words to start and got a smolweb style theme going with shades of blue. I'm not sure if I'll keep adding to this daily quilt poem project here or leave it as is for now, but I [published](https://leetusman.com/everyday/293/) this version in the browser within my everyday daily code sketches section of my website, so you can return and visit every day if you like.
+
+![Daily Quilt Poem 2025-02-03]({{"/images/log/daily-quilt-poem.png" | absolute_url}})  
+*The inaugural [daily quilt poem](https://leetusman.com/everyday/293/).*
+
 ## 2024-02-01
 
 Had an idea to make the quilt poems even smaller. I thought it would be complicated but the implementation was trivial. Rather than a single variable to hold the max width of words in a quilt I have a table (array) of 8 values: one for each column. The previous time I cycled through each individual word checking for its width, so now I compare each word's width to the current max width for its column and simply replace it if it's longer. These 8 max column width values are then used to pad out with blank space when writing a quilt poem as output. So this means that each column could be a different width rather than all standardized. Visually, I think it looks better, and it will better fit when I try to do printing for a chapbook.
@@ -22,7 +51,7 @@ Found this online [riso print simulator with ink shift](https://risottostudio.co
 
 ## 2024-01-31
 
-Updated the quiltpoems algorithm to make better visual output. The previous algorithm I wrote scans through every *possible* word "patch" selected for a quilt and finds the maximum word length. Now, I've changed it to only scan through the *actual* used words in each quilt. This theoretically means a performance drop (e.g. "more expensive") since I'm checking 64 times for each quilt instead of the previous 8 times (so 8 times slower) but in practical purposes the total rendering out of 700 visual quilt poems was still less than a second, and that's more than fine. The point of this change was so the columns of a quilt would get smaller, particularly for Amish bars-style quilts. I thought about whether I wanted to change column size for any column with only shorter words in it (such as happens in a Cross Bars quilt) but decided to keep columns consistent for now. The change I've made improves the visual quality on screen and should also make it easier to include more quilts at larger text size in a half-fold printed chapbook/zine, which is one of the things I'd like to do next with this project.
+Updated the [quiltpoems](https://github.com/lee2sman/generative-quilt-poems) algorithm to make better visual output. The previous algorithm I wrote scans through every *possible* word "patch" selected for a quilt and finds the maximum word length. Now, I've changed it to only scan through the *actual* used words in each quilt. This theoretically means a performance drop (e.g. "more expensive") since I'm checking 64 times for each quilt instead of the previous 8 times (so 8 times slower) but in practical purposes the total rendering out of 700 visual quilt poems was still less than a second, and that's more than fine. The point of this change was so the columns of a quilt would get smaller, particularly for Amish bars-style quilts. I thought about whether I wanted to change column size for any column with only shorter words in it (such as happens in a Cross Bars quilt) but decided to keep columns consistent for now. The change I've made improves the visual quality on screen and should also make it easier to include more quilts at larger text size in a half-fold printed chapbook/zine, which is one of the things I'd like to do next with this project.
 
 Two examples from today:
 
