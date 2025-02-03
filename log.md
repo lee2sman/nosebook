@@ -8,6 +8,13 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
+## 2024-02-03
+
+Minor fixes to [Daily quilt poem](https://leetusman.com/everyday/293/), separating out the html, css and lua script to separate files. I also improved the css so it looks better on mobile. One fun note: I am using the *noscript* tag, used to convey a message to a visitor to a site that they are unable to see the full working site without javascript. In what may be a first, I let the reader know the site requires javascript to render the Lua script, or alternately, they can read quilt poems as a book.
+
+![noscript message on Daily quilt poem]({{"/images/log/noscript.png" | absolute_url}})  
+*Message to users not running Javascript in their browser. I'm testing this on the [Dillo browser](https://dillo-browser.github.io/25-years/index.html), one of my favorite minimalist browsers, and also no-Javascript.*  
+
 ## 2024-02-02
 
 I cleaned up organization and published some of the demo projects to my [everyday](https://leetusman.com/everyday) mini-site, which is really a back-of-house place for me to do experiments, daily coding sketches and the like. I added some projects testing an experimental [pseudo-radio player](https://leetusman.com/everyday/291/) for a residency this summer, a tribute to the earliest incarnation's of Harold Cohen's self-drawing AARON program that I viewed at the exhibit at the Whitney last year, the [LoremSoft](https://leetusman.com/everyday/294/) generative lorem ipsum shareware page. 
