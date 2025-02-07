@@ -8,14 +8,22 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
-## 2024-02-03
+## 2025-02-06
+
+I updated my Pomodoro Timer for Pico-8. I tweaked the UI and added the ability to change timer length. For Pico-8 owners you can find it in *splore*, or anyone can run it via the [embedded web player](https://www.lexaloffle.com/bbs/?tid=144025). It should also be easy to get it working on Picotron.
+
+![Short looping animation gif of Pomodoro Timer for Pico-8](https://www.lexaloffle.com/media/51769/5_pomodoro_0.gif)  
+
+I had a proposal accepted to the low-tech electronics faire conference in March. I'm going to teach a workshop in making oldschool video games using BASIC. Specifically, I proposed to teach a video game workshop with [Yabasic](https://2484.de/yabasic/), since it works on both old and new computers, and has some modern programming conveniences (subroutines, graphics commands). Inspired by ideas of permacomputation, minimalism in digital humanities, retro-computing, and *platform studies*, I think BASIC will allow us to explore these concepts in a hands-on, engaging way. I started by looking for the source code for Hamurabi, Star Trader, Drug Wars and Lemonade Stand. There's also my game [Gobi](https://notapipe.itch.io/gobi) (an Oregon Trail-like), not to mention modern economic sims like M.U.L.E., Reigns, Democratic Socialism Simulator, and many others. I want to create some starter code that folks can use in a workshop. To practice with Yabasic I made a simple version of Twenty-one, Pig dice game (I previously coded one in Tiny Basic), a basic Hello World window, and a random dice roller. 
+
+## 2025-02-03
 
 Minor fixes to [Daily quilt poem](https://leetusman.com/everyday/293/), separating out the html, css and lua script to separate files. I also improved the css so it looks better on mobile. One fun note: I am using the *noscript* tag, used to convey a message to a visitor to a site that they are unable to see the full working site without javascript. In what may be a first, I let the reader know the site requires javascript to render the Lua script, or alternately, they can read quilt poems as a book.
 
 ![noscript message on Daily quilt poem]({{"/images/log/noscript.png" | absolute_url}})  
 *Message to users not running Javascript in their browser. I'm testing this on the [Dillo browser](https://dillo-browser.github.io/25-years/index.html), one of my favorite minimalist browsers, and also no-Javascript.*  
 
-## 2024-02-02
+## 2025-02-02
 
 I cleaned up organization and published some of the demo projects to my [everyday](https://leetusman.com/everyday) mini-site, which is really a back-of-house place for me to do experiments, daily coding sketches and the like. I added some projects testing an experimental [pseudo-radio player](https://leetusman.com/everyday/291/) for a residency this summer, a tribute to the earliest incarnation's of Harold Cohen's self-drawing AARON program that I viewed at the exhibit at the Whitney last year, the [LoremSoft](https://leetusman.com/everyday/294/) generative lorem ipsum shareware page. 
 
@@ -44,7 +52,7 @@ Next step: I wanted to build a quilt-poem-a-day generator as a prototype. I've n
 ![Daily Quilt Poem 2025-02-03]({{"/images/log/daily-quilt-poem.png" | absolute_url}})  
 *The inaugural [daily quilt poem](https://leetusman.com/everyday/293/).*
 
-## 2024-02-01
+## 2025-02-01
 
 Had an idea to make the quilt poems even smaller. I thought it would be complicated but the implementation was trivial. Rather than a single variable to hold the max width of words in a quilt I have a table (array) of 8 values: one for each column. The previous time I cycled through each individual word checking for its width, so now I compare each word's width to the current max width for its column and simply replace it if it's longer. These 8 max column width values are then used to pad out with blank space when writing a quilt poem as output. So this means that each column could be a different width rather than all standardized. Visually, I think it looks better, and it will better fit when I try to do printing for a chapbook.
 
@@ -56,7 +64,7 @@ Found this online [riso print simulator with ink shift](https://risottostudio.co
 
 ![Mockup of a riso-printed sheet page]({{"/images/log/quiltpoems-riso-mock.png" | absolute_url}})  
 
-## 2024-01-31
+## 2025-01-31
 
 Updated the [quiltpoems](https://github.com/lee2sman/generative-quilt-poems) algorithm to make better visual output. The previous algorithm I wrote scans through every *possible* word "patch" selected for a quilt and finds the maximum word length. Now, I've changed it to only scan through the *actual* used words in each quilt. This theoretically means a performance drop (e.g. "more expensive") since I'm checking 64 times for each quilt instead of the previous 8 times (so 8 times slower) but in practical purposes the total rendering out of 700 visual quilt poems was still less than a second, and that's more than fine. The point of this change was so the columns of a quilt would get smaller, particularly for Amish bars-style quilts. I thought about whether I wanted to change column size for any column with only shorter words in it (such as happens in a Cross Bars quilt) but decided to keep columns consistent for now. The change I've made improves the visual quality on screen and should also make it easier to include more quilts at larger text size in a half-fold printed chapbook/zine, which is one of the things I'd like to do next with this project.
 
@@ -79,23 +87,23 @@ And another, as a pic:
 
 ![Lobby Leery Drunkard's Path Quilt]({{"/images/log/lobby-leery.png" | absolute_url}})  
 
-## 2024-01-24
+## 2025-01-24
 
 Updated documentation for [panblog](https://tildegit.org/exquisitecorp/panblog).
 
 [Bookmobile](https://tildegit.org/exquisitecorp/bookmobile) is a command line program for saving articles from the internet, that I originally wrote four years ago, as an alternative to Pocket or Wallabag or *Save as...*. Bookmobile downloads articles, scrape off the ads, sidebars, navigation bars, and any other extraneous junk. Then it saves the article as an epub for ebook readers, or as plain cleaned up html, or a new html file with a CSS theme, or just as plain markdown text. Tonight I worked on the backend of the program, removing the npm/node.js dependency and replacing it with rdrview. While many folks do use node.js/npm, I certainly don't want to require it, and rdrview is a C program with equivalent functionality. I also cleaned up some of the bookmobile code with proper pandoc titling, the filenaming system, and updated the README documentation. 
 
-## 2024-01-21
+## 2025-01-21
 
 Procrastinated on some school prep by creating my own [Lorem Ipsum](https://leetusman.com/lorem/) "shareware description" generator. Then procrastinated even further by writing out a [Website Tracery tutorial](https://leetusman.com/nosebook/tracery) since I couldn't find any basic tutorials  on how to integrate Tracery into a website and got stymied until I figured out it required jquery as a dependency! Now I've come full circle, and the tutorial will be useful in my classes! :)
 
-## 2024-01-18
+## 2025-01-18
 
 Published initial version of my class website for [Creating User Interfaces](https://leetusman.com/cui_spring2025/), built with my panblog static site builder. I came across the [Reasonable Colors](https://www.reasonable.work/colors/) system for creating accessible color palletes and tried it for the first time to ensure I had met minimum color contrast ratios.
 
 I tried out the latest v1.2 version of [Lichen-Markdown](https://codeberg.org/ukrudt.net/lichen-markdown) by @abekonge, @soapdog, and @notplants, a fork of the original Lichen by @sensorstation. I had previously suggested they build in locally-running php-only support, and tried out this new feature. It's a big improvement since you can then just publish static pages afterwards. I sent some suggestions on additional beginner-friendly improvements: wysywig buttons for adding the main markdown things (headings, links, code, images), and a suggested fix for adding image titles with spaces in the name.
 
-## 2024-01-17
+## 2025-01-17
 
 Added a mini fish script to complement adding simple entries directly to [CAROUSEL](https://partytimehexcellent.itch.io/carousel) (by Rachel Simone Weil) notetaking program without having to launch DOSBOX.
 
@@ -114,7 +122,7 @@ The site I built for Sara and Michael's exhibit is [online now](https://istherea
 
 The site works like a 24 hour film. I programmed it to run like an extremely slow flipbook animation. Here's a screenshot of the site at the moment about halfway through the minute at 2:13pm. Due to the fires in LA the exhibit opening was postponed and now is going to open this coming saturday at Timeshare gallery.
 
-## 2024-01-16
+## 2025-01-16
 
 Published online the first pages of the Drawing, Moving and Seeing with Code [class site](https://leetusman.com/dmsc_spring2025/), built with my [Panblog](https://tildegit.org/exquisitecorp/panblog) static site generator that I created in December. It's really easy to use, and to publish with GitHub pages from a docs directory is simple. I also programmed a little fun wandering bee for the landing page using the DOM function calls (formerly p5dom) in not many lines of p5.js code, using perlin noise. I tested the site on Firefox, Falkon, Dillo, Netsurf, and w3m. 
 
@@ -123,11 +131,11 @@ Published online the first pages of the Drawing, Moving and Seeing with Code [cl
 
 Last month I built a web-based artwork in the form of a 24-hour movie/animation presented on a custom website. This was work-for-hire for artist friends as part of an exhibit of their work opening at a gallery in LA this month. Today it was deployed and I tested on several browsers and phone.
 
-## 2024-01-15
+## 2025-01-15
 
 I'm back in NYC. The past few days I did some course prep for my course Drawing, Moving and Seeing with Code. I'm excited for the class. On my laptop I installed [Moby](https://www.moby-thesaurus.org/) open source thesaurus and created a simple command line function alias.
 
-## 2024-01-12
+## 2025-01-12
 
 Yesterday Yuehao and I visited MOLAA the Museum of Latin American Art and saw [ARTEÔNICA: Art, Science, and Technology in Latin America Today](https://molaa.org/2024-arteonica), which I had been recommended to see by Katherine Moriwaki and Jonah Brucker-Cohen only last week. I'm so thankful for the recommendation as this was an incredible survey exhibition of work from decades past to today. This is a well-curated exhibition, directed by Gabriala Urtiaga. I loved many of the works and took lots of photos and notes. I'm going to include teaching about these artists in my Drawing, Moving and Seeing with Code course next semester.
 
@@ -135,19 +143,19 @@ I spent time researching a number of the artists from the show. [Francesco Mario
 
 I am still in LA. Two flights on two separate days already cancelled on me! Hoping I can fly home tonight.
 
-## 2024-01-09
+## 2025-01-09
 
 Studio visit with Yuehao Jiang and Matt Doyle. We showed each other our recent projects. Yuehao gave some great feedback on my interview art piece currently titled *Hyphenated*. One suggestion was to simplify the background to make the speakers the focus, and to add subtitles. I tried out a 'basic primitives' version and a wilder one in my typical style. Still need to add the subtitles and some other improvements when I'm back in NYC.
 
 ![two basic 3d model heads made out of primitive shapes are facing each other. Their skin and feature textures are glitchy drawings and the background is also a big glitch image of many colors]({{"/images/log/heads-wild.jpg" | absolute_url}})
 
-## 2024-01-08
+## 2025-01-08
 
 Added a page on Lua to my [Programming Notes](https://leetusman.com/notes/programming/) page. I also started working on building a basic theme template system for the note pages.
 
 I continued work on my Forth-like language.
 
-## 2024-01-05
+## 2025-01-05
 
 I'm kicking off this tinylog today. I'm not 100% sure I'll stick with it, but I enjoyed participating in the [December Adventure](https://leetusman.com/december-adventure-2024/) last month and thought I should have a spot to plop down further thoughts as I build projects or do research or what-have-you. I think anything that isn't quite a blog post or a project page could go here.
 
@@ -158,5 +166,4 @@ I went back into the ExquisiteCorp site I prototyped for my music website, but I
 ![mockup of ExquisiteCorp website? - phone size screenshot of a website with title exquisitecorp followed by a 2column grid of 'fried' images]({{"/images/excorp-mockup.jpg" | absolute_url}})
 
 Hmmm. Not sure that works. In any case, I've been recording music lately and need a place to plop it!
-
 
