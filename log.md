@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research.*
 
+## 2025-02-07
+
+Added the [pages](https://leetusman.com/pages/) page to my website, which links to lots of things that were previously harder to find, such as tutorials, my links page, this log, and my more public software projects and class websites. I also added a direct link in the navbar, but wasn't sure at first what to call it. I ended up going with *+*, implying, click here on the plus sign to see more. Hopefully that works. I did some css cleanup on the jekyll blog and cleaned up the links page a bit, though I hope to grow it further.
+
 ## 2025-02-06
 
 I updated my Pomodoro Timer for Pico-8. I tweaked the UI and added the ability to change timer length. For Pico-8 owners you can find it in *splore*, or anyone can run it via the [embedded web player](https://www.lexaloffle.com/bbs/?tid=144025). It should also be easy to get it working on Picotron.
