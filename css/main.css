@@ -249,12 +249,12 @@ footer ul li img {
 }
 
 /* ----- MEDIA QUERIES ----- */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
 h1,h2,h3,p,ul,ol,pre,iframe {
   max-width: 90vw;
 }
 	nav {
-		font-size: 22px;
+		font-size: 18px;
 	}
 	main {
 		flex-direction: column;

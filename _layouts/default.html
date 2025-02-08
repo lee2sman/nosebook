@@ -23,6 +23,7 @@ main p {
 	      <a href="/">Projects</a>
 	      <a href="/now">Now</a>
 	      <a href="/info">Info</a>
+	      <a href="/pages">+</a>
 	      <a href="/nosebook">Blog</a>
 	    </nav>
 
@@ -37,15 +38,38 @@ main p {
 
 		  </article>
 		</main>
-		<footer>
-    		<ul>
-		  <li>
-		    <a href="{{ site.baseurl }}/feed.xml" alt='RSS feed'><img src='{{"/images/rss.png" | absolute_url}}' alt='RSS icon'> RSS</a>
-		  </li>
 
-        		<li><a href="mailto:leetusman@gmail">email</a></li>
-        		<li><a href="https://github.com/lee2sman">github.com/lee2sman</a></li>
-			</ul>
-		</footer>
+		<footer>
+        <ul>
+	  <li>
+		    <a href="{{ site.baseurl }}/feed.xml" alt='RSS feed'><img src='{{"/images/rss.png" | absolute_url}}' alt='RSS icon'></a>
+	  </li>
+          <li>
+            <a href="#">
+	      <img src='{{"/images/up_arrow.svg" | absolute_url}}' alt="Top of page"/>
+            </a>
+          </li>
+          <li>
+	    <a href="mailto:leetusman@gmail.com">
+	      <img src='{{"/images/mail.svg" | absolute_url}}' alt="Contact"/>
+            </a>
+          </li>
+          <li>
+            <a href="/info">
+	      <img src='{{"/images/info.svg" | absolute_url}}' alt="info"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://webring.xxiivv.com/#leet">
+	      <img src='{{"/images/webring.svg" | absolute_url}}' alt="Merveilles webring"/>
+            </a>
+          </li>
+          <li>
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">
+		<img src='{{"/images/img/cc.svg" | absolute_url}}' alt="Creative Commons License"/></a>
+          </li>
+        </ul>
+      </footer>	
+
 	</body>
 </html>
