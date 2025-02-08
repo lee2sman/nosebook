@@ -6,7 +6,11 @@ permalink: /log/
 
 # Log
 
-*This is a page for ongoing tiny updates on my projects and research.*
+*This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
+
+## 2025-02-08
+
+I did some work to prepare for my workshop for LOW TECH at Temple University next month. I started by porting the Hamurabi game to Yabasic, which I had saved in a [GitHub repo of BASIC games](https://github.com/lee2sman/BasicGames/) over a decade ago! Porting was straightforward and I wrote some notes on my process. I didn't try to translate GOTOs to subprogram (functions) for example. Mostly I needed to alter conditionals to explicitly have *GOTO* statements and end with *endif*. I also switched out RND() for RAN() and formatted text. It worked! Incredible. I'm still really bad at the game. And studying the code doesn't mean I've learned how to get better. The code is from 1978, and the game is even older, so it's really cool to be working with the same code from almost 50 years ago. I wrote up my process and some links to learn more to include in my workshop materials. Next I came across [The Oregon Trail](https://github.com/clintmoyer/oregon-trail) source code and took a look. It contains both the original code as well as some other refactors. With some of my own refactoring for Yabasic I got the main functionality working except for hunting, and some other things (bandits never seemed to attack). It's been fun working on this so far. I haven't placed any of the code or notes online yet but will do so when I get farther along.
 
 ## 2025-02-07
 
