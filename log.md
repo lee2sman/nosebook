@@ -10,73 +10,9 @@ permalink: /log/
 
 ## 2025-02-09
 
-I studied the Oregon Trail source code (1978) a bit because I couldn't get the shooting sub-routine section to work correctly. There's a *CLK(0)* command that I couldn't find in the Microsoft Basic reference manuals from 1980 that I read online. I must be running a different BASIC? I figure it stands for clock time. So I read the comments. Thank G-d for comments from 1978 from the programmer! It's incredible to read code comments written before I was born and then use those comments to help me fix the code to work today, 47 years later. I can't recall experiencing anything like that before.
+I am having so much fun programming in BASIC! Today I worked on the version of the game [The Oregon Trail](https://github.com/clintmoyer/oregon-trail/blob/master/oregon.bas) from 1978 (4 years before I was born). I made some basic (sorry) changes to get it to run in the modern [Yabasic](http://2484.de/yabasic/), which is a maintained free and open source BASIC interpreter that is at least 25 years old, and runs on Unix-like systems and Windows. First I convert rnd() to ran() (could have just added a subroutine call, but find/replace was just as easy). Then I add in goto and endifs explicitly since that's required in Yabasic. Last I convert semicolons to commas. And with mostly just that, The Oregon Trail runs. 
 
-Here's the first comments I reviewed:
-
-```BASIC
-6130 REM ***SHOOTING SUB-ROUTINE***
-6131 REM THE METHOD OF TIMING THE SHOOTING (LINES 6210-6240)
-6132 REM WILL VARY FROM SYSTEM TO SYSTEM.  FOR EXAMPLE, H-P
-6133 REM USERS WILL PROBABLY PREFER TO USE THE 'ENTER' STATEMENT.
-6134 REM IF TIMING ON THE USER'S SYSTEM IS HIGHLY SUSCEPTIBLE
-6135 REM TO SYSTEM RMESPONSE TIME, THE FORMULA IN LINE 6240 CAN
-6136 REM BE TAILORED TO ACCOMODATE THIS BY EITHER INCREASING
-6137 REM OR DECREASING THE 'SHOOTING' TIME RECORDED BY THE SYSTEM
-```
-
-Okay, that was helpful info. Next I first thought that the program was looking for the user to press enter twice in a row and then checking how long that took and seeing if it was less than a certain amount of time. If so, successful shoot. Otherwise, a miss. Then I looked again at the DIM array of words ("BANG","BLAM","POW","WHAM") and realized, NO, the user is being prompted to type in one of these randomly, and THEN the time is checked.
-
-THEN, I remembered back to the beginning of the program. Here's the original source code from 1978.
-
-```BASIC
- 710 PRINT "HOW GOOD A SHOT ARE YOU WITH YOUR RIFLE?"
- 720 PRINT "  (1) ACE MARKSMAN,  (2) GOOD SHOT,  (3) FAIR TO MIDDLIN'"
- 730 PRINT "         (4) NEED MORE PRACTICE,  (5) SHAKY KNEES"
- 740 PRINT "ENTER ONE OF THE ABOVE -- THE BETTER YOU CLAIM YOU ARE, THE"
- 750 PRINT "FASTER YOU'LL HAVE TO BE WITH YOUR GUN TO BE SUCCESSFUL."
- 760 INPUT D9
- 770 IF D9>5 THEN GOTO 790 ENDIF
- 780 GOTO 810
- 790 D9=0
-```
-
-So I take this to mean you can assign yourself 1 (best) to 5 (worse) or if you're a smart-aleck and type a number higher than 5 it seems they assign you the value 0 in line 790, which should be harder than ACE MARKSMAN, right? 
-
-I want to use this self-assigned markmanship. Next I see:
-
-```BASIC
-6240 B1=((B1-B3)*3600)-(D9-1)
-```
-
-So I need to make my own version of this line. Incidentally, I didn't see that they actually check to make sure you're typing the correct word, so I added that in too. In the end, mine takes many more lines of code than the original.
-
-```BASIC
-clear screen
-amt=round(ran(3))+1
-REM wait some amount of time
-sleep amt
-start = peek("millisrunning")
-6200 PRINT "TYPE ", S$(S6)
-input challenge$
-print "POW!! "
-REM Grab time at end
-stop = peek("millisrunning")
-REM if time is less than a second, success
-if challenge$==S$(S6) THEN
-  PRINT "Word typed correctly"
-  PRINT "It took you ", stop-start, " millis"
-  PRINT "To succeed, you must do it in ",550*D9," millis"
-    if start+(550*D9)>stop then
-      print "A hit!"
-    else
-      print "A miss!"
-    endif
-  else
-    Print "Misfire! (Typed incorrectly)"
-endif```
-
-I ended up writing a number of lines of code, but in the end, my program works pretty well I think. It checks that you type the correct word, and that you did it within time, which I defined as 550 milliseconds times the self-selected shoot skill from the beginning (1 to 5, or 0 for smart-alecks, who will always fail). The 550 is a bit of a *magic number* that came about from my own repeated practice to hit upon the right rate.
+Then I notice the passing strangers in the game never attack, so there's possibly some work to do there. I also try to "hunt" and the program crashes. I decide to tackle hunting, and through that, I went on a deep dive. The 1978 program calls CLK(0) probably to get the time. I check the original 1980 Microsoft BASIC reference manuals but can't find CLK() listed. This must be a different BASIC? But I thought it was MS BASIC? In any case, there are LOTS of code comments in the original code, and despite the much-maligned GOTOs, the code is not bad to follow. So I isolate out the HUNT code into a separate program to try to debug. First I see that a player self-selects their skill level at hunting. Then I realize there is an array of words ("BLAM","POW", etc) and a prompt that asks the player to type one of these selected randomly, by a certain time. With that, I devise my own hunt program. Two hours later I got a fully functioning hunt program and with an added minor improvement that I check the user typed the word correctly, which was not included in the original as far as I can tell. But at the cost that my version takes many more lines of code. I have much more detailed info on this and source code on my [blog](https://leetusman.com/nosebook/oregon-comments). 
 
 ## 2025-02-08
 
