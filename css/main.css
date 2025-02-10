@@ -162,6 +162,13 @@ article > h1 {
 article > figure > figcaption {
 	text-align: left;
 }
+blockquote {
+	border-left: 4px solid #fd92f3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 1.5rem; 
+	padding-left: 15px;
+}
 code {
 	background: #f4f4f4;
 	border: 1px solid #ddd;
