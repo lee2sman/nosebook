@@ -8,6 +8,76 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-02-09
+
+I studied the Oregon Trail source code (1978) a bit because I couldn't get the shooting sub-routine section to work correctly. There's a *CLK(0)* command that I couldn't find in the Microsoft Basic reference manuals from 1980 that I read online. I must be running a different BASIC? I figure it stands for clock time. So I read the comments. Thank G-d for comments from 1978 from the programmer! It's incredible to read code comments written before I was born and then use those comments to help me fix the code to work today, 47 years later. I can't recall experiencing anything like that before.
+
+Here's the first comments I reviewed:
+
+```BASIC
+6130 REM ***SHOOTING SUB-ROUTINE***
+6131 REM THE METHOD OF TIMING THE SHOOTING (LINES 6210-6240)
+6132 REM WILL VARY FROM SYSTEM TO SYSTEM.  FOR EXAMPLE, H-P
+6133 REM USERS WILL PROBABLY PREFER TO USE THE 'ENTER' STATEMENT.
+6134 REM IF TIMING ON THE USER'S SYSTEM IS HIGHLY SUSCEPTIBLE
+6135 REM TO SYSTEM RMESPONSE TIME, THE FORMULA IN LINE 6240 CAN
+6136 REM BE TAILORED TO ACCOMODATE THIS BY EITHER INCREASING
+6137 REM OR DECREASING THE 'SHOOTING' TIME RECORDED BY THE SYSTEM
+```
+
+Okay, that was helpful info. Next I first thought that the program was looking for the user to press enter twice in a row and then checking how long that took and seeing if it was less than a certain amount of time. If so, successful shoot. Otherwise, a miss. Then I looked again at the DIM array of words ("BANG","BLAM","POW","WHAM") and realized, NO, the user is being prompted to type in one of these randomly, and THEN the time is checked.
+
+THEN, I remembered back to the beginning of the program. Here's the original source code from 1978.
+
+```BASIC
+ 710 PRINT "HOW GOOD A SHOT ARE YOU WITH YOUR RIFLE?"
+ 720 PRINT "  (1) ACE MARKSMAN,  (2) GOOD SHOT,  (3) FAIR TO MIDDLIN'"
+ 730 PRINT "         (4) NEED MORE PRACTICE,  (5) SHAKY KNEES"
+ 740 PRINT "ENTER ONE OF THE ABOVE -- THE BETTER YOU CLAIM YOU ARE, THE"
+ 750 PRINT "FASTER YOU'LL HAVE TO BE WITH YOUR GUN TO BE SUCCESSFUL."
+ 760 INPUT D9
+ 770 IF D9>5 THEN GOTO 790 ENDIF
+ 780 GOTO 810
+ 790 D9=0
+```
+
+So I take this to mean you can assign yourself 1 (best) to 5 (worse) or if you're a smart-aleck and type a number higher than 5 it seems they assign you the value 0 in line 790, which should be harder than ACE MARKSMAN, right? 
+
+I want to use this self-assigned markmanship. Next I see:
+
+```BASIC
+6240 B1=((B1-B3)*3600)-(D9-1)
+```
+
+So I need to make my own version of this line. Incidentally, I didn't see that they actually check to make sure you're typing the correct word, so I added that in too. In the end, mine takes many more lines of code than the original.
+
+```BASIC
+clear screen
+amt=round(ran(3))+1
+REM wait some amount of time
+sleep amt
+start = peek("millisrunning")
+6200 PRINT "TYPE ", S$(S6)
+input challenge$
+print "POW!! "
+REM Grab time at end
+stop = peek("millisrunning")
+REM if time is less than a second, success
+if challenge$==S$(S6) THEN
+  PRINT "Word typed correctly"
+  PRINT "It took you ", stop-start, " millis"
+  PRINT "To succeed, you must do it in ",550*D9," millis"
+    if start+(550*D9)>stop then
+      print "A hit!"
+    else
+      print "A miss!"
+    endif
+  else
+    Print "Misfire! (Typed incorrectly)"
+endif```
+
+I ended up writing a number of lines of code, but in the end, my program works pretty well I think. It checks that you type the correct word, and that you did it within time, which I defined as 550 milliseconds times the self-selected shoot skill from the beginning (1 to 5, or 0 for smart-alecks, who will always fail). The 550 is a bit of a *magic number* that came about from my own repeated practice to hit upon the right rate.
+
 ## 2025-02-08
 
 I did some work to prepare for my workshop for LOW TECH at Temple University next month. I started by porting the Hamurabi game to Yabasic, which I had saved in a [GitHub repo of BASIC games](https://github.com/lee2sman/BasicGames/) over a decade ago! Porting was straightforward and I wrote some notes on my process. I didn't try to translate GOTOs to subprogram (functions) for example. Mostly I needed to alter conditionals to explicitly have *GOTO* statements and end with *endif*. I also switched out RND() for RAN() and formatted text. It worked! Incredible. I'm still really bad at the game. And studying the code doesn't mean I've learned how to get better. The code is from 1978, and the game is even older, so it's really cool to be working with the same code from almost 50 years ago. I wrote up my process and some links to learn more to include in my workshop materials. Next I came across [The Oregon Trail](https://github.com/clintmoyer/oregon-trail) source code and took a look. It contains both the original code as well as some other refactors. With some of my own refactoring for Yabasic I got the main functionality working except for hunting, and some other things (bandits never seemed to attack). It's been fun working on this so far. I haven't placed any of the code or notes online yet but will do so when I get farther along.
