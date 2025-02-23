@@ -8,6 +8,19 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2024-02-23
+
+Today I finished writing Gobi in Yabasic, to be used in the [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary March 15. It's an Oregon Trail-like adventure game, and I've previously [published a web version](https://notapipe.itch.io/gobi) that I wrote for the web, with photographs for the graphics. It helped to look up my previous algorithms, like how much food is consumed per turn in the desert, how much resting improves the camel health, water and food replenished at an oasis, etc, but I did make some tweaks. I enjoyed the process of writing it in BASIC. 
+
+![Gobi text adventure game]({{"/images/log/gobi.jpg" | absolute_url}})  
+*Gobi text adventure game in Yabasic, showing one of many ways to die. This is running in CoolRetroTerm terminal emulator.*
+
+One thing that made this easier than The Oregon Trail that I was working on previously was that I was...using subroutines instead of GOTO statements. This makes it so much easier to get to the right section to fix things. In the updated [Basic Computer Games](https://github.com/coding-horror/basic-computer-games?tab=readme-ov-file#project-goals) repo where participants port the old games to *modern* conventions one of the guidelines is:
+
+> Please DO update for modern coding conventions. Support uppercase and lowercase. Use structured programming. Use subroutines. Try to be an example of good, modern coding practices!
+
+Going back to the original OREGON has been difficult because I have to figure out the control flow. Hamurabi was short enough and I was lucky enough that keeping the GOTO statements in *just worked.* But Oregon's increased complexity means I still have to put more work into it.
+
 ## 2025-02-09
 
 Today I worked on the version of the game [The Oregon Trail](https://github.com/clintmoyer/oregon-trail/blob/master/oregon.bas) from 1978. It's a trip to work with code written years before I was born. I made some basic (sorry) changes to get it to run in the modern [Yabasic](http://2484.de/yabasic/), which is a maintained free and open source BASIC interpreter that is at least 25 years old, and runs on Unix-like systems and Windows. First I convert rnd() to ran() (could have just added a subroutine call, but find/replace was just as easy). Then I add in goto and endifs explicitly since that's required in Yabasic. Last I convert semicolons to commas. And with mostly just that, The Oregon Trail runs. 
