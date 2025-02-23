@@ -10,7 +10,7 @@ permalink: /log/
 
 ## 2024-02-23
 
-Today I finished writing Gobi in Yabasic, to be used in the [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary March 15. It's an Oregon Trail-like adventure game, and I've previously [published a web version](https://notapipe.itch.io/gobi) that I wrote for the web, with photographs for the graphics. It helped to look up my previous algorithms, like how much food is consumed per turn in the desert, how much resting improves the camel health, water and food replenished at an oasis, etc, but I did make some tweaks. I enjoyed the process of writing it in BASIC. 
+Today I finished writing Gobi in Yabasic, to be used in the [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary March 14. It's an Oregon Trail-like adventure game, and I've previously [published a web version](https://notapipe.itch.io/gobi) that I wrote for the web, with photographs for the graphics. It helped to look up my previous algorithms, like how much food is consumed per turn in the desert, how much resting improves the camel health, water and food replenished at an oasis, etc, but I did make some tweaks. I enjoyed the process of writing it in BASIC. 
 
 ![Gobi text adventure game]({{"/images/log/gobi.jpg" | absolute_url}})  
 *Gobi text adventure game in Yabasic, showing one of many ways to die. This is running in CoolRetroTerm terminal emulator.*
