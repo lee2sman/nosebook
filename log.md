@@ -8,7 +8,15 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
-## 2024-02-23
+## 2025-02-24
+
+I tried out the [Openshot](https://www.openshot.org/) open source video editor to make an excerpt from one of my fall performances and [uploaded](https://youtu.be/QRva9XkAZN4) it to YouTube.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QRva9XkAZN4?si=sozIDLTA9wsaGI9i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+This is from a performance at Flux Factory on Governor's Island in September for the Emergent Behavior performance, accompanying the exhibition [Spiritual Machines](https://spiritualmachines.neocities.org/).
+
+## 2025-02-23
 
 Today I finished writing Gobi in Yabasic, to be used in the [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary March 14. It's an Oregon Trail-like adventure game, and I've previously [published a web version](https://notapipe.itch.io/gobi) that I wrote for the web, with photographs for the graphics. It helped to look up my previous algorithms, like how much food is consumed per turn in the desert, how much resting improves the camel health, water and food replenished at an oasis, etc, but I did make some tweaks. I enjoyed the process of writing it in BASIC. 
 
