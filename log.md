@@ -8,6 +8,16 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-03-08
+
+The [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary is a week away. I began work on another game, a clone or demake of the [Quibble Race](https://ufo50.miraheze.org/wiki/Quibble_Race) game from UFO 50. I think I've made a pretty good working version. Just need some tweaks to wrap up and I think it's already pretty fun. I'm thinking it would be useful to make one more really simple game demo in prep for the workshop, something that absolute beginners can build off of. Once the workshop occurs I'll make my game source code available online.
+
+![Cyberhoss]({{"/images/log/cyberhoss.png" | absolute_url}})  
+
+## 2025-02-28
+
+For the Hyphenated project I ran a test with the [p5.glitch library](https://github.com/ffd8/p5.glitch), seeing if I could put it to use glitching out the image textures on my character's faces. I made a simple [proof of concept](https://editor.p5js.org/2sman/sketches/73LUdJxaA) 3d ellipsoid blob but it kept crashing for me. I opened an issue to ask about performance savings in webgl and based on the answer there decided to try in Chrome, where it didn't crash for me in laptop but it still crashed on phone. Based on this, I think I'll probably proceed without the library and instead manually switch out glitch textures that I build up as image file textures.
+
 ## 2025-02-24
 
 I tried out the [Openshot](https://www.openshot.org/) open source video editor to make an excerpt from one of my fall performances and [uploaded](https://youtu.be/QRva9XkAZN4) it to YouTube.
