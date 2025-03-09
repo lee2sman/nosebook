@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-03-09
+
+Some more work today on the Cyberhoss game. I have a working demo for one player. I think I want to add in some AI players as well, then run some playtesting with other players.
+
+![Cyberhoss win]({{"/images/log/cyberhoss-win.png" | absolute_url}})  
+
 ## 2025-03-08
 
 The [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary is a week away. I began work on another game, a clone or demake of the [Quibble Race](https://ufo50.miraheze.org/wiki/Quibble_Race) game from UFO 50. I think I've made a pretty good working version. Just need some tweaks to wrap up and I think it's already pretty fun. I'm thinking it would be useful to make one more really simple game demo in prep for the workshop, something that absolute beginners can build off of. Once the workshop occurs I'll make my game source code available online.
