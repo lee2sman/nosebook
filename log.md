@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-03-10
+
+More work on Cyberhoss. I've added in an enemy AI as well as some mechanics to balance the game better. Basically, the top hoss odds are always 1X. Meddling with any hoss affects the probability that it will stumble during a race, in proportion to the strength of meddling. I'm not sure if I should build in a mechanic where meddling could potentially get the player caught. I think I may want to add a leaderboard later as well. But so far the game is now playable and fun. It's in a good state and I'd be happy to present this, which I will do after the upcoming Electronic Faire conference I'm presenting at this coming Friday.
+
+![Cyberhoss AI]({{"/images/log/cyberhoss-ai.png" | absolute_url}})  
+
 ## 2025-03-09
 
 Some more work today on the Cyberhoss game. I have a working demo for one player. I think I want to add in some AI players as well, then run some playtesting with other players.
