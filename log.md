@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-03-13
+
+First the first time in years I lost some work! I accidentally overwrote the Cyberhoss game file and since I hadn't pushed it to GitHub or backed up in a couple days I lost the last few days of changes, including that previously mentioned AI player. Ugh. I'll try to recreate later? In the meantime, I wasn't feeling like going back and trying to redo it. I made a different game, based on Dope Wars/Star Trader/Drug Wars that I called Catanite. It was meant to be a minimal buying/selling market game, where you buy / sell resources from Settlers of Catan but my 'minimal' version took me a couple hours and is 250 lines of code, so not as minimal perhaps as I would have hoped. But I did try to code it with very basic programming skills, for example I didn't use arrays (dim in Yabasic) and only used global vars.
+
 ## 2025-03-10
 
 More work on Cyberhoss. I've added in an enemy AI as well as some mechanics to balance the game better. Basically, the top hoss odds are always 1X. Meddling with any hoss affects the probability that it will stumble during a race, in proportion to the strength of meddling. I'm not sure if I should build in a mechanic where meddling could potentially get the player caught. I think I may want to add a leaderboard later as well. But so far the game is now playable and fun. It's in a good state and I'd be happy to present this, which I will do after the upcoming Electronic Faire conference I'm presenting at this coming Friday.
