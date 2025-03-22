@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-03-22
+
+Despite the annoyance of losing some work (see previous post), it wasn't so bad to recreate what I had lost, and then build some more. I put back in almost everything. At this point, it's been a week since the workshop and I've posted the results, my workshop, games and programs [in a post about BASIC Games](https://leetusman.com/nosebook/basic-games) up on the blog. I just wanted to mention one minor drawback of using Yabasic: I haven't found a working online Yabasic compiler that consistently runs the games correctly (specifically inkey$), so it means the games will have to be run and compiled on the actual computer.
+
+Now I'm prepping for my performance Sunday March 23 at The Living Gallery in Brooklyn.
+
 ## 2025-03-13
 
 First the first time in years I lost some work! I accidentally overwrote the Cyberhoss game file and since I hadn't pushed it to GitHub or backed up in a couple days I lost the last few days of changes, including that previously mentioned AI player. Ugh. I'll try to recreate later? In the meantime, I wasn't feeling like going back and trying to redo it. I made a different game, based on Dope Wars/Star Trader/Drug Wars that I called Catanite. It was meant to be a minimal buying/selling market game, where you buy / sell resources from Settlers of Catan but my 'minimal' version took me a couple hours and is 250 lines of code, so not as minimal perhaps as I would have hoped. But I did try to code it with very basic programming skills, for example I didn't use arrays (dim in Yabasic) and only used global vars.
