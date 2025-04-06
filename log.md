@@ -8,6 +8,14 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-04-06
+
+Head down on school work the past few weeks, and had a week of illness with fever so little work then. Visited MOMA, Brooklyn Historical Society, and lots of bike riding as the spring weather improves lately.
+
+I worked on a small [Chezz simulator](https://notapipe.itch.io/chezz-simulator) game for the Merveilles [Flickjam](https://itch.io/jam/flickjam-2025/entries) 2025.
+
+![Chezz Simulator screenshot]({{"/images/log/chezz.png" | absolute_url}})  
+
 ## 2025-03-22
 
 Despite the annoyance of losing some work (see previous post), it wasn't so bad to recreate what I had lost, and then build some more. I put back in almost everything. At this point, it's been a week since the workshop and I've posted the results, my workshop, games and programs [in a post about BASIC Games](https://leetusman.com/nosebook/basic-games) up on the blog. I just wanted to mention one minor drawback of using Yabasic: I haven't found a working online Yabasic compiler that consistently runs the games correctly (specifically inkey$), so it means the games will have to be run and compiled on the actual computer.
