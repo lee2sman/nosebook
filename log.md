@@ -8,6 +8,14 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-05-20
+
+Since my last log entry I've been somewhat busy. At school I hosted an algorave with my students in Drawing, Moving and Seeing with Code. It went well. I opened the show and made interstitial music between the acts. We finished the semester and I'm now working on the podcast, practicing for a performance on modular synth next month, and prepping for sabbatical. I delved a bit into working in Reaper DAW on audio production for the first time. I like it. I'm just making a rough audio mix from a practice session that will lead up to my performance next month. I want to put more rough mixes, one-offs, performance recordings online. To that end, I purchase a [domain](https://exquisitecorp.institute/) and will start building out site content there.
+
+I participated in [TweetTweetJam 10](https://itch.io/jam/tweettweetjam-10), where the goal is to produce a game in 500 characters or less. I created a dungeon crawler-esque chaser game [Lil Dungeon](https://itch.io/jam/tweettweetjam-10/rate/3557507). I created a first version, then with some online comments that helped me reduce the code, I later reduced the size on further iterations. As of tonight I still feel like there's at least one more version I'll produce to fix the monster spawning code.
+
+In any case, it was fun making this tiny game in Pico-8, and especially gratifying that it's compelling enough not just for me but a raft of people that have contacted me or commented on the game to let me know they are playing it.
+
 ## 2025-04-06
 
 Head down on school work the past few weeks, and had a week of illness with fever so little work then. Visited MOMA, Brooklyn Historical Society, and lots of bike riding as the spring weather improves lately.
