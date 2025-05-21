@@ -8,6 +8,27 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-05-21
+
+Thanks again to @pancelor for their comment on [lil dungeon](https://itch.io/jam/tweettweetjam-10/rate/3557507) I was able to get the code down to 439 characters, though with the spawning error still present. When a new level is spawned the monsters get to move once before the player, which means a player could die when a new level is spawned. I tried some simple things to debug but struggled a bit with the obfuscated code and GOTOs to get a fully working system in minimal code. Will have to revisit another time. But still, I'm happy with where I've gotten:
+
+```lua
+r,x,y,f=rnd,3,3,1::i::e={}a=r(9)\1b=r(8)\1for i=1,5do repeat g=r(8)\1v=r(8)\1until g-x|v-y!=0e[i]={x=g,y=v}end::m::d=16for y=0,114,d do for x=0,114,d do
+fillp(r(♥))rectfill(x,y,x+d,y+d,2)end end
+?"▒",a*d+4,b*d+5,9
+?"🐱",x*d+4,y*d+5
+?f,2,2,6
+for j in all(e)do 
+z=r(4)\1/4j.x+=cos(z)j.y+=sin(z)?"😐",j.x*d+4,j.y*d+5,8
+if(j.x==x and j.y==y)stop()
+if(x==a and y==b)f+=1goto i
+end 
+repeat flip()v=btnp()until v>0
+x+=v\2%2-v%2y+=v\8%2-v\4%2goto m
+```
+
+This reminds me: maybe I should have a type-in games jam in Pico-8 and p5.js?
+
 ## 2025-05-20
 
 Since my last log entry I've been somewhat busy. At school I hosted an algorave with my students in Drawing, Moving and Seeing with Code. It went well. I opened the show and made interstitial music between the acts. We finished the semester and I'm now working on the podcast, practicing for a performance on modular synth next month, and prepping for sabbatical. I delved a bit into working in Reaper DAW on audio production for the first time. I like it. I'm just making a rough audio mix from a practice session that will lead up to my performance next month. I want to put more rough mixes, one-offs, performance recordings online. To that end, I purchase a [domain](https://exquisitecorp.institute/) and will start building out site content there.
