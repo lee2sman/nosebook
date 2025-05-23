@@ -72,12 +72,17 @@ And finally we process them.
 
 ```fish
 mkdir -p pocket-articles
- for line in $a
-   echo -e "\nProcessing $line..."
-   ./bookmobile $line --format reader --output pocket-articles/
-end
+while read -la line
+  echo -e "\nProcessing $line..."
+  sleep 0.3
+  timeout -v $waittime ./bookmobile $line --format reader --output pocket-articles/
+end < list.txt
 ```
 
-This iteratively runs through our list saving the reader html version of all of the articles to our pocket-articles folder. 
+This iteratively runs through our list saving the reader html version of all of the articles to our pocket-articles folder. I've prefixed the bookmobile processing with timeout. That line runs a background timeout function verbosely that will cancel the bookmobile command if it doesn't complete within the set waittime. By default that variable was set to 5 seconds. I found this was necessary in order to keep Bookmobile from hanging. I studied the rdrview program that bookmobile uses internally but didn't find a built-in timeout function so relied on the coreutils one. I added a short 0.3 second sleep before each article is processed. While this slows down the overall processing a bit, it's probably a good idea in order to avoid hammering some sites if you have a bunch of saves from a single domain for example. 
+
+### In practice
+
+My exported csv file had 2308 URLs. When I ran Convert Pocket it took about 20ish minutes. Only 1931 out of that list successfully downloaded but for 10+ years of saved articles, maybe that's not too bad with the current state of the internet.
 
 Bookmobile is [available online](https://tildegit.org/exquisitecorp/bookmobile), along with [Convert Pocket](https://tildegit.org/exquisitecorp/bookmobile/src/branch/pocket-export/convert-pocket.fish).
