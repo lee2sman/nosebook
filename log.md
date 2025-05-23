@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-05-22
+
+I read Mozilla's announcement today they are winding down Pocket, which I've used off and on since 2016 as a read-it-later article service. It was especially convenient on my phone on the subway, or to read on my Kobo e-ink reader since it was integrated. I've already created [Bookmobile](https://tildegit.org/exquisitecorp/bookmobile/) in the past, and today with some help from the internet I added on an additional script that can bulk download articles from one's exported Pocket list of articles. Thanks to Darius for a simple parsing suggestion. RIP Pocket. [Full writeup](https://leetusman.com/nosebook/rip-pocket) on the blog.
+
 ## 2025-05-21
 
 Thanks again to @pancelor for their comment on [lil dungeon](https://itch.io/jam/tweettweetjam-10/rate/3557507) I was able to get the code down to 439 characters, though with the spawning error still present. When a new level is spawned the monsters get to move once before the player, which means a player could die when a new level is spawned. I tried some simple things to debug but struggled a bit with the obfuscated code and GOTOs to get a fully working system in minimal code. Will have to revisit another time. But still, I'm happy with where I've gotten:
