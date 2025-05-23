@@ -55,11 +55,10 @@ I hope this was useful for someone. It was certainly very useful for me.
 
 ## How it works
 
-The first step was to parse Pocket's export data file, which consists of a comma-separated file with headers. Parsing data is not trivial and warnings about parsing abound on the internet. I noticed the CSV file sometimes had titles for articles and other times it didn't. So I couldn't just grab the second comma-separated value on each line for example. When I posted about this to Mastodon Darius Kazemi gave me the suggestion of just splitting the CSV file by comma first. So I did that, and then just save lines beginning with http in the resulting list.
+The first step was to parse Pocket's export data file, which consists of a comma-separated file with headers. Parsing data is not trivial and warnings about parsing abound on the internet. I noticed the CSV file sometimes had titles for articles and other times it didn't. So I couldn't just grab the second comma-separated value on each line for example. When I posted about this to Mastodon Darius Kazemi gave me the suggestion of just splitting the CSV file by comma first. So I did that, and then just save lines beginning with http in the resulting list. Thanks to Sejo for the regex suggestion below with *sed*, an updated version of the one I originally used.
 
 ```fish
-cat $argv | sed 's/,/\
-/g' | grep 'http*' | uniq > list.txt
+sed "s/.*\(http[^,]*\).*/\1/" $argv > list.txt
 ```
 
 Then I created a list out of those article URLs.
