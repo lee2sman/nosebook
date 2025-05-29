@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-05-28
+
+I exported the [Open Source Tools for Artists](https://leetusman.com/open-source-tools-for-artists/) from Glitch.com (shutting down in a month!) and transferred it to GitHub hosting. This was fairly straightforward as a static site save for Glitch's convoluted image CDN process meant I had to manually export the image files one by one. I also built a [project page](https://leetusman.com/projects/open-source-artists/) for my website portfolio.
+
 ## 2025-05-22
 
 I read Mozilla's announcement today they are winding down Pocket, which I've used off and on since 2016 as a read-it-later article service. It was especially convenient on my phone on the subway, or to read on my Kobo e-ink reader since it was integrated. I've already created [Bookmobile](https://tildegit.org/exquisitecorp/bookmobile/) in the past, and today with some help from the internet I added on an additional script that can bulk download articles from one's exported Pocket list of articles. Thanks to Darius for a simple parsing suggestion. RIP Pocket. [Full writeup](https://leetusman.com/nosebook/rip-pocket) on the blog.
