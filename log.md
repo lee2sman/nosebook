@@ -8,6 +8,14 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-05-30
+
+I spent the day working with my parents scanning in old family photographs from the early 1900s up to the 1990s. Several online friends recommended the Epson V600, so we purchased a newly refurbished one. It comes with a CDrom of its firmware and scanner software. I see that imagescan v3 for Epson is available in the Void package repos, but my parents have a Mac. I looked on the epson.com site but couldn't find the software for download, but when checking epson.ca (the Canadian site), bingo. I downloaded and updated their firmware and installed Epson Scan 2 on their macbook. The software worked well. It allows you to place up to 5 or 6 photos on the scanner bed and the software individually separates them out to separate image files and allows you to quickly rotate if needed before doing the final scan. I also purchased a lens cleaner, dust blower and microfiber cloth for a couple bucks at the nearby Microcenter and used these periodically to clean the scan bed. We scanned a couple hundred photos and put them in organized directories. We were able to scan almost everything. Next I'll purchase some archival boxes and paper to send to my parents to rewrap their photos and protect them. Some of these images might find their way to art projects but mostly it's just another way to 'preserve' and share these photos to other family members.
+
+## 2025-05-29
+
+I spent part of the day exporting my remaining Glitch.com project pages since they've notified us they're shutting down hosting within the next 6 weeks. A Glitch employee built a python exporting script. I had a few errors and they kindly offered a patch. So I was able to export about 237 of my 251 repos. The exported projects don't rewrite Glitch's image CDN links so I'll need to write a regex to change the CDN path to *glitch-assets/imagename.png* or manually check individual project sites and update.
+
 ## 2025-05-28
 
 I exported the [Open Source Tools for Artists](https://leetusman.com/open-source-tools-for-artists/) from Glitch.com (shutting down in a month!) and transferred it to GitHub hosting. This was fairly straightforward as a static site save for Glitch's convoluted image CDN process meant I had to manually export the image files one by one. I also built a [project page](https://leetusman.com/projects/open-source-artists/) for my website portfolio.
