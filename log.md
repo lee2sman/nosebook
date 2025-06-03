@@ -1,4 +1,4 @@
----
+/ ---
 layout: default
 title: Log
 permalink: /log/
@@ -10,7 +10,9 @@ permalink: /log/
 
 ## 2025-06-02
 
-I created a short workshop [Intro to Making Games (with Pico-8)](https://leetusman.com/notes/programming/pico8/) that I taught today to a class of rising sophomores at my school. Afterward I worked with the risograph printer in our Media Art Lab, trying to mock up a zine of my generative quilt poems. Although I like the image I wasn't super satisfied with the cover print. The default paper stock didn't seem to help the print to really pop. I also think that rather than overlay text I should create a duotone to get that textured riso print imperfections. I'll have to do more tests.
+![Riso cover test]({{"/images/log/riso.jpg" | absolute_url}})  
+
+I created a short workshop [Intro to Making Games (with Pico-8)](https://leetusman.com/notes/programming/pico8/) that I taught today to a class of rising sophomores at my school. Afterward I worked with the risograph printer in our Media Art Lab, trying to mock up a zine of my generative quilt poems. Although I like the image I wasn't super satisfied with the cover print. The default paper stock didn't seem to help the print to really pop. I also think that rather than overlay text I should create a duotone to get that textured riso print imperfections. I'll have to do more tests. It might be that a different font and size could help resolve it.
 
 ## 2025-05-30
 
@@ -29,6 +31,8 @@ I exported the [Open Source Tools for Artists](https://leetusman.com/open-source
 I read Mozilla's announcement today they are winding down Pocket, which I've used off and on since 2016 as a read-it-later article service. It was especially convenient on my phone on the subway, or to read on my Kobo e-ink reader since it was integrated. I've already created [Bookmobile](https://tildegit.org/exquisitecorp/bookmobile/) in the past, and today with some help from the internet I added on an additional script that can bulk download articles from one's exported Pocket list of articles. Thanks to Darius for a simple parsing suggestion. RIP Pocket. [Full writeup](https://leetusman.com/nosebook/rip-pocket) on the blog.
 
 ## 2025-05-21
+
+![Lil Dungeon]({{"/images/log/lildungeon.webp" | absolute_url}})  
 
 Thanks again to @pancelor for their comment on [lil dungeon](https://itch.io/jam/tweettweetjam-10/rate/3557507) I was able to get the code down to 439 characters, though with the spawning error still present. When a new level is spawned the monsters get to move once before the player, which means a player could die when a new level is spawned. I tried some simple things to debug but struggled a bit with the obfuscated code and GOTOs to get a fully working system in minimal code. Will have to revisit another time. But still, I'm happy with where I've gotten:
 
