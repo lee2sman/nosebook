@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-02
+
+I created a short workshop [Intro to Making Games (with Pico-8)](https://leetusman.com/notes/programming/pico8/) that I taught today to a class of rising sophomores at my school. Afterward I worked with the risograph printer in our Media Art Lab, trying to mock up a zine of my generative quilt poems. Although I like the image I wasn't super satisfied with the cover print. The default paper stock didn't seem to help the print to really pop. I also think that rather than overlay text I should create a duotone to get that textured riso print imperfections. I'll have to do more tests.
+
 ## 2025-05-30
 
 I spent the day working with my parents scanning in old family photographs from the early 1900s up to the 1990s. Several online friends recommended the Epson V600, so we purchased a newly refurbished one. It comes with a CDrom of its firmware and scanner software. I see that imagescan v3 for Epson is available in the Void package repos, but my parents have a Mac. I looked on the epson.com site but couldn't find the software for download, but when checking epson.ca (the Canadian site), bingo. I downloaded and updated their firmware and installed Epson Scan 2 on their macbook. The software worked well. It allows you to place up to 5 or 6 photos on the scanner bed and the software individually separates them out to separate image files and allows you to quickly rotate if needed before doing the final scan. I also purchased a lens cleaner, dust blower and microfiber cloth for a couple bucks at the nearby Microcenter and used these periodically to clean the scan bed. We scanned a couple hundred photos and put them in organized directories. We were able to scan almost everything. Next I'll purchase some archival boxes and paper to send to my parents to rewrap their photos and protect them. Some of these images might find their way to art projects but mostly it's just another way to 'preserve' and share these photos to other family members.
