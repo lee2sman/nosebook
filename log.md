@@ -1,4 +1,4 @@
-/ ---
+---
 layout: default
 title: Log
 permalink: /log/
@@ -7,6 +7,10 @@ permalink: /log/
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
+
+## 2025-06-03
+
+Today I worked on music at the music studio at Flux Factory. I did some sound tests with Jemila for our upcoming performance at the end of the month. I recorded our rehearsal and afterward I recorded for another thirty minutes. I'm really pleased with my sound lately and want to put more of my music online. I planned to do some studio edits at home on Reaper DAW but needed a bit more knowledge to use all of the features I needed so I watched tutorials on envelope automation in Reaper. I also have been under-using the Endorphines Golden Master on my modular, an end of chain module like a channel strip (EQ, compression, limiter, sidechain). I need to do some more tests but I am thinking I may want to do my end-of-chain mastering 'in the box' there, and just use Reaper for studio edits like moving around sections, fades and the like. I could also add in my microcassette or my 4track into the chain for some extra warmth.
 
 ## 2025-06-02
 
