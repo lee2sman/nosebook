@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-07
+
+I worked on some music, then contacted a Merveilles friend about mastering. Then I set up rust and cargo, downloaded [faircamp](https://simonrepp.com/faircamp/) and built a minimal static site for my music. I attended the NEW INC Demo 2025 and caught up with many friends. A huge group of us went out to dinner for Banh Mi. Wendy thought she had only just met me Wednesday but realized we've met long before. After dinner we went to the Demo party - dark club experience with hanging plants on the 5th floor of a skyscraper. Cyberpunk. Before bed I got back to work on the faircamp site - theming and editing and rebuilding. I also edited photos for potential use on the site.
+
 ## 2025-06-05
 
 In the morning I met with Caleb and we chatted about our projects. Caleb is creating a number of personal and artist websites right now and we talked about static site generators, and about updating our Jekyll site for [Artists and Hackers](https://artistsandhackers.org). In one project he's working with someone with limited technical knowledge beyond HTML/CSS so a static site seems beyond their ability and they want to use Neocities. I suggested a Kenneth Goldsmith/UbuWeb-like approach. In [Duchamp Is My Lawyer](https://cup.columbia.edu/book/duchamp-is-my-lawyer/9780231186957/) (highly recommended), he talks about his web dev knowledge despite running [UbuWeb](https://ubuweb.com/) for almost 30 years. He mostly uses html with some minimal CSS and basically any time he needs to make a new page he copies an artwork/film/video/song page and pastes or writes in the new work's title and description and uploads the media and links to it. Caleb seemed convinced that would work for the project! Great.
