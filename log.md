@@ -8,6 +8,13 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+
+## 2025-06-08
+
+![Pico-8 quilt]({{"/images/log/pico8quilt.gif" | absolute_url}})  
+
+Today was the parade of the trains on the old BMT (present day Q line) of the subway. I went with Dan, L and their kids to ride subway trains from 1904, 1914 and 1960s. Incredible. In the evening I submitted and had accepted a pull request adding [build instructions](https://codeberg.org/simonrepp/faircamp/src/branch/main/BUILD.md#void-linux) for installing Faircamp on Void Linux. I worked on a new program to generate quilts using my quilt dataset I created previously for the photo grid and quilt poems projects from the past year. The program still has a bug I have to chase down, and the colors are a bit garish due to the constraints of Pico-8. I also added some patterning that vaguely resembles stitching but I may want to try some other variations, and potentially also consider working with the PAL mode of Pico-8 to see if it unlocks any better color options. I started writing up a big overview of the quilts I encoded as data and how I work with them to submit to a conference in England.
+
 ## 2025-06-07
 
 I worked on some music, then contacted a Merveilles friend about mastering. Then I set up rust and cargo, downloaded [faircamp](https://simonrepp.com/faircamp/) and built a minimal static site for my music. I attended the NEW INC Demo 2025 and caught up with many friends. A huge group of us went out to dinner for Banh Mi. Wendy thought she had only just met me Wednesday but realized we've met long before. After dinner we went to the Demo party - dark club experience with hanging plants on the 5th floor of a skyscraper. Cyberpunk. Before bed I got back to work on the faircamp site - theming and editing and rebuilding. I also edited photos for potential use on the site.
