@@ -8,6 +8,17 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-09
+
+Writing up my conference paper took most of the day. I also updated my Pico-8 quilt program, encoding a number of new quilt patterns to the dataset.
+
+<iframe src="https://www.lexaloffle.com/bbs/widget.php?pid=makeaquilt" allowfullscreen width="621" height="513" style="border:none; overflow:hidden"></iframe>
+
+I'm also uploading one of the photo grids generated using my software and quilt pattern data. This piece is currently work in progress. This is a screenshot from a generated animation.
+
+![drunkard's path photo grid screenshot]({{"/images/log/drunkardspath-grid.jpg" | absolute_url}})  
+
+In the evening I updated the Faircamp site I built to host my music and added the Flux 1 track mastered by bad diode. I'm pretty happy with how the music came out. I guess I'm soft launching the site and music now by linking to the site [ExquisiteCorp.institute](https://exquisitecorp.institute).
 
 ## 2025-06-08
 
