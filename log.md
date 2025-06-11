@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-10
+
+Studio visit with Sam Gentle today. We shared our projects and gave each other feedback. This was super helpful. Sam generously shared aesthetic and conceptual critique of my in-progress Hyphenated project as well as spent time looking at code with me. Sam is a champion programmer and helped me figure out an alternate system for panning the background display using uv mapping. We also looked at some of the browser performance issues, and Sam gave excellent feedback on the project overall. I updated some of the modeling on the figures' lips, and tried an alternate texturing. I think I'm feeling close to getting to a final draft version of the piece soon.
+
 ## 2025-06-09
 
 Writing up my conference paper took most of the day. I also updated my Pico-8 quilt program, encoding a number of new quilt patterns to the dataset.
