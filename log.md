@@ -8,6 +8,14 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-13
+
+ I finished printing and assembling the first run of the [Quilt Poems](https://leetusman.com/projects/quilt-poems/) chapbook zine in a small edition of 25. I'm looking forward to distributing them.
+
+![assembling the quilt poems chapbook zine]({{"/images/log/quiltpoemschapbook.jpg" | absolute_url}})  
+
+*zine assembly in action*
+
 ## 2025-06-10
 
 Studio visit with Sam Gentle today. We shared our projects and gave each other feedback. This was super helpful. Sam generously shared aesthetic and conceptual critique of my in-progress Hyphenated project as well as spent time looking at code with me. Sam is a champion programmer and helped me figure out an alternate system for panning the background display using uv mapping. We also looked at some of the browser performance issues, and Sam gave excellent feedback on the project overall. I updated some of the modeling on the figures' lips, and tried an alternate texturing. I think I'm feeling close to getting to a final draft version of the piece soon.
