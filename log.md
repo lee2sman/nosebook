@@ -8,6 +8,22 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-16
+
+About a third of the Quilt Poems zines I made last week have been distributed, and I anticipate more will go to new homes if I attend WordHack later this week. In the past couple days I submitted some work to a new [Game Poems](https://www.gamepoems.org/) magazine. Today I worked on a small computational text work for Nick Montfort's [Bad Quarto](https://badquar.to/) press for an upcoming zine. As each writer/programmer has only a page I first brainstormed, then prototyped, and then did a bit of *sizecoding* to get the size down a little, but I didn't really do the full minification that would result in hard-to-read code. I was happy with the output, but I'm going to revisit in the next couple days and see if I want to make any changes.
+
+Here's an example snippet of output from my current working version of the code, under the working title *Directions*:
+
+```text
+How to go home:
+At the turn don't go right
+At the turn do go left
+At the intersection do go on
+Stop when you get to it
+```
+
+In the evening there was a monthly Striped Light concert of experimental music. The whole night was great but one highlight was a quartet of synth, woodwinds, percussion kit with bagpipe. This unlikely combination produced unruly, funky but also compelling grooves and squonks. I loved it.
+
 ## 2025-06-13
 
  I finished printing and assembling the first run of the [Quilt Poems](https://leetusman.com/projects/quilt-poems/) chapbook zine in a small edition of 25. I'm looking forward to distributing them.
