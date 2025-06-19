@@ -8,6 +8,14 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-19
+
+I sent off the code poetry piece Directions to Nick at Bad Quarto.
+
+In the afternoon I worked at Flux. The wireless system and microphone had come in, so I set them up and tested them with Jemila. For our performance on June 28 Jemila is speaking vocals (while performing / dance) that I am processing through Mutable Instruments Beads (texture synthesizer). I had researched wireless systems a couple weeks ago and felt reasonably confident it would all work together nicely but there's nothing like realworld testing to confirm. We're using a Shure BLK wireless system. Rehearsal and audio testing went really well today and our system worked flawlessly. Afterwards I spent some time working on multitrack recording with the Zoom and added some [recording notes](https://leetusman.com/notes/music/recording.html) to my wiki. I set it up to record two pairs of stereo tracks, so I can record two voices, one going through the Golden Master, a combo of EQing, compression and mid/side processing with brickwall limiter. 
+
+I worked a bit on scaffolding the site builder for my wiki, starting with a modified form of the [panblog site generator](https://tildegit.org/exquisitecorp/panblog). I had thought about trying to build the wiki with Jekyll but since I'm moving off that tech stack it makes more sense to keep it in house and keep using panblog.
+
 ## 2025-06-16
 
 About a third of the Quilt Poems zines I made last week have been distributed, and I anticipate more will go to new homes if I attend WordHack later this week. In the past couple days I submitted some work to a new [Game Poems](https://www.gamepoems.org/) magazine. Today I worked on a small computational text work for Nick Montfort's [Bad Quarto](https://badquar.to/) press for an upcoming zine. As each writer/programmer has only a page I first brainstormed, then prototyped, and then did a bit of *sizecoding* to get the size down a little, but I didn't really do the full minification that would result in hard-to-read code. I was happy with the output, but I'm going to revisit in the next couple days and see if I want to make any changes.
