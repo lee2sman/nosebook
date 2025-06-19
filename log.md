@@ -8,7 +8,7 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
-## 2025-06-19
+## 2025-06-18
 
 I sent off the code poetry piece Directions to Nick at Bad Quarto.
 
