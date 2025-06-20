@@ -8,6 +8,18 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-19
+
+I began working on a database site for an archive of articles, audio, books, pamphlets and other ephemera I've collected and that is stored on the Internet Archive, a collection of (currently) 76 items. These are a collection of out of print items or those that can't be found elsewhere, many open source or freely shared. My goal is to make my own custom and self-hosted collection page, that I can organize as I wish. The underlying items will remain stored on the Internet Archive as well as another collection backup. I am again building a static site, and I used CSS Grid as a base and began building out a template for the landing page and individual item pages. I used my knowledge gleaned and starter code I developed from my panblog project and work I had done during December Adventure 2023. This project grows out of an intention I set when the Internet Archive experienced DDOS attacks as well as my own desire to provide more of a curated space for a collection of texts and other ephemera that relate to my art practice and interests.
+
+![A working draft of Cabinet of Curios]({{"/images/log/curios.webp" | absolute_url}} "A working draft of Cabinet of Curios")  
+
+*A working draft of Cabinet of Curios (working title).*
+
+Colors, final details of items, and even title of the archive collection are all in flux. Currently, hovering over a collection item highlights, changes background color and changes the image back to full color. I am designing with accessibility in mind. This means using color combos with high contrast and clearly labeled screen-readable text with semantic tag markup. The page is designed to be low bandwidth with lazy-loading of images, and a mobile-responsive view, all as a static site with no Javascript.
+
+In the evening I attended WordHack (in its 11th year!) and was one of the presenters during the Open Projector. I showed Quilt Poems and for the first time read some of them out loud! This was an audience of programmers that work with technology and poetry or writing - so an ideal audience for the work. I ended up distributing more copies of the Quilt Poems zine during the night.
+
 ## 2025-06-18
 
 I sent off the code poetry piece Directions to Nick at Bad Quarto.
@@ -36,7 +48,7 @@ In the evening there was a monthly Striped Light concert of experimental music. 
 
  I finished printing and assembling the first run of the [Quilt Poems](https://leetusman.com/projects/quilt-poems/) chapbook zine in a small edition of 25. I'm looking forward to distributing them.
 
-![assembling the quilt poems chapbook zine]({{"/images/log/quiltpoemschapbook.jpg" | absolute_url}})  
+![assembling the quilt poems chapbook zine]({{"/images/log/quiltpoemschapbook.jpg" | absolute_url}} "assembling the quilt poems chapbook zine")  
 
 *zine assembly in action*
 
@@ -52,7 +64,7 @@ Writing up my conference paper took most of the day. I also updated my Pico-8 qu
 
 I'm also uploading one of the photo grids generated using my software and quilt pattern data. This piece is currently work in progress. This is a screenshot from a generated animation.
 
-![drunkard's path photo grid screenshot]({{"/images/log/drunkardspath-grid.jpg" | absolute_url}})  
+![drunkard's path photo grid screenshot]({{"/images/log/drunkardspath-grid.jpg" | absolute_url}} "a drunkard's path grid arrangement of images in a quilt-like pattern")  
 
 In the evening I updated the Faircamp site I built to host my music and added the Flux 1 track mastered by bad diode. I'm pretty happy with how the music came out. I guess I'm soft launching the site and music now by linking to the site [ExquisiteCorp.institute](https://exquisitecorp.institute).
 
