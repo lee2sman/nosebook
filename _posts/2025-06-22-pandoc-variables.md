@@ -42,7 +42,7 @@ Let's go through each line. This template says to put the variable $title$ insid
 
 Then the following line starts with "This is a template file. The output file is " and then will stick in the name, a filename followed by .html. This will get filled in automatically when you run Pandoc, because it is a [built-in variable](https://pandoc.org/demo/example33/6.2-variables.html). It is not something you manually set.
 
-Finally, the $body$ variable is built-in and means that Pandoc will copy through verbatim any other text from your source file and put it into the outputted html file.
+Finally, the $body$ variable is built-in and means that Pandoc will convert any of the text here from markdown from your source file and convert to html and put it into the outputted html file.
 
 For example, I have an individual post I'm writing **test-post.md**:
 
