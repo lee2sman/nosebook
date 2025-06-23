@@ -4,6 +4,10 @@ title: How to use Pandoc variables (to create a custom website) 🖻🪄
 categories: [open source, programming]
 ---
 
+*update: I put up a [Github repo](https://github.com/lee2sman/archive) with my implemented complete site built with this method.*
+
+---
+
 ## Background
 
 This is a very short tutorial on working with Pandoc variables in markdown. I use this when creating my own static site generators. I'll keep it extremely basic, because I found this info difficult to search for online when I was first starting out.
@@ -84,7 +88,7 @@ for file in *.md
   echo "Processing $file"
   output=(basename $file)
   pandoc $file --template=template.html -o $output.html
-  echo "<p><a href="$output.html">$output</a></p>" >> tindex.html
+  echo "<p><a href="$output.html">$output</a></p>" >> index.html
 done
 ```
 
@@ -98,7 +102,7 @@ Lastly, I use echo to output the name of the page onto the index.html, linking t
 
 Beyond this, it's really about adding variables to your frontmatter section, building out your templates, and your input data, adding in navigation bars or anything else needed.
 
-Hopefully this has been helpful to anyone looking to build a simple Pandoc-based site builder and trying to understand the fundamentals of working with variables in Pandoc.
+Hopefully this has been helpful to anyone looking to build a simple Pandoc-based site builder and trying to understand the fundamentals of working with variables in Pandoc. You can see my [archive site](https://github.com/lee2sman/archive) for a bit more complex build system that uses this method.
 
 ### Resources
 
