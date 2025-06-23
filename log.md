@@ -8,6 +8,18 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-22
+
+Lots of progress on the Archive project today, including creating a github [repo](https://github.com/lee2sman/archive) to share the working code.
+
+I wanted to document how pandoc and variables and templates work so I wrote up a [tutorial](https://leetusman.com/nosebook/pandoc-variables) for my nosebook blog. Then I built a template for the generated item pages and then a build script for the whole site. It uses a Lua filter to extract metadata.
+
+![Responsive view - Cabinet of Curios mockup]({{"/images/log/cabinet.webp" | absolute_url}} "A working draft of Cabinet of Curios mobile responsive view")  
+
+This is a generated page from the static site generator I wrote. This landing page is populated with item pages in markdown with metadata entirely in the front matter.
+
+I have a starting group of 8 pages up. Now I just need to screenshot the remaining 68 items and fill out their item pages with metadata. I also want to work on the design a little bit.
+
 ## 2025-06-19
 
 I began working on a database site for an archive of articles, audio, books, pamphlets and other ephemera I've collected and that is stored on the Internet Archive, a collection of (currently) 76 items. These are a collection of out of print items or those that can't be found elsewhere, many open source or freely shared. My goal is to make my own custom and self-hosted collection page, that I can organize as I wish. The underlying items will remain stored on the Internet Archive as well as another collection backup. I am again building a static site, and I used CSS Grid as a base and began building out a template for the landing page and individual item pages. I used my knowledge gleaned and starter code I developed from my panblog project and work I had done during December Adventure 2023. This project grows out of an intention I set when the Internet Archive experienced DDOS attacks as well as my own desire to provide more of a curated space for a collection of texts and other ephemera that relate to my art practice and interests.
