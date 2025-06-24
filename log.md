@@ -8,6 +8,22 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-23
+
+More work on the archive today. Performance rehearsal with Jemila in the afternoon. At one point struggled to handle feedback and distortion and trying to pin down the source in my fairly complex synth with wireless mic system! I was receiving J's mic and putting it out unprocessed, and simultaneously with delay/reverb as well as through the granular delay processing I use that is the heart of my setup. I needed to balance volume levels for these three. I ended up coming up with a different order for chaining modules together that was easier for me to balance the levels and really worked. So for voice it now looks like:
+
+```
+mic -> transmitter > input amp (ears)
+
+input amp > delay/reverb (magneto)
+
+input amp > processed vocals (beads) > delay/reverb (magneto)
+```
+
+This makes it a bit easier to handle. I can keep her original vocals with a bit of reverb higher and mix in just the right amount of processed vocals underneath it. 
+
+In the evening I met up with friends for a party for Cata's birthday in Chinatown. More work on archive before bed, mostly inputting and processing items.
+
 ## 2025-06-22
 
 Lots of progress on the Archive project today, including creating a github [repo](https://github.com/lee2sman/archive) to share the working code.
