@@ -8,6 +8,21 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-06-25
+
+Yesterday we did two rehearsals for Saturday's VENIS performance for the opening of [Shared Grounds](https://www.fluxfactory.org/event/opening-shared-grounds/) at the new Flux IV location of Flux Factory this coming Saturday. Actually, the performance will be held close by, at Hunter's Point South Kayak Ramp at 5pm. Both rehearsals went really well and I recorded them. I'll likely do some light editing and put them online at some point.
+
+I added lots of items to the growing archive site I'm working on. I also edited an *editor's note* section to add in my own commentary on items. It's hard to pick favorites but I particularly enjoyed adding photographs from Kazimir Malevich's suprematist funeral, and a recording of Barry McGee's slideshow at BAMPFA in 2013.
+
+
+![Funeral Car for Kazimir Malevich with black square mounted on grill]({{"/images/log/funeral-car.webp" | absolute_url}} "A working draft of Cabinet of Curios mobile responsive view")  
+
+*Funeral Car for Kazimir Malevich with black square mounted on grill, 1935*
+
+> How would you describe what you do to a stranger?
+> 
+> I think maybe by doing rather than describing. We could start by cutting some holes in fences, throwing paint at billboards, and maybe have a swim in the ocean. *--Barry McGee interview, 2013, in [Acclaim Magazine](https://acclaimmag.com/art/interview-barry-mcgee-appearing-at-carbon-festival-2013/)*
+
 ## 2025-06-23
 
 More work on the archive today. Performance rehearsal with Jemila in the afternoon. At one point struggled to handle feedback and distortion and trying to pin down the source in my fairly complex synth with wireless mic system! I was receiving J's mic and putting it out unprocessed, and simultaneously with delay/reverb as well as through the granular delay processing I use that is the heart of my setup. I needed to balance volume levels for these three. I ended up coming up with a different order for chaining modules together that was easier for me to balance the levels and really worked. So for voice it now looks like:
