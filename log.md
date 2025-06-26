@@ -12,8 +12,26 @@ permalink: /log/
 
 Yesterday we did two rehearsals for Saturday's VENIS performance for the opening of [Shared Grounds](https://www.fluxfactory.org/event/opening-shared-grounds/) at the new Flux IV location of Flux Factory this coming Saturday. Actually, the performance will be held close by, at Hunter's Point South Kayak Ramp at 5pm. Both rehearsals went really well and I recorded them. I'll likely do some light editing and put them online at some point.
 
-I added lots of items to the growing archive site I'm working on. I also edited an *editor's note* section to add in my own commentary on items. It's hard to pick favorites but I particularly enjoyed adding photographs from Kazimir Malevich's suprematist funeral, and a recording of Barry McGee's slideshow at BAMPFA in 2013.
+We're in a heat wave. Today I met up with artist and writer Robby Herbst and had such a great time connecting in-person together for the first time. Lots of things to talk about in LA and NYC in art and DIY community. 
 
+In the afternoon I added lots of items to the growing archive site I'm working on. I also edited an *editor's note* section to add in my own commentary on items. I'll implement adding that to the page a bit later. 
+
+I added in error checking and output to the build script and updated the README. The script is slightly more *expensive* now as a result, but I think is worth it. For example, this is a run showing one processing error and 41 successful page builds.
+
+```
+❯ ./build.sh
+
+❌ Skipped 1 file(s) due to YAML parsing errors:
+  - items/klik-n-play.md
+    Error:
+      YAML parse exception at line 8, column 0,
+      while scanning a simple key:
+      could not find expected ':'
+
+✅ Successfully processed 41 file(s).
+```
+
+It's hard to pick favorites but today I particularly enjoy adding photographs from Kazimir Malevich's suprematist funeral, and a recording of Barry McGee's slideshow at BAMPFA in 2013. 
 
 ![Funeral Car for Kazimir Malevich with black square mounted on grill]({{"/images/log/funeral-car.webp" | absolute_url}} "A working draft of Cabinet of Curios mobile responsive view")  
 
