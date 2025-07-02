@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-02
+
+Saturday's performance went really well. We had a large audience and the performance was well-received. I recorded the concert, so I'll likely make an edit, possibly on its own or maybe some combination from the performance and the three recorded rehearsals. There was also photo and video documentation. We'll be looking for more venues to perform this again.
+
 ## 2025-06-25
 
 Yesterday we did two rehearsals for Saturday's VENIS performance for the opening of [Shared Grounds](https://www.fluxfactory.org/event/opening-shared-grounds/) at the new Flux IV location of Flux Factory this coming Saturday. Actually, the performance will be held close by, at Hunter's Point South Kayak Ramp at 5pm. Both rehearsals went really well and I recorded them. I'll likely do some light editing and put them online at some point.
