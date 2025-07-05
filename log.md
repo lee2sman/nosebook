@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-04
+
+I'm in Berlin now. I spent a few days prepping and arrived this afternoon. In the evening I visited the monthly creative coding meetup, and I met Raphael after following along with his work in Processing for many years. Tonight I also played around with writing a Processing-like API in Love2d. Just some small experiments.
+
 ## 2025-07-02
 
 Saturday's performance went really well. We had a large audience and the performance was well-received. I recorded the concert, so I'll likely make an edit, possibly on its own or maybe some combination from the performance and the three recorded rehearsals. There was also photo and video documentation. We'll be looking for more venues to perform this again.
