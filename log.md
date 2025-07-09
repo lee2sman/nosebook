@@ -8,6 +8,21 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-09
+
+As is typical when I have other work unfinished, I procrastinated by working on another project: I am implementing a version of the Processing API graphics library with Lua using the Love2d library. I had had this idea years ago but decided it wasn't worth pursuing since Love has similar uses but different enough calls. However, the idea has been growing on me. I had kept it in check for fear it could spiral out into a lot of work, but I couldn't help myself and began to implement it. The library is about 216 lines now and I've implemented: 
+
+```
+setup(), draw(), mousePressed(), width, height, PI, HALF_PI, QUARTER_PI, TWO_PI, PIE, OPEN, CHORD, rect(), square(), ellipse(), circle(), quad(), triangle(), arc(), point(), line(), background(), fill(), rectMode(), ellipseMode(), noFill(), strokeWeight(), stroke(), random(). 
+```
+
+Here's an excerpt of a test program running:
+
+
+![L5 pre-alpha with some of the code and a window of colored shapes]({{"/images/log/L5-pre-alpha.webp" | absolute_url}} "A first little test of L5, a processing-like graphics library in Lua showing some code and colored shapes in an inset window")  
+
+This is a portion of some test code I wrote and a window showing it running. I tried to get my function calls as close to p5/processing API as I could. I'm currently using the working title L5. I think I will probably continue working on this a bit over the next few days as I'm enjoying it, but I do want to get back to finishing my archive and podcast episodes!
+
 ## 2025-07-04
 
 I'm in Berlin now. I spent a few days prepping and arrived this afternoon. In the evening I visited the monthly creative coding meetup, and I met Raphael after following along with his work in Processing for many years. Tonight I also played around with writing a Processing-like API in Love2d. Just some small experiments.
