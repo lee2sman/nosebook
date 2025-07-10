@@ -10,6 +10,10 @@ permalink: /log/
 
 ## 2025-07-09
 
+I had a podcast interview with Cara today. It was a great interview. I'm excited to get back into podcasting again! I need to hone my editing chops however! In the evening I visited Synthlab at the FabLab Neukölln. I met friends of Jonah and showed off my synth and checked out the modules and other sound projects being built. It's an active group, that meets weekly. At home, I turned back to the L5 (Processing-in-Lua) project. I dumped out a bunch of the Processing and p5 and py.processing reference words into a text file. I had to make some judgement calls, at times throwing out things that I didn't think useful or practical to add. Anything that looked simple to implement in a minute or two I added, so I quickly added lots of things like frameRate(), deltaTime, resizeWindow(), clear(), TAU. I also listed many other things (typography/fonts, image loading/displaying, perlin noise, transforms, input/output, day/time) that I want to add to get to an alpha useful library and then start writing some programs in it.
+
+## 2025-07-08
+
 As is typical when I have other work unfinished, I procrastinated by working on another project: I am implementing a version of the Processing API graphics library with Lua using the Love2d library. I had had this idea years ago but decided it wasn't worth pursuing since Love has similar uses but different enough calls. However, the idea has been growing on me. I had kept it in check for fear it could spiral out into a lot of work, but I couldn't help myself and began to implement it. The library is about 216 lines now and I've implemented: 
 
 ```
