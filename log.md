@@ -10,6 +10,12 @@ permalink: /log/
 
 ## 2025-07-13
 
+I visited open studios at gr_und today. I liked the group exhibit. Good use of public infrastructure for presenting the work (via a borrowed fence/barrier). In the evening I attended the permacomputing meetup for a talk by [Chaline Bang](https://chalinebang.com/), speaking on her artworks, hosting servers on smartphones, and feminist server communities. She also ran a server on the phone and a borrowed router there and we connected in a shared drawing space on the local network. If you visit Chaline's website it says *"this website is hosted on a upcycled MacBook Air 2010 in my living room in Rotterdam."* I liked the talk a lot; I have some new ideas percolating. It was also great to meet a few folks I had been in touch with online previously, like Brendan and Roman.
+
+In the evening I banged away at the L5 project building an unofficial version of *Processing in Lua*. I implemented constrain(), map(), time and date (millis(), day(), month(), year()), transform (push(), pop(), rotate(), translate(), scale()), max(), min(), dist(), text(), bezier(). 
+
+## 2025-07-12
+
 I did a tape loop workshop with [Sascha Bachmann](https://hand-music.com/)/HAND today at Saftladen. He's a great instructor. He started with a performance, then led us step by step through deconstructing tapes, and cutting together loops. He was very open to our experiments. For example I brought my microcassette recorders and tapes and he offered advice and help, though I found them a bit too small to nimbly work on with my fingers! The third section of the workshop was recording loops, minimizing gaps by blocking out the eraser playhead. I found this useful and am excited to do more studio manipulation of cassette field recordings. 
 
 In the past couple days I saw a number of interesting exhibits, especially Ayoung Kim at Hamburger Banhof. Tonight I saw a sound art installation with Catalina in the Wasserturm water tower in Prenzlauer Berg. There was also the PLASMATRON performance by Felix Kubin. The sounds were crisp, fried, as well as saturated, with surprising twists and growing moving sections. The art projection (and one of the speakers) were on a rolling cart being pushed by a staff member, who pushed around the concentric rings, with the audience following in total darkness except for the black and white projection. Afterwards, I went next door to the other cavern and listened to a 360 sound art installation by Hanna Hartman that was equally strong.
