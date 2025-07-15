@@ -6,7 +6,14 @@ permalink: /log/
 
 # Log
 
+## 2025-07-14
+
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
+
+I implemented most of the Processing API in my Love2d/Lua hybrid. I corrected some function calls to be standardized with Processing. I fixed the screen reset and transformation between frames. I started to try to build in error handling but that remains to be finished. I added in more trigonometry functions and implemented angle modes. I corrected drawing stroke lines. After doing this I attempted to run a number of the example sketches on the p5.js website and found I have some bugs, such as when drawing an arc, that I'll have to fix. I created a TODO list. But still, I'm pretty happy with the progress so far.
+
+
+![L5 pre-alpha with code and a rotating square]({{"/images/log/l5-rotating-square.webp" | absolute_url}} "A rotated blue square with red stroke and its code in background")  
 
 ## 2025-07-13
 
