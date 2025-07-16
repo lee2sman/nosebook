@@ -6,9 +6,14 @@ permalink: /log/
 
 # Log
 
-## 2025-07-14
-
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
+
+
+## 2025-07-15
+
+I completed more of the Processing API for L5, all keyboard functions and vars. I still have to do the mouse functions/vars, typography, and color modes to feel like I'm finished the main draft of all functions. I built a basic version of pong, with an enemy AI. I hit a bit of a road block after implementing keyPressed(), keyTyped(), etc. Basically, I had modified love.run() so that there is persistence between draw frames, but now there is flickering after these event function calls. Love2d was designed so that the draw calls happen only in draw(). I think I am doubling the draw calls, causing the flickering. I tried multiple approaches to try to solve it but couldn't get a satisfactory solution yet.
+
+## 2025-07-14
 
 I implemented most of the Processing API in my Love2d/Lua hybrid. I corrected some function calls to be standardized with Processing. I fixed the screen reset and transformation between frames. I started to try to build in error handling but that remains to be finished. I added in more trigonometry functions and implemented angle modes. I corrected drawing stroke lines. After doing this I attempted to run a number of the example sketches on the p5.js website and found I have some bugs, such as when drawing an arc, that I'll have to fix. I created a TODO list. But still, I'm pretty happy with the progress so far.
 
