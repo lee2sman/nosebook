@@ -8,6 +8,15 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-17
+
+It took two days, and I don't know if I solved it completely yet or not, as I'm afraid there may be more corner cases, but at least so far, I believe I have solved the screen flickering problems in the drawing library L5. I added back the ability to draw in any event function call (like keyPressed(), mousePressed(), etc). I also reset the screen transformation each frame. Finally, getting drawing functionality in the setup nearly broke me, but I hacked together a solution that I will definitely need to refactor later. This will all sound like psycho-babble, but I've put in a dozen hours attempting to fix these related bugs over the past 2 days as I re-wired how the underlying framework Love2d works. It's a testament to how well it's built that it is so flexible that I can sculpt it into another *language*. Now I'm back on trying to finish up the rest of the API. Once that's complete I'll make more example files, complete some small programs, then build out documentation. I'm feeling satisfied.
+
+Here's the worst, most basic drawing program I can hack together in 60 seconds:
+
+![L5 code with a drawing program that says It Works]({{"/images/log/L5-works.webp" | absolute_url}} "A hacked-together ugly drawing program that says It Works with the code for the program in the background")  
+
+Other things I added: the ability to color with html color codes, like "Rebecca Purple", "Dodger Blue", "Lawn Green". I also have a hexcode to RGB color converter. Big thanks to vga256 for pointing out some approaches and functionality, to Alexjgriffith for pointing out I can customize how love2d renders, and to Olivia (and Jack) for co-working with me. It was really fun to work on while having friends simultaneously working on their own programming projects and tools.
 
 ## 2025-07-15
 
