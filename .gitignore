@@ -5,3 +5,5 @@ _site
 _drafts
 *.jekyll-cache/
 Gemfile.lock
+.bundle
+rogue.scr

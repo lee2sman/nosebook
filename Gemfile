@@ -1,2 +1,4 @@
-gem "jekyll", "~> 4.0"
-gem "minima"
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+gem 'github-pages'
