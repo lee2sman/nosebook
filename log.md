@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-21
+
+I'm nearing completion on my initial goals for implementing a Processing API in Lua. I added a lot of functions today: save() (screenshotting the window), smooth(), noSmooth(), strokeCaps, strokeJoins, displayWidth and displayHeight, millis(), mouseWheel() and describe(). Describe() comes from from p5.js and I looked into some options and decided for my initial implementation and testing to render text to the console. I'll need to do more user testing of this of course. I also added in color tables, fixed up some color rendering, screen buffering, and some other details. I still have some typography, I/O file management (like importing and exporting text and data files) to do, as well as debugging my arc() graphics function.
+
 ## 2025-07-20
 
 Added mouse events, did more debugging of the L5 library. Started adding documentation. I also did some audio editing of podcast episodes.
