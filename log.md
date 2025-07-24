@@ -8,6 +8,17 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-23
+
+Sunday was a nice hang with lots of folks at Jack's birthday at the park. I got to see his partner's looms and other devices. I'd love to try them out. Tuesday I saw a great performance, my friends Daniel Fishkin and Catalina Alvarez performing music and film with Berlin-based musicians. Today I met up with Mike for a little college reunion. In the evening I completed most of the P5 API. I added onto the random() function so it auto-detects a table input and outputs a random value. I implemented loadStrings(), saveStrings(), loadTable(), and saveTable(). The current data formats are csv, tsv and lua. I considered adding in a loadJSON() function, and still could at some point, but didn't think it made sense to DIY build a basic JSON parser or drop in something now. Could always be added later.
+
+There's a few remaining color modes to add in: HSB, a noise function, some vertex functions, and then lots of debugging and refactoring. Notably, I have not tested on a Mac or Windows machine yet, or any computer other than my own! I also need to review how I'm implementing drawing from setup(). My current method is a bit dumb and draws twice. But ultimately, I'm feeling pretty good about the library so far.
+
+
+![L5 code with an overlaid window of robots roaming, one has grabbed an orange box]({{"/images/log/L5-robots.webp" | absolute_url}} "L5 code with an overlaid window of robots roaming, one has grabbed an orange box")  
+
+I've also been making documentation and example programs. Here's the most complex one: a demonstration of OOP with robots that roam around and grab a box.
+
 ## 2025-07-21
 
 I'm nearing completion on my initial goals for implementing a Processing API in Lua. I added a lot of functions today: save() (screenshotting the window), smooth(), noSmooth(), strokeCaps, strokeJoins, displayWidth and displayHeight, millis(), mouseWheel() and describe(). Describe() comes from from p5.js and I looked into some options and decided for my initial implementation and testing to render text to the console. I'll need to do more user testing of this of course. I also added in color tables, fixed up some color rendering, screen buffering, and some other details. I still have some typography, I/O file management (like importing and exporting text and data files) to do, as well as debugging my arc() graphics function.
