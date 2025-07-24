@@ -190,7 +190,7 @@ In the evening there was a monthly Striped Light concert of experimental music. 
 
  I finished printing and assembling the first run of the [Quilt Poems](https://leetusman.com/projects/quilt-poems/) chapbook zine in a small edition of 25. I'm looking forward to distributing them.
 
-![assembling the quilt poems chapbook zine]({{"/images/log/quiltpoemschapbook.jpg" | absolute_url}} "assembling the quilt poems chapbook zine")  
+![assembling the quilt poems chapbook zine]({{"/images/log/quiltpoemschapbook.webp" | absolute_url}} "assembling the quilt poems chapbook zine")  
 
 *zine assembly in action*
 
@@ -232,7 +232,7 @@ Today I worked on music at the music studio at Flux Factory. I did some sound te
 
 ## 2025-06-02
 
-![Riso cover test]({{"/images/log/riso.jpg" | absolute_url}})  
+![Riso cover test]({{"/images/log/riso.webp" | absolute_url}})  
 
 I created a short workshop [Intro to Making Games (with Pico-8)](https://leetusman.com/notes/programming/pico8/) that I taught today to a class of rising sophomores at my school. Afterward I worked with the risograph printer in our Media Art Lab, trying to mock up a zine of my generative quilt poems. Although I like the image I wasn't super satisfied with the cover print. The default paper stock didn't seem to help the print to really pop. I also think that rather than overlay text I should create a duotone to get that textured riso print imperfections. I'll have to do more tests. It might be that a different font and size could help resolve it.
 
@@ -305,7 +305,7 @@ First the first time in years I lost some work! I accidentally overwrote the Cyb
 
 More work on Cyberhoss. I've added in an enemy AI as well as some mechanics to balance the game better. Basically, the top hoss odds are always 1X. Meddling with any hoss affects the probability that it will stumble during a race, in proportion to the strength of meddling. I'm not sure if I should build in a mechanic where meddling could potentially get the player caught. I think I may want to add a leaderboard later as well. But so far the game is now playable and fun. It's in a good state and I'd be happy to present this, which I will do after the upcoming Electronic Faire conference I'm presenting at this coming Friday.
 
-![Cyberhoss AI]({{"/images/log/cyberhoss-ai.png" | absolute_url}})  
+![Cyberhoss AI]({{"/images/log/cyberhoss-ai.webp" | absolute_url}})  
 
 ## 2025-03-09
 
@@ -317,7 +317,7 @@ Some more work today on the Cyberhoss game. I have a working demo for one player
 
 The [upcoming workshop](https://charlesstudy.temple.edu/event/14200746) I'm teaching at the [Electronics Faire](https://sites.temple.edu/efaire/) at Temple University's Charles Libary is a week away. I began work on another game, a clone or demake of the [Quibble Race](https://ufo50.miraheze.org/wiki/Quibble_Race) game from UFO 50. I think I've made a pretty good working version. Just need some tweaks to wrap up and I think it's already pretty fun. I'm thinking it would be useful to make one more really simple game demo in prep for the workshop, something that absolute beginners can build off of. Once the workshop occurs I'll make my game source code available online.
 
-![Cyberhoss]({{"/images/log/cyberhoss.png" | absolute_url}})  
+![Cyberhoss]({{"/images/log/cyberhoss.webp" | absolute_url}})  
 
 ## 2025-02-28
 
@@ -410,9 +410,9 @@ So next I worked on mocking up a chapbook. I asked for some suggestions on fedi 
 
 Found this online [riso print simulator with ink shift](https://risottostudio.com/pages/print-simulator-ink-shift) tool (reminds me of the [Experimental Archive Space](https://www.experimentalarchive.space/) zine maker that Caleb and I designed - maybe same or similar library under the hood?). Mocked up cover and a sheet.
 
-![Mockup of a riso-printed cover]({{"/images/log/riso-cover-mock.png" | absolute_url}})  
+![Mockup of a riso-printed cover]({{"/images/log/riso-cover-mock.webp" | absolute_url}})  
 
-![Mockup of a riso-printed sheet page]({{"/images/log/quiltpoems-riso-mock.png" | absolute_url}})  
+![Mockup of a riso-printed sheet page]({{"/images/log/quiltpoems-riso-mock.webp" | absolute_url}})  
 
 ## 2025-01-31
 
