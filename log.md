@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-24
+
+I went to Casey's opening and talk at DAM Projects. It was great to be able to hang out with Casey, Lauren, Raphael and a number of other folks. I talked with them about L5. Casey mentioned there had been a Lua implementation of Processing maybe 18 years ago! Lauren said when she started p5 there was processing.js, which I forgot about, but she persisted and p5 was adopted and expanded its community, so that reassured me I perhaps am not crazy to embark on this project. Funny question: what if this takes off and it turns into a decade-long project with lots of work and community participation? We'll see!
+
+After a nice dinner (25 of us gathered around two round tables at a chinese restaurant) tonight I returned home and kept plugging away at the API. I implemented the remaining mouse functions and some other API features I'd left. I need to add color modes, then debug and refactor code. I added onto the documentation I started and started looking into how to build a documentation site, especially to host tutorials and a reference.
+
 ## 2025-07-23
 
 Sunday was a nice hang with lots of folks at Jack's birthday at the park. I got to see his partner's looms and other devices. I'd love to try them out. Tuesday I saw a great performance, my friends Daniel Fishkin and Catalina Alvarez performing music and film with Berlin-based musicians. Today I met up with Mike for a little college reunion. In the evening I completed most of the P5 API. I added onto the random() function so it auto-detects a table input and outputs a random value. I implemented loadStrings(), saveStrings(), loadTable(), and saveTable(). The current data formats are csv, tsv and lua. I considered adding in a loadJSON() function, and still could at some point, but didn't think it made sense to DIY build a basic JSON parser or drop in something now. Could always be added later.
