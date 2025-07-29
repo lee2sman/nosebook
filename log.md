@@ -8,6 +8,20 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-29
+
+In the past few days I worked on L5 as well as an artwork for the exhibit LOVE.exe at New Media Artspace. In L5 I knocked out some bugs from my TODO list: fullscreen now works correctly; the transform works correctly; I fixed the ellipses and circle drawing modes and the rectangle modes. I also created some test sketches like a basic chessboard:
+
+![L5 code with an overlaid chess board]({{"/images/log/chess.webp" | absolute_url}} "L5 code with an overlaid chess board. Pieces in starting positions.")  
+
+The artwork I created for LOVE.exe I wrote initially in p5.js but then tried to port it over to L5. At this point, the port is only semi-successful. I hadn't implemented filter() in L5 yet, and I think it will take me some more effort as it will require a shader. Instead I tried to use tinting but that's not really the same thing. Another minor issue was the speed of the background gradient effect was somewhat different. I'm not 100% sure why. And I haven't implemented basic sound like p5.sound yet.
+
+Here's a screenshot from the work, just a moment in time. The piece is of infinite duration, a generative piece called *I Act Comfortably With Others*. 
+
+![grayscale glitched downsampled faces merging together with overlaid text]({{"/images/log/loveexe.webp" | absolute_url}} "grayscale glitched downsampled faces merging together with overlaid text")  
+
+In the evening was *Show Us Your Screens* at Offline. I gave a 10 minute presentation, showing L5, my new piece, and some previous work. Alex McLean gave a talk and demo of new functions added to Strudel and TidalCycles livecoding music languages, and I got to meet Alex for the first time in person and a number of other artists I had known previously only online.
+
 ## 2025-07-24
 
 I went to Casey's opening and talk at DAM Projects. It was great to be able to hang out with Casey, Lauren, Raphael and a number of other folks. I talked with them about L5. Casey mentioned there had been a Lua implementation of Processing maybe 18 years ago! Lauren said when she started p5 there was processing.js, which I forgot about, but she persisted and p5 was adopted and expanded its community, so that reassured me I perhaps am not crazy to embark on this project. Funny question: what if this takes off and it turns into a decade-long project with lots of work and community participation? We'll see!
