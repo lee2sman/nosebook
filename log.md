@@ -8,6 +8,18 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-07-31
+
+I'm really cooking. Lots more bug fixing and I've been building out a website for L5. I came up with a logo, theme site design, and all that. I've completed the intro pages, figured out the license, and started converting the reference pages from p5.js. Screenshotting the sketches takes a while, so I'm not sure if i can figure out a way to automate that, but maybe I'll try that next.
+
+[The script to convert p5.js programs to L5](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) worked pretty well on the half dozen scripts I tested tonight.
+
+Here's a screenshot of what the website currently looks like. I need to add more art made in L5 so the site looks less framework-y.
+
+![first version of the L5 documentation website with logo and yellow background and intro text]({{"/images/log/L5-website1.webp" | absolute_url}} "First version of the L5 documentation website with logo and yellow background and intro text")  
+
+In the process of getting this up I figured out some new problems but mostly have been fixing old bugs that cropped up, like arc, rect and ellipse modes, and much more. But as I cross things off the TODO checklist, new ones seem to get added!
+
 ## 2025-07-29
 
 In the past few days I worked on L5 as well as an artwork for the exhibit LOVE.exe at New Media Artspace. In L5 I knocked out some bugs from my TODO list: fullscreen now works correctly; the transform works correctly; I fixed the ellipses and circle drawing modes and the rectangle modes. I also created some test sketches like a basic chessboard:
