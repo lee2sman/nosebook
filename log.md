@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-08-01
+
+In the evening was the Creative Code Berlin meetup. Before heading out I sent the latest L5 to Dan to check on his Mac - which was the first time anyone other than me was checking out the library, and the first test on a Mac. The horror, error! It didn't compile and the error message confused me.
+
+At the Creative Code Stammtisch it was a packed place, maybe 50ish people. I showed my work on L5 and other projects, and mentioned I need to test on Mac/PC hoping someone would say, here's my old Mac for testing purposes! The presentation was fun and I had some good audience questions, including about later adding a 3d library. Maybe! Later I decided to see if I could figure out the Mac compilation problem from earlier and learned in some research that between Lua 5.1 and 5.2 they switched from unpack to table.unpack, however, Love uses LuaJit, which should be 5.1 but they modified this in Love, and it might be the Mac one compiles a different version of Lua. I didn't have ready acces to a Mac for testing but I did have an iPad mini, and I downloaded Love2d Studio app. I converted all table.unpack() to unpack() globally, and had no more errors about that. Now I had a shader error, which seems to be a result of needing to write these differently for different architecture. I turned off the shader code and now my example programs ran on the iPad. My next step will be to look into the shader code and see if I have some alternative options, which could mean rewriting them, changing out for non-shader options, or having to ship alternate versions of L5. Maybe the most logical would be to separate things out into more files and pull the needed module depending on architecture.
+
 ## 2025-07-31
 
 I'm really cooking. Lots more bug fixing and I've been building out a website for L5. I came up with a logo, theme site design, and all that. I've completed the intro pages, figured out the license, and started converting the reference pages from p5.js. Screenshotting the sketches takes a while, so I'm not sure if i can figure out a way to automate that, but maybe I'll try that next.
