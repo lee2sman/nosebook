@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-08-03
+
+![All the Greens, a screenshot]({{"/images/green4.webp" | absolute_url}} "All The Greens screenshot of green pixelated chunky blocky artwork with lots of meandering digital doodahs")  
+
+I participated in HTML Day yesterday and made [All the Greens](https://leetusman.com/everyday/298/green/) in a field and in Offline, literally without internet. The piece is generative in that each time you click you get a new variation. Full [writeup](https://leetusman.com/nosebook/html-day-2025) blog post.
+
 ## 2025-08-01
 
 In the evening was the Creative Code Berlin meetup. Before heading out I sent the latest L5 to Dan to check on his Mac - which was the first time anyone other than me was checking out the library, and the first test on a Mac. The horror, error! It didn't compile and the error message confused me.
