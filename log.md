@@ -8,6 +8,10 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-08-04
+
+Tested L5 on a 12-year old Windows PC today: It worked fine out of the box, including the filters (shader code).
+
 ## 2025-08-03
 
 ![All the Greens, a screenshot]({{"/images/green4.webp" | absolute_url}} "All The Greens screenshot of green pixelated chunky blocky artwork with lots of meandering digital doodahs")  
