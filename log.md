@@ -8,6 +8,12 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-08-05
+
+I played a show at Pedalmarkt for Zhzhzhzh aka [3333]. The headliners were [Silver Galaxy](https://silvergalaxy-official.bandcamp.com/), consisting of Anna-Maria Van Reusel on synth and Dennis Slypen on guitar and pedals. They were absolutely incredible. One of the best performances I've heard in years. Both are virtuosic musicians. They played in perfect synchrony and harmony. Just gorgeous music. OMG, I played after them. Thank goodness there was a break first. I played a short set, which received a good response, and afterwards I enjoyed talking with folks about the music. Thanks to Pedalmarkt for putting together such a cool event and to Anna-Maria and Dennis for giving me a ride home with my synth.
+
+In the late evening I worked just a bit on the L5 library. Today's goal was to alter the filter shader code to also work on Mac. Success! I sent the updated code to my iPad mini through [LocalSend](https://localsend.org/), an open source alternative to Airdrop that works on Linux too. I then saved to local files into the Love2d-studio files folder. All I have to do is hit play to test, and it compiles. Great! I test some programs. L5 is now (I think) cross-platform. I'm making it a priority to get the reference documentation done over the next week, then to soft launch the site and get some testing from friends before announcing more widely and getting a million bug reports (and eyes on my kludgy code!).
+
 ## 2025-08-04
 
 Tested L5 on a 12-year old Windows PC today: It worked fine out of the box, including the filters (shader code).
