@@ -8,6 +8,14 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-08-06
+
+I played at OHM tonight for Zoll 19 Stammtisch. I think there were 10 or 12 of us playing together. It was pretty epic. I wonder if there's anything like this in NYC when I get back. 
+
+![Synths and players lined up at OHM]({{"/images/log/ohm.webp" | absolute_url}} "Synths and musicians lined up at OHM")  
+
+I got home pretty late but tested my port of All the Greens (originally HTML, CSS, JS) to L5. It looks 99% the same. Actually, it looks very slightly nicer. 
+
 ## 2025-08-05
 
 I played a show at Pedalmarkt for Zhzhzhzh aka [3333]. The headliners were [Silver Galaxy](https://silvergalaxy-official.bandcamp.com/), consisting of Anna-Maria Van Reusel on synth and Dennis Slypen on guitar and pedals. They were absolutely incredible. One of the best performances I've heard in years. Both are virtuosic musicians. They played in perfect synchrony and harmony. Just gorgeous music. OMG, I played after them. Thank goodness there was a break first. I played a short set, which received a good response, and afterwards I enjoyed talking with folks about the music. Thanks to Pedalmarkt for putting together such a cool event and to Anna-Maria and Dennis for giving me a ride home with my synth.
