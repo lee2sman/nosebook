@@ -8,11 +8,19 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-08-08
+
+Yesterday we installed the [compost.party](https://compost.party) server on the roof here at ZK/U, where I'll be caretaking it for the next several weeks while its regular hosts are away. It's a postmarketOS (Alpine-derivation) setup on an older Xiaomi Poco F1. I'm now set up with XMPP, a new git instance, and server access myself. Helping to host this means having to do daily physical activity to unplug and re-plug-in the solar panel to the phone each day. This is a cool project and I'm happy to be part of it.
+
+![On the roof at ZKU]({{"/images/log/zku-roof-dithered.png" | absolute_url}} "On the roof at ZK_U, dithered")    
+*On the roof at ZK/U*
+
 ## 2025-08-06
 
 I played at OHM tonight for Zoll 19 Stammtisch. I think there were 10 or 12 of us playing together. It was pretty epic. I wonder if there's anything like this in NYC when I get back. 
 
 ![Synths and players lined up at OHM]({{"/images/log/ohm.webp" | absolute_url}} "Synths and musicians lined up at OHM")  
+*My view of synths and players lined up at OHM*  
 
 I got home pretty late but tested my port of All the Greens (originally HTML, CSS, JS) to L5. It looks 99% the same. Actually, it looks very slightly nicer. 
 
@@ -29,6 +37,7 @@ Tested L5 on a 12-year old Windows PC today: It worked fine out of the box, incl
 ## 2025-08-03
 
 ![All the Greens, a screenshot]({{"/images/green4.webp" | absolute_url}} "All The Greens screenshot of green pixelated chunky blocky artwork with lots of meandering digital doodahs")  
+*All the Greens, screenshot, HTML, CSS, JS, Digital Drawings*  
 
 I participated in HTML Day yesterday and made [All the Greens](https://leetusman.com/everyday/298/green/) in a field and in Offline, literally without internet. The piece is generative in that each time you click you get a new variation. Full [writeup](https://leetusman.com/nosebook/html-day-2025) blog post.
 
@@ -47,6 +56,7 @@ I'm really cooking. Lots more bug fixing and I've been building out a website fo
 Here's a screenshot of what the website currently looks like. I need to add more art made in L5 so the site looks less framework-y.
 
 ![first version of the L5 documentation website with logo and yellow background and intro text]({{"/images/log/L5-website1.webp" | absolute_url}} "First version of the L5 documentation website with logo and yellow background and intro text")  
+*Prototype pre-v1 version of the L5 documentation site*
 
 In the process of getting this up I figured out some new problems but mostly have been fixing old bugs that cropped up, like arc, rect and ellipse modes, and much more. But as I cross things off the TODO checklist, new ones seem to get added!
 
@@ -55,12 +65,14 @@ In the process of getting this up I figured out some new problems but mostly hav
 In the past few days I worked on L5 as well as an artwork for the exhibit LOVE.exe at New Media Artspace. In L5 I knocked out some bugs from my TODO list: fullscreen now works correctly; the transform works correctly; I fixed the ellipses and circle drawing modes and the rectangle modes. I also created some test sketches like a basic chessboard:
 
 ![L5 code with an overlaid chess board]({{"/images/log/chess.webp" | absolute_url}} "L5 code with an overlaid chess board. Pieces in starting positions.")  
+*L5 code with an overlaid chess board*
 
 The artwork I created for LOVE.exe I wrote initially in p5.js but then tried to port it over to L5. At this point, the port is only semi-successful. I hadn't implemented filter() in L5 yet, and I think it will take me some more effort as it will require a shader. Instead I tried to use tinting but that's not really the same thing. Another minor issue was the speed of the background gradient effect was somewhat different. I'm not 100% sure why. And I haven't implemented basic sound like p5.sound yet.
 
 Here's a screenshot from the work, just a moment in time. The piece is of infinite duration, a generative piece called *I Act Comfortably With Others*. 
 
 ![grayscale glitched downsampled faces merging together with overlaid text]({{"/images/log/loveexe.webp" | absolute_url}} "grayscale glitched downsampled faces merging together with overlaid text")  
+*screenshot from I Act Comfortably with Others, in p5.js*
 
 In the evening was *Show Us Your Screens* at Offline. I gave a 10 minute presentation, showing L5, my new piece, and some previous work. Alex McLean gave a talk and demo of new functions added to Strudel and TidalCycles livecoding music languages, and I got to meet Alex for the first time in person and a number of other artists I had known previously only online.
 
@@ -78,6 +90,7 @@ There's a few remaining color modes to add in: HSB, a noise function, some verte
 
 
 ![L5 code with an overlaid window of robots roaming, one has grabbed an orange box]({{"/images/log/L5-robots.webp" | absolute_url}} "L5 code with an overlaid window of robots roaming, one has grabbed an orange box")  
+*L5 code with overlaid window of roaming robots, programmed in preliminary L5*  
 
 I've also been making documentation and example programs. Here's the most complex one: a demonstration of OOP with robots that roam around and grab a box.
 
@@ -96,6 +109,7 @@ It took two days, and I don't know if I solved it completely yet or not, as I'm 
 Here's the worst, most basic drawing program I can hack together in 60 seconds:
 
 ![L5 code with a drawing program that says It Works]({{"/images/log/L5-works.webp" | absolute_url}} "A hacked-together ugly drawing program that says It Works with the code for the program in the background")  
+*L5 code with a drawing program, It Works!*  
 
 Other things I added: the ability to color with html color codes, like "Rebecca Purple", "Dodger Blue", "Lawn Green". I also have a hexcode to RGB color converter. Big thanks to vga256 for pointing out some approaches and functionality, to Alexjgriffith for pointing out I can customize how love2d renders, and to Olivia (and Jack) for co-working with me. It was really fun to work on while having friends simultaneously working on their own programming projects and tools.
 
@@ -109,6 +123,7 @@ I implemented most of the Processing API in my Love2d/Lua hybrid. I corrected so
 
 
 ![L5 pre-alpha with code and a rotating square]({{"/images/log/l5-rotating-square.webp" | absolute_url}} "A rotated blue square with red stroke and its code in background")  
+*L5 code and rotating square*  
 
 ## 2025-07-13
 
@@ -140,6 +155,7 @@ Here's an excerpt of a test program running:
 
 
 ![L5 pre-alpha with some of the code and a window of colored shapes]({{"/images/log/L5-pre-alpha.webp" | absolute_url}} "A first little test of L5, a processing-like graphics library in Lua showing some code and colored shapes in an inset window")  
+*L5 code and colored shapes*  
 
 This is a portion of some test code I wrote and a window showing it running. I tried to get my function calls as close to p5/processing API as I could. I'm currently using the working title L5. I think I will probably continue working on this a bit over the next few days as I'm enjoying it, but I do want to get back to finishing my archive and podcast episodes!
 
@@ -207,6 +223,7 @@ Lots of progress on the Archive project today, including creating a github [repo
 I wanted to document how pandoc and variables and templates work so I wrote up a [tutorial](https://leetusman.com/nosebook/pandoc-variables) for my nosebook blog. Then I built a template for the generated item pages and then a build script for the whole site. It uses a Lua filter to extract metadata.
 
 ![Responsive view - Cabinet of Curios mockup]({{"/images/log/cabinet.webp" | absolute_url}} "A working draft of Cabinet of Curios mobile responsive view")  
+*mockup of a new archive page*  
 
 This is a generated page from the static site generator I wrote. This landing page is populated with item pages in markdown with metadata entirely in the front matter.
 
