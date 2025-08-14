@@ -1,0 +1,39 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    
+    {% assign feed_pages = site.pages | where: "feed", true %}
+    
+    <!-- Feed pages first (Log page) -->
+    {% for page in feed_pages %}
+      <item>
+        <title>{{ page.title | xml_escape }}</title>
+        <description><![CDATA[{{ page.content | markdownify | truncatewords: 500 }}{% assign word_count = page.content | number_of_words %}{% if word_count > 500 %} <p><a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">Read more...</a></p>{% endif %}]]></description>
+        <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}{{ site.baseurl }}{{ page.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ page.url }}</guid>
+      </item>
+    {% endfor %}
+    
+    <!-- Then posts -->
+    {% for post in site.posts limit:9 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description><![CDATA[{{ post.content | truncatewords: 500 }}{% assign word_count = post.content | number_of_words %}{% if word_count > 500 %} <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Read more...</a></p>{% endif %}]]></description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

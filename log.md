@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Log
 permalink: /log/
+date: 2025-08-13  # Update this when you modify
+layout: default
+feed: true 
 ---
 
 # Log
