@@ -8,6 +8,22 @@ permalink: /log/
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-13-08
+
+Lots of ups and downs with compost.party. First I had issues when I woke up late one day, replugged the server on the roof and it didn't accrue enough power to run through the following night. It came up the next day but then died the following night out of the blue after a full charge. I was trying all sorts of hacker-y things on a flickering broken screen, ssh'ing in and such, communicating with Arnold who was on a bikepacking trip and debugging with me! Finally after hours and days he suggested he needed to pay the cell phone bill, and that there was finally a static IP issue on the raspberry pi at his house while he is away. And so that's where it says, with Compost down currently.  I also started some logs on there, so have been busy but I should be doing L5 and some other work.
+
+Started German classes this week. Es geht's gut. Zuper.
+
+I got some utility scripting done this week.
+
+Rather than remember all the different SSG build/serve command incantations I made a fish function command [blog-serve](https://gist.github.com/lee2sman/3afa82cb75b962877de2f7c7aa96efe4) that will run the correct command to build a site and serve it via Panblog, Jekyll (with custom url), mkdocs or Eleventy.
+
+And my [p5.js to L5 converter](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) brute forces converting hundreds of p5.js reference programs to l5.
+
+Finally, I made some site builders for compost.party that automatically build custom static site generators. That one will remain private for now until I make a more general iteration useful for others.
+
+
+
 ## 2025-08-08
 
 Yesterday we installed the [compost.party](https://compost.party) server on the roof here at ZK/U, where I'll be caretaking it for the next several weeks while its regular hosts are away. It's a postmarketOS (Alpine-derivation) setup on an older Xiaomi Poco F1. I'm now set up with XMPP, a new git instance, and server access myself. Helping to host this means having to do daily physical activity to unplug and re-plug-in the solar panel to the phone each day. This is a cool project and I'm happy to be part of it.
