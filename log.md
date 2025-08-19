@@ -10,6 +10,21 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-18-08
+
+Some scripting implemented to convert all the p5 pages to L5 pages. Initial run seems like it worked, and so did the p5.js to L5 converter. Next step will be to add these to the L5 documentation site, removing anything unused (WEBGL code examples, function calls not present in L5). Then afterwards I'll try to implement an automated screenshotting system to use the Example code blocks and save to an assets directory.
+
+## 2025-16-08
+
+On Friday I met Raphael and Steffe at Praxis to interview them about their work on Processing over the past year+. This was my first live in-person interview in a while for the pod. They are really kind and after our interview we actually spent time looking at the modes of Processing (so that I can later hopefully integrate L5) and we looked at some workflows for forking and converting the p5js reference pages in a more automated way.
+
+That evening I hosted a BBQ and dinner concert at ZK/U with Flux friend and collaborator Patrick, visiting from Vienna, myself on mod synth, and pal SarahGHP doing live coding visuals in her La Habra. Wesley was helpful and generous with food he brought. We pulled out a construction fence to project onto, and many ZK/U folks helped with setup, grilling. 
+
+![Performance at ZKU]({{"/images/log/pat-lee-zku.webp" | absolute_url}} "Performance on the patio, with a construction fence and screen with live coded visuals, a musician in the background, and a crowd watching")    
+*Patrick Topitschnig performing music and SarahGHP live coding visuals in front of a crowd at ZK/U in Berlin*
+
+After Patrick and I played we had a performance by Lor on vocals/looper pedals and then enjoyed DJing by Blackmoonchild to close out. The afterparty went late and we had a really nice audience maybe 30ish folks joining us, including some people from my language classes.
+
 ## 2025-13-08
 
 Lots of ups and downs with compost.party. First I had issues when I woke up late one day, replugged the server on the roof and it didn't accrue enough power to run through the following night. It came up the next day but then died the following night out of the blue after a full charge. I was trying all sorts of hacker-y things on a flickering broken screen, ssh'ing in and such, communicating with Arnold who was on a bikepacking trip and debugging with me! Finally after hours and days he suggested he needed to pay the cell phone bill, and that there was finally a static IP issue on the raspberry pi at his house while he is away. And so that's where it's at currently, with Compost presently down. I also started some additional logs on there, so have been busy getting that going though can't be seen til the site comes back up and I should be doing L5 and some other work.
@@ -23,8 +38,6 @@ Rather than remember all the different SSG build/serve command incantations I ma
 And my [p5.js to L5 converter](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) brute forces converting hundreds of p5.js reference programs to L5.
 
 Finally, I made some site builders for compost.party that automatically build custom static site generators. That one will remain private for now until I make a more general iteration useful for others.
-
-
 
 ## 2025-08-08
 
