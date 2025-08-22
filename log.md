@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-21-08
+
+I moved the ported reference pages for L5 to the documentation site and manually added them in. It was something like 130 automated pages, compared to my own hand typed 15 pages I did previously in many more hours. This was only the first pass and I still have to edit these pages, add any pages that are missing, fix code examples if anything is broken or not L5-idiomatic (!), and set up automation to do screenshotting of each of the example code programs.
+
 ## 2025-18-08
 
 Some scripting implemented to convert all the p5 pages to L5 pages. Initial run seems like it worked, and so did the p5.js to L5 converter. Next step will be to add these to the L5 documentation site, removing anything unused (WEBGL code examples, function calls not present in L5). Then afterwards I'll try to implement an automated screenshotting system to use the Example code blocks and save to an assets directory.
