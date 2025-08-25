@@ -10,6 +10,11 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+
+## 2025-24-08
+
+Mostly took off from coding this weekend. Today I updated my paper for the Algorithmic Pattern Salon, then worked on L5 a bit. I updated the [p5 to L5 conversion script](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) and then manually went through and started cleaning up the generated reference pages and taking screenshots. I think this may take too long, so I may skip performing screenshots for all the pages and work on some other tasks first so I can get the pre-alpha out the door to those who are interested in testing L5 at this point. I also parked the l5lua.org page. I'll change it when I'm ready to push the web pages live.
+
 ## 2025-21-08
 
 I moved the ported reference pages for L5 to the documentation site and manually added them in. It was something like 130 automated pages, compared to my own hand typed 15 pages I did previously in many more hours. This was only the first pass and I still have to edit these pages, add any pages that are missing, fix code examples if anything is broken or not L5-idiomatic (!), and set up automation to do screenshotting of each of the example code programs.
@@ -274,7 +279,7 @@ I began working on a database site for an archive of articles, audio, books, pam
 
 Colors, final details of items, and even title of the archive collection are all in flux. Currently, hovering over a collection item highlights, changes background color and changes the image back to full color. I am designing with accessibility in mind. This means using color combos with high contrast and clearly labeled screen-readable text with semantic tag markup. The page is designed to be low bandwidth with lazy-loading of images, and a mobile-responsive view, all as a static site with no Javascript.
 
-In the evening I attended WordHack (in its 11th year!) and was one of the presenters during the Open Projector. I showed Quilt Poems and for the first time read some of them out loud! This was an audience of programmers that work with technology and poetry or writing - so an ideal audience for the work. I ended up distributing more copies of the Quilt Poems zine during the night.
+In the evening I attended WordHack (in its 11th year!) and was one of the presenters during the Open Projector. [I showed Quilt Poems](https://youtu.be/EGQEoXw47hE?si=EbM4UYYjrLoDMxEe&t=3302) and for the first time read some of them out loud! This was an audience of programmers that work with technology and poetry or writing - so an ideal audience for the work. I ended up distributing more copies of the Quilt Poems zine during the night.
 
 ## 2025-06-18
 
