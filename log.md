@@ -11,6 +11,10 @@ feed: true
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
 
+## 2025-25-08
+
+I added the [CrankBoy](https://github.com/CrankBoyHQ/crankboy-app) emulator to my Playdate and added some roms, such as ones I already owned like Super Mario Land, Paperboy and the like. I also chipped away a little bit at the reference pages for L5 again. I grow weary of this slow process. I think I want to work on other areas, then come back later to fix the reference pages and take screenshots for example.
+
 ## 2025-24-08
 
 Mostly took off from coding this weekend. Today I updated my paper for the Algorithmic Pattern Salon, then worked on L5 a bit. I updated the [p5 to L5 conversion script](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) and then manually went through and started cleaning up the generated reference pages and taking screenshots. I think this may take too long, so I may skip performing screenshots for all the pages and work on some other tasks first so I can get the pre-alpha out the door to those who are interested in testing L5 at this point. I also parked the l5lua.org page. I'll change it when I'm ready to push the web pages live.
