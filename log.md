@@ -15,6 +15,10 @@ feed: true
 
 I added the [CrankBoy](https://github.com/CrankBoyHQ/crankboy-app) emulator to my Playdate and added some roms, such as ones I already owned like Super Mario Land, Paperboy and the like. I also chipped away a little bit at the reference pages for L5 again. I grow weary of this slow process. I think I want to work on other areas, then come back later to fix the reference pages and take screenshots for example.
 
+Next I jumped over to working on my archive page. I changed the CSS, which looks better now, but I still think I may want something to make it feel a bit more *modern* in some way. I added some javascript to change order randomly, by editor's choice, alphabetically, and to open a random page. I also changed the name, to *Dig Archive*, which I also think sounds more current and compelling. But I'll sit on it for a few days and see if it sticks!
+
+![New Dig Archive screenshot, in-progress page showing a 2 column centered digital archive gallery page]({{"/images/log/dig-archive.webp" | absolute_url}} "A blue and light blue 2 color Dig Archive website shot showing a 2 column view of archived works in a centered 2 column grid")    
+
 ## 2025-24-08
 
 Mostly took off from coding this weekend. Today I updated my paper for the Algorithmic Pattern Salon, then worked on L5 a bit. I updated the [p5 to L5 conversion script](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) and then manually went through and started cleaning up the generated reference pages and taking screenshots. I think this may take too long, so I may skip performing screenshots for all the pages and work on some other tasks first so I can get the pre-alpha out the door to those who are interested in testing L5 at this point. I also parked the l5lua.org page. I'll change it when I'm ready to push the web pages live.
