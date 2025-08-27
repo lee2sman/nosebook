@@ -10,13 +10,17 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
-## 2025-26-08
+## 2025-08-27
+
+I made some minor updates, added some new items, and edited the item page builder to include my editor's notes. And with that I made [➘Dig Archive](https://leetusman.com/archive/) public today.
+
+## 2025-08-26
 
 I spent a bunch of hours on the archive site tonight trying to get it close to a *ready to publish* state. I'm feeling pretty good about it. I just need some feedback from friends and to possibly make some adjustments to color contrast based on accessibility testing.
 
 ![New Dig Archive screenshot, in-progress page showing a 2 column centered digital archive gallery page]({{"/images/log/dig-archive2.webp" | absolute_url}} "A blue and light blue 2 color Dig Archive website shot showing a 2 column view of archived works in a centered 2 column grid")    
 
-## 2025-25-08
+## 2025-08-25
 
 I added the [CrankBoy](https://github.com/CrankBoyHQ/crankboy-app) emulator to my Playdate and added some roms, such as ones I already owned like Super Mario Land, Paperboy and the like. I also chipped away a little bit at the reference pages for L5 again. I grow weary of this slow process. I think I want to work on other areas, then come back later to fix the reference pages and take screenshots for example.
 
@@ -24,19 +28,19 @@ Next I jumped over to working on my archive page. I changed the CSS, which looks
 
 ![New Dig Archive screenshot, in-progress page showing a 2 column centered digital archive gallery page]({{"/images/log/dig-archive.webp" | absolute_url}} "A blue and light blue 2 color Dig Archive website shot showing a 2 column view of archived works in a centered 2 column grid")    
 
-## 2025-24-08
+## 2025-08-24
 
 Mostly took off from coding this weekend. Today I updated my paper for the Algorithmic Pattern Salon, then worked on L5 a bit. I updated the [p5 to L5 conversion script](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a) and then manually went through and started cleaning up the generated reference pages and taking screenshots. I think this may take too long, so I may skip performing screenshots for all the pages and work on some other tasks first so I can get the pre-alpha out the door to those who are interested in testing L5 at this point. I also parked the l5lua.org page. I'll change it when I'm ready to push the web pages live.
 
-## 2025-21-08
+## 2025-08-21
 
 I moved the ported reference pages for L5 to the documentation site and manually added them in. It was something like 130 automated pages, compared to my own hand typed 15 pages I did previously in many more hours. This was only the first pass and I still have to edit these pages, add any pages that are missing, fix code examples if anything is broken or not L5-idiomatic (!), and set up automation to do screenshotting of each of the example code programs.
 
-## 2025-18-08
+## 2025-08-18
 
 Some scripting implemented to convert all the p5 pages to L5 pages. Initial run seems like it worked, and so did the p5.js to L5 converter. Next step will be to add these to the L5 documentation site, removing anything unused (WEBGL code examples, function calls not present in L5). Then afterwards I'll try to implement an automated screenshotting system to use the Example code blocks and save to an assets directory.
 
-## 2025-16-08
+## 2025-08-16
 
 On Friday I met Raphael and Steffe at Praxis to interview them about their work on Processing over the past year+. This was my first live in-person interview in a while for the pod. They are really kind and after our interview we actually spent time looking at the modes of Processing (so that I can later hopefully integrate L5) and we looked at some workflows for forking and converting the p5js reference pages in a more automated way.
 
@@ -47,7 +51,7 @@ That evening I hosted a BBQ and dinner concert at ZK/U with Flux friend and coll
 
 After Patrick and I played we had a performance by Lor on vocals/looper pedals and then enjoyed DJing by Blackmoonchild to close out. The afterparty went late and we had a really nice audience maybe 30ish folks joining us, including some people from my language classes.
 
-## 2025-13-08
+## 2025-08-13
 
 Lots of ups and downs with compost.party. First I had issues when I woke up late one day, replugged the server on the roof and it didn't accrue enough power to run through the following night. It came up the next day but then died the following night out of the blue after a full charge. I was trying all sorts of hacker-y things on a flickering broken screen, ssh'ing in and such, communicating with Arnold who was on a bikepacking trip and debugging with me! Finally after hours and days he suggested he needed to pay the cell phone bill, and that there was finally a static IP issue on the raspberry pi at his house while he is away. And so that's where it's at currently, with Compost presently down. I also started some additional logs on there, so have been busy getting that going though can't be seen til the site comes back up and I should be doing L5 and some other work.
 
