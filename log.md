@@ -10,6 +10,11 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
 
+## 2025-26-08
+
+I spent a bunch of hours on the archive site tonight trying to get it close to a *ready to publish* state. I'm feeling pretty good about it. I just need some feedback from friends and to possibly make some adjustments to color contrast based on accessibility testing.
+
+![New Dig Archive screenshot, in-progress page showing a 2 column centered digital archive gallery page]({{"/images/log/dig-archive2.webp" | absolute_url}} "A blue and light blue 2 color Dig Archive website shot showing a 2 column view of archived works in a centered 2 column grid")    
 
 ## 2025-25-08
 
