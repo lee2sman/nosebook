@@ -8,7 +8,20 @@ feed: true
 
 # Log
 
-*This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress.*
+*This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2025-08-28
+
+Last day of intro German class today. In evening I went to Collective Capernauts at Cittipunkt. There were performances, poetry readings, performative talks (?). I really enjoyed Nina's invented opening ceremony (can't describe it here). 
+
+In the evening I added some more items to the Dig Archive: 
+
+* [Permacomputing](https://leetusman.com/archive/permacomputing/) interview with Marloes de Valk and Ville-Matias Heikkilä in Counter-N
+* [Librarian Is My Occupation](https://leetusman.com/archive/librarian/): A History of The People's Library of Occupy Wall Street
+* [Occupy at One](https://leetusman.com/archive/occupy-one/) in BOOG CITY
+* An issue of [Computer Graphics and Art](https://leetusman.com/archive/computer-graphics/) from 1977
+* The exhibition catalog from the [SEQUENCEBREAK](https://leetusman.com/archive/sequencebreak/) experimental arcade exhibition
+* [Curatorial Archives in Curatorial Practices](https://leetusman.com/archive/curatorial-archives/)
 
 ## 2025-08-27
 
