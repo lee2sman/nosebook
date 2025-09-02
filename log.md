@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-08-31
+
+Saw lots of performances over the past week, especially some great music performances at Atonal festival and at a noise show at Aktionhaus. Started German class A1.2. Did some "L5 Studies" tonight as a way to get back into semi-daily L5 work. Fixed a bug where width, height weren't set when running without size (for example, default or in fullscreen mode). Rapidly implemented a 10print maze in L5.
+
+![A 10print style maze in L5]({{"/images/log/10print.webp" | absolute_url}} "A 10print maze with code on left and maze on the right")    
+
 ## 2025-08-28
 
 Last day of intro German class today. In evening I went to Collective Capernauts at Cittipunkt. There were performances, poetry readings, performative talks (?). I really enjoyed Nina's invented opening ceremony (can't describe it here). 
