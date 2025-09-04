@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-04
+
+I saw it was on sale so I purchased [Picotron](https://www.lexaloffle.com/picotron.php) the *Fantasy Workstation* by Lexaloffle (maker of Pico-8, that I use and teach with). I have too many projects right now and thought I would be too busy to get into it (an OS coded in Lua) until finishing some projects here but I put about an hour into it tonight, modifying the 3d carpet program from Zep. I added file input and fed in a 64x64 gridded quilt pattern and then modified it to allow any size input grid. It works! 
+
+![Checkerboard pattern "quilt" grid in 3d, in Picotron]({{"/images/log/quilt-3d.png" | absolute_url}} "heckerboard pattern grid in 3d space made up of small colored balls, low resolution, in Picotron")    
+
 ## 2025-08-31
 
 Saw lots of performances over the past week, especially some great music performances at Atonal festival and at a noise show at Aktionhaus. Started German class A1.2. Did some "L5 Studies" tonight as a way to get back into semi-daily L5 work. Fixed a bug where width, height weren't set when running without size (for example, default or in fullscreen mode). Rapidly implemented a 10print maze in L5.
