@@ -10,6 +10,25 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-05
+
+Big success getting a working version of the 3d quilt pattern generator going in Picotron. I'm pretty happy with this, with maybe some work to be done to see if I can shift the color pallet any further.
+
+This is a little animation of what the program looks like. A new *quilt* is generated from the quilts.lua pattern data every couple seconds.:
+
+![Animation of a rotating Little Coins quilt and 2 more, in Picotron]({{"/images/log/quilt_2.gif" | absolute_url}} "Animation of a rotating Little Coins quilt where there is a dominant white color with little bits of colors throughout the digital 'quilt', in Picotron")  
+*Animation showing the current state of the program. It generates a Little Coins quilt pattern, Diamond in a Square variation quilt, and God's Eye pattern - all 8x8 resolution.*  
+
+The 3d effect is an optical illusion caused by the "balls" shifting in scale in relation to each other. I tried some variations with squares but it just didn't look very good. The balls were able to maintain the illusion better.
+
+Here's my favorite *housetop* pattern, generated.
+
+![A housetop pattern 'quilt', in Picotron]({{"/images/log/quilt_5.png" | absolute_url}} "housetop patterned quilt, in Picotron")    
+
+I also modified the program to accept any resolution input grid so that it would scale up and down depending on the size. These tests above are all 8x8. But I performed tests with larger sizes as well.
+
+![A test of a larger grid size, in Picotron]({{"/images/log/quilt_4.png" | absolute_url}} "Test of a larger quilt grid size, in Picotron")    
+
 ## 2025-09-04
 
 I saw it was on sale so I purchased [Picotron](https://www.lexaloffle.com/picotron.php) the *Fantasy Workstation* by Lexaloffle (maker of Pico-8, that I use and teach with). I have too many projects right now and thought I would be too busy to get into it (an OS coded in Lua) until finishing some projects here but I put about an hour into it tonight, modifying the 3d carpet program from Zep. I added file input and fed in a 64x64 gridded quilt pattern and then modified it to allow any size input grid. It works! 
