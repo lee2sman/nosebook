@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-10
+
+Added [PocketC.H.I.P. original documentation](https://leetusman.com/archive/pocketCHIP/) and my collaborative [Radical DIY Computing zine](https://leetusman.com/archive/radical-diy-computing/), from a workshop taught using the PocketC.H.I.P., with Echo Theohar, to the Dig Archive.
+
+Saw DJ Marcelle at Hamburger Banhof tonight. Great set.
+
 ## 2025-09-05
 
 Big success getting a working version of the 3d quilt pattern generator going in Picotron. I'm pretty happy with this, with maybe some work to be done to see if I can shift the color pallet any further.
