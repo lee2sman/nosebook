@@ -12,6 +12,12 @@ feed: true
 
 ## 2025-09-10
 
+Great opening of Everest's exhibit at panke.gallery tonight. I feel so self-conscious about irl presentations of my artwork, made on a computer, with an audience i usually consider online-first. So this reassured me about my old Babycastles days and my own approach: set up some screens, make it a varied and interesting use of the space, and trust your audience will be able to view the screen as 'primary', with screens as surfaces. While it was a 'minimal treatment' it was still compelling. Everest set up old broken internet pieces starting from the right of the gallery entrance and then more recent and working pieces as you moved around the space, and used a variety of types of screens (CRT, flatscreen, large monitors, old, etc) and some wall-mounted printouts of bots, printed books and interactive games/engines. 
+
+In the evening I added an [interview with Danielle Brathwaite-Shirley](https://leetusman.com/archive/danielle-interview/) to the Dig Archive. 
+
+## 2025-09-09
+
 Added [PocketC.H.I.P. original documentation](https://leetusman.com/archive/pocketCHIP/) and my collaborative [Radical DIY Computing zine](https://leetusman.com/archive/radical-diy-computing/), from a workshop taught using the PocketC.H.I.P., with Echo Theohar, to the Dig Archive.
 
 Saw DJ Marcelle at Hamburger Banhof tonight. Great set.
