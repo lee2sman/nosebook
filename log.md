@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-15
+
+I'm back from the UK. I arrived in Sheffield Thursday evening for the [Algorithmic Pattern Salon 2025 conference](https://2025.algorithmicpattern.org/). Friday I attended talks, met folks I had previously only seen online, like the [Pastagang](https://www.pastagang.cc/) live coders. That evening was a performance night. The next day were more talks, including my own on Encoding and Experimenting with Vernacular Quilt Patterns. I think it went well, there were some good questions from the audience, and I spoke with a number of people afterwards. That evening was a festival of live coding performances at two venues that went late. The next day was the last. After a morning workshop I attended on a japanese weaving technique I traveled with Bérénice and Hannes on the train from Sheffield to the Manchester airport. I'm back now in Berlin and feeling motivated on my projects.
+
 ## 2025-09-10
 
 Great opening of Everest's exhibit at panke.gallery tonight. I feel so self-conscious about irl presentations of my artwork, made on a computer, with an audience i usually consider online-first. So this reassured me about my old Babycastles days and my own approach: set up some screens, make it a varied and interesting use of the space, and trust your audience will be able to view the screen as 'primary', with screens as surfaces. While it was a 'minimal treatment' it was still compelling. Everest set up old broken internet pieces starting from the right of the gallery entrance and then more recent and working pieces as you moved around the space, and used a variety of types of screens (CRT, flatscreen, large monitors, old, etc) and some wall-mounted printouts of bots, printed books and interactive games/engines. 
