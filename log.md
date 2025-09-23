@@ -10,6 +10,20 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-23
+
+Prep has begun for the Openhaus happening at ZK/U this Thursday. I'll be screening a work I created at Signal Culture a few years ago, as well as new work I made in p5 for an online exhibit. I'll be performing modular synth too. 
+
+In the evening tonight I jumped back into L5 working within my *L5 studies*, an approach to mastering a tool or technique by starting from zero and iteratively building small projects and experiments with that tool. I learned this while following the [Teletype Studies](https://monome.org/docs/teletype/studies-1/) several years ago, and a couple years ago I did [Puzzlescript Studies](https://leetusman.com/projects/puzzlescript-studies/) for about a month. 
+
+The L5 studies is a way for me to use my language when I'm not feeling like developing it, but it's also a way to debug, test and find its affordances and limitations. Since the Processing / p5 API is second nature to me after using it for a decade, it's quite easy for me to try things out.
+
+Tonight I implemented a LOGO-like turtle graphics mini language, fairly rapidly in a couple dozen lines of code, then tested it out.
+
+![A random turtle walk implemented in a LOGO-like language created in L5]({{"/images/log/l5-turtle.webp" | absolute_url}} "A screen of L5 code and the turtle graphics library running in a screen on the right")  
+
+I also added [The Scores Project: Essays on Experimental Notation in Music, Art, Poetry, and Dance, 1950 - 1975](https://leetusman.com/archive/scores-project/) to the Dig Archive. Later I added Anne Pasek's [Getting Into Fights With Data Centers zine](https://leetusman.com/archive/fight-data/). Thanks to the authors/editors of both for Creative Commons licensing their work.
+
 ## 2025-09-15
 
 I'm back from the UK. I arrived in Sheffield Thursday evening for the [Algorithmic Pattern Salon 2025 conference](https://2025.algorithmicpattern.org/). Friday I attended talks, met folks I had previously only seen online, like the [Pastagang](https://www.pastagang.cc/) live coders. That evening was a performance night. The next day were more talks, including my own on Encoding and Experimenting with Vernacular Quilt Patterns. I think it went well, there were some good questions from the audience, and I spoke with a number of people afterwards. That evening was a festival of live coding performances at two venues that went late. The next day was the last. After a morning workshop I attended on a japanese weaving technique I traveled with Bérénice and Hannes on the train from Sheffield to the Manchester airport. I'm back now in Berlin and feeling motivated on my projects.
