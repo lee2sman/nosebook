@@ -10,6 +10,16 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-24
+
+I began setting up for the Openhaus at ZK/U. In the evening I added [Decolonising the Digital: Technology as Cultural Practice](https://leetusman.com/archive/decolonising-digital/) to the Dig Archive. I also enjoyed listening to podcast episodes [The World on a Wire Show 1: Beautiful numbers, magic numbers, & illegal numbers](https://archive.org/details/ep01_20190910) and [Solarpunk Presents: Low Carbon Methods for Doing and Communicating Research With Dr Anne Pasek](https://www.solarpunkpresents.com/season-five/low-carbon-methods-for-doing-and-communicating-research-with-dr-anne-pasek).
+
+I worked on L5 studies to make a simple poster generator and realized I hadn't implemented int() so I went back to L5 and took some time to try to correctly add it. Since Love2d uses Lua prior to 5.4 I didn't have the math.tointeger function to rely on. Once that was finished I threw a bunch of screenshots in my posterer directory and used them as sources to generate some simple poster page layouts, then called it a night.
+
+![An L5 program and very simple layout page of a the Three Lores zine by Mark Price from Dice Crew with one of my generated Pico-8 quilts overlaid]({{"/images/log/l5-posterer.webp" | absolute_url}} "A screen of L5 code and the generated posterer output showing hollowed out dice and dollars overlaid with a 8bit digital quilt")  
+*An L5 program and very simple layout page of a the Three Lores zine by Mark Price from Dice Crew with one of my generated Pico-8 quilts overlaid*
+
+
 ## 2025-09-23
 
 Prep has begun for the Openhaus happening at ZK/U this Thursday. I'll be screening a work I created at Signal Culture a few years ago, as well as new work I made in p5 for an online exhibit. I'll be performing modular synth too. 
@@ -21,6 +31,7 @@ The L5 studies is a way for me to use my language when I'm not feeling like deve
 Tonight I implemented a LOGO-like turtle graphics mini language, fairly rapidly in a couple dozen lines of code, then tested it out.
 
 ![A random turtle walk implemented in a LOGO-like language created in L5]({{"/images/log/l5-turtle.webp" | absolute_url}} "A screen of L5 code and the turtle graphics library running in a screen on the right")  
+*A random turtle walk implemented in a LOGO-like language created in L5*
 
 I also added [The Scores Project: Essays on Experimental Notation in Music, Art, Poetry, and Dance, 1950 - 1975](https://leetusman.com/archive/scores-project/) to the Dig Archive. Later I added Anne Pasek's [Getting Into Fights With Data Centers zine](https://leetusman.com/archive/fight-data/). Thanks to the authors/editors of both for Creative Commons licensing their work.
 
