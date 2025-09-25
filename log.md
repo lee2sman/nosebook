@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-25
+
+Openhaus at ZK/U went really well. We had 100 or so visitors and I showed Dig Archive and the generative digital quilt patterns work, using Jayrope's 12 year old PC. I showed the Hyphenated project, created in p5.js, on a giant flatscreen monitor. Lastly, I projected Comfortably on the wall, a work currently exhibited via NY's [New Media Art Space](https://newmediartspace.info/current.php), BUT...I didn't want to pull up a browser, then run fullscreen, then reload to get the right dimensions, and worry about a browser having memory issues. So instead, I ran the L5 port of the project I made last month and ran that instead. And lo and behold, it worked really well. It ran continously from 4pm until midnight, never once crashing or needing a restart. I'm really happy with it, and this is the first time a L5 program has been *exhibited.* I performed a good and noisy music set tonight too. I wish I had recorded it.
+
 ## 2025-09-24
 
 I began setting up for the Openhaus at ZK/U. In the evening I added [Decolonising the Digital: Technology as Cultural Practice](https://leetusman.com/archive/decolonising-digital/) to the Dig Archive. I also enjoyed listening to podcast episodes [The World on a Wire Show 1: Beautiful numbers, magic numbers, & illegal numbers](https://archive.org/details/ep01_20190910) and [Solarpunk Presents: Low Carbon Methods for Doing and Communicating Research With Dr Anne Pasek](https://www.solarpunkpresents.com/season-five/low-carbon-methods-for-doing-and-communicating-research-with-dr-anne-pasek).
