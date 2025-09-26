@@ -12,7 +12,17 @@ feed: true
 
 ## 2025-09-25
 
-Openhaus at ZK/U went really well. We had 100 or so visitors and I showed Dig Archive and the generative digital quilt patterns work, using Jayrope's 12 year old PC. I showed the Hyphenated project, created in p5.js, on a giant flatscreen monitor. Lastly, I projected Comfortably on the wall, a work currently exhibited via NY's [New Media Art Space](https://newmediartspace.info/current.php), BUT...I didn't want to pull up a browser, then run fullscreen, then reload to get the right dimensions, and worry about a browser having memory issues. So instead, I ran the L5 port of the project I made last month and ran that instead. And lo and behold, it worked really well. It ran continously from 4pm until midnight, never once crashing or needing a restart. I'm really happy with it, and this is the first time a L5 program has been *exhibited.* I performed a good and noisy music set tonight too. I wish I had recorded it.
+![Openhaus at ZK/U]({{"/images/log/zku-openhaus.webp" | absolute_url}} "Openhaus at ZK/U")  
+
+Openhaus at ZK/U went really well. We had 100 or so visitors and I showed *Dig Archive* and the generative digital quilt patterns work, using Jayrope's 12 year old PC. I showed the *Hyphenated* project, created in p5.js, on a giant flatscreen monitor. Lastly, I projected *Comfortably* on the wall, a work currently exhibited via NY's [New Media Art Space](https://newmediartspace.info/current.php), BUT...I didn't want to pull up a browser, then run fullscreen, then reload to get the right dimensions, and worry about a browser having memory issues. So instead, I ran the L5 port of the project I made last month and ran that instead. And lo and behold, it worked really well. It ran continously from 4pm until midnight, never once crashing or needing a restart. I'm really happy with it, and this is the first time a L5 program has been *exhibited.* I performed a good and noisy music set tonight too. I wish I had recorded it.
+
+While doing L5 Studies tonight before bed I wanted to draw to an offscreen buffer. The reason for this is because I wanted to draw freehand but have the underlying background color change randomly only once each time the mouse is pressed. To do this requires allowing continuous drawing on an offscreen buffer that then gets applied on top of the background. This meant it was time to implement offscreen buffers in the L5 library, so I created the createGraphics() function (that's what it's called in Processing API). 
+
+In this example I created a drawing program that lets me draw with photographs. The background only changes when the mouse is pressed down, but the drawn photos are persistent due to...the new createGraphics() function.
+
+![An L5 program that makes use of drawing to an offscreen buffer, then applying that on top of a changing background]({{"/images/log/L5-offscreen.webp" | absolute_url}} "An L5 program that makes use of drawing to an offscreen buffer, then applies that on top of a changing background")  
+
+I also added my [Quilt Poems](https://leetusman.com/archive/quilt-poems/) chapbook to the Dig Archive as I'm almost out of print copies and some folks asked me for them. I will probably try to print another edition though.
 
 ## 2025-09-24
 
