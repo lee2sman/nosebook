@@ -10,6 +10,18 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-26
+
+I monkeyed around with the build script for Dig Archive, and now there is a [RSS feed](https://leetusman.com/archive/feed.xml). Chouette! While I was at it I also added a [404 page](https://leetusman.com/archive/404.html). 
+
+For my L5 Studies tonight I took on a bit of a challenge to make a collection of microgames in the style of beloved [Warioware D.I.Y.](https://en.wikipedia.org/wiki/WarioWare_D.I.Y.) I was looking earlier today to see if such a thing existed for the Playdate handheld console. It seems like it should exist, no?! There was evidently a microgames jam with that idea in mind.
+
+In any case, for my L5 programming tonight I ended up making some confused hacker mini game system with 3 different games. It's 'complete' in the sense that you can play it. It took me a couple hours and is a couple hundred lines of sloppy improvised coding. I've been using my own reference pages from the as-yet-unpublished L5 reference docs website (they still need work, more pages and polishing before going live), which has been helpful.
+
+Anyway, here's a screenshot of gameplay of my silly microgames.
+
+![Hacker minigames]({{"/images/log/L5-minigames.webp" | absolute_url}} "Code and gameplay from my Hacker-ish minigames")  
+
 ## 2025-09-25
 
 ![Openhaus at ZK/U]({{"/images/log/zku-openhaus.webp" | absolute_url}} "Openhaus at ZK/U")  
