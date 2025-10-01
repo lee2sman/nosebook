@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-09-30
+
+I worked on L5, fixing the blur filter, changing from Gaussian to Exponential based on info from Processing and p5 folks Kit and Raph. I also tried to fix my setup code issue where I am calling setup twice, once to set screen size and global vars relating to that, and a second time to draw any graphics there. I'm causing some minor bugs in my current system where I modified Love2d's default run and load functions. I didn't solve it yet but have some ideas to try. I also started compiling tables of what I'm currently calling Processing Family Langs, based on the [Uzulangs site](https://uzu.lurk.org/). I think seeing all of the Processing-related languages in one place would be a helpful starting point for some kinds of research and development, not to mention history.
+
+In the evening I presented [Dig Archive](https://leetusman.com/archive) and a short live performance with Modular Play on my Playdate for the Show Us Your Screens event at Offline place. I met some artists and really enjoyed the work presented. I took lots of notes of projects to check out.
+
 ## 2025-09-26
 
 I monkeyed around with the build script for Dig Archive, and now there is a [RSS feed](https://leetusman.com/archive/feed.xml). Chouette! While I was at it I also added a [404 page](https://leetusman.com/archive/404.html). 
