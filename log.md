@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-06
+
+I was away on a trip and away from my computer for about a week. I'm back. I made a small little L5 Studies sketch tonight before bed when I wasn't feeling like diving into something that deep. On my trip I had my iPad and took some notes on things to fix in the L5 library this week. I also did some testing with the main maintainer of [pyradio](https://github.com/coderholic/pyradio) to figure out some UI improvements I suggested.
+
+![L5 'nothing' bright lines sketch]({{"/images/log/L5-nothing.webp" | absolute_url}} "Openhaus at ZK/U")  
+
 ## 2025-09-30
 
 I worked on L5, fixing the blur filter, changing from Gaussian to Exponential based on info from Processing and p5 folks Kit and Raph. I also tried to fix my setup code issue where I am calling setup twice, once to set screen size and global vars relating to that, and a second time to draw any graphics there. I'm causing some minor bugs in my current system where I modified Love2d's default run and load functions. I didn't solve it yet but have some ideas to try. I also started compiling tables of what I'm currently calling Processing Family Langs, based on the [Uzulangs site](https://uzu.lurk.org/). I think seeing all of the Processing-related languages in one place would be a helpful starting point for some kinds of research and development, not to mention history.
