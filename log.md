@@ -12,6 +12,32 @@ feed: true
 
 ## 2025-10-06
 
+I updated the json data of [rappers from XXL's Annual Freshman cover](https://github.com/dariusk/corpora/blob/master/data/music/xxl_freshman.json) and it was merged to Darius Kazemi's Corpora, which I occasionally have contributed to. The Corpora project is a collection of word data for creating bots, computational poetry and rapid prototyping of other art and code projects. I use it in my teaching as well.
+
+I started working on adding the ability to address the pixels array in L5. Tonight I implemented pixel-drawing functionality: global RGBA pixel array, loadPixels(), updatePixels(), pixelDensity() and ported example reference code from the Processing and p5.js references.
+
+I also made a variation on my long-running note-taking tool *today* that lets me save info to previous days (*yesterday*).
+
+For example, to write an entry for today:
+
+```fish
+# today
+set filename (date +%Y%m%d).MD
+nvim ~/DOS/CAROUSEL/ENTRIES/JOURNAL/$filename
+```
+
+If I wanted to update yesterday's entry:
+
+```fish
+# yesterday
+set filename (date -d "yesterday" +%Y%m%d).MD
+nvim ~/DOS/CAROUSEL/ENTRIES/JOURNAL/$filename
+```
+
+These fish scripts are each saved in /usr/local/bin. The CAROUSEL from the path name is a reference to typewriter program [CAROUSEL](https://partytimehexcellent.itch.io/carousel) by Rachel Simone Weil.
+
+## 2025-10-05
+
 I was away on a trip and away from my computer for about a week. I'm back. I made a small little L5 Studies sketch tonight before bed when I wasn't feeling like diving into something that deep. On my trip I had my iPad and took some notes on things to fix in the L5 library this week. I also did some testing with the main maintainer of [pyradio](https://github.com/coderholic/pyradio) to figure out some UI improvements I suggested.
 
 ![L5 'nothing' bright lines sketch]({{"/images/log/L5-nothing.webp" | absolute_url}} "Openhaus at ZK/U")  
