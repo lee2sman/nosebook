@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-07
+
+I added set() and get() and a number of reference pages and examples today.
+
 ## 2025-10-06
 
 I updated the json data of [rappers from XXL's Annual Freshman cover](https://github.com/dariusk/corpora/blob/master/data/music/xxl_freshman.json) and it was merged to Darius Kazemi's Corpora, which I occasionally have contributed to. The Corpora project is a collection of word data for creating bots, computational poetry and rapid prototyping of other art and code projects. I use it in my teaching as well.
