@@ -10,9 +10,13 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-08
+
+No Input Mixer Board practice with Zelin today. We recorded the session.
+
 ## 2025-10-07
 
-I added set() and get() and a number of reference pages and examples today.
+I added set() and get() and a number of reference pages and examples for L5 today.
 
 ## 2025-10-06
 
