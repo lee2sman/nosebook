@@ -10,9 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2025-10-08
+## 2025-10-10
 
-No Input Mixer Board practice with Zelin today. We recorded the session.
+
+![Zelin's hand on our No Input Mixing Board]({{"/images/log/no-input-zelin.webp" | absolute_url}} "Zelin with our no input mixing board")  
+
+I did a recording session using the No Input Mixing Board as our instrument, with Zelin at ZK/U. See [No Input Mixer Workshop from The Noise Upstairs](https://leetusman.com/archive/no-input/) in my Dig Archive for more on this technique. We played for an hour and a half or so, having a great time with feedback and two microphones added in. Later we listened back and took notes. We created a mix, a little studio work moving or removing some sections. It's currently 36 minutes, and I'm enjoying listening to it. Since we're both also doing field recordings in our practices, we talked about integrating these recordings to get a more dense and changing textures into our sound. 
+
+I've also been listening to other No Input Mixing Board recordings, to identify what I like or don't like in the style. Far from being just a wall of erratic noise I'm enjoying the subtleties and textures possible. Toshimaru Nakamura, considered father figure of the technique, has dozens of albums available on Bandcamp. I picked up [Stationary](https://awavepress.bandcamp.com/album/stationary) by Nakamura working with US composer Mark Trayle on laptop. I like the variety of textures, the use of space, the overlapping of sounds. I also picked up [UK ツアー 2019](https://scatterarchive.bandcamp.com/album/uk-2019) with Sam Andreae on alto saxophone and DIY electronics, David Birchall on electric guitar, Toshimaru Nakamura on the no-input mixing board and Otto Willberg double bass. This one I really love, for marrying the free improv post-jazz scene and sound with Nakamaru's reworking of industrial noise into sensitive soundscapes, tones and texture scrapes. It's been nice playing the mixing board as something that opens up new sound possibilities and still feels intuitive as an instrument with just enough unpredictability to make it interesting, in some ways a more constrained and less precious alternative to my modular synth.
 
 ## 2025-10-07
 
