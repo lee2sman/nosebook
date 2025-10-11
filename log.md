@@ -12,6 +12,27 @@ feed: true
 
 ## 2025-10-10
 
+Tonight in L5 studies I coded a simple toothbrush timer. It shows a moon or sun smiling depending on time of day, and a rotating toothbrush. Every 30 seconds the toothbrush moves to a different position to remind you to move to a different quadrant of your teeth. When you're done, it just says "Donezo" but maybe it should stick out its tongue? Well, it's a minimal version of the program and I need to stop now but will hopefully come back and finish it off in the days ahead. 
+
+![Toothbrush timer app with code on left and a smiling moon with toothbrush on the right]({{"/images/log/L5-toothbrush.webp" | absolute_url}} "Toothbrush timer app with code on left in L5 and a smiling moon on right with toothbrush")  
+
+This was a good task because it reminded me I should add hour() minute() and second() functions, thankfully trivially easy in Lua.
+
+Also, earlier in the night I went out with Fletcher and Grayson, who both wanted to know why they or other folks that already use Processing or p5 would want to use L5, or even vs TouchDesigner, OpenFrameworks, etc for that matter. Good question! I gave some answers and a more full answer will be presented later, but here's quick thoughts:
+
+* works on old/ancient computers (need to define this. So far I've tested on 12 year old Windows, old iPad, new Mac, 5 year old Linux...)
+* stable, very fast, consistent
+* cross-platform
+* desktop-oriented though same code can (likely) be packaged for browsers through love.js (via Emscripten)
+* consistent, cohesive syntax
+* long term reliability of Lua and Love2d
+* small (size) - only 4.5MB and doesn't require a browser or internet.
+* can package up sketches into application
+* a compiled languages, scripting language, dynamic typing
+* more TBA
+
+## 2025-10-09
+
 
 ![Zelin's hand on our No Input Mixing Board]({{"/images/log/no-input-zelin.webp" | absolute_url}} "Zelin with our no input mixing board")  
 
