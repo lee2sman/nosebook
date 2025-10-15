@@ -10,6 +10,23 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-15
+
+Monday I led an introduction to making visual art with code, with p5.js, at ZK/U. After I gave an artist talk on my practice and current work in the residency.
+
+![Leading a workshop at ZK/U]({{"/images/log/zku-workshop.webp" | absolute_url}} "Workshop at ZK/U")  
+
+Tuesday I met with Kit to brainstorm for a research paper we're co-writing. In the evening I saw Tuvan ensemble [Huun-Huur-Tu](https://huunhuurtu.wordpress.com/) perform. I saw them play one other time, while living abroad in Prague 22 years ago!
+
+## 2025-10-12
+
+Added [Practical Retrofitting](https://leetusman.com/archive/practical-retrofitting/) for Obsolete Devices to the ➘Dig Archive. I think it's an interesting topic that would be valuable to share with others in another format, particularly as a zine. But unfortunately its creative commons licensed with No Derivatives, meaning that you cannot remix or alter the format or contents.
+
+
+## 2025-10-11
+
+I polished up the Toothbrush Timer app a bit, adding in positioning that indicated what quadrant of the mouth your brush should be in, and where to change every 30 seconds til done. I also added a nice ending slide when you're finished. I've also now used the program while brushing my teeth :)
+
 ## 2025-10-10
 
 Tonight in L5 studies I coded a simple toothbrush timer. It shows a moon or sun smiling depending on time of day, and a rotating toothbrush. Every 30 seconds the toothbrush moves to a different position to remind you to move to a different quadrant of your teeth. When you're done, it just says "Donezo" but maybe it should stick out its tongue? Well, it's a minimal version of the program and I need to stop now but will hopefully come back and finish it off in the days ahead. 
