@@ -10,6 +10,16 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-18
+
+I joined the Creative Code Jam organized by Creative Code Berlin today, to work on L5. I cleaned up my comments in the library, then implemented custom shapes. I spoke with Stef who works on the Processing infrastructure, did some tests in p5 and based on that implemented a p5-like version of these functions using Love2d's polygon function and passing in an array of vertices.  
+
+![beginShape function in L5, with code editing on left and rendered custom shape on right]({{"/images/log/L5-beginShape.webp" | absolute_url}} "An example of creating a custom shape with the new beginShape(), vertex() and endShape() functions.")  
+
+And in L5 studies tonight I decided to use the new functions and draw a grid of random blobby polygons and colors.
+
+![code and grid of blobby polygons in L5]({{"/images/log/L5-blobbies.webp" | absolute_url}} "Code and grid of blobby polygons in L5")  
+
 ## 2025-10-15
 
 Monday I led an introduction to making visual art with code, with p5.js, at ZK/U. After I gave an artist talk on my practice and current work in the residency.
