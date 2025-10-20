@@ -10,6 +10,17 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-19
+
+Two hour jam today with Siiri. Ella joined us for some time as well. Our instruments were clarinet, microphones, and no input mixing board. We recorded the full set and will hopefully put some online.
+
+### L5 work today: 
+
+* Fixed looping ( see: loop(), noLoop() and isLooping() )
+* Added default width and height to offscreen graphics canvas in createGraphics()
+* Added ability to draw textures to (custom) shapes with newly implemented functions texture(), textureMode() and textureWrap()
+* Added a bunch of reference pages with example code and screenshots
+
 ## 2025-10-18
 
 I joined the Creative Code Jam organized by Creative Code Berlin today, to work on L5. I cleaned up my comments in the library, then implemented custom shapes. I spoke with Stef who works on the Processing infrastructure, did some tests in p5 and based on that implemented a p5-like version of these functions using Love2d's polygon function and passing in an array of vertices.  
