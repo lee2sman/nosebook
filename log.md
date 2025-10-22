@@ -10,6 +10,16 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-22
+
+### Work on L5 today
+
+* added loadVideo() function
+* Added a Video page with example code, intro to working with video playback, and adapted notes from Godot documentation on working with Ogg Theora files. Since it has the same issues as L5 built on the Love2d framework, I adapted the notes for L5, thanks to the Creative Commons licensing of its documentation.
+* Added the ability to set a background image by specifying an image variable to background()
+* Added copy() and blend() pixel functions. The copy function works fine but the blends could use more work likely implementing them in shaders.
+* Added ability to set custom cursor images via filepath
+
 ## 2025-10-21
 
 In the evening I visited panke.gallery for a reading/discussion group on Hito Steyerl's new book. I met some interesting artists and scholars, and we discussed Machine Learning and exploitation, and military origins and ongoing connection to computing.
