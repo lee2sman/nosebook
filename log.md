@@ -10,6 +10,18 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-21
+
+In the evening I visited panke.gallery for a reading/discussion group on Hito Steyerl's new book. I met some interesting artists and scholars, and we discussed Machine Learning and exploitation, and military origins and ongoing connection to computing.
+
+Today I added the loadVideo function to L5, which turned out to be trivial after some testing, and added documentation pages to the in-progress documentation site for the language. The mechanisms for loading and playing video differ between L5, Processing and p5.js. L5 is the simplest in terms of loading and playing, but unfortunately, the underlying library Love2d only allows Ogg Theora video files currently (ogv), so video files have to be converted from other codecs first (mp4, mkv, mov, etc). In comparison, Processing has a separate Video library, and its API differs a bit from vanilla Processing, which is not very learner-friendly in my opinion, but it allows more codec options. Likewise p5.js allows more codecs but one must use the createVideo function which adds a separate video element to the browser's DOM, which must unfortunately be manually hidden, and while the video is loaded asyncronously one must check first that it is loaded before drawing video frames to canvas. I considered whether I should ship a tool to convert videos to ogv but instead I've currently just linked to Handbrake video converter and mentioned ffmpeg command line tool.
+
+## 2025-10-20
+
+I made a compelling abstract artwork using L5 today and my photographs of graffiti in Berlin. Randomly layered additive thresholded and tinted images build up, creating a heavily textured shifitng composition.
+
+![layered textures of black and white graff in L5]({{"/images/log/L5-graff.webp" | absolute_url}} "Layered textures of black and white graff in L5")  
+
 ## 2025-10-19
 
 Two hour jam today with Siiri. Ella joined us for some time as well. Our instruments were clarinet, microphones, and no input mixing board. We recorded the full set and will hopefully put some online.
