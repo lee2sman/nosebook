@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-10-26
+
+In the past few days I've been planning work on a book outline and some brainstorming. The goal is to turn the podcast into a printed form. I also did some L5 work, and mocked up a simple roguelike system in about 160 lines of code while watching the streaming Roguelike Celebration conference. Lastly, did some music with Zelin again on no-input mixing board but hurt my ears! Ugh. I saw some great shows prior to that: Suzanne Ciani, DJ Haram, and some others.
+
 ## 2025-10-22
 
 ### Work on L5 today
