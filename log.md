@@ -10,6 +10,22 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-1028
+
+I coded a few projects in L5 for my *L5 Studies* series this past couple of days. I made a daily *ritual* program that provides a prompt for a little daily ritual to perform (a meditation, art-making instructions, etc). It changes only when the day changes. 
+
+![A daily rituals program in L5]({{"/images/log/L5-rituals.webp" | absolute_url}} "A daily rituals program in L5")  
+
+This weekend was also the streaming Roguelike Celebration conference, for game designers, academics, programmers, etc who work in procedural generation broadly and in *roguelike* games specifically. I found myself tinkering on such a game myself while tuning in. It is not at all a complete game, but it's on its way.
+
+![A little roguelike in L5]({{"/images/log/L5-roguelike.webp" | absolute_url}} "A little roguelike in L5")  
+
+Finally, while listening to a Brian Eno interview today in the times I decided to do some free-coding and I ended up making a pretty nice acquarium simulator that I think is fun to leave on in the background.
+
+![A blurry acquarium in L5]({{"/images/log/L5-acquarium.webp" | absolute_url}} "A blurry little acquarium simulator, coded in L5")  
+
+In the afternoon Anna gave us an intro to some knitting. In the evening we had our group dinner and artist presentation at ZK/U, and then we played poker and then did more knitting.
+
 ## 2025-10-26
 
 In the past few days I've been planning work on a book outline and some brainstorming. The goal is to turn the podcast into a printed form. I also did some L5 work, and mocked up a simple roguelike system in about 160 lines of code while watching the streaming Roguelike Celebration conference. Lastly, did some music with Zelin again on no-input mixing board but hurt my ears! Ugh. I saw some great shows prior to that: Suzanne Ciani, DJ Haram, and some others.
