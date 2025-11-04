@@ -4,7 +4,18 @@ title: Some Permacomputing links 🌱💽
 categories: [open source, creative code, programming, permacomputing, archiving]
 ---
 
-This is a starting collection of links on the concept of permacomputing to accompany a talk for Berlin University of the Arts (UdK Berlin) in November 2025.
+![A monitor displaying a digital acquarium framed by a plant and flower bouqet, along with knitting needles and yarn, microcassette recorder and a book]({{"/images/plant-monitor.webp" | absolute_url}} "A monitor displaying a digital acquarium created in code, framed by a plant and flower bouquet, yarn, microcassette and book")  
+*A monitor displaying a digital acquarium framed by a plant and flower bouqet, along with knitting needles and yarn, microcassette recorder and an Ursula K Leguin booklet titled The Carrier Bag Theory of Fiction. This image is Creative Commons By attribution, Lee Tusman.*
+
+This is a starting collection of links on the concept of permacomputing to accompany a talk for Berlin University of the Arts (UdK Berlin) in Generative Arts, November 2025.
+
+In the talk, I spoke about my background in the arts, both at institutions and at DIY spaces. I also spoke about our role as artists working in digital spaces, in computational arts, new media, media arts, or however we define our practice. I'm interested in ways to reduce our impact on the environment. I'm also looking for ways to preserve our work, particularly due to the brittleness of digital media. Finally, I have a goal for community-owned spaces and infrastructure outside of corporate platforms. These interests have come together for me within this (at times speculative) realm.
+
+Students brought up lots of their own ideas and experiences. We also talked about what it means to ground oneself in community, physically - I am part of the Flux Factory arts community - but also digitally in online space(s), and where these may overlap, converge or diverge.
+
+Some of the discussion topics included: preservation, the language itself I am currently developing (L5), emulation, bootlegs, roms and fantasy consoles/workstations, music hardware, and building and using open source tools rather than commercial products. There was interest in the opportunities of creativity for permacomputing-based constraints prompted by Mansoux, Howell, Barok and Heikkilä's paper on Permacomputing Aesthetics.
+
+This is the starting list of resources I provided:
 
 ## [Permacomputing paper](https://leetusman.com/archive/permacomputing/)
 
