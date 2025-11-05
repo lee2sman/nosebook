@@ -13,10 +13,10 @@ feed: true
 ## 2025-11-04
 
 
-![Speaking at UDK Generative Kunst]({{"/images/log/lee-at-udk.webp" | absolute_url}} "Giving a talk to the Generative Kunst class at UdK")  
+![Speaking at UDK Generative Kunst]({{"/images/lee-at-udk.webp" | absolute_url}} "Giving a talk to the Generative Kunst class at UdK")  
 *Giving a talk in the course Generative Kunst at UdK Berlin, photo by Bruno Gola*  
 
-I was invited by computational artist, sound artist and live coder [Bruno Gola](https://bgo.la/) to give an artist talk to the Generative Kunst class at UdK University of the Arts Berlin this afternoon, for a course with Prof. Alberto de Campo. I spoke about my background, showed my artwork, my recent research on encoding quilting, and my work in artist-run community. I also introduced [permacomputing](https://leetusman.com/nosebook/permacomputing-links) and intersections with our work as computational and new media artists. Afterwards we had a lively discussion and the students interesting ideas to discuss around preservation, speculative design, permacomputing and community infrastructures.
+I was invited by computational artist, sound artist and live coder [Bruno Gola](https://bgo.la/) to give an artist talk to the Generative Kunst class at UdK University of the Arts Berlin this afternoon, for a course with Prof. Alberto de Campo. I spoke about my background, showed my artwork, my recent research on encoding quilting, and my work in artist-run community. I also introduced [permacomputing](https://leetusman.com/nosebook/permacomputing-links) and intersections with our work as computational and new media artists. Afterwards we had a lively discussion and the students had interesting ideas to discuss around preservation, speculative design, permacomputing and community infrastructures.
 
 In the evening I added [A Traveling Network of Feminist Servers](https://leetusman.com/archive/feminist-servers) to the [➘Dig Archive](https://leetusman.com/archive/). I met with Caleb to show each other what we're working on. He gave a suggestion to add in some curatorial/best-of section to the Dig Archive like UbuWeb does with their TopTen, or some other sites do with suggested syllabi. I tested the site size and it's less than a 1MB on load so maybe I should submit it to [1MB club](https://1mb.club/). Maybe I could get it down further?
 
