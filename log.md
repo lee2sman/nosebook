@@ -10,7 +10,23 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2025-1028
+## 2025-11-04
+
+
+![Speaking at UDK Generative Kunst]({{"/images/log/lee-at-udk.webp" | absolute_url}} "Giving a talk to the Generative Kunst class at UdK")  
+*Giving a talk in the course Generative Kunst at UdK Berlin, photo by Bruno Gola*  
+
+I was invited by computational artist, sound artist and live coder [Bruno Gola](https://bgo.la/) to give an artist talk to the Generative Kunst class at UdK University of the Arts Berlin this afternoon, for a course with Prof. Alberto de Campo. I spoke about my background, showed my artwork, my recent research on encoding quilting, and my work in artist-run community. I also introduced [permacomputing](https://leetusman.com/nosebook/permacomputing-links) and intersections with our work as computational and new media artists. Afterwards we had a lively discussion and the students interesting ideas to discuss around preservation, speculative design, permacomputing and community infrastructures.
+
+In the evening I added [A Traveling Network of Feminist Servers](https://leetusman.com/archive/feminist-servers) to the [➘Dig Archive](https://leetusman.com/archive/). I met with Caleb to show each other what we're working on. He gave a suggestion to add in some curatorial/best-of section to the Dig Archive like UbuWeb does with their TopTen, or some other sites do with suggested syllabi. I tested the site size and it's less than a 1MB on load so maybe I should submit it to [1MB club](https://1mb.club/). Maybe I could get it down further?
+
+## 2025-10-30
+
+Made a little rainfall screensaver in L5 studies to start the day.
+
+![rainfall and wind coded in  L5]({{"/images/log/L5-rain.webp" | absolute_url}} "rainfall and wind simulator, coded in L5")  
+
+## 2025-10-28
 
 I coded a few projects in L5 for my *L5 Studies* series this past couple of days. I made a daily *ritual* program that provides a prompt for a little daily ritual to perform (a meditation, art-making instructions, etc). It changes only when the day changes. 
 
