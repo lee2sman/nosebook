@@ -10,8 +10,17 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2025-11-04
+## 2025-11-05
 
+Studio visit with Compost collaborator [Arne](https://arnes.space/) today. Arne is currently building a processing-like web-based IDE for coding visuals on E-ink screens and displays, implemented in Lua! We exchanged ideas on IDE design and I tried out writing code in the inkblot language. I also showed L5 and we played with PureData/PlugData and I spent time making music with Arne's PureData patches for midi hardware. Really fun. We'll try to get together again before I leave the residency program.
+
+In the late evening I had an idea to implement a writing program in L5 that emulated creating Captcha-style text. First I looked for Captcha fonts but didn't find anything to my liking. Then I spent a surprisingly long time to attempt writing the software, and ended up adding applyMatrix() function to L5. Each key or mousepress re-mixes the text display.
+
+Here's one of many iterations:
+
+![L5 code and Captcha program running, with the text Hello L5]({{"/images/log/L5-captcha.webp" | absolute_url}} "L5 code editing with running Captcha program, displaying Hello L5 in captcha-style text")  
+
+## 2025-11-04
 
 ![Speaking at UDK Generative Kunst]({{"/images/lee-at-udk.webp" | absolute_url}} "Giving a talk to the Generative Kunst class at UdK")  
 *Giving a talk in the course Generative Kunst at UdK Berlin, photo by Bruno Gola*  
