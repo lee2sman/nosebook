@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-11-06
+
+I added [FLOSS + Art](https://leetusman.com/archive/floss-art/) to the ➘Dig Archive.
+
 ## 2025-11-05
 
 Studio visit with Compost collaborator [Arne](https://arnes.space/) today. Arne is currently building a processing-like web-based IDE for coding visuals on E-ink screens and displays, implemented in Lua! We exchanged ideas on IDE design and I tried out writing code in the inkblot language. I also showed L5 and we played with PureData/PlugData and I spent time making music with Arne's PureData patches for midi hardware. Really fun. We'll try to get together again before I leave the residency program.
