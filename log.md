@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-11-08
+
+I'm in Leipzig for the weekend and visited GfZK museum, 47m Contemporary, a beautiful university library, and a GDR history museum. I met Chaline for lunch. It was really nice to reconnect after their great talk at Offline a couple months ago.
+
+Before bed I put in a couple hours on L5 and lo and behold solved the "double setup" bug so that setup is only called once and properly draws graphics to the screen. The bug had been a result of incorrectly modifying the underlying framework which only allows drawing in draw by default, but I wanted it to work like Processing/p5 and allow drawing graphics anywhere. I also corrected the fullscreen() function to support monitor selection, and simplified the call to parallel Processing rather than the more obtuse p5.js version. The next step is to finish the reference this week so I can create a pre-alpha release and start getting testing from people beyond just me.
+
 ## 2025-11-06
 
 I added [FLOSS + Art](https://leetusman.com/archive/floss-art/) to the ➘Dig Archive.
