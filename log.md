@@ -10,6 +10,15 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-11-09
+
+In L5 Studies tonight I implemented a first version of a webcam library!
+
+I'm not targetting finishing this by the time I release a pre-alpha of L5 but it is important to me that there is a useful audio library and a camera library that can be used with L5. I have already set up a test of an audio library a month ago and it went ok. Tonight I tried to take on accessing the webcam, which wasn't obvious what to do at first. I implemented a little webcam library using libjpeg-turbo in C wrapped in a little webcam.lua library that can be used with L5.
+
+![L5 code and window showing screenshot from live camera footage, thresholded into black and white]({{"/images/log/L5-webcam.webp" | absolute_url}} "L5 code editing with running program showing a window with live footage of my camera showing me, thresholded into black and white")  
+*Screenshot showing code and a threshold filter running on top of the live camera footage*
+
 ## 2025-11-08
 
 I'm in Leipzig for the weekend and visited GfZK museum, 47m Contemporary, a beautiful university library, and a GDR history museum. I met Chaline for lunch. It was really nice to reconnect after their great talk at Offline a couple months ago.
