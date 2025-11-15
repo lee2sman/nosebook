@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-11-14
+
+I've put a good deal of work into L5 this week, both expanding the library to add many more functions, as well as improve the documentation website to get it ready for a soft launch.
+
+I added boolean(), byte(), char(), float(), hex(), str(), unchar(), unhex(), fract(), log(), norm(), pow(), sq(), sqrt(), asin(), acos(), atan(), atan2(), randomGaussian(), randomSeed(). These were mostly trivial to implement in Lua/love. I experimented with building a noWindow() mode to run headless, but I don't yet know if it's possible to render graphics to a file this way (I think not), so am holding off on adding this to the library. I spent a lot of time on the website, writing some introductions, tutorials, and the like, and cleaning up all of the reference pages. There are 186 reference pages. I also included a few notes where some of the functionality was still missing but intended to be added later. 
+
+Today I had *band practice* with Zelin and Siiri. We'll be performing together next Thursday for the Openhaus at ZK/U, which is also when I'll put out the pre-alpha of L5 to friends for testing.
+
 ## 2025-11-09
 
 In L5 Studies tonight I implemented a first version of a webcam library!
