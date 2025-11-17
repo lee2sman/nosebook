@@ -10,6 +10,29 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-11-16
+
+Last night I went to a performance with Z at Volksbuhne of performance art scores/music by Nam June Paik. It was a bit zany post-fluxus performance art. Afterwards was a big fundraiser event at ZK/U.
+
+I spent much of the weekend plugged into my laptop trying to grind through the reference pages and fixing bugs in L5. I fixed some of the color modes like HSB and HSL which I think should be working much better now. 
+
+So now you should be able to work with colors in all of the following ways:
+
+* fill(grayscale)
+* fill(grayscale, alpha)
+* fill(R, G, B)
+* fill(R, G, B, alpha)
+* fill(HSB)
+* fill(HSL)
+* fill('HTML color name') or
+* fill('#3-digit hex code') or
+* fill('#6-digit hex code') or
+* fill(color-object-table) 
+
+Wow, that's a lot! I hadn't thought about it until now. And that's why debugging took me so much time. I had to build in some sanity checks and make sure things worked correctly for: color(), fill(), background() - which also takes an image file input, and fixed lerp(), lerpColor(), brightness(), lightness(), hue(), alpha(), red(), green(), blue().
+
+In addition, I had to fix all of the documentation pages for each of these, plus many others, test all of the code and produce screenshots to add to the documentation pages. There are about 200 pages right now! It's a lot. Still a good bit to go but I'm on a roll and the end is (soon) in sight. Will keep grinding through it this week. 
+
 ## 2025-11-14
 
 I've put a good deal of work into L5 this week, both expanding the library to add many more functions, as well as improve the documentation website to get it ready for a soft launch.
