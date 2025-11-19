@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-11-17
+
+In past 5 days I've put in dozens of hours of fixes to L5 and work on the reference pages, of which there are now just under 200 pages! In contrast, p5.js has just under 400 pages, but it has a LOT of browser-specific functions that don't make sense for L5, so while L5 is expected to grow a little bit more, I can't imagine more than 20 to 50 more functions to be added? Some of the functionality I've improved in the past couple days are textAlign(), textWrap(), text() (BASELINE positioning), imageMode(), rectMode(), ellipseMode(), set(), filter(), tint(), loadImage(), loadVideo(), bezier(), the pixels array, loadPixels(), updatePixels(), 
+
+Tested the website on non-JavaScript browsers in links (command line), w3 (command line, with an image extension to show images), and Dillo (an oldschool, tiny, non-JS web browser). I also removed the web loaded font to slim down the page load, with the goal that the website (like the L5 library itself) be fast to load even on older equipment or on lower bandwidth devices.
+
+I sent out my monthly email newsletter. Our ZK/U Openhaus is this Thursday. More music practice with ZZZ and Siiri for our concert.
+
 ## 2025-11-16
 
 Last night I went to a performance with Z at Volksbuhne of performance art scores/music by Nam June Paik. It was a bit zany post-fluxus performance art. Afterwards was a big fundraiser event at ZK/U.
