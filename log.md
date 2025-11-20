@@ -10,7 +10,11 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2025-11-17
+## 2025-11-19
+
+In the afternoon I worked on a few more reference pages. Then band practice improv sesh with Siira prepping for our concert. Afterwards I began working to set up for tomorrow's Openhaus open studio at ZK/U. In the process, for the first time I tested whether the fullscreen function accurately could send to external monitors as one of my installations uses multiple screens. I found it didn't work correctly on the 12 year old Windows machine I've been testing L5 with, but with some fixing it works well and with parity on Linux and Windows, and now it's easy to send a sketch to play fullscreen on an external display. I set up a pretty large multi-monitor installation, running a generative L5 program on each of 3 monitors. Afterwards studio visits with Zelin and Stepan, and feedback from Nina remotely from Greece. 
+
+## 2025-11-18
 
 In past 5 days I've put in dozens of hours of fixes to L5 and work on the reference pages, of which there are now just under 200 pages! In contrast, p5.js has just under 400 pages, but it has a LOT of browser-specific functions that don't make sense for L5, so while L5 is expected to grow a little bit more, I can't imagine more than 20 to 50 more functions to be added? Some of the functionality I've improved in the past couple days are textAlign(), textWrap(), text() (BASELINE positioning), imageMode(), rectMode(), ellipseMode(), set(), filter(), tint(), loadImage(), loadVideo(), bezier(), the pixels array, loadPixels(), updatePixels(), 
 
