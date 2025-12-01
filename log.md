@@ -10,6 +10,30 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2025-12-01
+
+It's been a whirlwind few weeks as I completed my residency at ZK/U. On the 20th we had our Openhaus open studios. I presented new works, including *Altar*, built at ZK/U. I also performed a live concert with Zelin and Siiri. I traveled back to the US for Thanksgiving and a reunion. 
+
+![Stepan looks on at installation with 3 monitors showing black and white images, graffiti, plants, old laptop, mug, skateboard, speakers]({{"/images/log/altar.webp" | absolute_url}} "Stepan looks at Altar installation with monitors, plants, custom software, sound, graffiti, skateboard")  
+*Stepan with Altar, 2025* 
+
+After Openhaus and continuing to today I worked on bug fixes and L5 reference documentation. Here's some of the more notable fixes from the git log: 
+
+* added helper references to loadTable
+* max and min functions can accept tables
+* added exp()
+* fixed resizeWindow()
+* fixed deltaTime output from seconds to milliseconds for alignment with Processing and p5.js
+* add resetMatrix(), fix applyMatrix()
+* fixed a backBuffer canvas tint issue
+* fixed fullscreen() to correctly send to external displays on Windows
+* update defaults to filters. fix inconsistent pixel loading.  
+* fix tinting to apply to image objects not all drawables
+* add in error checking to imageMode() rectMode() ellipseMode() angleMode() loadImage() loadVideo()
+* fix textAligning and wrapping
+* wrote, edited documentation and produced screenshots or gifs for 150+ reference pages
+* updated some colors, fonts and added a copy button for all of the codeblocks on the L5 website
+
 ## 2025-11-19
 
 In the afternoon I worked on a few more reference pages. Then band practice improv sesh with Siira prepping for our concert. Afterwards I began working to set up for tomorrow's Openhaus open studio at ZK/U. In the process, for the first time I tested whether the fullscreen function accurately could send to external monitors as one of my installations uses multiple screens. I found it didn't work correctly on the 12 year old Windows machine I've been testing L5 with, but with some fixing it works well and with parity on Linux and Windows, and now it's easy to send a sketch to play fullscreen on an external display. I set up a pretty large multi-monitor installation, running a generative L5 program on each of 3 monitors. Afterwards studio visits with Zelin and Stepan, and feedback from Nina remotely from Greece. 
