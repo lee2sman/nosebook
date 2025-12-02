@@ -17,10 +17,10 @@ feed: true
 
 ## 2025-12-01
 
-This is the start of [December Adventure 2025](https://eli.li/december-adventure), an unofficial monthlong activity started in 2023 by online friend Eli where all who choose to participate work at their own pace on code and other creative projects, and keep a log about their work throughout the month. Inf fact this very log you are reading right now grew out of my past positive experiences participating, so I'll continue things from here. 
+This is the start of [December Adventure 2025](https://eli.li/december-adventure), an unofficial monthlong activity started in 2023 by online friend Eli where all who choose to participate work at their own pace on code and other creative projects, and keep a log about their work throughout the month. In fact this very log you are reading right now grew out of my past positive experiences participating, so I'll continue things from here. 
 
 Here's some projects I'll work on this month:
-* I'll finish up the initial round of documentation pages for L5.
+* I'll finish up the initial round of documentation pages for the [L5](https://l5lua.org) creative coding library in Lua.
 * I'll also deal with bug fixes as they come up
 * I'll come up with a good system for contribution (git, issues, what else?)
 * I'll work on some emulator projects
