@@ -10,7 +10,28 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+
+<a id="december-adventure-2025"></a>
+
+*New entries are posted at the top!*
+
 ## 2025-12-01
+
+This is the start of [December Adventure 2025](https://eli.li/december-adventure), an unofficial monthlong activity started in 2023 by online friend Eli where all who choose to participate work at their own pace on code and other creative projects, and keep a log about their work throughout the month. Inf fact this very log you are reading right now grew out of my past positive experiences participating, so I'll continue things from here. 
+
+Here's some projects I'll work on this month:
+* I'll finish up the initial round of documentation pages for L5.
+* I'll also deal with bug fixes as they come up
+* I'll come up with a good system for contribution (git, issues, what else?)
+* I'll work on some emulator projects
+* maybe a BASIC interpreter in Lua
+* I want to get up all my concert recordings from this summer/fall, and perhaps rebuild the faircamp website
+* Move Dig Archive to a custom domain.
+* I'm not sure what else
+
+Little things come up periodically. Today I started and finished NaNoGenMo 2025 with a [small project](https://github.com/NaNoGenMo/2025/issues/24), based on Ulysses. I used a bash script to shuffle lines of the experimental novel. I started with something else, but bash won out in the end.
+
+## 2025-11-30
 
 It's been a whirlwind few weeks as I completed my residency at ZK/U. On the 20th we had our Openhaus open studios. I presented new works, including *Altar*, built at ZK/U. I also performed a live concert with Zelin and Siiri. I traveled back to the US for Thanksgiving and a reunion. 
 
