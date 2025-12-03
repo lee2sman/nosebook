@@ -13,7 +13,9 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
-*New entries are posted at the top!*
+## 2025-12-02
+
+Today was spent working on reference pages and debugging the [L5](https://l5lua.org) language library, getting ready for the pre-alpha release. What I worked on today: save() can take an optional filename. I added an alternate data structure for single element tables to saveTable. I updated text() to deal with non-strings. Lots of fixes to events: key detection majorly mproved, fixing delete and function keys, etc reporting. Surgical fix so that keyTyped() reports true at the correct spot. Cleaned up mouseWheel() (no need to report x-value since wheel only scrolls vertically). The biggest update/fix was debugging and correcting the order of mouse handling events. mousePressed() runs as soon as the user clicks the mouse. mouseReleased() runs as soon as the user releases the mouse click. mouseClicked() runs immediately after mouseReleased(). Phew. Worked through a ton of reference pages and it looks like I have a bit under 30 left to do now. At the rate of 10 a day I seem to be on now maybe there are 2 - 3 days left.
 
 ## 2025-12-01
 
