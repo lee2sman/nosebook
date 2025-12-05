@@ -13,6 +13,14 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-04
+
+I finished the first alpha release of [L5](https://l5lua.org)! I'm typing it here first, then will post online and notify friends. I've easily put hundreds of hours into getting to this moment. I feel like I should rest, but the next steps are to try to spread the word to friends and get some initial use and feedback. Then based on that start building out further and getting some contributions. I'd like to add lots more tutorials, build out the error system, and refactor and expand the API with any functions I've missed or are incomplete.
+
+In the afternoon I met with Kit to work on our academic paper. Most of the rest of the day beyond cooking has been making sure [L5's code repo](https://github.com/L5lua/L5/) and [documentation site](https://l5lua.org) were complete. I finished the reference pages (197 of them) that I wanted to get done, tagged L5 with a 0.1.0 release, added download links.
+
+My friend Janek liked the little L5 studies project Painterer I made two days ago and asked if it could live on the web. Well, yes, it could in p5.js! So I made a quick [port of Painterer to p5.js](https://editor.p5js.org/2sman/full/gynGKq8by). So far I've ported hundreds of p5.js example sketches to L5 so it was funny for the first time to go in the reverse direction. Now it is possible some L5 sketches could be made to run with love.js for web but I don't know if I want to pursue that for now but maybe a script that's a p5.js-to-L5 bash script could be next, lol!
+
 ## 2025-12-03
 
 I updated the [p5.js to L5 converter bash script](https://gist.github.com/lee2sman/f84e03ef5e5209a9466d2c0795c2d50a), which is basically a collection of regex expressions with sed. I did have help but it still could use some improvement. This is what I use as my starter each time I create a new reference page since I'm starting with p5.js's reference and converting what I can.
