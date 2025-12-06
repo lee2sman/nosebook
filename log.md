@@ -10,8 +10,13 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-
 <a id="december-adventure-2025"></a>
+
+## 2025-12-05
+
+Was out most of the day and visited Joe's opening for 'First Friday' at GrizzlyGrizzly in evening. I saw some old friends. I really enjoyed the exhibit.
+
+In the evening I did some work on L5 and the website. I had a bug so fixed arc drawing for chord() mode. After I tried starting to build out an *examples* section to the website and porting over some examples from p5.js but didn't complete it.
 
 ## 2025-12-04
 
