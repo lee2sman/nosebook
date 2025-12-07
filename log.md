@@ -12,6 +12,10 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-06
+
+I created a new [tutorials](https://l5lua.org/tutorials/) and [examples](https://l5lua.org/examples/) sections to the L5 website and began porting some from the p5.js and Processing sites, which are licensed CC BY-NC-SA. I updated video playback and added functions: loop(), noLoop(), time(), volume(), and native methods play(), pause(), seek(), isPlaying(), getWidth(), getHeight(). I updated image() to handle videos as well as images for restoring/drawing tints, and fixed CHORD in arc().
+
 ## 2025-12-05
 
 Was out most of the day and visited Joe's opening for 'First Friday' at GrizzlyGrizzly in evening. I saw some old friends. I really enjoyed the exhibit.
