@@ -12,6 +12,10 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-07
+
+I replaced the battery on my dad's 10-year-old Macbook laptop, thanks to ifixit for their instructions. I also tried to work on some tutorials but got bogged down and didn't complete them, but I did get some good writing down for some articles. Lastly, after installing L5 on my dad's old Mac, I decided to test some of the example code from the website. The horror: I found an annoying tiny bug that won't be commonly experienced by many people, and yet, bothers me since I am trying to get cross-platform equivalency of L5. The bug is this: when switching to fullscreen on the old Mac, the setup's background color didn't persist when switching to fullscreen if no further color was added in draw. On Linux, I can't reproduce the bug. I don't have a Windows machine around now to test on that. I spent almost two hours trying to solve this bug, with all sorts of solutions, but the only solutions that worked caused other problems in their stead. In the end, I gave up and will have to document and hopefully learn some more and try again another day. Frankly, it's easy to fix if a programmer just adds a background color to their draw, or adds a background color in the windowResized function. Hmmm, that gives me an idea on another way to try to fix it internally in the library....
+
 ## 2025-12-06
 
 I created a new [tutorials](https://l5lua.org/tutorials/) and [examples](https://l5lua.org/examples/) sections to the L5 website and began porting some from the p5.js and Processing sites, which are licensed CC BY-NC-SA. I updated video playback and added functions: loop(), noLoop(), time(), volume(), and native methods play(), pause(), seek(), isPlaying(), getWidth(), getHeight(). I updated image() to handle videos as well as images for restoring/drawing tints, and fixed CHORD in arc().
