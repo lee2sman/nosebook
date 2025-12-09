@@ -12,6 +12,14 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-08
+
+I added an [Offline Documentation](https://l5lua.org/download/#offline-documentation) section to the L5 website's Download page so that someone can download offline documentation for the language, available as the full website (8MB) or without images (2MB). I also updated instructions on building/editing the website, for potential contributors. 
+
+I added windowTitle to the reference and updated windowTitle() so calling it without arguments returns the window's title or untitled if not. Does this sound like a zen koan? (*What is the window's title if you haven't yet set its title?*) Then I added a few more example program, along with some minor updating to reference pages. I also used a bash script to add proper crediting info to the bottom of every reference page, in addition to the [Copyleft](https://l5lua.org/copyleft/) page.
+
+*oppen* tagged me online, showing a video of his Metaballs code sketch. It's the first example of L5 programs "in the wild". It lives!
+
 ## 2025-12-07
 
 I replaced the battery on my dad's 10-year-old Macbook laptop, thanks to ifixit for their instructions. I also tried to work on some tutorials but got bogged down and didn't complete them, but I did get some good writing down for some articles. Lastly, after installing L5 on my dad's old Mac, I decided to test some of the example code from the website. The horror: I found an annoying tiny bug that won't be commonly experienced by many people, and yet, bothers me since I am trying to get cross-platform equivalency of L5. The bug is this: when switching to fullscreen on the old Mac, the setup's background color didn't persist when switching to fullscreen if no further color was added in draw. On Linux, I can't reproduce the bug. I don't have a Windows machine around now to test on that. I spent almost two hours trying to solve this bug, with all sorts of solutions, but the only solutions that worked caused other problems in their stead. In the end, I gave up and will have to document and hopefully learn some more and try again another day. Frankly, it's easy to fix if a programmer just adds a background color to their draw, or adds a background color in the windowResized function. Hmmm, that gives me an idea on another way to try to fix it internally in the library....
