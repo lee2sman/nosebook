@@ -12,6 +12,12 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-09
+
+I added example implementations of [10Print](https://l5lua.org/examples/10print/) and [Conway's Game of Life](https://l5lua.org/examples/conways-life/) and my own mini [Daily Rituals](https://l5lua.org/examples/daily-rituals/) to the L5 examples page. Then I added an [L5 project page](https://leetusman.com/projects/L5/) to my web portfolio, because why not? It's in its infancy but I'm proud of it. In the evening I met up with an old friend that I hadn't seen in 15 years at the diner we used to go to a couple nights a week in the summers of high school and college. It was really nice to reconnect. Back home, after a fairly extensive review of many creative commons-licensed materials, I decided the Happy Coding intoductory p5.js tutorials would work best for my purposes, so I spent much of the evening adapting them to L5. 
+
+I made a big mess-up today too. I had been working for a day or so on the start of an academic paper and I accidentally overwrote it before backing it up this morning. I tried everything I could to recover it, but it's gone, sheesh. I started to try to write again from memory, but lost momentum and will have to try again another time.
+
 ## 2025-12-08
 
 I added an [Offline Documentation](https://l5lua.org/download/#offline-documentation) section to the L5 website's Download page so that someone can download offline documentation for the language, available as the full website (8MB) or without images (2MB). I also updated instructions on building/editing the website, for potential contributors. 
