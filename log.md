@@ -12,6 +12,10 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-10
+
+Finished up adapting a dozen intro [tutorials](https://l5lua.org/tutorials) for L5 from the Happy Coding p5.js website that are now on the L5 site with the title [A complete introduction to programming with L5](https://l5lua.org/tutorials/#a-complete-introduction-to-programming-with-l5). In that process, I discovered some inconsistencies between p5.js and L5 for event key and mouse handling so patched those to achieve parity. 
+
 ## 2025-12-09
 
 I added example implementations of [10Print](https://l5lua.org/examples/10print/) and [Conway's Game of Life](https://l5lua.org/examples/conways-life/) and my own mini [Daily Rituals](https://l5lua.org/examples/daily-rituals/) to the L5 examples page. Then I added an [L5 project page](https://leetusman.com/projects/L5/) to my web portfolio, because why not? It's in its infancy but I'm proud of it. In the evening I met up with an old friend that I hadn't seen in 15 years at the diner we used to go to a couple nights a week in the summers of high school and college. It was really nice to reconnect. Back home, after a fairly extensive review of many creative commons-licensed materials, I decided the Happy Coding intoductory p5.js tutorials would work best for my purposes, so I spent much of the evening adapting them to L5. 
