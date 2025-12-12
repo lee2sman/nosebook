@@ -12,6 +12,10 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-11
+
+I added Orllewin's [Walking Lines](https://l5lua.org/examples/walking-lines/) example to the L5 site. I set up issues templates for the website and library. Someone is using L5 as the basis for a stack language they created with visual output. It's really unique. But they're experiencing shader bugs on their computer, a 2009 Windows machine! This is a good opportunity to double down and try to make sure the language actually does what it says and try to get it to work on these old machines! I will try to set up new and old Windows machines to test on.
+
 ## 2025-12-10
 
 Finished up adapting a dozen intro [tutorials](https://l5lua.org/tutorials) for L5 from the Happy Coding p5.js website that are now on the L5 site with the title [A complete introduction to programming with L5](https://l5lua.org/tutorials/#a-complete-introduction-to-programming-with-l5). In that process, I discovered some inconsistencies between p5.js and L5 for event key and mouse handling so patched those to achieve parity. 
