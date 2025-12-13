@@ -152,9 +152,9 @@ div figure img {
 }
 /* ------ ARTICLE PAGES ------ */
 article {
-	/* width: 70%;
-  margin: auto; */
-	margin-top: 3em;
+	margin-top: 3em; 
+        padding: 0 1em;
+	background-color: white;
 }
 article > h1 {
 	font-weight: 700;
