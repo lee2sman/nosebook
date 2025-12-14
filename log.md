@@ -12,6 +12,18 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+Early 
+
+## 2025-12-13
+
+I wrote a [post](https://leetusman.com/nosebook/early-alpha-feedback-L5) on the alpha release of L5.
+
+Over the past two days I've been working on an academic paper on the Processing ecosystem including L5. Discussion with my collaborator has been really helpful as they gave me references for accessibility in command line interfaces, continued our ongoing conversation on what makes something *feel like* a Processing language. Things that come up while working on the research paper have helped inform me on ideas on contributions from others, what features to implement, and how decisions should be made in community.
+
+Yesterday I visited the Philadelphia Art Museum to see the Dreamworld: Surrealism at 100 exhibition, and then Space 1026 in the evening for their annual art auction and to catch up with old friends. I bid on some works but didn't win anything!
+
+Before bed I worked on a small *cadavre exquis* generator based on the work I saw at the museum, but I didn't finish.
+
 ## 2025-12-11
 
 I added Orllewin's [Walking Lines](https://l5lua.org/examples/walking-lines/) example to the L5 site. I set up issues templates for the website and library. Someone is using L5 as the basis for a stack language they created with visual output. It's really unique. But they're experiencing shader bugs on their computer, a 2009 Windows machine! This is a good opportunity to double down and try to make sure the language actually does what it says and try to get it to work on these old machines! I will try to set up new and old Windows machines to test on.
