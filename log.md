@@ -14,6 +14,16 @@ feed: true
 
 Early 
 
+## 2025-12-14
+
+I reworked my small cadavre exquis generator, which uses original images, which should now be public domain in the US, from the earliest surrealist games by Man Ray, Miro, the Tanguys, Breton, Masson, Morise, Hugnet and others. These kinds of [code sketches](https://leetusman.com/nosebook/code-sketching-2019) are nice because with an exploratory, iterative approach and not many lines of code I can build little generative projects. The speed of execution with L5 is so fast. And the ease of write code, run -> write code, run -> write code, run supports this too. Here's an example output from running the program. Note that you're not seeing the interactive parts. Hovering over a section causes that section to be re-'generated' with randomly selected body parts for that section.
+
+![a new exqusite corpse image from 3 separate body source images]({{"/images/log/L5-exquisitecorpse.webp" | absolute_url}} "An exquisite corpse drawing made up of 3 separate drawn body parts, source 1926 surrealist artists")  
+
+In the L5 library itself I think after debugging some of the shader code, adding in tutorials, I need to start concentrating on implementing the L5 mode to the Processing IDE (PDE), so that others have an easy intro. It would be nice to add in an auto-refresh mode I think as well. I like how in Pico-8 you have the Control-R keybinding. At the very least, I should add that binding to my neovim setup.
+
+I spent much of the day finishing up an academic article, checking out the snow, and spending time with family. I put in a little block of time getting started on the [Langjam gamejam](https://itch.io/jam/langjamgamejam) as well, with a tiny exploration of creating a mini lang for robots roaming around a dungeon/gameworld.
+
 ## 2025-12-13
 
 I wrote a [post](https://leetusman.com/nosebook/early-alpha-feedback-L5) on the alpha release of L5.
