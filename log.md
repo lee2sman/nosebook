@@ -14,6 +14,14 @@ feed: true
 
 Early 
 
+## 2025-12-15
+
+FINALLY finished the academic article I've been working on with my collaborator. They were a pleasure to work with, and I feel really good about what we wrote. I'm hoping it's accepted and published.
+
+Added [Harold Cohen and AARON: Collaborations in the Last Six Years (2010–2016) of a Creative Life](https://leetusman.com/archive/cohen-last-years/) to the ➘Dig Archive.
+
+In the evening I worked on the [langjam gamejam](https://langjamgamejam.com/) and started a stack language and built a mini interpreter.
+
 ## 2025-12-14
 
 I reworked my small cadavre exquis generator, which uses original images, which should now be public domain in the US, from the earliest surrealist games by Man Ray, Miro, the Tanguys, Breton, Masson, Morise, Hugnet and others. These kinds of [code sketches](https://leetusman.com/nosebook/code-sketching-2019) are nice because with an exploratory, iterative approach and not many lines of code I can build little generative projects. The speed of execution with L5 is so fast. And the ease of write code, run -> write code, run -> write code, run supports this too. Here's an example output from running the program. Note that you're not seeing the interactive parts. Hovering over a section causes that section to be re-'generated' with randomly selected body parts for that section.
