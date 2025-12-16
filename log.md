@@ -20,7 +20,20 @@ FINALLY finished the academic article I've been working on with my collaborator.
 
 Added [Harold Cohen and AARON: Collaborations in the Last Six Years (2010–2016) of a Creative Life](https://leetusman.com/archive/cohen-last-years/) to the ➘Dig Archive.
 
-In the evening I worked on the [langjam gamejam](https://langjamgamejam.com/) and started a stack language and built a mini interpreter.
+In the evening I worked on the [langjamgamejam](https://langjamgamejam.com/) and started a stack language and built a mini interpreter. I didn't do a ton but just really the start of the interpreter that I'll call *cellarscript* right now. Currently I'm only pulling in the script file, tokenizing and executing or pushing to stack. It's no much. But I think what I may want to do next is use the cellarscript file (the 'bones file?') in a way influenced by [PuzzleScript](https://www.puzzlescript.net/) as well as the stack language for [Monome Teletype](https://monome.org/docs/teletype/). I'm thinking a line should be prepended with the entity/monster and then the commands for that object. Alternatively, you could also specify just x y coordinates for placement, for example. The target would be to get the player through the dungeon to the stairs to descend the level, avoiding obstacles.
+
+Example script:
+
+```
+player: 1 4 xy
+monster1: f f r
+stairs: 5 3 xy  
+potion: 8 random 8 random xy 
+trap: wait wait spike
+! this is a comment
+```
+
+In this script, the player starts at 1,4. The monster moves forward, forward, turns right, then repeats in a loop. The stairs are at 5,3. The potion is at a random x and y on the 8x8 board. The trap rests two tics, then spikes, then rests 2, etc in a loop.
 
 ## 2025-12-14
 
