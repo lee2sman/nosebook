@@ -12,7 +12,11 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
-Early 
+## 2025-12-16
+
+I visited the newly re-opened Princeton University Art Museum and really enjoyed the architecture, the exhibits, and the cultural works and their presentation. This museum, like many others, must still reckon with what should be done next with so much pilfered artifacts removed from their land.
+
+I did a little work on the langjamgamejam project. Now you can specify the entity, their own miniscript, which gets parsed, and numbers pushed or pulled from the stack. I added some *forth* words.
 
 ## 2025-12-15
 
