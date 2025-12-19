@@ -1,4 +1,11 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
-gem 'github-pages'
+
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+gem "mutex_m"
+gem "jekyll", "~> 3.9"
+gem "minima"
+gem "kramdown-parser-gfm"
+gem "webrick"

@@ -13,10 +13,6 @@ Allways under construction.
 
 ## Reinstalling ruby/gems/bundler when this thing breaks every 6 months
 
-this worked as of july 2024
-
-1. Move Gemfile and Gemfile.lock to old.Gemfile and old.Gemfile.lock
-2. ```sudo gem install bundler jekyll minima``` (i had to run this a few times. it failed once or twice. argh)
-3. ```bundle install```
-
-Then it worked to do: ```bundle exec jekyll serve --baseurl '' ``` (what a pain. switch to eleventy?)
+* Install System Ruby 3.4.7 (from Void packages)
+* Gems installed locally via bundler in vendor/bundle
+* Run with: `bundle exec jekyll serve --baseurl ""`
