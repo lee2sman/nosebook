@@ -12,6 +12,10 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2025-12-18
+
+Yesterday I installed a new SSD hard drive in my laptop and since it was a new disk, installed a fresh copy of [Void Linux](https://voidlinux.org/), my OS of choice. I used my [dotfiles](https://github.com/lee2sman/dotfiles) to quickly set up, which basically meant moving over the config folder and some *etc* files, starting *runit* services, and downloading packages, and I was rapidly ready to go. Today I reinstalled macOS on a 12 year old Macbook from my parents that has been sitting unused. That took a little extra effort because of Apple's various restrictions that try to verify the original owner via their Apple account, but eventually I prevailed with a [net recovery](https://support.apple.com/guide/mac-help/use-macos-recovery-on-an-intel-based-mac-mchl338cf9a8/mac) install. The main reason I wanted to set up this machine is as a testing platform for L5 on old Macs. And once set up, with L5 and Love2d installed, I tested 2 reported bugs. The [shader bug](https://github.com/L5lua/L5/issues/1) wasn't present but a [minor bug in background rendering in fullscreen](https://github.com/L5lua/L5/issues/3) was.
+
 ## 2025-12-16
 
 I visited the newly re-opened Princeton University Art Museum and really enjoyed the architecture, the exhibits, and the cultural works and their presentation. This museum, like many others, must still reckon with what should be done next with so much pilfered artifacts removed from their land.
