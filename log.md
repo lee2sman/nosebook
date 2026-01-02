@@ -12,6 +12,16 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2026-01-01
+
+I coded a little fast thing for [Genuary 2026](https://genuary.art/) tonight. It's too simple to post it here maybe, but I may try to do more of the Genuary prompts throughout the month.
+
+## 2025-12-29
+
+A bit less coding lately as I have been traveling, guest-hosting and it's the holidays. 
+
+Someone filed the first issue not reported by me on the L5 repo and suggested a solution that I used to resolve the issue in a new commit. It basically solves the issue that if you try to save a screenshot in the current folder but you don't have write permissions for that folder, the default case is to save to the default Love2d directory in a new folder with the same name as the current folder. 
+
 ## 2025-12-20
 
 We had a power outage that began Friday afternoon and continued until this evening. We lost all lighting, heat, and of course wifi. I worked on the [langjam gamejam](https://itch.io/jam/langjamgamejam) on the laptop. Thankfully its battery lasts a while. Today I went to a friend's place to work while they were away, but as they didn't leave the wifi password and weren't accesible I worked without internet, so had to use my own brain and not look things up that much except for sometimes on the cell phone :) 
