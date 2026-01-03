@@ -12,6 +12,12 @@ feed: true
 
 <a id="december-adventure-2025"></a>
 
+## 2026-01-02
+
+Still going with Genuary tonight. The prompt was *Twelve principles of animation*. This immediately brought Muybridge to my mind...
+
+![a galloping horse and rider, presented in several different directions scaled and mirrored at times]({{"/images/log/gallop.gif" | absolute_url}} "A galloping hores and rider, presented at different scales and mirroring")  
+
 ## 2026-01-01
 
 I coded a little fast thing for [Genuary 2026](https://genuary.art/) tonight. It's too simple to post it here maybe, but I may try to do more of the Genuary prompts throughout the month.
