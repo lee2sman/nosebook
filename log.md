@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2025-08-13  # Update this when you modify
+date: 2026-01-04  # Update this when you modify
 layout: default
 feed: true 
 ---
@@ -11,6 +11,48 @@ feed: true
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
 <a id="december-adventure-2025"></a>
+
+## 2026-01-04
+
+I've been steadily working on doing Genuary each day for the past 4 days. Today was the first prompt that actually excited me: *Lowres. An image or graphic with low resolution, where details are simplified or pixelated.*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BeBybEHceI8?si=oZbJY5FPl-2jKLGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+I coded this in about 25 lines of L5. Photographs by me, taken in Berlin while in residency at ZK/U. Music recorded by me and ZZZelin on no-input-mixing-board with microphones.
+
+```lua
+--genuary 2026 day 4. Prompt: Lowres
+require "L5" 
+
+function setup()
+  fullscreen()
+  img = {}
+  for i = 1, 9 do
+    img[i] = loadImage('assets/graff/'..i..'.jpg')
+  end
+  mouseDragged() --pick an image to start
+end
+
+function draw()
+  buffer_w = map(mouseX, 0, width, 15, 200)
+  buffer_h = map(mouseY, 0, height, 15, 200)
+  pg = createGraphics(buffer_w, buffer_h)
+
+  pg:beginDraw()
+  image(current_img, 0, 0, buffer_w, buffer_h)
+  pg:endDraw()
+
+  translate(width, height)
+  rotate(PI)
+  image(pg:getCanvas(), 0, 0, width, height)
+end
+
+function mouseDragged()
+  current_img = random(img)
+end
+```
+
+Made two writer friends this past week: a (famous) journalist for the New Yorker, and a writer of comedy and theater.
 
 ## 2026-01-02
 
