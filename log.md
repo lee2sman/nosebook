@@ -10,7 +10,15 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-<a id="december-adventure-2025"></a>
+## 2026-01-09
+
+Earlier in the week I sent out a [newsletter](https://buttondown.com/leetusman/archive/l5-a-new-creative-coding-library-out-now/) announcing [L5](https://l5lua.org) creative coding library.
+
+On the website I added a [web-based survey](https://l5lua.org/survey) to get some early feedback on L5, and there are three ways to fill it out: web-based form that outputs to an email, a no-Javascript option that displays the questions and asks you to send an email, and a link to a Google form. Why I did this is to be consistent with my goal of serving older computers and folks on lower bandwidth and limited resources. I had tried to make the form work with just HTML and CSS only but the *mailto* link didn't copy the info correctly so there is now the JavaScript (using pre-ES6 code, for compatibility with some older browsers) to send the info correctly. I used *noscript* tags and tested on Firefox, Netsurf, Dillo, Brave, w3m and offpunk browser clients.
+
+I also tightened up some info on the L5 landing page. Thanks to a survey response from Gottfried I added a [L5 Starter Project](https://l5lua.org/download/#l5-starter-project-recommended) to the downloads page for L5. This was a great suggestion, modeled after p5.js's download, and should make it easier for folks to begin using L5. I also tried to clean up and simplify the [Getting Started](https://l5lua.org/tutorials/getting-started/) tutorial.
+
+Speaking of which, I put out a local call in my network in NYC to meet up to work on L5 next week as a group to document installation and test on old Macs and PCs and test/update our docuentation. A dozen folks responded! I'm now looking for a room for us all to meet next Tuesday afternoon and wrote to a couple friends looking for space suggestions.
 
 ## 2026-01-04
 
@@ -187,6 +195,8 @@ Before bed when I should have gone to sleep I decided to work on some *L5 Studie
 
 ![a procedurally generated digital painting - lots of squiggles and bright colors and lines]({{"/images/log/L5-painterer.webp" | absolute_url}} "a procedurally-generated digital painting")  
 *a procedurally-generated digital painting with lots of squiggles and bright colors and lines*
+
+<a id="december-adventure-2025"></a>
 
 ## 2025-12-01
 
