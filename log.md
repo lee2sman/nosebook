@@ -20,6 +20,57 @@ I also tightened up some info on the L5 landing page. Thanks to a survey respons
 
 Speaking of which, I put out a local call in my network in NYC to meet up to work on L5 next week as a group to document installation and test on old Macs and PCs and test/update our docuentation. A dozen folks responded! I'm now looking for a room for us all to meet next Tuesday afternoon and wrote to a couple friends looking for space suggestions.
 
+Today, instead of coding one of the prompts for [Genuary](https://genuary.art) I instead started working on something with marquees and broadcasting text, that I created with L5. I was working improvisationally and iteratively, but thoughts kept returnning to the news and I found myself making something that in retrospect looks like a Barbara Kruger perhaps, or the repurposed theater marquees initiated by Jon Rubin. I'm echoing some notes from my journal, reflecting on violence by ICE. The screenshot doesn't do it full justice as the scrolling text starts from the edges and rolls in, building up into a crescendo.
+
+![text from my notebook, laid out reminiscent of the lines of a US flag]({{"/images/log/marquee.webp" | absolute_url}} "A galloping hores and rider, presented at different scales and mirroring")  
+
+```lua
+require("L5")
+
+function setup()
+  windowTitle("Thinking out loud")
+  textSize(100)
+  fill(0)
+  noStroke()
+  fullscreen()
+  describe("scrolling text from top to bottom, alternating direction, vaguely reminiscent of a flag, with thoughts on today.")
+
+  messages = loadStrings('thoughts.txt')
+  messagePos = {}
+  for i=1,#messages do
+    messagePos[#messagePos + 1]=
+    {x = random(width), y = 100 * i - 50, delta = 1, bg = 'red', c = 'white'}
+   
+    --even or odd?
+    if (i % 2 == 0) then
+      messagePos[#messagePos].bg = 'white'
+      messagePos[#messagePos].c = 'red'
+    end
+  end
+  fill(0)
+end
+
+function draw()
+  background(255)
+
+  for i=1,#messagePos do
+
+    fill(messagePos[i].bg)
+    rect(0, messagePos[i].y - 100, width, 100)
+    fill(messagePos[i].c)
+
+    text(messages[i], messagePos[i].x,messagePos[i].y)
+    messagePos[i].x = messagePos[i].x + messagePos[i].delta
+
+    -- check offscreen
+    if messagePos[i].x > width or messagePos[i].x < -width then 
+      messagePos[i].delta = messagePos[i].delta * -1
+    end
+  end
+
+end
+```
+
 ## 2026-01-04
 
 I've been steadily working on doing Genuary each day for the past 4 days. Today was the first prompt that actually excited me: *Lowres. An image or graphic with low resolution, where details are simplified or pixelated.*
