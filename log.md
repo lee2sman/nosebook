@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-10
+
+I worked for hours tonight trying to do some debugging of L5 of the filter system implemented with shaders. I tried an alternative implementation of blur to achieve parity with p5.js using gaussian blur, and built in fallback in case a computer's GPU is older and can't work with nested shader code, or else it prints a warning but shouldn't error the compiler. Need to test on older Mac and PC computers this coming week or two. I missed that I had received a website pull request several weeks ago to make more explicit some functions that I am not currently implementing in L5. I had used the html strikethrough tag but learned that it is more a stylistic thing and that some browsers and screen readers won't report strikethrough so they suggested adding a more explicit *Not Implemented* text. Great idea. I also started work on a paper about some of the L5 design decisions relating to permacomputing.
+
 ## 2026-01-09
 
 Earlier in the week I sent out a [newsletter](https://buttondown.com/leetusman/archive/l5-a-new-creative-coding-library-out-now/) announcing [L5](https://l5lua.org) creative coding library.
