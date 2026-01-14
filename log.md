@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-13
+
+Today was the first L5 Contributors meetup! From a small post I had made on Thursday on Instagram looking for one or a couple folks to help with testing L5 on older computers it grew to a 10-person meetup today, which we held at CuteLab. It went really well, and I met a number of people I hadn't met before. Thanks to everyone that joined today. I posted a [report](L5-meetup) to the blog.
+
 ## 2026-01-12
 
 I updated my old [Pomodoro Timer](https://www.lexaloffle.com/bbs/?tid=144025) application for Pico-8 to now have a nice UI with ticks around the timer that replicates a physical Pomodoro timer.
