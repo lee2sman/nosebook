@@ -10,9 +10,17 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-19
+
+I attended the Coop Cloud meetup at Ridgewood Commons today and saw a ton of old friends and some new ones. We talked about deploying shared infrastructure and I tried out their tool abra and deployed hedgedoc to a temporary server. In the evening I went to the last night of the New Ear Festival at Fridman Gallery. It was great to reconnect with Luke and Sara. We chatted about a ton of past and current things. Then they performed as the headliners tonight. The other performers were strong as well. A great, varied music festival.
+
+## 2026-01-16
+
+Had a really great studio visit with Ivana at CFF today. She spent hours looking at my work and gave some great feedback. She encouraged me to put together a solo show with my work and to pitch it to some places. In the evening I went to Sue's "New Ear" performance and it was a compelling show.
+
 ## 2026-01-13
 
-Today was the first L5 Contributors meetup! From a small post I had made on Thursday on Instagram looking for one or a couple folks to help with testing L5 on older computers it grew to a 10-person meetup today, which we held at CuteLab. It went really well, and I met a number of people I hadn't met before. Thanks to everyone that joined today. I posted a [report](L5-meetup) to the blog.
+Today was the first L5 Contributors meetup! From a small post I had made on Thursday on Instagram looking for one or a couple folks to help with testing L5 on older computers it grew to a 10-person meetup today, which we held at CuteLab. It went really well, and I met a number of people I hadn't met before. Thanks to everyone that joined today. I posted a [report](../L5-meetup) to the blog.
 
 ## 2026-01-12
 
