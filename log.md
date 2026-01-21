@@ -10,9 +10,13 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-20
+
+I've been prepping for spring classes starting this week. In the afternoon I met with UW students who will conduct usability studies on L5. In the evening I updated the UI for the [purch.us redirectory](https://purch.us/), a bookmarks page and short-url redirector for long URLs or hard-to-find locations on the Purchase website.
+
 ## 2026-01-19
 
-I attended the Coop Cloud meetup at Ridgewood Commons today and saw a ton of old friends and some new ones. We talked about deploying shared infrastructure and I tried out their tool abra and deployed hedgedoc to a temporary server. In the evening I went to the last night of the New Ear Festival at Fridman Gallery. It was great to reconnect with Luke and Sara. We chatted about a ton of past and current things. Then they performed as the headliners tonight. The other performers were strong as well. A great, varied music festival.
+I attended the [Coop Cloud](https://coopcloud.tech/) meetup at Ridgewood Commons today and saw a ton of old friends and some new ones. We talked about deploying shared infrastructure and I tried out their tool [abra](https://docs.coopcloud.tech/abra/) and deployed hedgedoc to a temporary server. In the evening I went to the last night of the New Ear Festival at Fridman Gallery. It was great to reconnect with Luke and Sara (Lucky Dragons). We chatted about a ton of past and current things. Then they performed as the headliners tonight. The other performers were strong as well. A great, varied music festival.
 
 ## 2026-01-16
 
