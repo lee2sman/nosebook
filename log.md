@@ -10,6 +10,16 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-24
+
+I visited the Met today and saw the Man Ray exhibit [When Objects Dream](https://www.metmuseum.org/exhibitions/man-ray-when-objects-dream), which featured his rayographs, paintings and film. I met my friend Emily, and we talked about recent books, film, and just life in general. She's following The Artist's Way book. I've never read it. Should I check it out? Then I spent a couple hours walking through lots of the cultural halls. I had such a great time, despite the cold outside and the horrible political climate lately.
+  
+In the late evening I took an idea from a conversation with Jessica yesterday and implemented a [test branch](https://github.com/L5lua/L5/tree/print-in-window) of L5 containing an experimental feature where all printed text output is drawn to the sketch window. This came out of a conversation we were having on the difficulty of installing L5 for beginners and non-command line users. It's much easier for them to just drag and drop their project on the Love application icon rather than running their code from the command line if they have no previous experience with that. Even installing a code editor and setting it up could be tricky for folks. The Drag and Drop is preferred. But there isn't a default way to see the print output if you don't run from the command line. So inspired by Pico-8's [print](https://pico-8.fandom.com/wiki/Print) command I added quite a big workaround that overrides the default Lua print to draw print output to the screen. It also scrolls down the screen. 
+  
+I added a new custom function *showPrint()* that needs to be added to a sketch for it to run. I did it this way rather than making it the default since I am trying to keep parity with Processing-p5 and don't want to diverge too strongly. I added this to the L5 [issues](https://github.com/L5lua/L5/issues/7) with a request for feedback. Hopefully people will try it and give some feedback and I can merge it into main.
+  
+I need to test more and I hope to merge it so that it can be tested by the Usability teams from University of Washington that I've met with over the past week that will be doing usability studies on L5. 
+
 ## 2026-01-20
 
 I've been prepping for spring classes starting this week. In the afternoon I met with UW students who will conduct usability studies on L5. In the evening I updated the UI for the [purch.us redirectory](https://purch.us/), a bookmarks page and short-url redirector for long URLs or hard-to-find locations on the Purchase website.
