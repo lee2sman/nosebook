@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-25
+
+I improved the test feature *showPrint()*  that I worked on yesterday, so that it now uses the default font no matter what other user fonts are loaded. The default size of the onscreen text is 16, but you can now specify an optional textsize argument. 
+
+Just (re)-learned about the Website Carbon Calculator and ran L5.lua through it. [We get an A+](https://www.websitecarbon.com/website/l5lua-org/)! *Chouette.* 
+
+> 1 tree : This web page emits the amount of carbon that 1 tree absorbs in a year.
+
 ## 2026-01-24
 
 I visited the Met today and saw the Man Ray exhibit [When Objects Dream](https://www.metmuseum.org/exhibitions/man-ray-when-objects-dream), which featured his rayographs, paintings and film. I met my friend Emily, and we talked about recent books, film, and just life in general. She's following The Artist's Way book. I've never read it. Should I check it out? Then I spent a couple hours walking through lots of the cultural halls. I had such a great time, despite the cold outside and the horrible political climate lately.
