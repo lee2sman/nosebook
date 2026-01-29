@@ -10,6 +10,22 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-28
+
+Well this is exciting: tonight when I got home from teaching I got L5 running on an Eee PC 1005HA that I picked up last week from someone on Craigslist. This laptop is from 2008! It took some wrangling to get Love2d to work. The Love devs don't ship 32bit / i386-processor builds anymore. So what I did was download a couple years old Debian-based Linux distro, [antiX-21](https://antixlinux.com/), which runs Debian 11 (Bullseye), which has the last officially shipped binaries for Love2d, albeit an older version, Love 11.3. This isn't even that old a distro, as Debian only released version 13 last summer, after I had started working on L5.  After installing, I had some errors running it, but a friend of a friend on Mastodon helped me debug and fix a missing library. They actually compiled and uploaded a binary and I had to move a library in place. I'll need to document this better. The next step was to download L5. I got a shader error but then I both tried my alternate shader branch and ran with the incantation `LIBGL_ALWAYS_SOFTWARE=1 love <directory>` and it worked! WOOHOO! A big moment. The Intel graphics on the Atom processor was struggling so the forced software rendering was meant to get it working, and it did. 
+
+Basically the GPU is too old for hardware-accelerated OpenGL with LÖVE 11. So software rendering via *LIBGL_ALWAYS_SOFTWARE=1* is the workaround.
+
+The current version of Love is 11.5 but we're running 11.3 on this machine. I haven't done a ton of testing of all the API so it's possible there are some bugs, but initial tests went well.
+
+Merged some pull requests for the L5 website from Jessica, who built out CONTRIBUTING, as well as other contributors. It's really great to see some community forming and people excited to try L5 out and help make it better.
+
+## 2026-01-26
+
+There's now an [L5 category](https://discourse.processing.org/t/about-the-l5-category/47800/2) on the Processing Foundation's forum. I also posted on Discord for the first time in 3 years, announcing L5 on the p5.js discord. Not sure I'll stay there, but I'm trying to *"meet people where they are at."*
+
+I set up my two spring courses' class websites, both built using my [panblog](https://tildegit.org/exquisitecorp/panblog) website builder. It's still doing the job! I think I've used it to build 8 or 10 websites since I created it!
+
 ## 2026-01-25
 
 I improved the test feature *showPrint()*  that I worked on yesterday, so that it now uses the default font no matter what other user fonts are loaded. The default size of the onscreen text is 16, but you can now specify an optional textsize argument. 
