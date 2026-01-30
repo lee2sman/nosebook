@@ -12,7 +12,7 @@ feed: true
 
 ## 2026-01-29
 
-Added a [Mac installation tutorial](https://l5lua.org/tutorials/install-mac/). Fixed bugs with printToScreen() so that output is not affected by any filter(), and that font and color are restored after drawing the print text to screen. Also working on some public project proposal with a friend. Some brainstorming time in the evening.
+Added a [Mac installation tutorial](https://l5lua.org/tutorials/install-mac/). Fixed bugs with printToScreen() so that output is not affected by any filter(), and that font and color are restored after drawing the print text to screen. Also working on some public project proposal with a friend. Some brainstorming time in the evening. Received some issues on GitHub for my panblog static website builder - issues present on Mac. Knocked out a few workaround fixes and will get back to it when I can test on a Mac again, soon.
 
 ## 2026-01-28
 
