@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-29
+
+Added a [Mac installation tutorial](https://l5lua.org/tutorials/install-mac/). Fixed bugs with printToScreen() so that output is not affected by any filter(), and that font and color are restored after drawing the print text to screen. Also working on some public project proposal with a friend. Some brainstorming time in the evening.
+
 ## 2026-01-28
 
 Well this is exciting: tonight when I got home from teaching I got L5 running on an Eee PC 1005HA that I picked up last week from someone on Craigslist. This laptop is from 2008! It took some wrangling to get Love2d to work. The Love devs don't ship 32bit / i386-processor builds anymore. So what I did was download a couple years old Debian-based Linux distro, [antiX-21](https://antixlinux.com/), which runs Debian 11 (Bullseye), which has the last officially shipped binaries for Love2d, albeit an older version, Love 11.3. This isn't even that old a distro, as Debian only released version 13 last summer, after I had started working on L5.  After installing, I had some errors running it, but a friend of a friend on Mastodon helped me debug and fix a missing library. They actually compiled and uploaded a binary and I had to move a library in place. I'll need to document this better. The next step was to download L5. I got a shader error but then I both tried my alternate shader branch and ran with the incantation `LIBGL_ALWAYS_SOFTWARE=1 love <directory>` and it worked! WOOHOO! A big moment. The Intel graphics on the Atom processor was struggling so the forced software rendering was meant to get it working, and it did. 
