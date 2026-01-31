@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-01-30
+
+Huge overhaul of install instructions and many improvements to the [L5](https://L5lua.org) website today. Worked with a friend (Jessica) to majorly improve the [download](https://l5lua.org/download/) installation instructions. We added step-by-step install instructions for Mac (with photos), Windows, and Linux. There's also a new [Getting Started](https://l5lua.org/getting-started/) with GUI and CLI instructions for running programs, some improvements to the [First Steps](https://l5lua.org/tutorials/first-steps/) tutorial, updates to some reference pages and more clarifying descriptions throughout the site. Improved some tutorials, adding printToScreen() functionality/description. Added photos to Mac install instructions. Created new getting-started page for after install. And more subtle improvements.
+
 ## 2026-01-29
 
 Added a [Mac installation tutorial](https://l5lua.org/tutorials/install-mac/). Fixed bugs with printToScreen() so that output is not affected by any filter(), and that font and color are restored after drawing the print text to screen. Also working on some public project proposal with a friend. Some brainstorming time in the evening. Received some issues on GitHub for my panblog static website builder - issues present on Mac. Knocked out a few workaround fixes and will get back to it when I can test on a Mac again, soon.
