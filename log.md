@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-02-06
+
+This past week I've been working on a paper proposal about L5 for a conference, and teaching. I worked a little bit on [panblog](https://github.com/lee2sman/panblog) Bash-based static site generator, trying to squash some bugs for Mac/BSD-derived systems. On the L5 side I added the require statement to all of the L5 reference page examples so it's nakedly obvious it's required, based on feedback from one of the Usability Studies students at University of Washington. Today I added a page on my website for the [Pomodoro Timer](https://leetusman.com/projects/pomodoro-timer/) program for Pico-8 fantasy console. It also runs as an embedded cart in the web browser. In the evening tonight I [added an article](https://leetusman.com/archive/torn-seams/) to the Dig Archive.
+
 ## 2026-01-30
 
 Huge overhaul of install instructions and many improvements to the [L5](https://L5lua.org) website today. Worked with a friend (Jessica) to majorly improve the [download](https://l5lua.org/download/) installation instructions. We added step-by-step install instructions for Mac (with photos), Windows, and Linux. There's also a new [Getting Started](https://l5lua.org/getting-started/) with GUI and CLI instructions for running programs, some improvements to the [First Steps](https://l5lua.org/tutorials/first-steps/) tutorial, updates to some reference pages and more clarifying descriptions throughout the site. Improved some tutorials, adding printToScreen() functionality/description. Added photos to Mac install instructions. Created new getting-started page for after install. And more subtle improvements.
