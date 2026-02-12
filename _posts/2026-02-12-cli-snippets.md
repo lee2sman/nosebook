@@ -12,15 +12,50 @@ Getting started with the command line does feel magical as you start to learn ju
 
 This is a living page. I will try to return and add more snippets to this page over time.
 
+For many more [one-liner](https://en.wikipedia.org/wiki/One-liner_program) command line incantations, check out [Commandlinefu](https://www.commandlinefu.com). For an extensive how-to guide to using [ffmpeg](https://ffmpeg.org/), the magical audiovisual recorder and converter, check out [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/). For more info on [imagemagick](https://imagemagick.org/), check out its website for extensive documentation. [pandoc](https://pandoc.org/) document converter also has great documentation.
+
 ## File conversions - Video
 
-Convert between video file formats.
+### Convert between video file formats.
+
+This converts between formats without re-encoding.
 
 dependencies:
 * ffmpeg
 
 ```
 ffmpeg -i input.avi -c:v copy -c:a copy output.mp4
+```
+
+### Trim out a section of a video file
+
+You can specify the start time and total length of time to record. In the snippet below we've specified 1 minute in (00:01:00) to begin and to keep 20 seconds of time from that point (0:0:20).
+
+dependencies:
+* ffmpeg
+
+```
+ffmpeg -vcodec copy -acodec copy -i inputvideo -ss 00:01:00 -t 0:0:20 outputvideo
+```
+
+### Convert video to audio file
+
+dependencies:
+* ffmpeg
+
+```
+ffmpeg -i input.mp4 -f mp3 output.mp3
+```
+
+### Convert folder of images to a video
+
+This takes all jpeg photos in a folder (in alphanumeric order) and stitches them together to form a video file. 
+
+dependencies:
+* ffmpeg
+
+```
+ffmpeg -framerate 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p output.mp4
 ```
 
 ## File conversions - Text
