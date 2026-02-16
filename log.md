@@ -10,6 +10,13 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-02-16
+
+I got a ton done this weekend. I built slideshow software and made the slides, in L5 (!), for my upcoming talk [Feb 19 talk at WordHack](https://withfriends.events/event/IfGKzXyY/wordhack-feat-lee-tusman-jackie-liu-and-game-poems-magazine/) at Wonderville. I fixed some L5 website issues, added an example page on drawing [minimal spanning trees](https://l5lua.org/examples/min-span-tree/) after learning about them. I watched an olympic curling match between the women's team from Canada and another country, with my Canadian friend and colleague Joe. We worked on some writing and brainstorming art and technology lab workshops together and played board games (I won! sorry Joe). I also made a first implementation of hot-reloading for L5 and tested it. I think it probably makes sense to make it auto-detect saving and then reload, if possible, but I first implemented a simple keybinding Control-R for hot-reload. Thanks to online friend @vga256 for the tip.
+
+![slide with title What is permacomputing? in wiggly font followed by a definition and a purple flower bud]({{"/images/log/l5-slideshow.webp" | absolute_url}} "A slide with title What is permacomputing? written in a wiggly font and pop-up flower bud below")  
+*A slide with title What is permacomputing? written in a wiggly font along with the definition*
+
 ## 2026-02-11
 
 I added a new page about [L5 on the permacomputing wiki](https://permacomputing.net/L5/). I had a great discussion with Max over dinner after Tuesday's meetup and I talked about how I didn't want to over-promise what L5 can do, and that I had been initially hesitent to brand it as a capital-P Permacomputing project since it's so new, still in alpha. Its longterm use going forward hasn't been fully tested, though I have tested it "backwards," all the way back to my 2008 Eee PC that runs L5 on it. But I also don't want to make it seem like L5 is only useful for old computers. It's fast and fun and a great choice even on the latest machines. Max said that these kinds of considerations were actually a positive, and I appreciated hearing that.
