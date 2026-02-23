@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-02-22
+
+A few developments in the past couple days: I was invited to write a music score for a performance in North Carolina in April for my friend Ivanna. I reviewed some music and we talked through some options. It's nice to work with friends, and she had been so positive about my previous music that it was easy to say yes. There may be some other performance of the work in Japan and elsewhere. I also worked on an exercise tracker in L5, not for "art" as such but just because I had an idea for one that I want to see exist. In other positive news Processing Foundation was approved as a participating org and I'm a mentor for GSOC working with Processing Foundation so it will be possible to have a funded fellow work on L5 development this summer. Students can submit proposals for their fellowship until March 31. There is currently a list of possible [Project Ideas](https://github.com/processing/Processing-Foundation-GSoC/wiki/Project-Ideas-List-(GSoC-2026)). Speaking of L5, I received an issue with a suggestion on a way to improve text buffering in word wrap to improve performance.
+
 ## 2026-02-19
 
 I gave a talk at WordHack tonight on L5. As mentioned previously, the slides and slideshow software I wrote in L5. In fact, due to the nature of the funny curved back wall of the stage, I actually modified the sketch code live during intermission to resize the window to fit better on the wall. I think the talk went well!
