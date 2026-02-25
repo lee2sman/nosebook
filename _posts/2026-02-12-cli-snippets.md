@@ -4,11 +4,12 @@ title: "Command Line Incantations for audiovisual magick"
 categories: [open source, open source, programming, permacomputing]
 ---
 
-![A beautiful bright projection of a glitched screen]({{"/images/screen.webp" | absolute_url}} "A beautiful bright projection of a glitched screen")
+![duotone manipulated image of Interworld performers at a club night]({{"/images/interworld.webp" | absolute_url}} "Interworld performs at a club night, duotone image")  
+*Manipulated duotone image of Interworld Media performing at Algorithmic Pattern Salon - Photo edited with didder (dithering, duotone) and imagemagick (file conversion).*
 
 These are command line shell snippets for useful utilities, sometimes referred to as *incantantions*. In a way, they are a kind of magic spell. These incantations transform text, images, audio and video.
 
-If you're not a command line user and not interested in learning it, I recommend the GUI tool [Krita](https://krita.org/) for digital drawing and image manipulation. Not only is it free and open source, I actually much prefer it to Photoshop. And for audio manipulation, I recommend [Audacity](https://www.audacityteam.org/) for editing and recording.
+If you're not a command line user and not interested in learning it (also an okay choice!), I can recommend the free and open source GUI tool [Krita](https://krita.org/) for digital drawing and image manipulation. I actually prefer it to Photoshop. And for audio manipulation I recommend [Audacity](https://www.audacityteam.org/) for basic editing and recording. 
 
 I've written previously on [Why I use the command line](https://leetusman.com/nosebook/why-cli), and [Command line alternatives to cloud products and platforms](https://leetusman.com/nosebook/bash-alternatives). By far the simplest explanation of why you might use this instead of individually opening up a GUI like Krita is because the command line is a lot faster, rarely changes, and can be automated for converting an entire folder of images. For an intro to using the command line, there are many introductions online, or check out my decade+ old workshop notes for [Intro to the Command Line](https://github.com/lee2sman/ITPCampSessionNotes/blob/master/IntroToCommandLine_ITPCamp.md).
 
@@ -16,9 +17,9 @@ Getting started with the command line does feel magical as you start to learn ju
 
 This is a living page. More snippets may be added over time.
 
-The workhouse programs we are using in the command line here are:
+The workhorse programs we are using in the command line here are:
 
-* [pandoc](https://pandoc.org/) for converting text betweeen various formats, such as text to a website, ebook or pdf
+* [pandoc](https://pandoc.org/) for converting text between various formats, such as text to a website, ebook or pdf
 * [imagemagick](https://imagemagick.org/) for manipulating images, such as resizing, converting to black and white, removing the background, etc
 * [sox](https://en.wikipedia.org/wiki/SoX) for converting, playing back and editing audio files
 * [ffmpeg](https://ffmpeg.org/) to record, convert and stream audio and video 
@@ -29,6 +30,7 @@ Optional but also useful:
 * [weasyprint](https://weasyprint.org/) for converting websites to PDF
 * [tesseract-ocr](https://tesseract-ocr.com/) for scanning images and converting to plaintext output
 * [aspell](http://aspell.net/), a spell checker I use to autocorrect spelling errors
+* [didder](https://github.com/makew0rld/didder), for making dithered images
 
 Many of these programs I use in [one-liner](https://en.wikipedia.org/wiki/One-liner_program) command line incantations. To convert a whole folder of files it is sometimes helpful to use them in a script. 
 
@@ -102,6 +104,14 @@ Using imagemagick apply Floyd-Steinberg Dithering and color palette reduction to
 
 ```
 magick input.jpg -dither FloydSteinberg -colors 8 output_dithered.png
+```
+
+### Dithering with didder
+
+didder can do complex dithering techniques and is a bit more user-friendly and full-featured for controlling dithering than imagemagick. In the example below I specify the three colors that the input image should be downsampled to, with a 32x32 Bayer matrix, at 85% strength and a brightness o 45%. In cidentally, the specified color names are [svg color names](https://johndecember.com/html/spec/colorsvg.html).
+
+```
+didder -i input.jpg -o output.gif -p "cornflowerblue burlywood saddlebrown" --strength 85% --brightness 45% bayer 32x32
 ```
 
 ## File conversion - Audio
