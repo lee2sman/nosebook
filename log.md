@@ -10,6 +10,13 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-03-04
+
+It's march. So many applications for fellowships and conferences were due over the weekend. My collaborator K and I received peer reviewed comments to our submission of our submitted academic paper, so we've been working on that. Processing announced its [Summer of Code](https://discourse.processing.org/t/gsoc-2025-join-the-processing-foundation-as-a-summer-of-code-contributor/45854) call for contributors. L5 is listed in the suggested project list. The usability studies of L5 conducted by University of Washington are underway. And we have our next [Permacomputing NYC](https://nyc.permacomputing.net) meetup on the calendar for the second Tuesdays of the month at Ridgewood Commons through May at least.
+
+![Permacomputing NYC flyer for March 10 at Ridgewood Commons]({{"/images/log/pmc-march.webp" | absolute_url}} "Flyer for Permacomputing NYC March 10 @ Ridgewood Commons with an abundance of frogs, ladybugs and ants")  
+I acquired a used (dual) Compressor / Limiter, a DBX166XS, so it's time to get back in the (flux) studio to work on some no-input mixing music.
+
 ## 2026-02-26
 
 We had a successful opening for the new Taproot Project Interactive Media Lab. There was a live podcast recording in the new studios, displays of student animations, 3d printers a-printing, a workshop I co-taught using computer vision and p5.js to build projects with OpenCV face detection. Technically, we called the workshop Goblin Mode, as we were making digital masks, puppets, props, or subverting the camera. Students worked in groups on a number of projects. Overall we had dozens of students and faculty come through the reimimagined space. It was nice to see the lab activated as we build it out further.
