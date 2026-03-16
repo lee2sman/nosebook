@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-03-15
+
+Six of my themes for pyradio were [added to the latest release](https://github.com/coderholic/pyradio/releases/tag/0.9.3.11.28). I contributed an [updated package](https://github.com/void-linux/void-packages/tree/master/srcpkgs/pyradio) to Void Linux.
+
+![Wasp theme of black, yellow, purple in PyRadio]({{"/images/log/wasp.webp" | absolute_url}} "Wasp theme for Pyradio of black, yellow, purple in the radio streaming TUI app")  
+
+I've been working steadily on L5, and so have a lot of other people! Pull requests and issues from at least 6 people in the past week. The most significant was a collaborative improvement to [adding in parameters to creating custom shapes](https://github.com/l5lua/l5/issues/9). Four of us were involved!
+
 ## 2026-03-04
 
 It's march. So many applications for fellowships and conferences were due over the weekend. My collaborator K and I received peer reviewed comments to our submission of our submitted academic paper, so we've been working on that. Processing announced its [Summer of Code](https://discourse.processing.org/t/gsoc-2025-join-the-processing-foundation-as-a-summer-of-code-contributor/45854) call for contributors. L5 is listed in the suggested project list. The usability studies of L5 conducted by University of Washington are underway. And we have our next [Permacomputing NYC](https://nyc.permacomputing.net) meetup on the calendar for the second Tuesdays of the month at Ridgewood Commons through May at least.
