@@ -10,6 +10,10 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-03-16
+
+Many new [examples](https://l5lua.org/examples/) added to the L5 website, thanks to work started by hmyam6090-lab, who also contributed our custom 404 page last week. I also worked with Kit on our paper. In the evening, NTS DJ Graham Dunning played from my latest album [ZK/U 1](https://exquisitecorp.bandcamp.com/album/zk-u-1) that I recorded with Ella and Siiri (as ExquisiteCorp, kuunsirpale and Ella Prokkola) at ZK/U in the fall. I'm on no-input mixing board, vocals and microcassette. Siiri played clarinet and did vocals. And Ella did vocals. The show was DJed on NTS Radio, called [Fractal Meat on a Spongy Bone](https://www.nts.live/shows/fractalmeat/). 
+
 ## 2026-03-15
 
 Six of my themes for pyradio were [added to the latest release](https://github.com/coderholic/pyradio/releases/tag/0.9.3.11.28). I contributed an [updated package](https://github.com/void-linux/void-packages/tree/master/srcpkgs/pyradio) to Void Linux.
