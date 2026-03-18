@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2023-03-17
+
+![Haiku OS desktop on my macbook air]({{"/images/log/haiku.webp" | absolute_url}} "Haiku OS on my Macbook Air")  
+
+I downloaded and ran a test of the [Haiku](https://www.haiku-os.org/) operating system on an old intel macbook air. I went through the Tour through *WebPositive*, its built in browser. Unfortunately the Mac's broadcom doesn't have drivers on Haiku currently, so I ordered a small USB Wifi dongle that I read should work. I made a test website on the machine, but as there's no internet on the device yet I only ran it locally. I'm looking forward to getting this set up and running L5 on it and doing more 'creative coding' on it! Seems like a cool path to try this system out, and it works well on older machines, but it's definitely a niche.
+
+In response to some questions asked on Discourse about L5 for [GSOC proposals](https://discourse.processing.org/t/gsoc-2026-join-the-processing-foundation-as-a-summer-of-code-contributor) I wrote up some [notes](https://discourse.processing.org/t/gsoc-2026-join-the-processing-foundation-as-a-summer-of-code-contributor/47450/128?u=lee) on how we might structure new L5sound and L5video libraries. 
+
 ## 2026-03-16
 
 Many new [examples](https://l5lua.org/examples/) added to the L5 website, thanks to work started by hmyam6090-lab, who also contributed our custom 404 page last week. I also worked with Kit on our paper. In the evening, NTS DJ Graham Dunning played from my latest album [ZK/U 1](https://exquisitecorp.bandcamp.com/album/zk-u-1) that I recorded with Ella and Siiri (as ExquisiteCorp, kuunsirpale and Ella Prokkola) at ZK/U in the fall. I'm on no-input mixing board, vocals and microcassette. Siiri played clarinet and did vocals. And Ella did vocals. The show was DJed on NTS Radio, called [Fractal Meat on a Spongy Bone](https://www.nts.live/shows/fractalmeat/). 
