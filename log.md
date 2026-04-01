@@ -10,7 +10,19 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2023-03-17
+## 2026-04-01
+
+![computational art made in L5]({{"/images/log/100yrs.webp" | absolute_url}} "Computational art made for the Computational Poetry for 100 Years workshop")  
+
+Last week I traveled to San Francisco to speak at the Algorithmic Art Assembly at Grey Area. I presented a workshop *Computational Poetry for 100 Years* on Thursday, then gave a talk about L5 on Friday afternoon. It was a fun conference on algorithmic art, musicians and toolbuilders. I love a conference combining workshops, talks and evening performances. I connected with new and old friends and collaborators. I also made some L5 stickers, which I handed out. There's an algorithmic logo sticker and a graff/drawing sticker too.
+
+![stickers, including L5]({{"/images/log/l5-sticker.webp" | absolute_url}} "Stickers including L5")  
+
+Some other folks have been using L5 in their own practice. For example, *durian* has made [Dicey Passwords](https://durianbean.itch.io/dicey-passwords), using L5 and Fennel.
+
+All of the GSoC proposals have now come in. The idea is to have someone work with me remotely this summer to implement improvements and add functionality to L5.
+
+## 2026-03-17
 
 ![Haiku OS desktop on my macbook air]({{"/images/log/haiku.webp" | absolute_url}} "Haiku OS on my Macbook Air")  
 
