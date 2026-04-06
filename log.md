@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-04-06
+
+I was able to fully install [Haiku OK](https://www.haiku-os.org/) (beta 5) on my Macbook, and now with the external Edimax wifi usb adaptor it is hooked up to the internet. I've set it up with all of my usual programs and even have L5 running on it. 
+
+The next [Permacomputing NYC](https://nyc.permacomputing.net) meetup is scheduled for the 14th. Later this week I'm heading to Philly to attend and give a workshop at the [Electronic Faire](https://sites.temple.edu/efaire/schedule-and-registration/).
+
+I started building out an alternative music hosting site for my albums, mixes and sound art. My current site is built with Faircamp static music site generator. I was excited about it when announced but the project is currently under active development. From my perspective, it should be quite simple and not really need changes but the dev, who I respect, is updating a ton. Fair enough, it's their project but I don't want to have to stay up to date with changes. For example, there is no release binary for my distro and I'd need to build from source, which requires a gigabyte of dependencies. Heck, I even tried building but I got stuck in 'dependency hell' and while the dev tried to help, there's just too many build system and changing dependencies to track. It reminds me of the problems with ruby gems. It's why I gave up with Jekyll and Hugo and eleventy static site generators and just built my own bash-based static site generator. Anyway, I couldn't get the current version of Faircamp to build so I decided it couldn't be that hard to roll my own. With just under an hour I've replicated 90% of the design and functionality. When I have some time later this month I hope to finish it up. 
+
 ## 2026-04-01
 
 ![computational art made in L5]({{"/images/log/100yrs.webp" | absolute_url}} "Computational art made for the Computational Poetry for 100 Years workshop")  
