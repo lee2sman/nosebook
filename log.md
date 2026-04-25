@@ -10,6 +10,22 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-04-24
+
+I've been busy and I forgot to update this log! I'm writing this presently in Asheville, North Carolina, where I'm visiting for the weekend to perform at the original site of Black Mountain College for the event titled Re:Happening, organized by the Black Mountain College Museum. I'm performing a live score on my modular synth with performance artist Ivana Larrosa performing. We will perform two sets Saturday evening.
+
+Earlier this week on Sunday in Berlin I gave a talk at xHain hackspace/makespace for the Berlin Permacomputing Meet-up titled [L5: A permacomputing-inspired Creative Coding Library](https://leetusman.com/presentations/pmc-berlin/L5-pmc-berlin-slides.pdf) (PDF of slides, originally created in L5 itself). I was especially excited for this because I spent so much time with this community in the fall as I worked on the initial release of L5. I enjoyed the conversation and feedback I received, and some new ideas bubbled up for some potential improvements and ideas to implement in L5. There was also a nice contingent of people visiting from the computer company MNT Research, so there turned out to be three Pocket Reform computers and they tried out installing L5 and running the L5-starter *hello world* sketch.
+
+![L5 running on a Pocket Reform mini-laptop]({{"/images/log/pocket-L5.webp" | absolute_url}} "L5 running on an MNT Pocket Reform mini laptop")  
+
+L5 was also presented at the [State of LibreGraphics 2026](https://media.ccc.de/v/lgm-2026-110659-state-of-libre-graphics#t=1275) (video link) in Nuremberg this week. 
+
+Earlier in the month I led a workshop *Creative Coding for the Permacomputing Age: A Code Jam and Introduction to Creative Coding with L5* at the fabulous Electronic Faire at Temple University's Charles Library. 
+
+And next week I have a performance at the New Jersey Art Book Fair! 
+
+Oh, and [video documentation from my talk at the Algorithmic Art Assembly v3.0](https://www.youtube.com/watch?v=lyk1q5cMawk) is on YouTube now.
+
 ## 2026-04-06
 
 I was able to fully install [Haiku OK](https://www.haiku-os.org/) (beta 5) on my Macbook, and now with the external Edimax wifi usb adaptor it is hooked up to the internet. I've set it up with all of my usual programs and even have L5 running on it. 
