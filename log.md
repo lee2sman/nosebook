@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-04-29
+
+Someone got in touch to ask whether L5 has a mask feature. I didn't think that was part of a Processing/p5 language but I checked and it turns out that both Processing and p5.js do, so I implemented [mask in L5](https://l5lua.org/reference/mask/) modeled on p5.js's implementation. 
+
+And Tomasz Stecko also contributed an example of [metaballs](https://l5lua.org/examples/metaballs/) for the L5 examples section.
+
+![organic shapes moving around the canvas]({{"/images/log/metaballs.gif" | absolute_url}} "Organic shapes hifting around the canvas, made up of smaller little balls")  
+
 ## 2026-04-24
 
 I've been busy and I forgot to update this log! I'm writing this presently in Asheville, North Carolina, where I'm visiting for the weekend to perform at the original site of Black Mountain College for the event titled Re:Happening, organized by the Black Mountain College Museum. I'm performing a live score on my modular synth with performance artist Ivana Larrosa performing. We will perform two sets Saturday evening.
