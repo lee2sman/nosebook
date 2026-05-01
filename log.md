@@ -10,6 +10,15 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-04-30
+
+Wrote a [blog post](https://leetusman.com/nosebook/l5-dev-spring2026) on spring development work on L5.
+
+Performance rehearsal in the afternoon/evening with Sue for our performance tomorrow at the opening night of the Jersey Art Book Fair. It went well. We tried out sounds and I've built a good system and score that's fun to play and responsive. It pairs well with the performance approach where Sue is reading her text while displaying black and white slide images and text on an overhead projector, projected on top of slowly moving minimal colored projected video. I'm using a sampled recording of Sue whistling, then processing it with the MakeNoise Morphagene. I'm also taking input from my microphone as I make wind-breath sounds, processed through Mutable Instruments Beads and Strymon Magneto. For the "ghost" section I'm also using Mutable Instruments Plaits and Rings, clocked by Marbles and modulated by a Cell
+z touchplate sequencer.
+
+Some progress in the evening implementing [Vi text editor in YaBASIC](https://tildegit.org/exquisitecorp/Yabasic-vi). It's up to about 375 lines of code, but sadly can't edit this file as it seems to require input files be in the same folder. Will look into that.
+
 ## 2026-04-29
 
 Someone got in touch to ask whether L5 has a mask feature. I didn't think that was part of a Processing/p5 language but I checked and it turns out that both Processing and p5.js do, so I implemented [mask in L5](https://l5lua.org/reference/mask/) modeled on p5.js's implementation. 
