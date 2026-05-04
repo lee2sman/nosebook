@@ -10,6 +10,15 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-05-03
+
+![black and white image of two performers before an audience, with a projected digital image above]({{"/images/log/jabf.webp" | absolute_url}} "Black and white photo of two performers before an audience, with a projected digital image above")  
+*photo by Sam Vladimirsky*
+
+Sue and I performed the opening night for the Jersey Art Book Fair. We had a good size audience, and the performance went really well. This was the first time we've collaborated together and it went together smoothly. We're looking for more opportunities to present the work publicly.
+
+For the rest of the weekend I mostly took some time off to relax near the end of a busy semester. But tonight I worked some more on my implementation of a minimal Vi code editor in BASIC, specifically the Yabasic dialect. I'm calling its source vi.bas and the binary file (packaged with Yabasic) is called yvi. You can find it in [tildegit](https://tildegit.org/exquisitecorp/Yabasic-vi) or [GitHub mirror](https://github.com/lee2sman/yvi). I don't think it's complete yet, but at 420 lines of code, it's got most of the basics I wanted. But I may add a couple more text replacement commands (r, R, c for example).
+
 ## 2026-04-30
 
 Wrote a [blog post](https://leetusman.com/nosebook/l5-dev-spring2026) on spring development work on L5.
