@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-05-05
+
+![yvi running in cool retro terminal]({{"/images/yvi.webp" | absolute_url}})  
+
+yvi now has its own dedicated [blog post](https://leetusman.com/nosebook/yvi) page, and I think/hope it's at a good place for public presentation and use. I added a number of commands, made movement and deleting composable prepended with a *count*, added in '~' expansion in file paths, added a 'c' cut mode, and simple single character 'r' replace.
+
 ## 2026-05-03
 
 ![black and white image of two performers before an audience, with a projected digital image above]({{"/images/log/jabf.webp" | absolute_url}} "Black and white photo of two performers before an audience, with a projected digital image above")  
