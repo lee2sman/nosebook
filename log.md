@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-05-09
+
+Well, this was unexpected: [yvi](https://leetusman.com/projects/yvi/) (now with its own dedicated page on my website) is getting some public exposure, which I didn't expect at all. I just was scratching my own itch and thought a couple other internet friends might be interested. But surprisingly it was picked up by [Hacker News](https://news.ycombinator.com/item?id=48025540) and [written about in The Register](https://www.theregister.com/offbeat/2026/05/08/vi-clone-written-in-basic-proves-old-habits-wq-hard/5235594), where I learned it's actually the [50th year anniversary of Vi](https://en.wikipedia.org/wiki/Vi_(text_editor)#History).
+
+Earlier today I spoke to Saber's CC Fest Teacher Training Camp, giving an intro to my art practice and background and to L5.
+
 ## 2026-05-05
 
 ![yvi running in cool retro terminal]({{"/images/yvi.webp" | absolute_url}})  
