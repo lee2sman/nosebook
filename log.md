@@ -10,6 +10,21 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-05-10
+
+I visited the Greater New York triennial at MOMA PS1 and I loved it. There was a LOT of incredible work. Kudos to the curators. Of course, I've always loved this museum, and its curation. And it just feels good as an old school. Never change PS1! It contrast, the Whitney, which was "fine", is not nearly as interesting.
+
+I can't even summarize what I saw at PS1 there was so much excellent work, and typical, the website fails to show any of the artwork really, much less exhibit shots or individual photos of all the works and their title and artist. But from my head some standouts included Tiffany Sia's videos on tiny monitors, hanging in the window, which looked great on a rainy day. I sat and absorbed and loved the "Bossa Nova Civic Club"-homage work incorporating an indigineous fairy tale by Mekko Harjo. There was an EXCEPTIONAL sound art work by the artist Coco Klockner. And fun experimental weavings bound to objects, almost like dyptichs. I failed to write down the artist's name for that. An installation with video (using oldschool VHS/video mixers) and installation, that noted it was based on techniques from noise shows and the DIY scene, by Tom Thayer, was also strong and I sat watching it many minutes. Typical, as I do a search for reviews of this exhibit (there are many), they show images from and describe artworks I didn't connect with very much at all, so I guess that goes to show, it's a big and diverse show with lots to see. 
+
+In the evening I participated in a hackathon at CuteLab and implemented a minimal proof-of-concept web browser in L5 (text only at this time, and no way to navigate links currently). I call it *middlebrowser*. 
+
+![Middlebrowser screenshot showing the text of the NPR website]({{"/images/log/L5-middlebrowser.webp" | absolute_url}})  
+*A screenshot of this log, in middlebrowser*
+
+Its entire code is currently less than 100 lines for the prototype. It calls out to the text browser links. I also tested with offpunk and curl and rdrview.
+
+I'm not sure if I'll keep hacking on it, but it was fun to work on since I've had the idea in my head a while.
+
 ## 2026-05-09
 
 Well, this was unexpected: [yvi](https://leetusman.com/projects/yvi/) (now with its own dedicated page on my website) is getting some public exposure, which I didn't expect at all. I just was scratching my own itch and thought a couple other internet friends might be interested. But surprisingly it was picked up by [Hacker News](https://news.ycombinator.com/item?id=48025540) and [written about in The Register](https://www.theregister.com/offbeat/2026/05/08/vi-clone-written-in-basic-proves-old-habits-wq-hard/5235594), where I learned it's actually the [50th year anniversary of Vi](https://en.wikipedia.org/wiki/Vi_(text_editor)#History).
