@@ -10,6 +10,14 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-05-17
+
+I visited Philly for a few days for my dad's birthday. We went to the new Calder Gardens museum, which is a gem. Really nice. Afterwards we got BBQ and then went to see new music (Sorey) and Bruckner performed by The Philadelphia Orchestra.
+
+Today I headed back to NYC and participated in Flip Table at Hex House, where participants had to read/write data to *strange* databases. For example, people saved data to images, to wifi network names, to apple clock alarms, and the like. I wrote an L5 program that translated a string of data to morse code, then *saved* them through "oral history" by playing audo samples to an audience, consisting of samples of my voicing of the dits and dahs. There were amateur radio operators in the audience but unfortunately none of them knew morse code/CW so to most people it just sounded like experimental rhythmic music, and they couldn't 'store' the data in the first place. People got the idea and joke and it got laughs/applause.
+
+On the train ride up and even in Penn Station in the waiting area afterwards I worked with my collaborator on finishing up an article for final submission to an academic journal. We also received notification that another paper was accepted to a conference this summer, with some 'shepherding' of final edits, so that's exciting to see our writing work has yielded results that we'll get to share.
+
 ## 2026-05-10
 
 I visited the Greater New York triennial at MOMA PS1 and I loved it. There was a LOT of incredible work. Kudos to the curators. Of course, I've always loved this museum, and its curation. And it just feels good as an old school. Never change PS1! It contrast, the Whitney, which was "fine", is not nearly as interesting.
