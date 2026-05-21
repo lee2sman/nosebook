@@ -10,6 +10,27 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-05-21
+
+In progress for the [#TweetTweetJam](https://itch.io/jam/tweettweetjam-11) happening next week, where people make small 500-character-or-less games and post to Itch, I tried out a test to do some sizecoding (minimizing code size) in L5. Tweettweetjam traditionally results in lots of Pico-8 submissions, since it's a game engine and the language and API support minimal coding. L5 currently (and might always) require the require statement as well as setup() or draw(), which adds some boilerplate.
+
+Nonetheless, here's one solution for the classic 10print maze ported from BASIC.
+
+```lua
+require'L5'function draw()textSize(48)c=frameCount text(random()>.5 and"\\"or"/",c%40*20,floor(c/40)*48)end
+```
+
+It's a bit of a weird solution, but it saves some characters over doing nested for-loops. The textSize() is required for getting good quality maze lines. It was too small with too much margins otherwise.
+
+![a minimal maze made in L5]({{"/images/log/l5-10print-sizecoding.webp" | absolute_url}})  
+*A minimal 10print-style maze in just over 100 characters*
+
+The [original](https://10print.org/) in Commodore 64 BASIC is only 38 chars, so that's definitely more *elegant* in a way:
+
+```BASIC
+10 PRINT CHR$(205.5+RND(1)); : GOTO 10
+```
+
 ## 2026-05-17
 
 I visited Philly for a few days for my dad's birthday. We went to the new Calder Gardens museum, which is a gem. Really nice. Afterwards we got BBQ and then went to see new music (Sorey) and Bruckner performed by The Philadelphia Orchestra.
