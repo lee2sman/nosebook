@@ -10,6 +10,19 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-06-01
+
+Kit and I finished up our two accepted articles, for Computing within Limits as well as IEEE journal Computer.
+
+This past week I started working with Sam on their Contributor fellowship, part of GSoC, organized in conjunction with Processing Foundation.
+
+We're going to launch a [L5 blog on Itch](https://notapipe.itch.io/l5/devlog) this summer. we also tried out an alternative, adding the blog to our L5 site directly but our SSG required more plugins than we wanted to fiddle with. I even tried hand coding the blog generator but I don't want to go too deep on that as it adds complexity for others that may want to contribute to the L5 documentation site. Trying out blogging / devlog'ing on Itch will go hand in hand with another little pilot to host a mirror of [L5 on Itch](https://notapipe.itch.io/l5). We're piggybacking on some of Itch's infrastructure potentially using it for a mini forum and the devlog for example and I think some jams. Beyond using their infra a goal is to bring in more folks and playful games community on Itch seems like a natural group to work with.
+
+![slime mold in L5]({{"/images/log/l5-slime.gif" | absolute_url}})  
+*A basic slime mold simulation*
+
+On Thurs we'll run a workshop at ITP Camp with an intro to L5 as well as a jam. I came up with a slime mold jam theme as well as example programs for participants to build upon.
+
 ## 2026-05-21
 
 In progress for the [#TweetTweetJam](https://itch.io/jam/tweettweetjam-11) happening next week, where people make small 500-character-or-less games and post to Itch, I tried out a test to do some sizecoding (minimizing code size) in L5. Tweettweetjam traditionally results in lots of Pico-8 submissions, since it's a game engine and the language and API support minimal coding. L5 currently (and might always) require the require statement as well as setup() or draw(), which adds some boilerplate.
