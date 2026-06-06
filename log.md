@@ -10,6 +10,15 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-06-04
+
+
+![Two workshop hosts speaking to learners in a classroom]({{"/images/log/l5-itp.webp" | absolute_url}})  
+
+Sam and I hosted a talk and workshop on L5 at ITP Camp at NYU. We had a couple dozen people join, all new to Lua. Only about a third had used Processing or p5.js or any creative coding library previously. We introduced L5, creative coding and permacomputing, then had folks install L5 (and Love) on their computers (99% had a mac). There was slightly less friction, probably because there were two of us helping, and maybe because of updated documentation. Then we walked through creating a *slime mold* simulation, building up by showing for loops, tables, processing/p5specific functions such as strokeWeight(), stroke(). We also had questions about changing the frameRate(), loading data with loadTable(), and advanced concepts like building classes and inheritance with Lua.
+
+Sam worked this past week on turning usability recs from the UW usability studies into trackable issues ([e.g.](https://github.com/L5lua/L5-website/issues/25)), and started [improving the site design](https://github.com/L5lua/L5-website/pull/27). Here's Sam's [week 2 devlog post](http://blog.smarmy.space/3mnl2ctpg622e). Here's our [Welcome Sam](https://notapipe.itch.io/l5/devlog/1542318/welcoming-sam-our-summer-of-code-contributor) log post on Itch.
+
 ## 2026-06-01
 
 Kit and I finished up our two accepted articles, for Computing within Limits as well as IEEE journal Computer.
