@@ -10,8 +10,13 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2026-06-04
+## 2026-06-08
 
+I started working on a project using L5, building a noise instrument of sorts to play skronky free jazz sounds from an invented electro acoustic woodwind instrument. This is for the Noise Jam 3 on itch.
+
+I am thinking it may turn into a *ddr* style piece where you accompany a *noise* track and you only have up down left right arrows (or a dance pad controller, ideally) to accompany. I've made a similar controller before with Makey Makeys but I left those at my office, very far from the home studio.
+
+## 2026-06-04
 
 ![Two workshop hosts speaking to learners in a classroom]({{"/images/log/l5-itp.webp" | absolute_url}})  
 
