@@ -10,6 +10,12 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-06-09
+
+Sam and I met and checked out their recent work to simplify and improve the L5 website documentation. It's absolutely moving in the right direction though page size I believe has steadily increased lately and I'm not sure why. We tested alternative SSG Zensical, made by the *material for mkdocs* person and it seemed like pretty much a drop-in replacement for material, so we'll try a test to switch to it later this summer.
+
+In the evening we attempted some tests in self hosting with Coolify (Sam) and PostMarketOS (me and Jasmine and Jonathan and Paul). Moon also joined. No one finished but i think i will try to work with Termux next.
+
 ## 2026-06-08
 
 I started working on a project using L5, building a noise instrument of sorts to play skronky free jazz sounds from an invented electro acoustic woodwind instrument. This is for the Noise Jam 3 on itch.
