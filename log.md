@@ -10,6 +10,25 @@ feed: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-06-11
+
+Feeling accomplished on my birthday! I released the [Gluesticks and Gluecode Manifesto](https://notapipe.itch.io/the-gluesticks-and-gluecode-manifesto) a rapid project I made today for the Manifesto Jam 2026. 
+
+
+![The Gluesticks and Gluecode Manifesto]({{"/images/log/gluesticks-manifesto.webp" | absolute_url}} "hand drawn images of glue and scissors and the title The Gluesticks and Gluecode Manifesto")  
+
+I also released a project I've been working on for a couple days for Noise Jam 3, a jam on Itch. My tool is called ['not a pipe' presents n0iseband: a new approach to noise improvisation](https://notapipe.itch.io/n0iseband), which is a tool to practice playing experimental noise music over backing noise tracks. Inspired by some funny jazz improv method I came across in my childhood as well as the game Rock Band, neither of which I ever actually played/used. I believe my tool is the first practice app specifically for noise music, and almost definitely the first that features a (creative commons licensed) Merzbow track in it!
+
+I tested it on a Macbook from 2014 and it "passed" and ran with flying colors! So great that L5 is doing the work I wanted it to do!
+
+Yes, both projects, like most of my artwork and tools these days, were made in the L5 creative coding library. I also experimented with making executables for distribution on Mac and Windows. I tried out making web builds with love.js/WASM too as a little test for the future, and because people do ask about it, but I'll need to play with those some more in future tests as the resolution didn't perfectly match and my large text boxes didn't match perfectly.
+
+!['not a pipe' presents n0iseband: a new approach to noise improvisation]({{"/images/log/noiseband.webp" | absolute_url}} "the title 'not a pipe' presents n0iseband: a new approach to noise improvisation and then a glitched semi woodwind but weird looking instrument")  
+
+I also did some research and realized I'd been misunderstunding Firefox's Dev Tools Network section. The L5 website average page size is much lower than I said. All pages I tested appear to be under 1MB certainly, and most come in 250k on average and less than 500k throughout. Phew! This is important to me because I want to have a low bandwidth, accessible website, that works on underpowered devices, older machines or for those with limited access to the internet.
+
+Tonight a fun Thursday Night Social Ride from Central Park to Brooklyn. Oh, and my laptop keyboard is now fixed. Hooray.
+
 ## 2026-06-09
 
 Sam and I met and checked out their recent work to simplify and improve the L5 website documentation. It's absolutely moving in the right direction though page size I believe has steadily increased lately and I'm not sure why. We tested alternative SSG Zensical, made by the *material for mkdocs* person and it seemed like pretty much a drop-in replacement for material, so we'll try a test to switch to it later this summer.
