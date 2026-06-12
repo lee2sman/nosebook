@@ -13,6 +13,9 @@ main p {
   margin-bottom: 1em;
 }
 </style>
+{% if page.lazy_images %}
+<script defer src="{{ '/assets/js/lazy-images.js' | relative_url }}"></script>
+{% endif %}
 	</head>
 	<body>
 

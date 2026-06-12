@@ -4,6 +4,7 @@ permalink: /log/
 date: 2026-01-04  # Update this when you modify
 layout: default
 feed: true 
+lazy_images: true
 ---
 
 # Log
