@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-01-04  # Update this when you modify
+date: 2026-06-17  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-06-17
+
+I'm in Budapest, tapping this out at the kitchen at my hotel. I flew Monday afternoon, arrived in Vienna Tuesday morning and met Patrick. In the airport the strap for the bag holding my modular synth broke, the synth crashed down, the Intellijel case broke. The horror! I tested the synth and many of the modules at Patrick's place, so I think it's okay, but will need to get the case fixed, or try to fix it myself maybe once i get to Berlin next month.
+
+Sam and I (but more Sam currently!) are working collaboratively and remotely on the site and they've done a bunch of usability improvements, partly based on the UW usability suggestions from the spring. Check out the improved [L5](https://l5lua.org) website, now with improved top level navigation, cleaned up flow between pages, and less UI clutter.
+
+We've worked hard to test the site across browsers, including Firefox, Chromium, Dillo, NetSurf, Links, w3m, offpunk, with some differences between these, not 100% compatibility on offpunk for example. Based on some feedback from friends online when I was trying to get the mac install instruction page size down I decided to replace the embedded iframe with an image of the youtube tutorial, then when you click it, some inline javascript replaces the image with the actual autoplaying tutorial, or lacking javascript, it jumps to the video page online. Of course, we still have a text tutorial and I fixed a bug with two of the images.
+
+[Sam's weekly blog post on their updates for the Summer of Code](https://blog.smarmy.space/3mogaghoxss2a) contains lots of details, with images and great info on the design.
 
 ## 2026-06-11
 
