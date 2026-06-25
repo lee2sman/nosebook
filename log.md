@@ -11,6 +11,16 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-06-26
+
+Several cities later (Praha to Cesky Krumlov to Salzburg) and a few things have happened. I presented our paper [Designing L5: A Permacomputing Approach to Creative Coding](https://arxiv.org/abs/2606.18481) at Computing Within Limits '26 on Tuesday. We also had a spirited online Q and A afterwards, with Kit participating as well. I was on a low bandwidth connection ironically. Thankfully, the presentation worked right until the very end as Kit started to answer questions too and my connection blanked out for a full minute.
+
+Our [slides can be found as a love file](https://ashgreyseafoam.com/files/L5-design-computing-limits.love), at least temporarily. Yikes, it's 13mb, I forgot to compress the image files!
+
+Sam and I met today to review their initial L5-vscode-extension that adds a "Run L5" and "Stop L5" buttons to VSCode/VSCodium, intended to help beginners work with L5. Sam created an initial implementation working on their Mac and tonight we debugged getting it to work on my Linux machine. Sam will be testing windows shortly, and work on lots of little debugging things. I'm thinking I will also prepare a tutorial for getting started with Geany since it's lighter weight and I want to provide an option for beginners to use a GUI IDE that aren't VSCode-pilled.
+
+I went to a great noise show here in Salzburg, as well as a choral ensemble at the grand cathedral, and a modern opera at the music school here. And managed to visit Mozart's family home and the Fortress Hohensalzburg, and funicular!
+
 ## 2026-06-17
 
 I'm in Budapest, tapping this out at the kitchen at my hotel. I flew Monday afternoon, arrived in Vienna Tuesday morning and met Patrick. In the airport the strap for the bag holding my modular synth broke, the synth crashed down, the Intellijel case broke. The horror! I tested the synth and many of the modules at Patrick's place, so I think it's okay, but will need to get the case fixed, or try to fix it myself maybe once i get to Berlin next month.
