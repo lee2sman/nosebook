@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-06-28
+
+I've seen so much live music this past week! Maybe 5 shows. That's nuts. I'm in Vienna visiting Patrick. We went to see some performance art and enjoy the party at PART art residency. We also visited a noise show and techno night at Motorenwerk. 
+
+I'm finishing up some writing and made some test edits to [n0iseband](https://notapipe.itch.io/n0iseband) (currently this links to the original noisejam3 release), creating a tablet/phone version of the software as well as a new version featuring an audio looper. Based on some feedback from Patrick I might try to build this out into more of an instrument that a musician can use to build their own sounds. How can you get it to sound more like their own custom instrument and less of a novelty toy or recreation of premade sounds? Less sampler and more experimental musical instrument.
+
 ## 2026-06-26
 
 Several cities later (Praha to Cesky Krumlov to Salzburg) and a few things have happened. I presented our paper [Designing L5: A Permacomputing Approach to Creative Coding](https://arxiv.org/abs/2606.18481) at Computing Within Limits '26 on Tuesday. We also had a spirited online Q and A afterwards, with Kit participating as well. I was on a low bandwidth connection ironically. Thankfully, the presentation worked right until the very end as Kit started to answer questions too and my connection blanked out for a full minute.
