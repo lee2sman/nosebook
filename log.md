@@ -11,6 +11,14 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+<a id="week-of-patching-2026"></a>
+
+## 2026-07-06
+
+I'm at the ZK/U art residency in Berlin this month of July, where I was in residence last fall.
+
+This is the start of [Week of Patching](https://palomakop.tv/week-of-patching/), initiated by artist Paloma Kop, a week for experimenting with and documenting patching-based music, video or art creation. This week I'm concentrating on using my new Alto Venova woodwind with my modular synthesizer. I began yesterday (day 0?) with a first test. I [recorded a video](https://www.youtube.com/watch?v=iuYCss5zQrM) with the dinky ipad microphone recording the sound. Today is the first proper day 1 and this time I captured audio directly out of the modular synth with the Zoom recorder, and synced it with my ipad video, edited together into a [day 1 video](https://youtu.be/zvkOlv_IXz0) using the video editing software Kdenlive, which I'm trying out.
+
 ## 2026-06-28
 
 I've seen so much live music this past week! Maybe 5 shows. That's nuts. I'm in Vienna visiting Patrick. We went to see some performance art and enjoy the party at PART art residency. We also visited a noise show and techno night at Motorenwerk. 
