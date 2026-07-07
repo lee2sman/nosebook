@@ -13,6 +13,12 @@ lazy_images: true
 
 <a id="week-of-patching-2026"></a>
 
+## 2026-07-07
+
+I wasn't super happy with my day2 #weekofpatching experiments on the modular synth but I did save recordings and my favorite was an accident where i recorded mini loops of my voice testing the microphone into the make noise morphagene. I like the little jittery glitches.
+
+Sam and I worked for about 3 hours testing out their VSCodium extension packaging for Linux, running into bugs with Flatpak and the system path.
+
 ## 2026-07-06
 
 I'm at the ZK/U art residency in Berlin this month of July, where I was in residence last fall.
