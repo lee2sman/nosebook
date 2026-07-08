@@ -13,6 +13,12 @@ lazy_images: true
 
 <a id="week-of-patching-2026"></a>
 
+## 2026-07-08
+
+For Day 3 of #weekofpatching I played synth and venova in a 3 hour jam sesh with drums, guitar, bass, keyboard, and an egyptian rapper, rapping in arabic. It was really fun and good practice. Most of it was recorded.
+
+We created a [mastodon account for L5](https://merveilles.town/@L5@tldr.nettime.org) on nettime, hooray!
+
 ## 2026-07-07
 
 I wasn't super happy with my day2 #weekofpatching experiments on the modular synth but I did save recordings and my favorite was an accident where i recorded mini loops of my voice testing the microphone into the make noise morphagene. I like the little jittery glitches.
