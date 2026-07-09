@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-06-17  # Update this when you modify
+date: 2026-07-09  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -12,6 +12,12 @@ lazy_images: true
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
 <a id="week-of-patching-2026"></a>
+
+## 2026-07-9
+
+No patching today. At least no modular synth patching. Instead I patched L5, fixing push() / pop() to now properly enclose styles (colors, fonts, stroke...). Before, it only fully enclosed transformaton matrices (positioning, scale...). I also updated the website documentation, and noticed the offline site downloads were missing, so I added them back.
+
+Sam and I worked today looking into packaging L5 for homebrew package manager. In the evening, Jonah and I visited Hamburger Banhof museum, saw all the exhibits, then joined the Berlin Beats party with Low Jack b2b sofii.
 
 ## 2026-07-08
 
