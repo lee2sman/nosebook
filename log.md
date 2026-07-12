@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-07-09  # Update this when you modify
+date: 2026-07-13  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -13,7 +13,11 @@ lazy_images: true
 
 <a id="week-of-patching-2026"></a>
 
-## 2026-07-9
+## 2026-07-12
+
+I've forgotten to write here the past few days. It was the weekend, and I wasn't at home much so I didn't work "in the studio" as I was away from my laptop. On Friday J and I visited the Kyiv Bienniel at KW with Don. There was a video work that was an experimental narrative/doc on a metal refinery with found footage combined with recordings of affected indigineous community - a strong work. The biennial is nomadic, an impressive example of organizing and trans-cultural cooperation in wartime. Afterwards we met up with P and D at a foundation whose name escapes me, who exhibited some fairly simple paintings of leaves, fauvist style contemporary painting, and sculptures of metal penguins. This work did nothing. Then we went to an opening at Bethanien and saw lots of friends. The exhibit concept related to memory and archive; makes sense given the state of war and autocratic attempts to rewrite history. A bit more 'diy' than the kw show earlier in the day. In the evening we went to the Sonic Pluriverse concert with Asmaa Hamzaoui and Bnat Timbouktou. J and I loved the concert - the singing, the hand percussion, the syncopated and polyrhythmic gnawa music. The next day I worked from home during the day, 'attended' remotely a permacomputing organizers conference, then took a long walk and swam in a lake in the evening. Sunday was a restful day, then an evening session cooking with the other artists-in-residence, then J and I had an hour jam to cap off our [Week of Patching](https://palomakop.tv/week-of-patching/). We recorded our session. Let's see what we decide to do with it. Maybe we'll throw it up online, which reminds me I want to get a new site up for my music.
+
+## 2026-07-09
 
 No patching today. At least no modular synth patching. Instead I patched L5, fixing push() / pop() to now properly enclose styles (colors, fonts, stroke...). Before, it only fully enclosed transformaton matrices (positioning, scale...). I also updated the website documentation, and noticed the offline site downloads were missing, so I added them back.
 
