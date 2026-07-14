@@ -13,6 +13,14 @@ lazy_images: true
 
 <a id="week-of-patching-2026"></a>
 
+## 2026-07-13
+
+Technically #weekofpatching has finished but I visited Berlin's own Synthesizer Museum and played around particularly with the Buchla Music Easel today, so I'm counting that as day 8 (?) of [Week of Patching](https://palomakop.tv/week-of-patching/), a new weeklong jam organized by Paloma Kop around practicing patching-based creativity and workflows. 
+
+![Buchla music easel patching]({{"/images/log/buchla-easel.jpg" | absolute_url}} "Patching the Buchla Music Easel")  
+
+I'm also putting some time into prepping for my [talk at the Electronic Literature Organization's online conference 2026](https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/8/) happening this Thursday.
+
 ## 2026-07-12
 
 I've forgotten to write here the past few days. It was the weekend, and I wasn't at home much so I didn't work "in the studio" as I was away from my laptop. On Friday J and I visited the Kyiv Bienniel at KW with Don. There was a video work that was an experimental narrative/doc on a metal refinery with found footage combined with recordings of affected indigineous community - a strong work. The biennial is nomadic, an impressive example of organizing and trans-cultural cooperation in wartime. Afterwards we met up with P and D at a foundation whose name escapes me, who exhibited some fairly simple paintings of leaves, fauvist style contemporary painting, and sculptures of metal penguins. This work did nothing. Then we went to an opening at Bethanien and saw lots of friends. The exhibit concept related to memory and archive; makes sense given the state of war and autocratic attempts to rewrite history. A bit more 'diy' than the kw show earlier in the day. In the evening we went to the Sonic Pluriverse concert with Asmaa Hamzaoui and Bnat Timbouktou. J and I loved the concert - the singing, the hand percussion, the syncopated and polyrhythmic gnawa music. The next day I worked from home during the day, 'attended' remotely a permacomputing organizers conference, then took a long walk and swam in a lake in the evening. Sunday was a restful day, then an evening session cooking with the other artists-in-residence, then J and I had an hour jam to cap off our [Week of Patching](https://palomakop.tv/week-of-patching/). We recorded our session. Let's see what we decide to do with it. Maybe we'll throw it up online, which reminds me I want to get a new site up for my music.
