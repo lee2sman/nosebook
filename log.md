@@ -11,6 +11,14 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-07-15
+
+I taught an Intro to Creative Coding with L5 workshop  today at ZK/U, using Sam's first implementation of the new L5 VSCode/Codium extension. We are caught in a strange catch-22 waiting for M$ to approve the official extension, but we don't have that issue for the open source fork VSCodium, so I had everyone download that and install the new extension, after giving a general overview and intro to creative coding. It went well, and the tool proved its use: it made it easy to write and run L5 programs! Hooray! 
+
+![A workshop on L5 at ZK/U]({{"/images/log/l5-zku-workshop.webp" | absolute_url}} "A workshop on L5 at ZK/U")  
+
+In the evening I attended the online opening, keynote and talks of the ELO conference 2026. And during my brief foray into Insta tonight I saw that Tim Rodenbröker has been experimenting with L5 and posting about it!
+
 <a id="week-of-patching-2026"></a>
 
 ## 2026-07-13
@@ -20,6 +28,8 @@ Technically #weekofpatching has finished but I visited Berlin's own Synthesizer 
 ![Buchla music easel patching]({{"/images/log/buchla-easel.jpg" | absolute_url}} "Patching the Buchla Music Easel")  
 
 I'm also putting some time into prepping for my [talk at the Electronic Literature Organization's online conference 2026](https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/8/) happening this Thursday.
+
+Also, after days of brainstorming, I hit on what I want to create/finish for exhibition at the ZK/U open studios next week and started working on it. I've been building a new "open studio" tour and sound works in L5.
 
 ## 2026-07-12
 
