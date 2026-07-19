@@ -11,6 +11,16 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-07-19
+
+The past few days have been very full. On Thursday I spoke at the Electronic Literature Organization 2026 conference, and attended other talks. My talk [Quilt Poems: Encoding Craft Traditions as Generative Poetry](https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/8/) is now online, and I added links to videos of my talks about this project to the [Quilt Poems](/projects/quilt-poems) page on the website.
+
+Friday the entire ZK/U residency did a gallery tour of Neukölln. We visited a dozen galleries and art centers. Some of the highlights were seeing exhibits at Kindl art center and at Spore. Spore is an interesting new art space, funded by a wealthy patron, not beholden to any government funders, and with a major focus on activism and community work. Even in a city that seems to prioritize this kind of work, it still stood out. 
+
+Saturday I participated in the Berlin Creative Coding Jam, and in the evening I saw Limpe Fuchs perform at ADK, then met up with collaborators. R helped me solve a challenge in one part of my in-progress works *Studio visit at ZK/U*, and we also chatted with K and brainstormed ideas to make L5 even more beginner friendly in the new L5 extension for VSCode/Codium.
+
+Sunday I did a workshop with Limpe Fuchs at Morphine Raum, which was really fun. I played Limpe's percussion instruments as well as my Venova.
+
 ## 2026-07-15
 
 I taught an Intro to Creative Coding with L5 workshop  today at ZK/U, using Sam's first implementation of the new L5 VSCode/Codium extension. We are caught in a strange catch-22 waiting for M$ to approve the official extension, but we don't have that issue for the open source fork VSCodium, so I had everyone download that and install the new extension, after giving a general overview and intro to creative coding. It went well, and the tool proved its use: it made it easy to write and run L5 programs! Hooray! 
