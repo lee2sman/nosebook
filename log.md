@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-07-20
+
+I pushed a minor update to L5.lua to fix a bug when drawing an offscreen buffer using createGraphics() and then trying to draw that offscreen canvas to the main window. I found this because I'm drawing a fleshy arm offscreen, then applying it on top of the current scene image, and the arm kept taking on the default gray or black fill despite my efforts. Basically, the color fill() or tint() wasn't correctly saved and was being overriden. I added a check for this case in the overridden love.graphics.draw() that checks for the offscreen buffer canvas as well and resets the fill and tint. 
+
+Tonight I'm giving a talk on my current work at ZK/U over dinner.
+
 ## 2026-07-19
 
 The past few days have been very full. On Thursday I spoke at the Electronic Literature Organization 2026 conference, and attended other talks. My talk [Quilt Poems: Encoding Craft Traditions as Generative Poetry](https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/8/) is now online, and I added links to videos of my talks about this project to the [Quilt Poems](/projects/quilt-poems) page on the website.
