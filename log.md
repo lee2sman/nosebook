@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-07-13  # Update this when you modify
+date: 2026-07-22  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,15 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-07-22
+
+![A 'virtual studio visit' at ZK/U, created in L5]({{"/images/log/studio-zku-l5.jpg" | absolute_url}} "A virtual studio visit at ZK/U")  
+*Work in-progress: A 'virtual studio visit' at ZK/U, created in L5* 
+
+Stop the presses: we've been waiting for the first version of the L5 extension for VS Code to go live in the extensions. It's finally happened. The first version of the L5 extensions is now available in VS Code, VS Codium and Code-OSS thanks to the effort of Sam. Website documentation for install is forthcoming. You can now try it out! Please let us know if you find any [bugs to report](https://github.com/l5lua/l5-vscode-extension).
+
+I am prepping for tomorrow's [Openhaus at ZK/U](https://www.zku-berlin.org/de/timeline/openhaus-juli-2026/) trying to get 3 projects up and ready for public presentation. In the past few days I've done a [refactoring of L5](https://github.com/L5lua/L5/commit/e1fb1d2060a3d4a4ed3159b885860eb06cc6016d) that reduces a programmer's access to internal functions, tables and variables that are used by L5 internally but not by a programmer using the library. Now I'm going through the library and adding annotations, which help populate syntax highlighting, autosuggestion, inline references and the like in any editor that uses the standardized language server. It will probably take me through next week to finish this up, at which time I'll publish it. In the process I've discovered some very minor bugs that I'm quashing and cleaning up some documentation pages. The whole goal of this effort is to make beginner-friendly tooling, that works with our new [VS Code extension](https://marketplace.visualstudio.com/items?itemName=l5.l5) and is also [available for VS Codium](https://open-vsx.org/extension/l5lua/l5) through the OpenVSX registry.
 
 ## 2026-07-20
 
