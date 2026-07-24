@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-07-22  # Update this when you modify
+date: 2026-07-24  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,12 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-07-24
+
+The Openhaus at ZK/U last night was a huge success, with several hundred people visiting. My studio was packed all night and I felt great about the works I showed and had conversations with visitors that I really enjoyed. It was also so great to see old friends come by (Chinendum, Camille, Arne, Leon, Lettuce, Grayson, Ste--, N--, ... ). I played what I think was one of my best sets, and I did manage to record this time. Not everyone was ready for a hard ambient noise (need some more adjectives here) set maybe, but I think I was in peak form as I transitioned from woodwind to effects to wall of synthesis and back. I definitely pushed the levels into the red, so hopefully the clipping doesn't ruin the recording. We'll see next week as I work on some audio projects, as I'll be trying to get more of them online. Thanks to ZK/U for organizing such a great event and to my fellow artists and guests.
+
+Unfortunately, I took no photos of the opening but there was a photog at the event I'll try to grab documentation from.
 
 ## 2026-07-22
 
