@@ -11,6 +11,10 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-07-31
+
+Last day of residency at ZK/U. Afternoon DIY modular case repair with Janek, then we recorded an hour of music. Evening meet up with friends and an art opening. 
+
 ## 2026-07-29
 
 Attended Show Us Your Screens at Offline tonight and saw 90% of my friends from Berlin in one place! Gave a short presentation on my recent projects and L5, and even performed with [n0iseband](http://notapipe.itch.io/n0iseband). 
