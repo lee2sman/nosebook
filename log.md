@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-07-24  # Update this when you modify
+date: 2026-08-11  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-08-12
+
+Sam and I met to start to wrap up the work of their official GSOC contributor season they've been working on L5. It's been a huge boon to the project to have them be a part of it this summer. They've pushed some updated tutorials and video walkthrough for install of the L5 extension for VS Code/VSCodium. We began planning a L5 jam to run on Itch this fall, tested out some packaging/distribution options for later versions of the L5 extension, and communicated with the Usability Studies team working with us at UW. Yesterday on the plane I completed a draft of all of the annotations for L5. I showed them to Sam today. I put in a few dozen hours so am hoping it's actually useful and not just feel like busywork I did. I'll check the work before publishing. I also added a simple screenshotting tool to L5 by pressing Control-S (will be deployed when the annotations go live), based on conversaton with Olivia, creator of [Hydra](https://hydra.ojack.xyz/).
+
+In the evening I made a first draft of a minimal dice roguelike game using L5 and images from the Metropolitan Museum's online collection of public domain images. Selecting suitable images to use took me as much time as programming, but I eventually found Unai no tomo: [Catalogues of Japanese Toys (1891–1923)](https://publicdomainreview.org/collection/unai-no-tomo), which look incredible, that I discovered through the Public Domain Review's [Public Domain Image Archive](https://pdimagearchive.org/images/5f6c28f7-8505-49dc-bd1e-5c132274cff8/).
+
+## 2026-08-11
+
+My last week and a half in Berlin I mostly spent with friends and visiting museums and cultural events. I was one of the presenters at the School for Poetic Computation event held at Trust (with Todd as host). It was great to have my Berlin and NYC friend community come together. In L5 I finished up a draft of the annotations, and while doing so completed a couple dozen bug fixes in L5 and documentation improvements. On my last day Janek and I met and record an hour and a half of music. There were definitely some gems there and he seems motivated to turn it into something finished. 
 
 ## 2026-07-31
 
