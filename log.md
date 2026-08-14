@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-08-11  # Update this when you modify
+date: 2026-08-14  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,12 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-08-14
+
+![A mockup of the L5 launcher]({{"/images/log/launcher-mockup.jpg" | absolute_url}} "A minimal text-based menu program for launching L5 projects")  
+
+Today I visited MOMA and saw the Duchamp retrospective. In the evening I cooked mapo tofu, then built out a first iteration of the L5 Launcher, clearly inspired by Adam Ledoux's [Bitsybox](https://ledoux.itch.io/bitsybox) design.
 
 ## 2026-08-12
 
