@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-08-18
+
+I've gotten much more of the L5 launcher project done, adding scrolling, settings and theme options, mouse control, and exporting project folders as self-contained *.love* files. 
+
+I've made a few amoeba-like / self-painting programs in L5 these past few days. I also had some unproductive time trying to wrangle my old studio desktop computer to run but it seems a harddrive had a failure or needs a new SATA cable.
+
 ## 2026-08-14
 
 ![A mockup of the L5 launcher]({{"/images/log/launcher-mockup.jpg" | absolute_url}} "A minimal text-based menu program for launching L5 projects")  
