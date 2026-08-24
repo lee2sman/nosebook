@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some Lowtech Repairs 
+title: Some Lowertech Repairs 
 categories: [open source, creative code, programming, permacomputing, L5]
 ---
 

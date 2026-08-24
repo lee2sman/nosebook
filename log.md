@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-08-14  # Update this when you modify
+date: 2026-08-24  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,14 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-08-24
+
+Sam wrote a [wrapup blog post](https://notapipe.itch.io/l5/devlog/1637540/l5-summer-round-up) on their work on L5 this summer for the Summer of Code. It's been great working with them this summer.
+
+In the past week I've transitioned to prepping for the semester, which begins tomorrow! I'm teaching Drawing, Moving and Seeing with Code - which will focus on using L5; and CS1, which I'll teach with Processing/Java, and Programming Games, which will be taught with Pico-8 and Love2d. What a busy semester!
+
+I've set up my old/new Studio Computer again, an Alienware Aurora desktop, which I'm running antiX Linux on. I struggled to set it up, until I realized the old hard drive was busted, and ordered a replacement that is now in the machine. Now it's humming along, working well. I wrote a little about it in today's post on [Lowertech Repairs](https://leetusman.com/nosebook/lowtech-repairs).
 
 ## 2026-08-18
 
