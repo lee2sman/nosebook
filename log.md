@@ -11,6 +11,29 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-08-25
+
+![pixelated inkspots spread on the canvas]({{"/images/log/inkspot.gif" | absolute_url}} "An algorithmic pixelated series of inkspots grows and take over the screen")  
+
+Is there anything more satisfying than this implementation of an inkspot algorithm? I read about this algorithm in [julie's blogipode](https://tech.julipode.net/inkspot) and even picked up the [book](https://archive.org/details/cellularautomata00toff) where she learned about it, which turns out to be written with all example code in FORTH! Anyway, I read the concept, then thought, how hard could it be to implement in L5? 
+
+The rule is: A blank pixel is dead. A colored pixel is alive. If any spot on the grid has exactly 3 neighbors alive, or if the spot currently is alive, then that spot becomes or stays alive the next frame that the grid is drawn. Thus the name inskpot, since it floods/spills out. So basically I created a 2-dimensional table in Lua to hold each pixel's state as alive or dead. Then I created a second grid the same size and just cycle through.
+
+In an hour or two I was good to go with my first implementation. I've tried different speeds, algorithm variations and the like. I'm excited to teach this in my [Drawing, Moving and Seeing with Code](https://leetusman.com/dmsc_fall2026/) course [in](in) a couple weeks.
+
+Speaking of which: today was the first day of class for the semester, and I taught all afternoon. I think it went well. We did programming in Apple LOGO ([class notes](https://leetusman.com/dmsc_fall2026/LOGO/)) and then in a web-based [JS LOGO IDE](https://calormen.com/jslogo/).
+
+During class students spent time implementing a flag, based on this [Turtle Bunting Vexillological Reader](https://leetusman.com/archive/turtle-bunting/) I've collected in Dig Archive.
+
+I hadn't coded in LOGO in a while so it took me some time to get back into the swing of things implementing functions with arguments and the like. I really enjoy the tooling of the JS LOGO IDE. I feel like its ideas should spread to other code editors, maybe even one I build someday.
+
+![a flower drawn in Apple LOGO]({{"/images/log/logo-flower.jpg" | absolute_url}} "a geometric flower drawn in Apple LOGO")  
+*An algorithmic 'flower' drawn with Apple LOGO*
+
+Apple LOGO has its pleasures but I couldn't figure out how to overwrite a previous iteration of a function if I made a syntax error! And the lack of much editor tooling makes it a bit clunky to work in. But it was fun making work in it and sharing the experience with students, who seemed to get a lot out of it. It was a good reintro to just working with code in a low stakes kind of way to help us get started after the summer break.
+
+I should also mention I created my own implementation of basic Turtle Graphics in a LOGO-like lang implemented in L5 this summer. Technically, it's minimal LOGO in L5 in Love in Lua in C. Anyway, I'll have to get it online at some point.
+
 ## 2026-08-24
 
 Sam wrote a [wrapup blog post](https://notapipe.itch.io/l5/devlog/1637540/l5-summer-round-up) on their work on L5 this summer for the Summer of Code. It's been great working with them this summer.
