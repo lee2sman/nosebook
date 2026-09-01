@@ -11,6 +11,14 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-09-01
+
+Began teaching L5 in [Drawing, Moving and Seeing with Code](https://leetusman.com/dmsc_fall2026). Immediately we discover a strange macOS/iOS-only bug with noise(). The bug was [easy to fix](https://github.com/L5lua/L5/commit/734b627131194c066404d478ccc758c9f65619e4). Basically, Silicon mac and iOS don't use the jit compiler and fallback to C++ ffi implementations of math functions, and my error (sending through nil arguments if only 1 or 2) was fixed by passing through varargs.
+
+Updated my [pages](/pages) page with listings/links to past talks and workshops. 
+
+Added links to our published articles [Processing/p5 Defined Through Practice and Learning](https://ieeexplore.ieee.org/document/11667389) from Computer, vol. 59, no. 9, and [Designing L5: A Permacomputing Approach to Creative Coding](https://arxiv.org/abs/2606.18481), published in the proceedings of Computing Within Limits 26. Both were co-written with Kit Kuksenok. I also added my talk and paper on [Quilt Poems: Encoding Craft Traditions as Generative Poetry](https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/8/) for ELO 26: Unsupervised.
+
 ## 2026-08-25
 
 ![pixelated inkspots spread on the canvas]({{"/images/log/inkspot.gif" | absolute_url}} "An algorithmic pixelated series of inkspots grows and take over the screen")  
