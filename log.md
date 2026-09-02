@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-08-24  # Update this when you modify
+date: 2026-09-01  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-09-02
+
+Some work in progress started tonight: I'm revisiting my visual quilt poems project that procedurally generates visual poems laid out like patchwork quilt patterning. This was prompted by putting my [Quilt poems: Encoding Craft Traditions as Generative Poetry](https://leetusman.com/archive/quilt-encodings/) paper from the ELO conference proceedings this summer online on the ➘Dig Archive site. Incidentally, this might be item number #100 on the site, and there is a [RSS feed for added items](https://leetusman.com/archive/feed).
+
+I want to update or make an alternative form of the [Daily Quilt Poems](https://leetusman.com/projects/quilt-poems/) that uses multiple fonts, maybe color, and perhaps rotates words. But I didn't want to faff around with fengari as I'm really more comfortable with L5 and I feel more confident in its longterm life as this turns into a multi-year project, something that I revisit and may want to change periodically and build up different variations.
+
+Tonight I went in and implemented the part that picks 8 random words for each quilt's 8 different colored blocks from the selected quilt pattern. Then I implemented a function that calculates the width of the widest line of text from a quilt-poem. Next step is to kind of work backwards and figure out where to start drawing each quilt poem on screen. The translated x position should be (in pseudocode) *width/2 - quilt_max_width/2*, and I'll have to also get the max width of each column and pad out words as I write across. But if I want to have a different random font for each of the 8 words then my calculations will get a bit more complicated as I'll need to test the max_width of each word in its font and not just the max_width of an entire line of the same font. This will be a good test of my textWidth() implementation in L5!
+
+I'm taking a train trip tomorrow, so hopefully I'll get some time to finish this up or push it forward. Once finished I want to test exporting for web with alexjgriffith's [LoveJS Builder](https://codeberg.org/alexjgriffith/lovejsbuild).
 
 ## 2026-09-01
 
