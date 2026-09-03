@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-09-01  # Update this when you modify
+date: 2026-09-03  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,15 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-09-03
+
+I took a 2 hour Amtrak train tonight and made a ton of progress on my converted quilt poems project. I have a working format that appears quite similar to the one I use for the Daily Quilt Poems output. Continuing from yesterday's progress on the codebase, I switched from a grid system to a line of text system. Rather than use a grid of standard block and fill the grid with words from a pattern I instead actually write the text out now as lines of text on a page. If a block is supposed to be a certain width (because the word above is longer, for example), then I'll pad the current word block with spaces surrounding.
+
+![quilt poems generated in L5]({{"/images/log/quiltpomes-wip.gif" | absolute_url}} "quilt poems generated with L5")  
+*work in progress: quilt poems procedurally generated in L5, black and white single font version test*
+
+I'm pretty happy with the progress now, but it's all just the two color black and white. I think I want to keep working some more and try out using different fonts and maybe colors (or background color block) for various words. I also want to test out using the love.js web builder and creating a web build for testing. If all is successful I hope to deploy this new version, but I want to compare to fengari to test page size / bandwidth and cross-platform (desktop vs tablet vs phone) output. And maybe this sounds silly, but I trust my own codebase a bit more than Fengari's potential longevity (or not), even though L5 is younger as a library.
 
 ## 2026-09-02
 
