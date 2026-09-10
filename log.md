@@ -11,6 +11,14 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-09-10
+
+I tried out adding colors and fonts to the quilt poems but I wasn't happy with the appearance. It took some math trickery to get things working since each font has its own leading and baseline. But the aesthetic didn't do much for me. Also had some trouble getting the web builder to work as i expected on itch. Will try again but on my own site I guess.
+
+Started building out my own personal bookmarking site. Mostly just using CSS with Firefox bookmark -> export.
+
+![a mockup of a bookmark links page]({{"/images/log/basic-bookmarks.jpg" | absolute_url}} "Mockup of a web bookmarking page")  
+
 ## 2026-09-03
 
 I took a 2 hour Amtrak train tonight and made a ton of progress on my converted quilt poems project. I have a working format that appears quite similar to the one I use for the Daily Quilt Poems output. Continuing from yesterday's progress on the codebase, I switched from a grid system to a line of text system. Rather than use a grid of standard block and fill the grid with words from a pattern I instead actually write the text out now as lines of text on a page. If a block is supposed to be a certain width (because the word above is longer, for example), then I'll pad the current word block with spaces surrounding.
