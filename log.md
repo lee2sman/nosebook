@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-09-03  # Update this when you modify
+date: 2026-09-10  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -12,6 +12,12 @@ lazy_images: true
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
 ## 2026-09-10
+
+Finally I updated my [self hosted exquisitecorp faircamp music site](https://exquisitecorp.institute/). It has been a year! I couldn't get faircamp to build on Void Linux due to Rust dependency hell. I do wish Faircamp was 'finished', and not a rust project, and didn't rely on JavaScript, but so it goes. I'll be adding more recordings this fall.
+
+I am working on a new podcast episode / interview. It's in the can, transcribed. I wrote an intro and outro, and it will be in conjunction with a published interview elsewhere (more info soon). I'm looking forward to releasing it.
+
+## 2026-09-09
 
 I tried out adding colors and fonts to the quilt poems but I wasn't happy with the appearance. It took some math trickery to get things working since each font has its own leading and baseline. But the aesthetic didn't do much for me. Also had some trouble getting the web builder to work as i expected on itch. Will try again but on my own site I guess.
 
