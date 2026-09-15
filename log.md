@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-09-10  # Update this when you modify
+date: 2026-09-15  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-09-15
+
+Some warm-up studio practice today building a dazzle camouflage generator. I've been seeing this pattern all over some construction banners in the city.
+
+![code and image written in L5 showing dazzle camouflage generator]({{"/images/log/dazzler.jpg" | absolute_url}} "Code and image written in L5 showing dazzle camouflage generator")  
+
+## 2026-09-12
+
+I completed a simple page for my unorganized browser [bookmarks](/bookmarks). This was a pretty rapid project I started a couple days ago. I had started by exporting my bookmarks as HTML from Firefox, then creating a blank CSS stylesheet and building it out from there. I used regex in vim (classic) to remove some extraneous metadata embedded in the links. It's not meant to be much of a public facing page, it's more of something I can use for plonking down and finding things I may want to revisit later.
 
 ## 2026-09-10
 
