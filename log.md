@@ -11,6 +11,17 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-09-20
+
+I sent out an [email newsletter](https://buttondown.com/leetusman/archive/l5-community-jam-new-music-and-workshop/).
+
+We are announcing the [L5 Community Jam](https://itch.io/jam/l5lua-community-jam).
+
+I put up a new album on my self-hosted music website. These are recordings from the music rehearsal studio at Flux Factory.
+
+<iframe loading="lazy" src="https://exquisitecorp.institute/45-million-years/embed/all/" style="border: none; height: 49.6px; min-width: 480px;" title="Audio player widget for &quot;45 million years&quot;"></iframe>
+
+
 ## 2026-09-15
 
 Some warm-up studio practice today building a dazzle camouflage generator. I've been seeing this pattern all over some construction banners in the city.
