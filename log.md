@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-09-15  # Update this when you modify
+date: 2026-09-20  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
