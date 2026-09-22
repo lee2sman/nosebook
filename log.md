@@ -19,6 +19,16 @@ Joe messaged me that the Collision Detection book site was down so I messaged it
 
 Jeff's original site relied on php very minimally, but php is an extra point of failure and the site wasn't currently loading. I notified Jeff but in the meantime I rehosted the site as a static site with vanilla HTML, CSS, js using his original code, plus it vendors processing.js (1.4.1, which is over a decade old!) and jQuery. Thanks for the Creative Commons license. Despite LLM companies abusing this license to ingest into their corpora, then meted out through chats that they charge money for, in addition to other ethical issues, the sharing of these kinds of resources has meant a lot to me and I've learned so much from open source and creative commons licensed works in immeasurable ways.
 
+## 2026-09-20
+
+I sent out an [email newsletter](https://buttondown.com/leetusman/archive/l5-community-jam-new-music-and-workshop/).
+
+We are announcing the [L5 Community Jam](https://itch.io/jam/l5lua-community-jam).
+
+I put up a new album on my self-hosted music website. These are recordings from the music rehearsal studio at Flux Factory.
+
+<iframe loading="lazy" src="https://exquisitecorp.institute/45-million-years/embed/all/" style="border: none; height: 49.6px; min-width: 480px;" title="Audio player widget for &quot;45 million years&quot;"></iframe>
+
 ## 2026-09-15
 
 Some warm-up studio practice today building a dazzle camouflage generator. I've been seeing this pattern all over some construction banners in the city.
