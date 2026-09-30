@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-09-22  # Update this when you modify
+date: 2026-09-30  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -12,6 +12,8 @@ lazy_images: true
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
 ## 2026-09-29
+
+The [L5 Community Jam](https://itch.io/jam/l5lua-community-jam) began Friday! We are about halfway through the jam week, with 3 1/2 days left! 4 entries so far, but I expect most to come near the end. I submitted [Photocrapier](https://notapipe.itch.io/photocrapier), something I had begun before the start of the jam (which is fine for the purposes of this jam). I've added sounds of the photocopier, which has added a needed extra touch that improves the feeling a lot, even if it has no bearing on the rendered images. ll try to polish it up a bit more, with some better UI design, but I'm happy with this v1 so far.
 
 I'm having fun teaching live coding this semester. Actually, I'm not so much teaching as getting out of the way of the student's ethusiasm. I think it helped that i have a previous student of mine as the Teaching Assistant who is demonstrating their own skills. And I have some low stakes 'performance' jam each week of class for the past couple weeks where i ask students to 'perform' or basically jam out for just 3 minutes, which doesn't seem like a lot. We've had one student get deep into midi and bring in their synthesizer, using Strudel with Ableton Live. I didn't teach any of this. They're excited so they're going deep. We'll host an algorave at the end of the semester.
 
