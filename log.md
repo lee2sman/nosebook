@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-09-29
+
+I'm having fun teaching live coding this semester. Actually, I'm not so much teaching as getting out of the way of the student's ethusiasm. I think it helped that i have a previous student of mine as the Teaching Assistant who is demonstrating their own skills. And I have some low stakes 'performance' jam each week of class for the past couple weeks where i ask students to 'perform' or basically jam out for just 3 minutes, which doesn't seem like a lot. We've had one student get deep into midi and bring in their synthesizer, using Strudel with Ableton Live. I didn't teach any of this. They're excited so they're going deep. We'll host an algorave at the end of the semester.
+
+In L5 dev work Sam and I met earlier today to prep for our presentation/workshop at the upcoming Processing Community Day NYC saturday. I'm working with a contributor to solve a scaling error in size() on Wayland compositors. I will do some testing on Windows and Retina Macs at school this week. I've also added the [CONTRIBUTORS](https://github.com/L5lua/L5/blob/main/docs/CONTRIBUTORS.md) doc to the L5 repo, so that we're recognizing [all contributors](https://allcontributors.org/en/), but I've not set up a bot to do automatically add to this doc based on posting to issues, as I want to minimize our reliance on GitHub infrastructure as much as possible so we can port everything to Codeberg or another forge later. Instead I'm opting to edit the document by hand. 
+
 ## 2026-09-22
 
 I spoke on Moon's Bi-Weekly World of Processing live program on the Processing Discord today. That was fun. I gave an intro to L5, its motivation and how it worked, showed some example programs and the website running in various browsers. I talked about the upcoming [L5 Community Jam](https://itch.io/jam/l5lua-community-jam). It was nice to be in community with the Processing team.
