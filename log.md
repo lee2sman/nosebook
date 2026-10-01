@@ -11,6 +11,14 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-09-30
+
+L5: Pushed a fix to setting window size on Wayland compositors.
+
+In my office today I found an old laptop of mine that I believe I got from the trash at UCLA about a decade ago or more. I brought it home and determined it was from 2005! I installed the latest 32bit antiX Linux (Debian), then LOVE and then L5 and downloaded and run a number of my L5 programs. Running these max out the computer's puny CPU but many do run, after a bit of a startup lag. Really excited to see one premise of L5 borne out, to be able to run the same program on 21 year old hardware! Will be exhibiting this Saturday in the L5 Cyber Cafe for Processing Community Day.
+
+Some L5 Community Jam submissions are coming in.
+
 ## 2026-09-29
 
 The [L5 Community Jam](https://itch.io/jam/l5lua-community-jam) began Friday! We are about halfway through the jam week, with 3 1/2 days left! 4 entries so far, but I expect most to come near the end. I submitted [Photocrapier](https://notapipe.itch.io/photocrapier), something I had begun before the start of the jam (which is fine for the purposes of this jam). I've added sounds of the photocopier, which has added a needed extra touch that improves the feeling a lot, even if it has no bearing on the rendered images. ll try to polish it up a bit more, with some better UI design, but I'm happy with this v1 so far.
