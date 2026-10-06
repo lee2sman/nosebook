@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-09-30  # Update this when you modify
+date: 2026-10-06  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,12 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-10-06
+
+Processing Community Day NYC went incredibly well. There were 300 people registered to attend. The L5 Cyber Cafe worked beyond my wildest dreams. I loaded antiX linux onto 5 of the 6 computers and had Haiku running on the 6th. We had over a dozen submissions to the [L5 Community Jam](https://itch.io/jam/l5lua-community-jam) and showed them with my L5 launcher on all of the computers, which ranged in age from 2005 to 2015. I've written up an [extensive post](https://leetusman.com/nosebook/l5-cyber-cafe-pcd2026) about it, and I hope to write more about it and host it in other spaces and exhibits. 
+
+During the conference I met several people that use L5, and they showed work in the open projector. Sam and I led a workshop Creatively Permacomputing, An Intro to Creative Coding with L5, with a room full of people. That was fun. Also, due to the jam we've found some new contributors and people reporting bugs, which is great.
 
 ## 2026-09-30
 
