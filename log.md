@@ -11,6 +11,14 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-10-22
+
+I spent less time on the computer and more time biking, dancing and playing games with friends and loved ones these past couple weeks. That and lots of admin and teaching work at school. 
+
+Last week Paper Bag Team spoke at the Permacomputing NYC meetup. Their [slides](https://leetusman.com/archive/vape-synths/) are up on the Dig Archive. 
+
+Nilay Kumar implemented a [color persistence bug when fullscreening](https://github.com/L5lua/L5/pull/32) in L5 (thanks!). 
+
 ## 2026-10-06
 
 Processing Community Day NYC went incredibly well. There were 300 people registered to attend. The L5 Cyber Cafe worked beyond my wildest dreams. I loaded antiX linux onto 5 of the 6 computers and had Haiku running on the 6th. We had over a dozen submissions to the [L5 Community Jam](https://itch.io/jam/l5lua-community-jam) and showed them with my L5 launcher on all of the computers, which ranged in age from 2005 to 2015. I've written up an [extensive post](https://leetusman.com/nosebook/l5-cyber-cafe-pcd2026) about it, and I hope to write more about it and host it in other spaces and exhibits. 
