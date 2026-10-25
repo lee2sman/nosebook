@@ -11,6 +11,20 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-10-24
+
+Back to hacking on L5, with more folks offering to contribute to the codebase.
+
+On a bit of a lark, desiring to create a world map using [equal earth projection](https://en.wikipedia.org/wiki/Equal_Earth_projection) I tried to make a program in L5 to render the world, using a dataset from 2006 of the Earth's landmass, rendered as coordinates.
+
+Here's a version showing colored dots in cities (or areas) that i've visited in the world.
+
+![a world map showing equal earth projection, with colored dots in a selection of cities]({{"/images/log/world-map.jpg" | absolute_url}} "A map of the world showing equal earth projection")  
+
+You can see there are bugs here, probably relating to enclosed polygon drawing of convex shapes.
+
+I may hack some more on this, then turn it into a blog post or an example on the L5 website.
+
 ## 2026-10-22
 
 I spent less time on the computer and more time biking, dancing and playing games with friends and loved ones these past couple weeks. That and lots of admin and teaching work at school. 
