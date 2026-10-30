@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-10-30
+
+Rehearsal with Sue tonight for the upcoming [Bodies of Flora](https://zimmerli.rutgers.edu/event/bodies-flora-conversation) performance later in November.
+
+I did some debugging and then put up an early version of the [L5-launcher](https://codeberg.org/exquisitecorp/L5-launcher) that I created for the L5 Cyber Cafe.
+
 ## 2026-10-25
 
 I gave a short presentation on [DIY Cultures, Online Spaces and Experiments in Archives and Zines](https://leetusman.com/presentations/diy-web-culture) for School for Poetic Computation's Zine Making for the Web today, along with Mariame Kabe and Tega Brain. Rather than use slides I link surfed. We had a great conversation with the students after, and I enjoyed being in community with everyone.
