@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-10-06  # Update this when you modify
+date: 2026-11-04  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-11-03
+
+I forked lua-tracery to [L5-tracery](https://codeberg.org/L5lua/L5-tracery) for procedural text generation through creating story-grammars. My students are using it for their projects this week.
+
+Sam and I rehearsed our talk for [Open Assembly 2026](https://processingfoundation.org/programs/open-assembly/) online November 12. 
+
+rainruse cleared out a number of issues, building out [an automated way to run the examples sketches](https://github.com/L5lua/L5/pull/36) in L5. Thanks!
+
+I taught neighbors how to patch a flat bike tire. I voted. Other things happening on the home front.
 
 ## 2026-10-30
 
