@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-11-04
+
+I have a post [What is a Processing and p5.js library?](https://processingfoundation.org/blog/what-is-a-processing-p5-library/) on the Processing Foundation blog. It's a summation of ideas from the paper [Processing/p5 Defined Through Practice and Learning](https://ieeexplore.ieee.org/abstract/document/11667389) ([link to pre-publication copy on arXiv](https://arxiv.org/abs/2608.26614).
+
+I also posted on my own blog this week about various Linux and alternative distros such as [antiX](https://leetusman.com/nosebook/antix).
+
 ## 2026-11-03
 
 I forked lua-tracery to [L5-tracery](https://codeberg.org/L5lua/L5-tracery) for procedural text generation through creating story-grammars. My students are using it for their projects this week.
