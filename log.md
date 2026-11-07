@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-11-04  # Update this when you modify
+date: 2026-11-07  # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,14 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-11-07
+
+[I'm Bald](https://notapipe.itch.io/im-bald), a short game poem, is now live on my Itch page.
+
+In the evening I worked on a silly homage project to Steve Reich (for his 90th birthday), a piece directly referencing and remixing his piano Phasing Piece. I wrote it in L5 in about 45 minutes or so. It seems like a good fit for Glorious Trainwrecks, but I don't know if there's a "game" in there or not.
+
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/3hQgaYzQ7mc?si=GJmF82hhzpFnWH1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-11-04
 
@@ -625,7 +633,7 @@ Today was the first L5 Contributors meetup! From a small post I had made on Thur
 
 I updated my old [Pomodoro Timer](https://www.lexaloffle.com/bbs/?tid=144025) application for Pico-8 to now have a nice UI with ticks around the timer that replicates a physical Pomodoro timer.
 
-<iframe src="https://www.lexaloffle.com/bbs/widget.php?pid=pomodorotimer" allowfullscreen width="621" height="513" style="border:none; overflow:hidden"></iframe>
+<iframe loading="lazy" src="https://www.lexaloffle.com/bbs/widget.php?pid=pomodorotimer" allowfullscreen width="621" height="513" style="border:none; overflow:hidden"></iframe>
 
 ## 2026-01-10
 
@@ -696,7 +704,7 @@ end
 
 I've been steadily working on doing Genuary each day for the past 4 days. Today was the first prompt that actually excited me: *Lowres. An image or graphic with low resolution, where details are simplified or pixelated.*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BeBybEHceI8?si=oZbJY5FPl-2jKLGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/BeBybEHceI8?si=oZbJY5FPl-2jKLGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I coded this in about 25 lines of L5. Photographs by me, taken in Berlin while in residency at ZK/U. Music recorded by me and ZZZelin on no-input-mixing-board with microphones.
 
@@ -1588,7 +1596,7 @@ Studio visit with Sam Gentle today. We shared our projects and gave each other f
 
 Writing up my conference paper took most of the day. I also updated my Pico-8 quilt program, encoding a number of new quilt patterns to the dataset.
 
-<iframe src="https://www.lexaloffle.com/bbs/widget.php?pid=makeaquilt" allowfullscreen width="621" height="513" style="border:none; overflow:hidden"></iframe>
+<iframe loading="lazy" src="https://www.lexaloffle.com/bbs/widget.php?pid=makeaquilt" allowfullscreen width="621" height="513" style="border:none; overflow:hidden"></iframe>
 
 I'm also uploading one of the photo grids generated using my software and quilt pattern data. This piece is currently work in progress. This is a screenshot from a generated animation.
 
@@ -1713,7 +1721,7 @@ For the Hyphenated project I ran a test with the [p5.glitch library](https://git
 
 I tried out the [Openshot](https://www.openshot.org/) open source video editor to make an excerpt from one of my fall performances and [uploaded](https://youtu.be/QRva9XkAZN4) it to YouTube.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QRva9XkAZN4?si=sozIDLTA9wsaGI9i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/QRva9XkAZN4?si=sozIDLTA9wsaGI9i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This is from a performance at Flux Factory on Governor's Island in September for the Emergent Behavior performance, accompanying the exhibition [Spiritual Machines](https://spiritualmachines.neocities.org/).
 
