@@ -11,7 +11,7 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
-## 2026-11-07
+## 2026-11-06
 
 [I'm Bald](https://notapipe.itch.io/im-bald), a short game poem, is now live on my Itch page.
 
