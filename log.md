@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-11-07  # Update this when you modify
+date: 2026-11-11 # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-11-11
+
+I fixed a minor bug in L5 where L5 ignored or improperly set up the canvas size in some circumstances when using a conf.lua file to set parameters such as window width and height. Now fixed in love.load() and pushed in [v0.2.5](https://github.com/L5lua/L5/releases/tag/v0.2.5). This fix was a result of doing some tests after some online conversations with rainruse on improvements and refactoring in L5.
+
+On Monday I organized a panel of my students to do a mini livecoding performance for some university guests. On Tuesday the Permacomputing Meetup NYC talk with Bryce about the Demoscene went really well. Today I had Jackie Liu come speak to our New Media and Programming Games students. Lots of questions. I think her combination of using the form/'package' of games, and websites as well, but injecting personal stories, experimental narrative, and hand created images from risograph or drawings is extremely compelling. The students seemed like they dug the work.
+
+Today I met with Film and Media Studies. I'll be designing their film festival website. I proposed using Kirby on the backend, so that others can edit the blog/site later after I design it. I'm going to have Max draw all of the assets for the website. Tonight I set up the starterkit on Kirby and poked around a bit, re-acclimating myself. Caleb and I used it when we built the [Gas Gallery](https://gas.gallery) site a couple years back. I also re-evaluated Wix and Cargo as other potential ways to build the site, but I don't like that Wix is just a LLM frontend now, and Cargo's templates didn't seem to serve a film festival's needs. It would take me as much effort to figure out their system and redesign it as designing from scratch I think.
+
+Sam and I prepped our talk on L5 for Open Assembly, an online conf organized by Processing Foundation.
 
 ## 2026-11-06
 
