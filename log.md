@@ -1,7 +1,7 @@
 ---
 title: Log
 permalink: /log/
-date: 2026-11-11 # Update this when you modify
+date: 2026-11-17 # Update this when you modify
 layout: default
 feed: true 
 lazy_images: true
@@ -10,6 +10,16 @@ lazy_images: true
 # Log
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
+
+## 2026-11-17
+
+The Open Assembly talk went well. All the talks were short and sweet.
+
+Practice for live coding algorave Wednesday and performance with Sue at Zimmerli museum Thursday.
+
+![Hydra-phobic algorave flyer]({{"/images/log/algorave.jpg" | absolute_url}} "Flyer for Hydra-phobic algorave performance")  
+
+I put out a new [monthly newsletter](https://buttondown.com/leetusman) after taking off the previous month.
 
 ## 2026-11-11
 
