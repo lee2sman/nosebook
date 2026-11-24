@@ -11,6 +11,16 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-11-23
+
+Have had a super-packed week. Last Wednesday was a student algorave I organized with my students at Passage Gallery. I performed modular synth as the opener and between-act music. All of the performances were pretty different and great. Really great sounds and sights. Thursday was my performance with Sue for her Bodies of Flora project. I played a live score. We had an audience just over 100 folks. Big success.
+
+Today my [interview with game designer Blake Andrews](https://rhizome.org/editorial/2026/nov/23/artist-profile-blake-andrews/) was published to Rhizome. I'll follow this with the audio interview on Artists and Hackers soon.
+
+![2 laptops with smiling dogs desktop images]({{"/images/log/blake-laptops.jpg" | absolute_url}} "2 laptops with smiling dogs desktop photos")  
+
+The recording of our Open Assembly talk earlier in November is [now live](https://youtu.be/y-iF5JrJgA4?si=VPEI-XKW6JV_oEig&t=2837) (time-stamped: we're at 00:47:16).
+
 ## 2026-11-17
 
 The Open Assembly talk went well. All the talks were short and sweet.
