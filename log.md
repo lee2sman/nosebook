@@ -11,6 +11,12 @@ lazy_images: true
 
 *This is a page for ongoing tiny updates on my projects and research, including technical notes, code, and screenshots of work in progress. You can [subscribe to the RSS feed](https://leetusman.com/nosebook/feed.xml).*
 
+## 2026-11-27
+
+An initial [video recording of Bodies of Flora performed at the Zimmerli Art Museum](https://youtu.be/QOEByt8pgPg?si=LE0ntpJvOcPRLqet&t=2668) is now live.
+
+I received a question about L5's get(). Specifically, could it work like Processing/p5 where you specify an image rather than just pulling from elsewhere on the current canvas? I realized that it couldn't so in the late evening I worked to try to implement that functionality. First I considered trying to add a metamethod that would allow a syntax like *img:get()* but I couldn't figure out an implementation that wasn't too brittle. Instead I extended the current get() function to allow passing in an optional image argument like *get(img, x, y, w, h)* for example. It needs a bit of testing before it gets merged. And I realize it diverges a bit from the Processing/p5 style for this one but I think it can't be helped.
+
 ## 2026-11-23
 
 Have had a super-packed week. Last Wednesday was a student algorave I organized with my students at Passage Gallery. I performed modular synth as the opener and between-act music. All of the performances were pretty different and great. Really great sounds and sights. Thursday was my performance with Sue for her Bodies of Flora project. I played a live score. We had an audience just over 100 folks. Big success.
